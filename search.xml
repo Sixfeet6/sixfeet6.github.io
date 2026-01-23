@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>calculusReview</title>
+    <url>/2026/01/20/calculusReview/</url>
+    <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
+<p> $ arcsin(x) &#x3D; x + \frac{1}{2} \frac{x^{3}}{3} + $</p>
+<p> $ arctan(x) &#x3D; x- \frac{x^{3}}{3} + (-1)^{n} \frac {x^{2n-1}}{2n-1} $</p>
+<p> $ ln(x) &#x3D; x- \frac{1}{2} x^2 + \frac{1}{3} x^3 $</p>
+<h3 id="第一部分：连续函数零点证明"><a href="#第一部分：连续函数零点证明" class="headerlink" title="第一部分：连续函数零点证明"></a>第一部分：连续函数零点证明</h3><p>$\lim_{x \to \infty} \frac{f(x)}{x} &#x3D; 0$，证：$\exists c \in \mathbb{R}, f(c) &#x3D; -c$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<blockquote>
+<p><strong>观察</strong>
+$f(x) + x &#x3D; 0$
+$x$ 无法利用
+<strong>Hint:</strong> $\lim_{x \to \infty} \frac{f(x)}{x} \dots$</p>
+</blockquote>
+<p>$\hookrightarrow F(x) &#x3D; f(x) + x$</p>
+<p>$$\lim_{x \to \infty} \frac{F(x)}{x} &#x3D; 1$$</p>
+<p>$\therefore F(+\infty) &#x3D; +\infty, \quad F(-\infty) &#x3D; -\infty$</p>
+<p>$F(x)$ 连续</p>
+<p>$\therefore \exists \xi, F(\xi) &#x3D; 0$</p>
+<p><strong>得证.</strong></p>
+<hr>
+<h3 id="第二部分：微分中值定理证明"><a href="#第二部分：微分中值定理证明" class="headerlink" title="第二部分：微分中值定理证明"></a>第二部分：微分中值定理证明</h3><p>$f(a) &#x3D; f(b) &#x3D; 0$，证 $\exists \xi \in (a, b)$ 使 $f’’(\xi) &#x3D; \frac{2f’(\xi)}{b-\xi}$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<p>$$f’’(x) &#x3D; \frac{2f’(x)}{b-x}$$</p>
+<blockquote>
+<p><strong>观察</strong>
+$\hookrightarrow (b-x)f’’(x) - 2f’(x) &#x3D; 0$</p>
+<p><strong>观察！</strong>
+$(b-x)^2 f’’(x) - 2(b-x)f’(x) &#x3D; 0$
+即 $[(b-x)^2 f’(x)]’ &#x3D; 0$
+令 $F(x) &#x3D; (b-x)^2 f’(x)$</p>
+</blockquote>
+<p><strong>2. 找端点</strong></p>
+<p>① $F(b) &#x3D; (b-b)^2 \cdot f’(b) &#x3D; 0$</p>
+<p>② $F(a) \neq 0!$</p>
+<blockquote>
+<p><strong>思考</strong>
+$\hookrightarrow$ 说明 $a, b$ 之间有个点的 $f’(x)$ 等于零
+$\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(x_0) &#x3D; 0$</p>
+</blockquote>
+<p>$\therefore F(x_0) &#x3D; (b-x_0)^2 f’(x_0) &#x3D; 0$</p>
+<p>在 $[x_0, b]$ 上对 $F(x)$ 使用罗尔定理，即得证。</p>
+<hr>
+<h3 id="第三部分：数列极限计算"><a href="#第三部分：数列极限计算" class="headerlink" title="第三部分：数列极限计算"></a>第三部分：数列极限计算</h3><p>$$\lim_{n \to \infty} \frac{n}{\ln n} (\sqrt[n]{n} - 1)$$</p>
+<p>Look at $\sqrt[n]{n} &#x3D; n^{\frac{1}{n}}$</p>
+<p>$$&#x3D; e^{\frac{1}{n} \ln n}$$</p>
+<p><em>(注：此处利用 $e^x - 1 \sim x$)</em></p>
+<p>$$&#x3D; \lim_{n \to \infty} \frac{n}{\ln n} \cdot \frac{\ln n}{n} &#x3D; 1$$</p>
+<hr>
+<h3 id="第四部分：复杂根式极限"><a href="#第四部分：复杂根式极限" class="headerlink" title="第四部分：复杂根式极限"></a>第四部分：复杂根式极限</h3><p>$$\lim_{x \to \infty} \frac{\ln(1 + \sqrt[3]{x} + \sqrt[4]{x})}{\ln(1 + \sqrt{x} + \sqrt[3]{x})}$$</p>
+<p>$$&#x3D; \frac{\ln(\sqrt[3]{x} (\frac{1}{\sqrt[3]{x}} + 1 + x^{-\frac{1}{12}}))}{\ln(\sqrt{x} (\frac{1}{\sqrt{x}} + 1 + x^{-\frac{1}{6}}))}$$</p>
+<p>$$&#x3D; \frac{\frac{1}{3} \ln x}{\frac{1}{2} \ln x} &#x3D; \frac{2}{3}$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>in-course</category>
+        <category>calculus-1</category>
+      </categories>
+      <tags>
+        <tag>exam</tag>
+        <tag>middle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>failure</tag>
+        <tag>sad</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linearAlgebraReview</title>
+    <url>/2026/01/21/linearAlgebraReview/</url>
+    <content><![CDATA[<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="21年"><a href="#21年" class="headerlink" title="21年"></a>21年</h3>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>middle</tag>
+        <tag>review</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>On_the_train</title>
+    <url>/2026/01/23/On-the-train/</url>
+    <content><![CDATA[<h2 id="On-the-train-home"><a href="#On-the-train-home" class="headerlink" title="On the train home"></a>On the train home</h2><p>Well, I’ve been away from home for a long time. But I am not as homesick as I was in high school.
+Why is that? I enjoy the freedom in the campus. However, even if you don’t want to admmit it, you’re not totally free,
+and actually, never can be. Human nature requires a perpose, and for this reason, you can never stop being curious,
+get lost, get confused, and find a way out.</p>
+<h3 id="winter-vacation-studying-schedule"><a href="#winter-vacation-studying-schedule" class="headerlink" title="winter vacation studying schedule"></a>winter vacation studying schedule</h3><h4 id="Part-one-what-for"><a href="#Part-one-what-for" class="headerlink" title="Part one: what for?"></a>Part one: what for?</h4><p>Dad mentioned “target oriented”, let me try it.</p>
+<blockquote>
+<p>every deed needs reasons. and list them logically and clearly can let others get your meaning and yourself more confident about yourself.
+Sometimes feelings are not enough, especially when you need to express yourself like an interview.</p>
+</blockquote>
+<ol>
+<li>18-22: LZU</li>
+<li>22-24: PKU</li>
+<li>24-28: MPI</li>
+<li>28-32: MPI(Ph.D)</li>
+<li>32-  : professor</li>
+</ol>
+<p>Now we’re at phase. 1. We need:</p>
+<ul>
+<li>wide knowledge</li>
+<li>research abilities</li>
+<li>social experiences</li>
+</ul>
+<ol>
+<li>knowledge:</li>
+</ol>
+<ul>
+<li><p>solving problems</p>
+</li>
+<li><p>maths:</p>
+<ul>
+<li>calculus</li>
+<li>linear algebra</li>
+<li>group theory?</li>
+</ul>
+</li>
+<li><p>physics: All branches</p>
+<ul>
+<li>数理方法</li>
+</ul>
+</li>
+<li><p>computer:</p>
+<ul>
+<li>neural network</li>
+<li>computional physics</li>
+</ul>
+</li>
+<li><p>english: vocabulary and expression</p>
+</li>
+</ul>
+<ol start="2">
+<li>abilities:</li>
+</ol>
+<ul>
+<li>analyse</li>
+<li>express</li>
+<li>Think</li>
+<li>calculate</li>
+<li>学术表达：简化表达</li>
+<li>zotero and google scholar</li>
+</ul>
+<ol start="3">
+<li>experiences:(HDL)</li>
+</ol>
+<ul>
+<li>how to read people</li>
+<li>social interaction(behavior)</li>
+<li>scheduling甘特图？</li>
+</ul>
+<hr>
+<p>Others:</p>
+<ul>
+<li>TJ</li>
+<li></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>middle</tag>
+        <tag>holiday</tag>
+        <tag>thoughts</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CSreview</title>
+    <url>/2026/01/20/CSreview/</url>
+    <content><![CDATA[<h3 id="用函数实现张量交换指标"><a href="#用函数实现张量交换指标" class="headerlink" title="用函数实现张量交换指标"></a>用函数实现张量交换指标</h3><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;time.h&gt;</span></span><br><br><span class="hljs-type">void</span> <span class="hljs-title function_">func</span><span class="hljs-params">(<span class="hljs-type">int</span>* rank, <span class="hljs-type">double</span>* A, <span class="hljs-type">double</span>* C)</span><br>&#123;<br>	<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i&lt; rank[<span class="hljs-number">0</span>]; i++)<br>	&#123;<br>		<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j = <span class="hljs-number">0</span>; j&lt; rank[<span class="hljs-number">1</span>]; j++)<br>		&#123;<br>			<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> k = <span class="hljs-number">0</span>; k&lt; rank[<span class="hljs-number">2</span>]; k++)<br>			&#123;<br>				<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> l = <span class="hljs-number">0</span>; l&lt; rank[<span class="hljs-number">3</span>]; l++)<br>				&#123;<br>					C[i*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">3</span>]+l] = A[i*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">3</span>]+l];<br>					<br>				&#125;<br>			&#125;<br>		&#125;<br>	&#125;<br>&#125;<br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">int</span> rank[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">2</span>,<span class="hljs-number">6</span>&#125;;<br>	<span class="hljs-type">double</span> A[<span class="hljs-number">4</span>][<span class="hljs-number">5</span>][<span class="hljs-number">2</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-type">double</span> C[<span class="hljs-number">4</span>][<span class="hljs-number">2</span>][<span class="hljs-number">5</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>注意：</p>
+<blockquote>
+<p>如果用指针形式传递数组，函数内部也必须把数组当作指针对待，也就是说，必须手工计算偏移量</p>
+</blockquote>
+<p>and,</p>
+<blockquote>
+<p>书写交换张量的偏移量时，指标和对应的维的长度都要交换</p>
+</blockquote>
+<p>知识点：</p>
+<h3 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3><p>一元运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="center">symbol</th>
+<th align="center">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">++</td>
+<td align="center">add itself</td>
+</tr>
+<tr>
+<td align="center">--</td>
+<td align="center">minus itself</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td align="center">positive</td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">negative</td>
+</tr>
+<tr>
+<td align="center">!</td>
+<td align="center">wrong</td>
+</tr>
+<tr>
+<td align="center">~</td>
+<td align="center">opposite</td>
+</tr>
+<tr>
+<td align="center">&amp;</td>
+<td align="center">get address</td>
+</tr>
+<tr>
+<td align="center">*</td>
+<td align="center">quote varible</td>
+</tr>
+<tr>
+<td align="center">sizeof()</td>
+<td align="center">return the bytes number</td>
+</tr>
+<tr>
+<td align="center">(type)</td>
+<td align="center">change type</td>
+</tr>
+</tbody></table>
+<p>Binary Operators: </p>
+<p>算术运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">+</td>
+<td align="left">plus</td>
+</tr>
+<tr>
+<td align="left">-</td>
+<td align="left">minus</td>
+</tr>
+<tr>
+<td align="left">*</td>
+<td align="left">multiply</td>
+</tr>
+<tr>
+<td align="left">%</td>
+<td align="left">mod</td>
+</tr>
+<tr>
+<td align="left">&#x2F;</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<p>关系运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&#x3D;&#x3D;</td>
+<td align="left">equal</td>
+</tr>
+<tr>
+<td align="left">!&#x3D;</td>
+<td align="left">not equal</td>
+</tr>
+<tr>
+<td align="left">&gt;</td>
+<td align="left">greater</td>
+</tr>
+<tr>
+<td align="left">&lt;</td>
+<td align="left">less</td>
+</tr>
+</tbody></table>
+<p>逻辑运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&amp;&amp;</td>
+<td align="left">and</td>
+</tr>
+<tr>
+<td align="left">||</td>
+<td align="left">or</td>
+</tr>
+</tbody></table>
+<p>位运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&amp;</td>
+<td align="left">bit and</td>
+</tr>
+<tr>
+<td align="left">|</td>
+<td align="left">bit or</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">按位异或</td>
+</tr>
+<tr>
+<td align="left">&lt;&lt;</td>
+<td align="left">move left</td>
+</tr>
+<tr>
+<td align="left">&gt;&gt;</td>
+<td align="left">move right</td>
+</tr>
+</tbody></table>
+<p>赋值运算符：略</p>
+<p>三元运算符：</p>
+<p>only this one:</p>
+<blockquote>
+<p>x()y? x:y</p>
+</blockquote>
+<h3 id="文件流："><a href="#文件流：" class="headerlink" title="文件流："></a>文件流：</h3><ul>
+<li>分为字符流和二进制流</li>
+</ul>
+<p>使用：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C">FILE* fp;<br>fp = fopen(<span class="hljs-string">&quot;cv.txt&quot;</span>, <span class="hljs-string">&quot;r&quot;</span>)<br><span class="hljs-keyword">if</span> (fp = <span class="hljs-literal">NULL</span>)<br>&#123;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;failed&quot;</span>);<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>&#125;<br><br><span class="hljs-comment">// use the file</span><br><br>fclose(fp);<br></code></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="center">mode</th>
+<th align="center">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">r</td>
+<td align="center">read</td>
+</tr>
+<tr>
+<td align="center">w</td>
+<td align="center">write</td>
+</tr>
+<tr>
+<td align="center">a</td>
+<td align="center">create or continue</td>
+</tr>
+<tr>
+<td align="center">r+</td>
+<td align="center">read and write</td>
+</tr>
+<tr>
+<td align="center">w+</td>
+<td align="center">read and write</td>
+</tr>
+<tr>
+<td align="center">a+</td>
+<td align="center">create or continue, read and wirte</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>note: binary flow needs a “b” after the mode</p>
+</blockquote>
+<p>  eg. “rb”, “a+b”</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>coding</category>
+        <category>tests</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>school</tag>
+        <tag>coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>English test</title>
+    <url>/2026/01/18/English-test/</url>
+    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
+<p>Characcteristics of science</p>
+<p>Science, in our common everyday sense of the world,
+is a human activity characterized by three things.</p>
+<p>First, science is practiced by special people with a
+specific view of the world. Scientists try to be objective,
+unsentimental and unemotional. They do not let their feelings
+get in the way of their observation of real things, facts
+, as they call them. They often work in laboratories or
+in other areas where they can carefuly control what they
+are working on.</p>
+<hr>
+<p>Are you a scientist? <strong>Not yet.</strong></p>
+<p>Do you want to be? <strong>YES</strong></p>
+<p>Why?</p>
+<blockquote>
+<blockquote>
+<p>Human intuition doesn’t need explaination!</p>
+</blockquote>
+</blockquote>
+<p>fine, go for it.</p>
+]]></content>
+      <categories>
+        <category>school</category>
+        <category>tests</category>
+      </categories>
+      <tags>
+        <tag>learning</tag>
+        <tag>wandering</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calculusReview</title>
+    <url>/2026/01/19/calculusReview/</url>
+    <content><![CDATA[<p>calculate the length of curve
+$ \begin{cases}
+x &#x3D; \int_{0}^{t^2} \sqrt{1+u} \, du \\
+y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
+\end{cases} $</p>
+<p>先求$\frac {dx} {dt}$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>learning</tag>
+        <tag>math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>some rules on blogging</title>
+    <url>/2026/01/20/rules/</url>
+    <content><![CDATA[<ul>
+<li>Use English if possible:<blockquote>
+<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
+</blockquote>
+</li>
+<li>Name files simply, with dates to avoid conflict names.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>blog</category>
+      </categories>
+      <tags>
+        <tag>thoughts</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>力学期末复习</title>
+    <url>/2026/01/19/%E5%8A%9B%E5%AD%A6%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<p>明天考力学和计算物理。上午9点开始考力学，计算物理是下午四点。</p>
+<p>算下来，从七点半到八点半，只有一个小时，不太够，力学大概只有今天晚上能复习大约三个小时（最多）</p>
+<p>计算物理，从中午11点半到下午四点，还有四个多小时，时间足够。今天可以不看</p>
+<p>然后明天晚上继续复习线代和高数，就做一些真题，应该时间足够。</p>
+<hr>
+<h2 id="力学，启动！"><a href="#力学，启动！" class="headerlink" title="力学，启动！"></a>力学，启动！</h2><p>首先，做二十道多选题，发现刚体的角动量定理有一个限制条件不知道，那就再推导一遍：</p>
+<blockquote>
+<p>设有惯性参考点A，则刚体的角动量对时间的导数为
+$ \frac {dL} {dt} &#x3D; M^{ext} - \sum m_i \,\vec {r_i^{‘}} \times \vec{a_A} $</p>
+</blockquote>
+<blockquote>
+<p>推导过程：</p>
+</blockquote>
+<ol>
+<li>列出刚体角动量的表达式（参考点是A点）</li>
+<li>对角动量的表达式求导</li>
+<li>其中一项是零，另一项展开</li>
+<li>展开后用牛二定律，把ma替换为F</li>
+<li>得到力矩的表达式和另一部分（
+  $ \sum m_i r_i^{\prime } \times \vec{a_A} $</li>
+</ol>
+<p>开始做题：</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>school</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大一上期末考试－第一、二天</title>
+    <url>/2026/01/19/%E5%A4%A7%E4%B8%80%E4%B8%8A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%8D%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%A4%A9/</url>
+    <content><![CDATA[<h2 id="Exam-1-3-over-now"><a href="#Exam-1-3-over-now" class="headerlink" title="Exam 1&#x2F;3 over now!"></a>Exam 1&#x2F;3 over now!</h2><p>Well, that’s nothing to celebrate, though.
+So keep calm and carry on! The vacation is about to start,
+but not yet. So, you should prepare for the rest of
+the subjucts. And you can use this blog to record what you’ve
+learnd.</p>
+<p>The two subjects were fine, generally. The English test was
+not difficult to me.(Although I’ve heard some negative comments, etiher)</p>
+<p>the reading comprehension consisted of four passages.</p>
+<ol>
+<li>faluire education</li>
+<li>forgotten</li>
+<li>turtles in danger</li>
+<li>Bush’s reform</li>
+</ol>
+<p>今天下午的政治也比较有戏剧性：
+上午对着课本疯狂打字，写了一篇200行长文，结果因为瞎鼓捣，hexo部署不上去 ，只能卑微的用micro看.md源文件。。。（后来发现是时区设置错误, what can I say?）
+It turned out that the test was not so difficult.</p>
+<hr>
+<p>只是希望接下来两天也不要太难就行</p>
+<p>I really hope that I’ve never said things like this.</p>
+]]></content>
+      <categories>
+        <category>school</category>
+        <category>tests</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>school</tag>
+        <tag>up</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>政治复习</title>
+    <url>/2026/01/19/%E6%94%BF%E6%B2%BB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><ul>
+<li>三观：人生观，世界观，价值观</li>
+<li>人的本质：一切社会关系的总和</li>
+</ul>
+<h4 id="人生目的的作用"><a href="#人生目的的作用" class="headerlink" title="人生目的的作用"></a>人生目的的作用</h4><ul>
+<li>人生目的决定人生道路</li>
+<li>人生目的决定人生态度</li>
+<li>人生目的决定人生价值选择</li>
+</ul>
+<h4 id="人生价值"><a href="#人生价值" class="headerlink" title="人生价值"></a>人生价值</h4><ul>
+<li>包含自我价值和社会价值
+，二者相互区别相互联系（互为过程和保障）</li>
+</ul>
+<h4 id="反对错误人生观"><a href="#反对错误人生观" class="headerlink" title="反对错误人生观"></a>反对错误人生观</h4><ul>
+<li>反对拜金主义：人应当是金钱的主人</li>
+<li>反对享乐主义：享乐不是唯一目的</li>
+<li>反对极端个人主义：个人需求不是全部</li>
+</ul>
+<h4 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h4><p>理想具有：</p>
+<ul>
+<li>超越性</li>
+<li>实践性</li>
+<li>时代性</li>
+</ul>
+<p>信念具有：</p>
+<ul>
+<li>执着性</li>
+<li>支撑性</li>
+<li>多样性</li>
+</ul>
+<h4 id="为什么信仰马克思主义？"><a href="#为什么信仰马克思主义？" class="headerlink" title="为什么信仰马克思主义？"></a>为什么信仰马克思主义？</h4><ul>
+<li>马克思主义是认识世界，改造世界的武器</li>
+<li>马克思主义提供科学的思想方法，帮助我们正确地提出，分析，解决问题</li>
+<li>马克思主义对于时代建设的意义</li>
+<li>马克思主义是：<ul>
+<li>科学的理论</li>
+<li>人民的理论</li>
+<li>实践的理论</li>
+<li>不断发展的开放理论</li>
+</ul>
+</li>
+</ul>
+<h4 id="理想包括："><a href="#理想包括：" class="headerlink" title="理想包括："></a>理想包括：</h4><ul>
+<li>生活理想</li>
+<li>道德理想</li>
+<li>职业理想</li>
+</ul>
+<h4 id="面临的冲击："><a href="#面临的冲击：" class="headerlink" title="面临的冲击："></a>面临的冲击：</h4><ul>
+<li>西方文化思潮</li>
+<li>市场经济</li>
+<li>个人家庭</li>
+<li>同辈人群</li>
+</ul>
+<h4 id="共产主义理想"><a href="#共产主义理想" class="headerlink" title="共产主义理想"></a>共产主义理想</h4><ul>
+<li>共产主义是现实运动和长远目标相统一的过程</li>
+</ul>
+<h4 id="为什么中国特色社会主义是科学社会主义"><a href="#为什么中国特色社会主义是科学社会主义" class="headerlink" title="为什么中国特色社会主义是科学社会主义"></a>为什么中国特色社会主义是科学社会主义</h4><ul>
+<li>政治制度：共产党领导</li>
+<li>国体政体：人民民主专政和人民代表大会制度</li>
+<li>经济制度：公有制主体，各种所有制经济共同发展</li>
+<li>意识形态：马克思主义</li>
+<li>根本立场：以人民为中心</li>
+</ul>
+<h4 id="理想与现实的辩证统一："><a href="#理想与现实的辩证统一：" class="headerlink" title="理想与现实的辩证统一："></a>理想与现实的辩证统一：</h4><ul>
+<li>实现理想的长期性，艰巨性和曲折性</li>
+<li>艰苦奋斗是实现理想的重要条件</li>
+<li>理想不是拿来说，拿来唱的</li>
+</ul>
+<h4 id="个人理想与社会理想的结合"><a href="#个人理想与社会理想的结合" class="headerlink" title="个人理想与社会理想的结合"></a>个人理想与社会理想的结合</h4><ul>
+<li>个人理想：</li>
+</ul>
+<blockquote>
+<p>在一定历史条件和社会关系中的个体对于自己未来的物质生活，精神生活的向往和追求</p>
+</blockquote>
+<ul>
+<li>社会理想：</li>
+</ul>
+<blockquote>
+<p>社会集体乃至社会全体成员的共同理想：全社会占主导地位的共同奋斗目标</p>
+</blockquote>
+<ul>
+<li>个人与社会的关系：<ul>
+<li>相互依存</li>
+<li>相互制约</li>
+<li>共同发展</li>
+</ul>
+</li>
+<li>个人理想与社会理想：<ul>
+<li>相互联系</li>
+<li>相互影响</li>
+<li>相互制约</li>
+</ul>
+</li>
+<li>个人理想以社会理想为指引</li>
+<li>社会理想是个人理想的汇聚和升华</li>
+</ul>
+<h3 id="中国精神"><a href="#中国精神" class="headerlink" title="中国精神"></a>中国精神</h3><p>中国精神的内含：</p>
+<ul>
+<li>伟大创造精神</li>
+<li>伟大奋斗精神</li>
+<li>伟大团结精神</li>
+<li>伟大梦想精神</li>
+</ul>
+<h4 id="伟大建党精神"><a href="#伟大建党精神" class="headerlink" title="伟大建党精神"></a>伟大建党精神</h4><ul>
+<li>坚持真理，坚守理想</li>
+<li>践行初心，担当使命</li>
+<li>不怕牺牲，英勇斗争</li>
+<li>对党忠诚，不负人民</li>
+</ul>
+<h3 id="爱国主义基本内涵"><a href="#爱国主义基本内涵" class="headerlink" title="爱国主义基本内涵"></a>爱国主义基本内涵</h3><ul>
+<li>爱大好河山</li>
+<li>爱骨肉同胞</li>
+<li>爱灿烂文化</li>
+<li>爱国家</li>
+<li>爱党爱国爱社会主义相统一</li>
+</ul>
+<h4 id="反对历史虚无主义"><a href="#反对历史虚无主义" class="headerlink" title="反对历史虚无主义"></a>反对历史虚无主义</h4><h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><h4 id="如何认识社会主义核心价值观"><a href="#如何认识社会主义核心价值观" class="headerlink" title="如何认识社会主义核心价值观"></a>如何认识社会主义核心价值观</h4><ul>
+<li>内容?</li>
+<li>富强：<ul>
+<li><p>促进社会进步、人自由全面发展的基础</p>
+</li>
+<li><p>难以实现</p>
+</li>
+<li><p>内涵：</p>
+<ul>
+<li>人民富裕和国家强盛</li>
+</ul>
+<blockquote>
+<p>社会主义生产力的发展、国家财富的创造，根本目的在于丰富人民的物质、精神生活</p>
+</blockquote>
+<blockquote>
+<p>富强还体现为国家拥有强大的综合国力</p>
+</blockquote>
+<p>二者根本上是统一的</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="社会主义核心价值观的显著特征"><a href="#社会主义核心价值观的显著特征" class="headerlink" title="社会主义核心价值观的显著特征"></a>社会主义核心价值观的显著特征</h4><ul>
+<li>体现社会主义的本质属性</li>
+<li>扎根中华优秀传统文化土壤</li>
+<li>吸纳世界文明有益成果</li>
+<li>尊重人民群众历史主体地位</li>
+<li>体现以人民为中心的价值导向</li>
+<li>社会主义核心价值观是真实可信的</li>
+<li>认清西方“普世价值”的实质</li>
+</ul>
+<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><p>道德的本质：</p>
+<ul>
+<li>道德是反映社会经济关系的特殊意识形态</li>
+<li>道德是社会利益关系的特殊调节方式</li>
+<li>道德是一种实践精神</li>
+</ul>
+<p>道德的功能与作用</p>
+<ul>
+<li>认识功能：<blockquote>
+<p>是指道德反映社会经济关系的功能与效力</p>
+</blockquote>
+</li>
+<li>规范功能:<blockquote>
+<p>规范社会成员的行为，引导人们崇德向善</p>
+</blockquote>
+</li>
+<li>调节功能：<blockquote>
+<p>通过评价等方式指导和纠正人们行为和实践活动，协调社会关系与人际关系</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="革命道德的主要内容"><a href="#革命道德的主要内容" class="headerlink" title="革命道德的主要内容"></a>革命道德的主要内容</h4><ul>
+<li>为实现社会主义和共产主义理想而奋斗</li>
+<li>全心全意为人民服务</li>
+<li>始终把革命利益放在首位</li>
+<li>树立社会新风，建立新型人际关系</li>
+<li>修身自律，保持节操</li>
+</ul>
+<h2 id="家庭家教家风（多选）"><a href="#家庭家教家风（多选）" class="headerlink" title="家庭家教家风（多选）"></a>家庭家教家风（多选）</h2><ul>
+<li>家庭是社会的基本细胞，是人生的第一所学校</li>
+<li>注重家庭。千家万户都好，国家才会好</li>
+<li>注重家教。最重要的是品德教育，如何做人的教育</li>
+<li>注重家风。家风是社会风气的重要组成部分。</li>
+</ul>
+<h2 id="道德的作用："><a href="#道德的作用：" class="headerlink" title="道德的作用："></a>道德的作用：</h2><h2 id="社会公德，职业道德，家庭美德，个人品德的基本要求"><a href="#社会公德，职业道德，家庭美德，个人品德的基本要求" class="headerlink" title="社会公德，职业道德，家庭美德，个人品德的基本要求"></a>社会公德，职业道德，家庭美德，个人品德的基本要求</h2><h3 id="法律的含义"><a href="#法律的含义" class="headerlink" title="法律的含义"></a>法律的含义</h3><ul>
+<li>由国家创制和实施的行为规范</li>
+<li>由一定的社会物质生活条件所决定</li>
+<li>是统治阶级利益的体现</li>
+</ul>
+<h2 id="我国社会主义法律的运行"><a href="#我国社会主义法律的运行" class="headerlink" title="我国社会主义法律的运行"></a>我国社会主义法律的运行</h2><ul>
+<li>创制、实施、实现</li>
+<li>法律制定：是 。。。</li>
+<li>法律执行：<blockquote>
+<p>广义上，是国家机关及其公职人员，在公共事务管理依照法定职权和程序，贯彻实施法律的过程</p>
+</blockquote>
+</li>
+<li>法律适用：<blockquote>
+<p>处理案件</p>
+</blockquote>
+</li>
+<li>法律遵守：<blockquote>
+<p>国家、社会、公民按法律规定行使权力或权利以履行职责或义务。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="习近平十一个坚持"><a href="#习近平十一个坚持" class="headerlink" title="习近平十一个坚持"></a>习近平十一个坚持</h3><ul>
+<li>第一层：国家性质</li>
+<li>第二层：社会主义本质</li>
+<li>第三层：整体运行环节</li>
+</ul>
+<h2 id="习近平法治思想核心要义的理解"><a href="#习近平法治思想核心要义的理解" class="headerlink" title="习近平法治思想核心要义的理解"></a>习近平法治思想核心要义的理解</h2><h2 id="如何依法行使权力履行义务以提升法律素养"><a href="#如何依法行使权力履行义务以提升法律素养" class="headerlink" title="如何依法行使权力履行义务以提升法律素养"></a>如何依法行使权力履行义务以提升法律素养</h2>]]></content>
+      <categories>
+        <category>school</category>
+        <category>tests</category>
+        <category>政治</category>
+      </categories>
+      <tags>
+        <tag>tests</tag>
+        <tag>learning</tag>
+        <tag>trash</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>线性代数期末复习</title>
+    <url>/2026/01/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<p>最需要担心的就是线性代数和计算物理（还有高数力学）。</p>
+<p>计算物理，主要是C语言内部的各种规定，还有就是能不能正确使用指针和数组写出正确的函数（尤其考虑到徐灿最后让看25号课件，而那个课件就是讲指针，数组，张量运算的）。</p>
+<p>线性代数主要难在与各种概念的纠缠，以及寻找适用的定理的过程。这主要依赖记忆和语言推理。涉及的章节主要就是特征向量，对角化（比如，求*||Ax||的最小值*），正交化，投影，二次型等等。</p>
+<p>高数，一定要熟悉泰勒展开（两种余项），积分方法（做练习），级数（判定敛散性以及求收敛值），求体积面积，等等，高数也得小心！</p>
+<p>力学，把韩卫华教材看一看，做一些真题和练习题吧。</p>
+<p>hhh, hhh</p>
+<hr>
+<p>笑不出来了，开干吧</p>
+]]></content>
+      <categories>
+        <category>school</category>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>learning</tag>
+        <tag>test</tag>
+        <tag>linear algebra</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算物理</title>
+    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
+    <content><![CDATA[<p>所以，现在可以输入中文了。
+后天计算物理考试。考前课件：</p>
+<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
+行指针的定义方式：</p>
+<blockquote>
+<p>int (* prt)[2];</p>
+</blockquote>
+<p>然后，可以对行指针赋值：</p>
+<blockquote>
+<p>prt &#x3D; a;</p>
+</blockquote>
+<p>为什么？因为a 就是一个指针，而且是行的指针。
+指针的数组是这样定义的：</p>
+<blockquote>
+<p>int *p[3];</p>
+</blockquote>
+<p>但是不能写：</p>
+<blockquote>
+<p>p &#x3D; a;</p>
+</blockquote>
+<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
+<p>待复习的内容：</p>
+<ul>
+<li>高阶张量的缩并和表示</li>
+<li>基础知识（往年试题举一反三）</li>
+</ul>
+]]></content>
+      <categories>
+        <category>school</category>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>school</tag>
+        <tag>learning</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+</search>
