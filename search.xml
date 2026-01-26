@@ -241,6 +241,31 @@ Sometimes feelings are not enough, especially when you need to express yourself 
     <content><![CDATA[<h2 id="Two-examples"><a href="#Two-examples" class="headerlink" title="Two examples"></a>Two examples</h2>]]></content>
   </entry>
   <entry>
+    <title>winter vacation everyday plans</title>
+    <url>/2026/01/26/everydayPlan/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f1b4b1b3ae9f3b721a5eaec6ad1c848fa60ede0bc77cf9e2b8fa93b4fc329a9a">d337c39ab4bb2cef3d3c89269811231506110684db1c7607368549474bdf282c4c1d6d0a497eb33e5fdf40425ef5fd53c620cccaf1991daca53e1e89a033ecaa468bc30172e6616e3c3c02f85c46c7ccd7316ce63762c7080d170e0d4a3e3c46b88535e46730bb55f577d5f35ff8ba5c2f75d4a38bc18c1021ffb2710b6f0e4f8b9e55b51be3090c7b58bd6a262ad1fb8ca2cc555ce1bfe8dc77140135690f8f0cd020ca463b31958187f91c58ea6877e7f2e39bf498fe592cc29b34697809d21d510b9c4eb7ca08d61ba4aa965e9551c3e86a74bb50fec6d3801cf93ae29df6e2095efd9800f774855f645ac3937cb4046d39b887b25c44753624425af373c7e9424a3c4be2bb09229324c7574690e082c64f7f549a7143f89cc0959094fc46ebf85667a3c0fef13711a23108311696477acb47876d6bf239c39577607ccf8c66a35f500a76edcf6e3a552fb8a3d51c978d81c758a9abf2078184e6307b6a47d1f4cb57ce7e404ad5d200f01586749ebe0759324ad24fb14d45a3b32d630344ae39aea66ca67651fd0436f341fc6fe07539e023732d8bc26505e2acf65fd03b4a8336d6da351a316226b8f78a28c559</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>life</category>
+        <category>schedule</category>
+        <category>vacations</category>
+      </categories>
+      <tags>
+        <tag>up</tag>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSreview</title>
     <url>/2026/01/20/CSreview/</url>
     <content><![CDATA[<h3 id="用函数实现张量交换指标"><a href="#用函数实现张量交换指标" class="headerlink" title="用函数实现张量交换指标"></a>用函数实现张量交换指标</h3><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;time.h&gt;</span></span><br><br><span class="hljs-type">void</span> <span class="hljs-title function_">func</span><span class="hljs-params">(<span class="hljs-type">int</span>* rank, <span class="hljs-type">double</span>* A, <span class="hljs-type">double</span>* C)</span><br>&#123;<br>	<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i&lt; rank[<span class="hljs-number">0</span>]; i++)<br>	&#123;<br>		<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j = <span class="hljs-number">0</span>; j&lt; rank[<span class="hljs-number">1</span>]; j++)<br>		&#123;<br>			<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> k = <span class="hljs-number">0</span>; k&lt; rank[<span class="hljs-number">2</span>]; k++)<br>			&#123;<br>				<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> l = <span class="hljs-number">0</span>; l&lt; rank[<span class="hljs-number">3</span>]; l++)<br>				&#123;<br>					C[i*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">3</span>]+l] = A[i*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">3</span>]+l];<br>					<br>				&#125;<br>			&#125;<br>		&#125;<br>	&#125;<br>&#125;<br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">int</span> rank[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">2</span>,<span class="hljs-number">6</span>&#125;;<br>	<span class="hljs-type">double</span> A[<span class="hljs-number">4</span>][<span class="hljs-number">5</span>][<span class="hljs-number">2</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-type">double</span> C[<span class="hljs-number">4</span>][<span class="hljs-number">2</span>][<span class="hljs-number">5</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
