@@ -114,20 +114,6 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>linearAlgebraReview</title>
-    <url>/2026/01/21/linearAlgebraReview/</url>
-    <content><![CDATA[<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><h3 id="21年"><a href="#21年" class="headerlink" title="21年"></a>21年</h3>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>math</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>middle</tag>
-        <tag>review</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>On_the_train</title>
     <url>/2026/01/23/On-the-train/</url>
     <content><![CDATA[<h2 id="On-the-train-home"><a href="#On-the-train-home" class="headerlink" title="On the train home"></a>On the train home</h2><p>Well, I’ve been away from home for a long time. But I am not as homesick as I was in high school.
@@ -234,11 +220,6 @@ Sometimes feelings are not enough, especially when you need to express yourself 
         <tag>up</tag>
         <tag>an idea</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>neural network(1)</title>
-    <url>/2026/01/24/neuralNetwork-1/</url>
-    <content><![CDATA[<h2 id="Two-examples"><a href="#Two-examples" class="headerlink" title="Two examples"></a>Two examples</h2>]]></content>
   </entry>
   <entry>
     <title>Python神经网络编程</title>
