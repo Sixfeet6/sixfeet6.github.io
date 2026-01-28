@@ -515,12 +515,55 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
 ]]></content>
   </entry>
   <entry>
-    <title>等价于相抵</title>
+    <title>等价与相抵</title>
     <url>/2026/01/27/%E7%AD%89%E4%BB%B7%E4%BA%8E%E7%9B%B8%E6%8A%B5/</url>
     <content><![CDATA[<blockquote>
 <p>目标：理解概念；量化：分别抽取一道例题，能够做对。</p>
 </blockquote>
+<h2 id="等价关系"><a href="#等价关系" class="headerlink" title="等价关系~"></a>等价关系~</h2><p>兰大物理学院大二要分流到四个专业，每个同学只能分到一个专业，也就是说，四个专业不存在重合。
+那么两个物理学院的同学存在这样两种可能：</p>
+<ol>
+<li>是一个专业的</li>
+<li>不是一个专业的
+这种关系（是一个专业的）满足三个性质：</li>
+<li>反身性：A和他自己一定在一个专业里。</li>
+<li>可逆性：A和B是一个专业的，则B和A也是一个专业的。</li>
+<li>传递性：A和B是一个专业的，B和C是一个专业的，则A和C也是一个专业的。
+这里，传递性满足的一个重要前提就是四个专业不存在重合。</li>
+</ol>
+<p>在数学上，如果两个对象满足这样一种关系（如上述的“同专业关系”），则这两个对象是 <strong>等价</strong> 的</p>
+<h2 id="矩阵的相抵"><a href="#矩阵的相抵" class="headerlink" title="矩阵的相抵"></a>矩阵的相抵</h2><p>如果两个矩阵可以通过行变换和列变换变成对方，则这两个矩阵有相抵关系。
+显然，相抵关系具有反身性、可逆性、传递性，所以这是一种等价关系。</p>
+<h3 id="相抵的数学表示"><a href="#相抵的数学表示" class="headerlink" title="相抵的数学表示"></a>相抵的数学表示</h3><p>下列命题等价：</p>
+<ol>
+<li>A与B相抵</li>
+<li>存在一系列行变换（用左乘一系列初等矩阵$ P_{i} $表示）和一系列变换（用右乘一系列初等矩阵$ Q_{i} $表示），使得$ A &#x3D; P_1\,P_2\, \cdots B\, Q_1\,Q_2\, \cdots $）</li>
+<li>存在可逆矩阵P和Q使得A ＝ PBQ<blockquote>
+<p>说明：由命题2，两边的一系列初等矩阵都是可逆的，所以这些矩阵的乘积也是可逆的，表示为P和Q。</p>
+</blockquote>
+</li>
+</ol>
+<p>定理：A和B相抵的充要条件是A和B的秩相等。</p>
+<p>证明：A和B都可以化成标准相抵型：
+$$
+\begin{pmatrix}
+I_{r} &amp; 0 \\
+0 &amp; 0
+\end{pmatrix}
+$$</p>
+<p>步骤：首先把A化成简化阶梯形。然后把所有主元列按顺序排到矩阵的最左边，然后用左边的列把右边的列消掉即可。</p>
+<p>由此可见，数域K上的$ m \times n $阶矩阵有$ 1+\min(m,n) $个相抵类，分别对应不同的rank.</p>
+<h3 id="不变量"><a href="#不变量" class="headerlink" title="不变量"></a>不变量</h3><p>不变量是一个等价类中对于所有元素都相等的一个量或表达式. 完全等价类是恰好能够决定这个等价类的不变量（如矩阵的秩）.</p>
 ]]></content>
+      <categories>
+        <category>learning</category>
+        <category>math</category>
+        <category>linear algrbra</category>
+      </categories>
+      <tags>
+        <tag>middle</tag>
+        <tag>learning</tag>
+      </tags>
   </entry>
   <entry>
     <title>训练日志</title>
@@ -543,6 +586,55 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
   <entry>
     <title>高阶微分方程</title>
     <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>middle</tag>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>

@@ -19,16 +19,18 @@
   <meta name="author" content="Editt Liu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="This blog records everything meaningful I have done.">
+    <meta name="description" content="高阶微分方程及解法1.纯导型方程$$ y^{(n)} &#x3D; f(x) $$ 解法：一直积分即可 2.缺y型方程$$ y’’ &#x3D; f(x,y’) $$ 解法： 另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。 求出一阶微分方程的解： $$ y’ &#x3D; \phi(x,C) $$ 再求积分得y 缺x型方程$$ y’’ &#x3D; f(y,y’)">
 <meta property="og:type" content="article">
 <meta property="og:title" content="高阶微分方程">
 <meta property="og:url" content="https://sixfeet6.github.io/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/index.html">
 <meta property="og:site_name" content="MyBlog">
-<meta property="og:description" content="This blog records everything meaningful I have done.">
+<meta property="og:description" content="高阶微分方程及解法1.纯导型方程$$ y^{(n)} &#x3D; f(x) $$ 解法：一直积分即可 2.缺y型方程$$ y’’ &#x3D; f(x,y’) $$ 解法： 另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。 求出一阶微分方程的解： $$ y’ &#x3D; \phi(x,C) $$ 再求积分得y 缺x型方程$$ y’’ &#x3D; f(y,y’)">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-01-27T15:22:53.000Z">
-<meta property="article:modified_time" content="2026-01-27T15:22:53.467Z">
+<meta property="article:modified_time" content="2026-01-28T04:14:04.706Z">
 <meta property="article:author" content="Editt Liu">
+<meta property="article:tag" content="learning">
+<meta property="article:tag" content="middle">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -222,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 words
+          515 words
         
       </span>
     
@@ -233,7 +235,7 @@
         
         
         
-          1 mins
+          2 mins
         
       </span>
     
@@ -275,7 +277,42 @@
             
               <div class="markdown-body">
                 
-                
+                <h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
+
                 
               </div>
             
@@ -283,6 +320,50 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/learning/" class="category-chain-item">learning</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/learning/math/" class="category-chain-item">math</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/learning/math/calculus/" class="category-chain-item">calculus</a>
+  
+  
+
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/middle/" class="print-no-link">#middle</a>
+      
+        <a href="/tags/learning/" class="print-no-link">#learning</a>
+      
+    </div>
   
 </div>
 
@@ -337,9 +418,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2026/01/27/%E7%AD%89%E4%BB%B7%E4%BA%8E%E7%9B%B8%E6%8A%B5/" title="等价于相抵">
+                      <a href="/2026/01/27/%E7%AD%89%E4%BB%B7%E4%BA%8E%E7%9B%B8%E6%8A%B5/" title="等价与相抵">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">等价于相抵</span>
+                        <span class="hidden-mobile">等价与相抵</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
