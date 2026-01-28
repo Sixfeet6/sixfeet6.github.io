@@ -486,6 +486,66 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
+    <title>CMC</title>
+    <url>/2026/01/27/CMC/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：一套题全会做</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>中国红色政权为何能够存在？</title>
+    <url>/2026/01/27/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%94%BF%E6%9D%83%E4%B8%BA%E4%BD%95%E8%83%BD%E5%A4%9F%E5%AD%98%E5%9C%A8%EF%BC%9F/</url>
+    <content><![CDATA[<h2 id="信息概括"><a href="#信息概括" class="headerlink" title="信息概括"></a>信息概括</h2><h2 id="用自己的话讲述"><a href="#用自己的话讲述" class="headerlink" title="用自己的话讲述"></a>用自己的话讲述</h2>]]></content>
+  </entry>
+  <entry>
+    <title>力学难题</title>
+    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>实验报告阅读</title>
+    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>找一篇CUPT报告，读懂。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>等价于相抵</title>
+    <url>/2026/01/27/%E7%AD%89%E4%BB%B7%E4%BA%8E%E7%9B%B8%E6%8A%B5/</url>
+    <content><![CDATA[<blockquote>
+<p>目标：理解概念；量化：分别抽取一道例题，能够做对。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>训练日志</title>
+    <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
+<li>跳台阶</li>
+<li>操场<ul>
+<li>百米（掐表）</li>
+<li>跨步跳50米*5</li>
+<li>单足跳30米*3（每个腿）</li>
+</ul>
+</li>
+<li>回家<ul>
+<li>俯卧撑20*4（间隔休息）</li>
+</ul>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>高阶微分方程</title>
+    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>CSreview</title>
     <url>/2026/01/20/CSreview/</url>
     <content><![CDATA[<h3 id="用函数实现张量交换指标"><a href="#用函数实现张量交换指标" class="headerlink" title="用函数实现张量交换指标"></a>用函数实现张量交换指标</h3><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;time.h&gt;</span></span><br><br><span class="hljs-type">void</span> <span class="hljs-title function_">func</span><span class="hljs-params">(<span class="hljs-type">int</span>* rank, <span class="hljs-type">double</span>* A, <span class="hljs-type">double</span>* C)</span><br>&#123;<br>	<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i&lt; rank[<span class="hljs-number">0</span>]; i++)<br>	&#123;<br>		<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j = <span class="hljs-number">0</span>; j&lt; rank[<span class="hljs-number">1</span>]; j++)<br>		&#123;<br>			<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> k = <span class="hljs-number">0</span>; k&lt; rank[<span class="hljs-number">2</span>]; k++)<br>			&#123;<br>				<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> l = <span class="hljs-number">0</span>; l&lt; rank[<span class="hljs-number">3</span>]; l++)<br>				&#123;<br>					C[i*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">3</span>]+l] = A[i*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">3</span>]+l];<br>					<br>				&#125;<br>			&#125;<br>		&#125;<br>	&#125;<br>&#125;<br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">int</span> rank[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">2</span>,<span class="hljs-number">6</span>&#125;;<br>	<span class="hljs-type">double</span> A[<span class="hljs-number">4</span>][<span class="hljs-number">5</span>][<span class="hljs-number">2</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-type">double</span> C[<span class="hljs-number">4</span>][<span class="hljs-number">2</span>][<span class="hljs-number">5</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
