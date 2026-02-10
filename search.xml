@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>calculusReview</title>
+    <url>/2026/01/20/calculusReview/</url>
+    <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
+<p> $ arcsin(x) &#x3D; x + \frac{1}{2} \frac{x^{3}}{3} + $</p>
+<p> $ arctan(x) &#x3D; x- \frac{x^{3}}{3} + (-1)^{n} \frac {x^{2n-1}}{2n-1} $</p>
+<p> $ ln(x) &#x3D; x- \frac{1}{2} x^2 + \frac{1}{3} x^3 $</p>
+<h3 id="第一部分：连续函数零点证明"><a href="#第一部分：连续函数零点证明" class="headerlink" title="第一部分：连续函数零点证明"></a>第一部分：连续函数零点证明</h3><p>$\lim_{x \to \infty} \frac{f(x)}{x} &#x3D; 0$，证：$\exists c \in \mathbb{R}, f(c) &#x3D; -c$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<blockquote>
+<p><strong>观察</strong>
+$f(x) + x &#x3D; 0$
+$x$ 无法利用
+<strong>Hint:</strong> $\lim_{x \to \infty} \frac{f(x)}{x} \dots$</p>
+</blockquote>
+<p>$\hookrightarrow F(x) &#x3D; f(x) + x$</p>
+<p>$$\lim_{x \to \infty} \frac{F(x)}{x} &#x3D; 1$$</p>
+<p>$\therefore F(+\infty) &#x3D; +\infty, \quad F(-\infty) &#x3D; -\infty$</p>
+<p>$F(x)$ 连续</p>
+<p>$\therefore \exists \xi, F(\xi) &#x3D; 0$</p>
+<p><strong>得证.</strong></p>
+<hr>
+<h3 id="第二部分：微分中值定理证明"><a href="#第二部分：微分中值定理证明" class="headerlink" title="第二部分：微分中值定理证明"></a>第二部分：微分中值定理证明</h3><p>$f(a) &#x3D; f(b) &#x3D; 0$，证 $\exists \xi \in (a, b)$ 使 $f’’(\xi) &#x3D; \frac{2f’(\xi)}{b-\xi}$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<p>$$f’’(x) &#x3D; \frac{2f’(x)}{b-x}$$</p>
+<blockquote>
+<p><strong>观察</strong>
+$\hookrightarrow (b-x)f’’(x) - 2f’(x) &#x3D; 0$</p>
+<p><strong>观察！</strong>
+$(b-x)^2 f’’(x) - 2(b-x)f’(x) &#x3D; 0$
+即 $[(b-x)^2 f’(x)]’ &#x3D; 0$
+令 $F(x) &#x3D; (b-x)^2 f’(x)$</p>
+</blockquote>
+<p><strong>2. 找端点</strong></p>
+<p>① $F(b) &#x3D; (b-b)^2 \cdot f’(b) &#x3D; 0$</p>
+<p>② $F(a) \neq 0!$</p>
+<blockquote>
+<p><strong>思考</strong>
+$\hookrightarrow$ 说明 $a, b$ 之间有个点的 $f’(x)$ 等于零
+$\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(x_0) &#x3D; 0$</p>
+</blockquote>
+<p>$\therefore F(x_0) &#x3D; (b-x_0)^2 f’(x_0) &#x3D; 0$</p>
+<p>在 $[x_0, b]$ 上对 $F(x)$ 使用罗尔定理，即得证。</p>
+<hr>
+<h3 id="第三部分：数列极限计算"><a href="#第三部分：数列极限计算" class="headerlink" title="第三部分：数列极限计算"></a>第三部分：数列极限计算</h3><p>$$\lim_{n \to \infty} \frac{n}{\ln n} (\sqrt[n]{n} - 1)$$</p>
+<p>Look at $\sqrt[n]{n} &#x3D; n^{\frac{1}{n}}$</p>
+<p>$$&#x3D; e^{\frac{1}{n} \ln n}$$</p>
+<p><em>(注：此处利用 $e^x - 1 \sim x$)</em></p>
+<p>$$&#x3D; \lim_{n \to \infty} \frac{n}{\ln n} \cdot \frac{\ln n}{n} &#x3D; 1$$</p>
+<hr>
+<h3 id="第四部分：复杂根式极限"><a href="#第四部分：复杂根式极限" class="headerlink" title="第四部分：复杂根式极限"></a>第四部分：复杂根式极限</h3><p>$$\lim_{x \to \infty} \frac{\ln(1 + \sqrt[3]{x} + \sqrt[4]{x})}{\ln(1 + \sqrt{x} + \sqrt[3]{x})}$$</p>
+<p>$$&#x3D; \frac{\ln(\sqrt[3]{x} (\frac{1}{\sqrt[3]{x}} + 1 + x^{-\frac{1}{12}}))}{\ln(\sqrt{x} (\frac{1}{\sqrt{x}} + 1 + x^{-\frac{1}{6}}))}$$</p>
+<p>$$&#x3D; \frac{\frac{1}{3} \ln x}{\frac{1}{2} \ln x} &#x3D; \frac{2}{3}$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>PK</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
+        <tag>Lose</tag>
+        <tag>Sad</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>On the train</title>
+    <url>/2026/01/23/On-the-train/</url>
+    <content><![CDATA[<h2 id="On-the-train-home"><a href="#On-the-train-home" class="headerlink" title="On the train home"></a>On the train home</h2><p>Well, I’ve been away from home for a long time. But I am not as homesick as I was in high school.
+Why is that? I enjoy the freedom in the campus. However, even if you don’t want to admmit it, you’re not totally free,
+and actually, never can be. Human nature requires a perpose, and for this reason, you can never stop being curious,
+get lost, get confused, and find a way out.</p>
+<h3 id="winter-vacation-studying-schedule"><a href="#winter-vacation-studying-schedule" class="headerlink" title="winter vacation studying schedule"></a>winter vacation studying schedule</h3><h4 id="Part-one-what-for"><a href="#Part-one-what-for" class="headerlink" title="Part one: what for?"></a>Part one: what for?</h4><p>Dad mentioned “target oriented”, let me try it.</p>
+<blockquote>
+<p>every deed needs reasons. and list them logically and clearly can let others get your meaning and yourself more confident about yourself.
+Sometimes feelings are not enough, especially when you need to express yourself like an interview.</p>
+</blockquote>
+<ol>
+<li>18-22: LZU</li>
+<li>22-24: PKU</li>
+<li>24-28: MPI</li>
+<li>28-32: MPI(Ph.D)</li>
+<li>32-  : professor</li>
+</ol>
+<p>Now we’re at phase. 1. We need:</p>
+<ul>
+<li>wide knowledge</li>
+<li>research abilities</li>
+<li>social experiences</li>
+</ul>
+<ol>
+<li>knowledge:</li>
+</ol>
+<ul>
+<li><p>solving problems</p>
+</li>
+<li><p>maths:</p>
+<ul>
+<li>calculus</li>
+<li>linear algebra</li>
+<li>group theory?</li>
+</ul>
+</li>
+<li><p>physics: All branches</p>
+<ul>
+<li>数理方法</li>
+</ul>
+</li>
+<li><p>computer:</p>
+<ul>
+<li>neural network</li>
+<li>computional physics</li>
+</ul>
+</li>
+<li><p>english: vocabulary and expression</p>
+</li>
+</ul>
+<ol start="2">
+<li>abilities:</li>
+</ol>
+<ul>
+<li>analyse</li>
+<li>express</li>
+<li>Think</li>
+<li>calculate</li>
+<li>学术表达：简化表达</li>
+<li>zotero and google scholar</li>
+</ul>
+<ol start="3">
+<li>experiences:(HDL)</li>
+</ol>
+<ul>
+<li>how to read people</li>
+<li>social interaction(behavior)</li>
+<li>scheduling甘特图？</li>
+</ul>
+<hr>
+<p>Others:</p>
+<ul>
+<li>TJ</li>
+<li></li>
+</ul>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>expectation</category>
+      </categories>
+      <tags>
+        <tag>Expectation</tag>
+        <tag>Future</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Am I the same as my peers?</title>
+    <url>/2026/01/24/Encrypted/</url>
+    <content><![CDATA[<h2 id="为什么执迷不悟"><a href="#为什么执迷不悟" class="headerlink" title="为什么执迷不悟"></a>为什么执迷不悟</h2><p>对于那些不学无术，游手好闲，甚至有些低级趣味的同龄人，
+我一直有这样一种看法：即他们完全不可理喻，以至于把人生的全部限制在一台充斥着低级趣味的手机里。
+第一，我并不能理解他们的兴趣取向：我本人感兴趣的事物都是“积极主动”的”人类最伟大梦想”。
+他们则沉浸在无聊的电子游戏，和鬼畜视频中。(我虽然有时也会刷短视频停不下来，但是沉迷程度远不及他们。)</p>
+<p>但是，我忽视了任何人，包括他们和我，都必然有其认知局限，认知局限决定了不同的行为惯性。换句话说，兴趣都是培养出来的。
+这么简单的道理，似乎真的很简单。但是细细思考，它其实能够导出一个惊人的结论：</p>
+<blockquote>
+<p>我认为，个体试图（甚至是仅有改变的意愿）改变自己认知习惯的行动，是非常困难的。因为这背后是认知的铁壁和习惯的壁垒。前者造就了”知难行易“，后者则导致了”知易行难“。</p>
+</blockquote>
+<p>当你对别人的执迷不悟充满疑惑时，你也在做着同样的事。
+这不光牵扯到个体对于“目的”，“意义”的不同理解，更牵扯到了“自制力”，“计划能力”，“交流方式”等行为习惯。</p>
+<p>当你遇到难题，是迎难而上还是畏缩不前；当你工作被干扰，是保持专注还是注意力涣散；当你压轴题卡壳，是继续死磕还是另谋他路；当你在周五晚上，是畅快玩一夜还是继续学习；当你周围人取得好成绩，是羡慕嫉妒还是退而结网？</p>
+<p>也许动机始于敬畏，而习惯不是。但是，也许二者存在一些共同点。
+以我为例，我在很小时，就亲自领略到自然科学的神奇，从而产生了很强的敬畏和向往。
+有一些人，从小没有体验过任何敬畏，于是浑浑噩噩，除非人生遭遇变故，赋予相关事物独特的含义，比如球闪的主人公。
+习惯呢？习惯不是源于敬畏，它源于自豪。</p>
+<p>想象一下：如果一个小孩通过自己的一系列行为获得了一个令人愉快的独特体验，那么，他大概会在很长一段时期甚至整个人生中持续这种行为习惯，以期获得更多自豪感，这种强化也就强化了习惯本身。
+比如我当时学习玩魔方，就塑造了我钻研的习惯。</p>
+<p>自律？我没有自律的习惯，大多数人也没有。也许原因就是没有过相关的自豪感。</p>
+<p>在加缪的理论中，习惯和动机是驱动人们做或不做的两种因素。动机是一种本质的、基础的因素；而习惯则是一种惯性而已，在决定人生目的上的影响十分微弱，但是在推动其日常行为上（如刷手机，上班）有着很强的支配力。</p>
+<h3 id="我该怎么做？"><a href="#我该怎么做？" class="headerlink" title="我该怎么做？"></a>我该怎么做？</h3><p>首先，能不能培养习惯？大概很难。因为，习惯和动机似乎在儿童时代就基本确定了。但是，毕竟有21天养成一个好习惯的“事实”，这也不是不可能。</p>
+<p>但是，别忘了动机可以非常强烈，以至于推翻甚至重塑了习惯。
+也许你只需要塑造一个信念：你并不与众不同，他们并不是自取灭亡，从某种意义上说，你们是同一种人：受限于自己的成长经历，在不想、不敢、不能改变中不断堕落。
+这个信念，或许可以让你对于人生本身产生一种敬畏，这种敬畏，或许能够让你摆脱一些消极的习惯。</p>
+]]></content>
+      <categories>
+        <category>thoughts</category>
+      </categories>
+      <tags>
+        <tag>People</tag>
+        <tag>Me</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python神经网络编程</title>
+    <url>/2026/01/26/Python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="the-understanding-of-the-simplified-neural-network"><a href="#the-understanding-of-the-simplified-neural-network" class="headerlink" title="the understanding of the simplified neural network"></a>the understanding of the simplified neural network</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>AI</category>
+        <category>《Python神经网络编程》</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>winter vacation everyday plans</title>
+    <url>/2026/01/26/everydayPlan/</url>
+    <content><![CDATA[<h3 id="contents"><a href="#contents" class="headerlink" title="contents:"></a>contents:</h3>
+
+	<div class="row">
+    <embed src="Notebook-85.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h3 id="arrangement"><a href="#arrangement" class="headerlink" title="arrangement"></a>arrangement</h3><img src="/2026/01/26/everydayPlan/Notebook-85_2.png" class="" title="时间安排">
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>plan</category>
+      </categories>
+      <tags>
+        <tag>Vacation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一日反思</title>
+    <url>/2026/01/26/reflects/</url>
+    <content><![CDATA[<h2 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h2><p>放假后，在火车上（以及在家里），我做了一个翔实的假期计划，但是此计划到现在还没有开始执行。
+本来，我并不打算写这篇文章，而是告诉我“明天去学”就可以了。但是，考虑到之前很多次先例，我决定以写作的方式剖析原因，并记录白日所思。
+也许我成长了。</p>
+<h2 id="为什么不开始？"><a href="#为什么不开始？" class="headerlink" title="为什么不开始？"></a>为什么不开始？</h2><p>我白天想过一个问题：是不能开始还是不能结束？</p>
+<p>通常情况下，一天无所事事会被视为不能开始，但是不能开始总是伴随着不能结束，因为时间是连续的。不能开始意味着你把时间用在别的事情上，所以才不能投身于新的事情。
+回首一天的日程，上午我先是看了会儿电纸书，关于神经网络，随后开始做计划，昨晚计划就准备执行，就在这时，吃饭了。</p>
+<p>于是我就去吃饭，吃完饭之后呢？倒叙一遍：我在3：30左右外出，4：50左右回到家。外出前，我正准备进行计划中的课外拓展，也就是Python神经网络编程。但是，这个活动刚开始就被爸爸打断了。
+在那之前，我和同学QQ聊天，关于各种学校的事情，比如，寒假社会实践、期末高数，英语考试，等等。
+哦，在吃完饭的12：50之后，我先是聊天，然后睡觉，13：50左右起床，洗澡，结束时间大概在14：30
+但是14：30－15：30的这段时间仍然丢失了
+。</p>
+<blockquote>
+<p>反思一：要记录时间。如果你按照了计划执行了，这则很简单，你只需要保存笔记，基本不会忘。如果你没有按计划执行，则尤为重要。</p>
+</blockquote>
+<p>回来之后，我就看到了计算物理的成绩（好像是这样的），也就是说，我又浪费了一个小时在成绩上面。</p>
+<blockquote>
+<p>反思二：不要管成绩、学校事务等一切看似相关实则无关紧要的事情。即使需要，也必须集中处理。</p>
+</blockquote>
+<p>然后就是晚上。吃完饭大概在7点之前，然后爸爸问我要不要散步，我想，“白天够累（实际上不累），去吧，回来就可以玩电脑了”。</p>
+<p>这是第二个错误：如果你在娱乐之前就想着去娱乐，那等于你一直在娱乐，也就是说，你的划分的时间是没有意义的。</p>
+<blockquote>
+<p>反思三：不到娱乐的时间，只需要提醒自己：晚上会爽玩，但是与现在无关。现在一切丰富的行为是晚上获得快乐的基础。</p>
+</blockquote>
+<p>然后我们散步，回家，喝酸奶，你还是看看成绩，大概到八点左右，你就开始看《生活大爆炸》，这比预定时间提前了一个半小时，也就造成了“预娱乐”的后果：一直看到了10：10。
+现在看来，我经历的是一种“随心所欲”的状态。我的举动基本取决于神经元不加约束的放电和大学生本能。结论：这也许能获得快乐，但无法给你幸福。</p>
+<blockquote>
+<p>反思四：不要随心所欲，要按计划来，不然你不会幸福的。</p>
+</blockquote>
+<p>最后一点关于学习本身：首先，我发现现在不想学习，并且察觉到这是因为我发现自己不知道学什么。也就是没有清晰的学习计划，或者说，具体一点，是不知道从哪开始，不知如何开始，也就不想结束。这是一种行为惯性。这就产生了一个idea：</p>
+<blockquote>
+<p>反思五：尝试在前一天学习结束时给第二天要学习的相同学科划定一个起点。可以以博客的形式（创建几个新的分类）</p>
+</blockquote>
+<p>另外，刚才会想起以前的诸多假期，往往以理想很丰满，现实很骨感告终。我只想说：不要贪图宏大，把自己的本分做好：保守一点。
+尤其是在学习效率这点上：之前你总是觉得听人讲课不如自己看书，这也许是真的；但前提是：
+<strong>你真的看书了</strong>
+。</p>
+<p>书本是精要的，给你自由空间的，但你有探索的自由同时也有了放弃的自由，再加上书本往往更难理解，你就更有理由放弃了。
+所以，不如放弃一部分自由，让别人替你安排一些，就像把控制权交给她一样。
+毕竟，就算你自己啥也不折腾，整个寒假就跟着一个系列的网课学习、做题，完全按照他们老师的进度，你也能成果颇丰，甚至超越自己看书，而且肯定超越一点也不看书
+<strong>（这很有可能发生，如果你继续好高骛远）</strong>。</p>
+<blockquote>
+<p>反思六：不要好高骛远，学不下去就看网课，也比自己 <strong>“挣扎无果－放飞自我”</strong> 要强。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Vacation</tag>
+        <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三道关于刚体的动力学难题</title>
+    <url>/2026/01/26/%E4%B8%89%E9%81%93%E5%85%B3%E4%BA%8E%E5%88%9A%E4%BD%93%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="例题-与-解法"><a href="#例题-与-解法" class="headerlink" title="例题 与 解法"></a>例题 与 解法</h2><h2 id="theories-behind-them"><a href="#theories-behind-them" class="headerlink" title="theories behind them"></a>theories behind them</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>毛泽东－党内错误思想</title>
+    <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
+    <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
+<ul>
+<li>党内错误思想的表现</li>
+<li>党内错误思想的来源</li>
+<li>党内错误思想的纠正方法</li>
+</ul>
+<h3 id="单纯军事观点"><a href="#单纯军事观点" class="headerlink" title="单纯军事观点"></a>单纯军事观点</h3><p>军事是实现政治目的的手段，而且在某些情况下，也是前提。
+但是，军事不是革命的全部。如果只会打仗就能搞好革命，那么就回到了军阀混战的时期。
+所以，军事和政治，不是对立的，而是统一的。
+错误思想的表现之一就是认为军事好，政治才会好，甚至认为军事领导政治，这是错误的。
+其二，单纯军事观点似乎认为军事就是为了打仗的。
+红军是一个执行革命政治任务的武装集团，特别是当前时期，军队更承担着宣传的作用。军队是用来打仗的，打仗的目的是赢得革命，赢得革命就需要群众的支持。离了宣传群众，组织群众，武装群众，并帮助群众建立武装政权的目标，军队就没有意义。</p>
+<p>第三，有人提出“司令部对外”的口号。这种思想发展下去，就会形成以军队控制政权的危险，就像国民党走向军阀路线一样。</p>
+<p>第四，一切以四军为本位，不知道武装群众。这是放大了的小团体主义。
+少数同志认为四军是唯一的希望，忽略了其他的武装力量，希望保存实力，避免斗争，这是机会主义。</p>
+<h3 id="这种观点的来源"><a href="#这种观点的来源" class="headerlink" title="这种观点的来源"></a>这种观点的来源</h3><p>第一，政治水平低。政治水平低，所以认识不到军队中政治领导的作用。
+第二，雇佣军队的思想。战俘兵甚多，这就造成了此思想的下层基础。
+第三，由于下层基础的存在和政治水平的低下，导致过分相信军队的力量，而不相信人民的力量。</p>
+<h3 id="纠正的方法"><a href="#纠正的方法" class="headerlink" title="纠正的方法"></a>纠正的方法</h3><p>第一，从教育上提高党的政治水平。
+要让党员认识到红军和白军的区别。肃清机会主义和盲动主义的残余，打破四军本位主义机。</p>
+<p>第二，加紧对官兵尤其是战俘的政治训练。同时从地方吸纳有经验的工农分子，削弱单纯军事的来源。
+第三，发起批评工作，第四，加强党对军事工作的讨论。第五，编制红军法规，明确红军任务和红军与人民的关系。</p>
+<h2 id="分析方法"><a href="#分析方法" class="headerlink" title="分析方法"></a>分析方法</h2><ol>
+<li>定义偏差：找出当前系统中的错误表现</li>
+<li>追根溯源：区分主观原因（认知水平）和客观原因（人员构成和历史背景）</li>
+<li>辩证统一：思考 <strong>手段</strong> （如：技术，效率，执行）与 <strong>目的</strong> （愿景、价值、根本目标）是否脱节。</li>
+<li>系统反馈：建立一种机制（教育、制度、批评），让系统在偏离轨道时能自动报警并拉回。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>reading</category>
+        <category>社科</category>
+      </categories>
+      <tags>
+        <tag>Critical thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特征值和特征向量</title>
+    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
+线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
+<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
+<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
+这是因为行列式的多线性。</p>
+<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
+<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
+$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
+，把线性组合同乘
+$ \lambda_{1} $或
+$ \lambda_2 $
+，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语单词</title>
+    <url>/2026/01/26/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
+    <content><![CDATA[<h2 id="words-and-usage"><a href="#words-and-usage" class="headerlink" title="words and usage"></a>words and usage</h2><blockquote>
+<p>集市上充斥着贩卖便宜货的小贩</p>
+</blockquote>
+<p>The market was <em>awash with</em> vendors selling cheap goods.</p>
+<blockquote>
+<p>日食；月食</p>
+</blockquote>
+<p><strong>A total solar(lunar) eclipse</strong> is a rare <strong>astronomical</strong> <strong>event</strong>.</p>
+<blockquote>
+<p>社交媒体的<strong>兴起</strong>已经超越了传统的<strong>交流方式</strong></p>
+</blockquote>
+<p>The <strong>rise</strong> of social media has <strong>eclipsed</strong> traditional <strong>forms</strong> of communication.</p>
+<p><strong>amid</strong></p>
+<blockquote>
+<p>公司每周开一次<strong>例会</strong>来讨论下一周</p>
+</blockquote>
+<p>The company <strong>routinely</strong> holds meetings on Mondays to discuss the upcoming week.</p>
+<p>She <strong>routinely</strong> takes a walk every morning before work.</p>
+<h2 id="original-version"><a href="#original-version" class="headerlink" title="original version"></a>original version</h2><p>​在认知（cognitive）科学的研究中，
+科学家们努力去定义（define）人类的内在（internal）逻辑。
+目前学术界已经达成了一项共识（consensus）：
+真诚的（genuine）态度能够有效推动（propel）任务的完成。
+相反，情感的压制（repression）通常会带来额外的心理压力。
+​
+当你沉思（ponder）某位伟人的传记（biography）时，
+你会发现他从不傲慢（arrogant）。
+对于工作繁忙的人来说，
+私人时间是一种奢侈（luxury）。
+在实验室里，研究员小心地点燃（ignite）了测试材料以观察反应。
+此外，这些抽象的（abstract）观点在法律诉讼或进程（proceedings）的记录中也有所体现。
+最后，即使是一个简单的称赞（compliment），也能改善团队的合作氛围。</p>
+<h2 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h2><p>In the research of cognitive science, scientists put their efforts into defining humans’ internal logics.
+So far, the academic area has come to a consensus: genuine attitudes can push proples’ complishment effectively.
+On the contrary, represion of sentiments usually brings more mental stress.</p>
+<p>When you are pondering a biography of some figure, you would see that he is never arrogant.
+For those working busy, private moments are very luxury.
+In the lab, researchers cautiously ignites the test material to perceive the reaction.
+Besides, these abstract points of view are also shown in the recordings of legal appeal or proceedings.
+In the end, Even a simple complishment can improve the atmosphere of team work.</p>
+<h2 id="original-translation"><a href="#original-translation" class="headerlink" title="original translation"></a>original translation</h2><p>In the research of cognitive science, scientists <strong>strive</strong> to define human internal logic. So far, the <strong>academic community</strong> has <strong>reached</strong> a consensus: a genuine attitude effectively <strong>propels</strong> the completion of tasks. On the contrary, the repression of <strong>emotions</strong> usually brings <strong>additional</strong> <strong>psychological</strong> stress.
+​
+When you ponder the biography of a <strong>great figure</strong>, you will find that they are never arrogant. For those who are <strong>busy with work</strong>, private <strong>time</strong> is <strong>a</strong> luxury. In the lab, researchers cautiously ignite the test materials to observe the reaction. Besides, these abstract <strong>viewpoints</strong> are also <strong>reflected</strong> in the records of legal proceedings. Finally, even a simple compliment can improve the <strong>collaborative</strong> atmosphere of a team.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>Translation</tag>
+        <tag>Vocabulary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高斯定理－课本讲解和例题</title>
+    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CMC</title>
+    <url>/2026/01/27/CMC/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：一套题全会做</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国红色政权为何能够存在？</title>
+    <url>/2026/01/27/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%94%BF%E6%9D%83%E4%B8%BA%E4%BD%95%E8%83%BD%E5%A4%9F%E5%AD%98%E5%9C%A8%EF%BC%9F/</url>
+    <content><![CDATA[<h2 id="信息概括"><a href="#信息概括" class="headerlink" title="信息概括"></a>信息概括</h2><blockquote>
+<p>这里的红色政权，尤指在白色政权夹缝中生存的红色政权，是那些小范围的革命根据地。</p>
+</blockquote>
+<p>reasons:</p>
+<ul>
+<li>军阀混战</li>
+</ul>
+<p>人的精力是有限的，军阀不可能在相互交战的同时估计歼那些不起眼的红色政权。</p>
+<p>在世界范围内，像中国这样能产生这种红色政权的国家也没有第二个，这正是由于其先决条件之一－混乱且不统一的白色政权的存在只有在中国这样由帝国主义间接统治的国家才会存在。
+因为西方列强实行的是间接分裂统治，每一个军阀都有其代表的帝国主义，彼此交战才不可避免。</p>
+<ul>
+<li>资产阶级民主革命的奠基</li>
+</ul>
+<p>红色政权不是由未经革命的地区，而是由经过资产阶级革命的地区而产生的，因为那里有丰富的经过政治训练的工农士兵群众的基础，而且已经形成了工会等组织，红军大都由先前的资产阶级革命军分化而来，而不是张作霖那些未经影响的旧式军阀。</p>
+<ul>
+<li>全国革命的向前发展</li>
+<li>正式红军的存在</li>
+<li>党政策的不错误</li>
+</ul>
+]]></content>
+      <categories>
+        <category>reading</category>
+        <category>社科</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Critical thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>实验报告阅读</title>
+    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>找一篇CUPT报告，读懂。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>research</category>
+      </categories>
+      <tags>
+        <tag>physics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>力学难题</title>
+    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>等价与相抵</title>
+    <url>/2026/01/27/%E7%AD%89%E4%BB%B7%E4%BA%8E%E7%9B%B8%E6%8A%B5/</url>
+    <content><![CDATA[<blockquote>
+<p>目标：理解概念；量化：分别抽取一道例题，能够做对。</p>
+</blockquote>
+<h2 id="等价关系"><a href="#等价关系" class="headerlink" title="等价关系~"></a>等价关系~</h2><p>兰大物理学院大二要分流到四个专业，每个同学只能分到一个专业，也就是说，四个专业不存在重合。
+那么两个物理学院的同学存在这样两种可能：</p>
+<ol>
+<li>是一个专业的</li>
+<li>不是一个专业的
+这种关系（是一个专业的）满足三个性质：</li>
+<li>反身性：A和他自己一定在一个专业里。</li>
+<li>可逆性：A和B是一个专业的，则B和A也是一个专业的。</li>
+<li>传递性：A和B是一个专业的，B和C是一个专业的，则A和C也是一个专业的。
+这里，传递性满足的一个重要前提就是四个专业不存在重合。</li>
+</ol>
+<p>在数学上，如果两个对象满足这样一种关系（如上述的“同专业关系”），则这两个对象是 <strong>等价</strong> 的</p>
+<h2 id="矩阵的相抵"><a href="#矩阵的相抵" class="headerlink" title="矩阵的相抵"></a>矩阵的相抵</h2><p>如果两个矩阵可以通过行变换和列变换变成对方，则这两个矩阵有相抵关系。
+显然，相抵关系具有反身性、可逆性、传递性，所以这是一种等价关系。</p>
+<h3 id="相抵的数学表示"><a href="#相抵的数学表示" class="headerlink" title="相抵的数学表示"></a>相抵的数学表示</h3><p>下列命题等价：</p>
+<ol>
+<li>A与B相抵</li>
+<li>存在一系列行变换（用左乘一系列初等矩阵$ P_{i} $表示）和一系列变换（用右乘一系列初等矩阵$ Q_{i} $表示），使得$ A &#x3D; P_1\,P_2\, \cdots B\, Q_1\,Q_2\, \cdots $）</li>
+<li>存在可逆矩阵P和Q使得A ＝ PBQ<blockquote>
+<p>说明：由命题2，两边的一系列初等矩阵都是可逆的，所以这些矩阵的乘积也是可逆的，表示为P和Q。</p>
+</blockquote>
+</li>
+</ol>
+<p>定理：A和B相抵的充要条件是A和B的秩相等。</p>
+<p>证明：A和B都可以化成标准相抵型：
+$$
+\begin{pmatrix}
+I_{r} &amp; 0 \\
+0 &amp; 0
+\end{pmatrix}
+$$</p>
+<p>步骤：首先把A化成简化阶梯形。然后把所有主元列按顺序排到矩阵的最左边，然后用左边的列把右边的列消掉即可。</p>
+<p>由此可见，数域K上的$ m \times n $阶矩阵有$ 1+\min(m,n) $个相抵类，分别对应不同的rank.</p>
+<h3 id="不变量"><a href="#不变量" class="headerlink" title="不变量"></a>不变量</h3><p>不变量是一个等价类中对于所有元素都相等的一个量或表达式. 完全等价类是恰好能够决定这个等价类的不变量（如矩阵的秩）.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>训练日志</title>
+    <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
+<li>跳台阶</li>
+<li>操场<ul>
+<li>百米（掐表）</li>
+<li>跨步跳50米*5</li>
+<li>单足跳30米*3（每个腿）</li>
+</ul>
+</li>
+<li>回家<ul>
+<li>俯卧撑20*4（间隔休息）</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>training</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>高阶微分方程</title>
+    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
+    <url>/2026/01/28/SM/</url>
+    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
+那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
+<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
+<p>这让我更加确信：<strong>不做就不要想</strong>。
+你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
+<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
+<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
+尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
+<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
+<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
+如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
+<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
+<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
+<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
+行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
+<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
+.</p>
+<p>when you tease me, make me shy.
+你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
+你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
+这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
+如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
+<p>when you abuse me, make me fear you.</p>
+<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
+。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
+<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
+让我销魂让我激动的结巴你可以问：舒服吗？
+你更可以重重鞭笞我之后突然温柔的抚摸我。
+温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
+​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
+​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>guide</category>
+      </categories>
+      <tags>
+        <tag>Self-discipline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语单词</title>
+    <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
+    <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
+<h2 id="my-translation"><a href="#my-translation" class="headerlink" title="my translation"></a>my translation</h2><p>In our career path, we must primarily enconter all kinds of invisible setbacks.
+Sometimes, people might spread goddip out of spite.
+Then we have to learn to restrain our emotions and adapt to new situations quickly.
+A good team should accomodate different opinions,
+and embrace multiple viewpoints. Being able to focus on the target and keep calm under presure, has become a luxury for modern office people.</p>
+<h2 id="correction"><a href="#correction" class="headerlink" title="correction"></a>correction</h2><p>​In our professional careers, we primarily face various unforeseen setbacks. Sometimes, individuals might spread gossip out of spite; in such moments, we must learn to restrain our emotions and quickly adapt to new situations. An excellent team should be able to accommodate different opinions and embrace diverse viewpoints. Remaining calm and focusing on goals under pressure has become a rare luxury for modern professionals.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Translation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>You are still too young.</title>
+    <url>/2026/01/29/young/</url>
+    <content><![CDATA[<h2 id="你还是没有长大"><a href="#你还是没有长大" class="headerlink" title="你还是没有长大"></a>你还是没有长大</h2><p>昨天，有三件事把我惹毛了。
+一是潘姚一鸣不搭理我，还给我打哑谜。我问他高数成绩，他拐来拐去，阴阳怪气。
+二是创新实验室纳新，我参加了宣讲，但是心情不悦，因为我们班那几个家伙领先一步，我又胆小如鼠，不敢报名。
+三是晚上被父亲训斥，我本来就是因为前两个原因心情低迷，所以躺在床上看手机，恰好被他看见，免不了心生不满。</p>
+<p>今天，又有几件事把我惹毛了。首先还是创新实验室的事，然后就是潘姚一鸣竟然在我昨天追问一晚上的情况下，今天告诉我考了100分，滑天下之大稽，还有就是我忙前忙后看了两天科研训练，宋翼二话没说当了组长，滑天下之大稽。</p>
+<p>孩子。你还是没有走出被害者思维。真正的强者不会抱怨，不会被动。他们争取主动，即使已经被动，也就是及时止损。</p>
+<p>上午遇到的诸多烦心事让我无心学习，下午直接去看了场电影《极限审判》，不得不说，还不错。
+但我想说的是，不能因为一点小事就啥也干不下去，该干啥干啥，仇老师说的没错，要稳当，有耐心。</p>
+<p>还记得吗？“滑天下之大稽”是《侯大利》中杨永福的话。那个家伙自命不凡，心胸狭小，心狠手辣。这句话恰好反映了他自身滑稽的一面。杨帆让他远离自己的生活不要多管闲事，他认为是“滑天下之大稽”，还说“老子喜欢她这么多年，管一管怎么了？”这时病态的贪婪和占有欲。</p>
+<p>所以，我只想说，前面那些“滑稽”的事，是一个警醒！</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Upset</tag>
+        <tag>Betrayal</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A fresh start</title>
+    <url>/2026/02/02/A-fresh-start/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>This is bullshit.
+I’ve spent nearly two days wonderinghow i would be spending by 
+one and only vacation-since it’s gonna determin whether youo can get 
+admitted by the CuiYing academy, but ended up with doing things
+totaly irrelavent things from preparing for the entrance election.</p>
+<p>If we dive deep down to it, you’ll find out that all is about the <strong>habit</strong>.
+You failed, because you didn’t form a habit.(or you did but it didn’t continue.)
+And you can possiblly win, if and only if you form it again.</p>
+<p>So here’s my advice.</p>
+<p>the first thing you’ll do in tomorrow morning is waking up.
+I case that you’d sleep over, this time, I have a back up plan for the occasion
+that you didn’t wake up until 8.</p>
+<ul>
+<li>if you woke up at 7</li>
+</ul>
+<p>get up immediatly. YOu may regret to get up so early,
+but all you need to do is telling yourself that it’s normal in high school, isn’t it?</p>
+<p>Then you got up, go wash your face ‘cause that will fresh you up.
+Then you go cook for yourself. It may take you some time. Be pacient. YOu can listen to music while doing it.</p>
+<p>Anyway, you’ll finish your meal before 8(hopefully).</p>
+<ul>
+<li>if you woke up after 8</li>
+</ul>
+<p>Then there’s two possibilities:</p>
+<ol>
+<li>Dad’s cooked for you</li>
+<li>he has not.</li>
+</ol>
+<p>occasion 1:
+eat and start studying right after the breakfast.</p>
+<p>occasion 2:
+go out to get yourself something to eat and be back.</p>
+<p>In both situations, you should be back before 9, so that we can continue our work.</p>
+<h3 id="part-II-What’s-the-work"><a href="#part-II-What’s-the-work" class="headerlink" title="part II: What’s the work?"></a>part II: What’s the work?</h3><p>before you continue reading, I’d like you to know that this winter vacation is almost the wierdest one I’ve ever spent!</p>
+<p>The reason? you can see, that you dont have any burden, <strong>or dreams</strong>, do you?
+I say this because you’re experiencing a loss of purpose.
+Whether you’d admmit it or not, after being humuliated by classmates from both your college and your high school,
+you are starting to consider yourself stupid.</p>
+<p>But you know what? That may be true. I say so because if i say no,
+the following explaination will definately feel pale and weak.
+But if you and I admmit it, it’s no longer a burden! We don’t need to doubt if we are 
+right or wrong about ourselves, and just face the fact, that we are not as smart as they are.</p>
+<p><strong>FOR NOW!!!</strong></p>
+<p>Yes. I don’t believe in those stupid “inspiration of intelligence” thing of my dad, It’s bullshit.
+But I do believe in <strong>dilligence</strong>.</p>
+<p>These days, I always had a question: have i changed?
+Then it reminds me of the wonder man show I just watched this evening:
+When Trevor said to Simon, that oneself is not their condition, but their experiences. 
+Everything you’ve experienced, together,defines who you really are.
+so have i changed? Of cource I have. I hadn’t only because I havn’t grown up.</p>
+<p>When I was young, I used to have feelings for everything about science.
+But what happens now? I’m drown into something else.
+TV shows, short videos, and bloody hell so much bilibili videos!
+And I dropped reading, I quitted watch films, and I have gone lost!</p>
+<p>There was a time, when I could just listen to music, reading a book for relax, and go to
+study whenever you feel it’s the right time. Why can’t you do it now? Because you’ve lost your freewill!
+You’ve given it to the Licheng No.2 High School, those teachers, and you pathetic phone!
+You can’t go back to junior school when you could spend a day wandering in the campus, and ask why and those
+innocent questions, and have the joy of figuring it out, can you?</p>
+<p>So, I guess here’s the problem. And I can’t defeat it with just poems or these weak words.</p>
+<p>So I need schedules, and I do have one for today.</p>
+<p>It’s basically the plan I made for this vacation.
+Just remember these details:</p>
+<table>
+<thead>
+<tr>
+<th align="center">subjects</th>
+<th align="center">contents</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">calculus</td>
+<td align="center">differencial equasions(problem sets)</td>
+</tr>
+<tr>
+<td align="center">linear algebra</td>
+<td align="center">A lecture(from opencourse 163)</td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">one essay by Mao; one translation</td>
+</tr>
+<tr>
+<td align="center">cook</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">python neural network(from a book or a online course)(gradient decrease)</td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">a financial book</td>
+</tr>
+<tr>
+<td align="center">sports</td>
+<td align="center">speed endurance for 2 hours(with break) (just run enough and go)</td>
+</tr>
+<tr>
+<td align="center">difficulties</td>
+<td align="center">three mechanics hard problems</td>
+</tr>
+<tr>
+<td align="center">physics</td>
+<td align="center">electromagnetism and optics <strong>review</strong></td>
+</tr>
+<tr>
+<td align="center">entertainment</td>
+<td align="center">wonder man or the big bang(you only choose one)</td>
+</tr>
+</tbody></table>
+<hr>
+<p>写在最后：</p>
+<p>我打算这个假期不仅把整个物理学的轮廓弄清，还要集中提升分析问题，解决问题的直觉和能力。只有这样，才能为选拔做足准备。
+首先你肯定需要具备普通物理的全部知识，这是你理解题意的基础，然后，剩下的就是多做练习了。
+平时一定不要忘了这两个要素双管齐下。时刻牢记！</p>
+<p>另：费曼物理学可读，能提升思维水平，可放到空闲时间或者拓展时间。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Vacation</tag>
+        <tag>New start</tag>
+        <tag>Up</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>浑噩之后</title>
+    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
+    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
+<p>可是，清醒了又有什么用呢？我悲观的想。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Jan-26 微分方程</title>
+    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>notebook-88</p>
+</blockquote>
+<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
+<li>微分方程的定义<ul>
+<li>线性微分方程</li>
+</ul>
+</li>
+<li>微分方程的特解（含N个独立常数）和通解<blockquote>
+<p>确定常数需要初始条件</p>
+</blockquote>
+</li>
+<li>解法<ol>
+<li>分离变量</li>
+<li>齐次化分离变量</li>
+<li>准其次化齐次分离变量</li>
+<li>线性方程利用指数函数</li>
+<li>伯努力函数化成指数函数</li>
+</ol>
+</li>
+</ul>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
+$$ 
+x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
+$$</p>
+<p>2,
+$$
+(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
+$$</p>
+<p>3,
+$$ 
+y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
+$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>computer</title>
+    <url>/2026/02/05/computer/</url>
+    <content><![CDATA[<p>###准备</p>
+<ol>
+<li>qq mail; 163 mail; gmail</li>
+<li>v2ray</li>
+<li>bitget wallet</li>
+<li>wsl &amp; ssh</li>
+<li>教程</li>
+</ol>
+<p>##oracle</p>
+<ol>
+<li>unblock the card</li>
+<li>apply</li>
+<li>verify</li>
+</ol>
+<p>##aliyun</p>
+<ol>
+<li>login</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+<p>##GCP</p>
+<ol>
+<li>switch to the british node</li>
+<li>pay the bill</li>
+<li>delete the old instance</li>
+<li>create a new instance</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>CSreview</title>
+    <url>/2026/01/20/CSreview/</url>
+    <content><![CDATA[<h3 id="用函数实现张量交换指标"><a href="#用函数实现张量交换指标" class="headerlink" title="用函数实现张量交换指标"></a>用函数实现张量交换指标</h3><figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdio.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;stdlib.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;time.h&gt;</span></span><br><br><span class="hljs-type">void</span> <span class="hljs-title function_">func</span><span class="hljs-params">(<span class="hljs-type">int</span>* rank, <span class="hljs-type">double</span>* A, <span class="hljs-type">double</span>* C)</span><br>&#123;<br>	<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i&lt; rank[<span class="hljs-number">0</span>]; i++)<br>	&#123;<br>		<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> j = <span class="hljs-number">0</span>; j&lt; rank[<span class="hljs-number">1</span>]; j++)<br>		&#123;<br>			<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> k = <span class="hljs-number">0</span>; k&lt; rank[<span class="hljs-number">2</span>]; k++)<br>			&#123;<br>				<span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> l = <span class="hljs-number">0</span>; l&lt; rank[<span class="hljs-number">3</span>]; l++)<br>				&#123;<br>					C[i*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">3</span>]+l] = A[i*rank[<span class="hljs-number">1</span>]*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+j*rank[<span class="hljs-number">2</span>]*rank[<span class="hljs-number">3</span>]+k*rank[<span class="hljs-number">3</span>]+l];<br>					<br>				&#125;<br>			&#125;<br>		&#125;<br>	&#125;<br>&#125;<br><br><span class="hljs-type">int</span> <span class="hljs-title function_">main</span><span class="hljs-params">()</span><br>&#123;<br>	<span class="hljs-type">int</span> rank[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">2</span>,<span class="hljs-number">6</span>&#125;;<br>	<span class="hljs-type">double</span> A[<span class="hljs-number">4</span>][<span class="hljs-number">5</span>][<span class="hljs-number">2</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-type">double</span> C[<span class="hljs-number">4</span>][<span class="hljs-number">2</span>][<span class="hljs-number">5</span>][<span class="hljs-number">6</span>];<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>注意：</p>
+<blockquote>
+<p>如果用指针形式传递数组，函数内部也必须把数组当作指针对待，也就是说，必须手工计算偏移量</p>
+</blockquote>
+<p>and,</p>
+<blockquote>
+<p>书写交换张量的偏移量时，指标和对应的维的长度都要交换</p>
+</blockquote>
+<p>知识点：</p>
+<h3 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3><p>一元运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="center">symbol</th>
+<th align="center">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">++</td>
+<td align="center">add itself</td>
+</tr>
+<tr>
+<td align="center">--</td>
+<td align="center">minus itself</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td align="center">positive</td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">negative</td>
+</tr>
+<tr>
+<td align="center">!</td>
+<td align="center">wrong</td>
+</tr>
+<tr>
+<td align="center">~</td>
+<td align="center">opposite</td>
+</tr>
+<tr>
+<td align="center">&amp;</td>
+<td align="center">get address</td>
+</tr>
+<tr>
+<td align="center">*</td>
+<td align="center">quote varible</td>
+</tr>
+<tr>
+<td align="center">sizeof()</td>
+<td align="center">return the bytes number</td>
+</tr>
+<tr>
+<td align="center">(type)</td>
+<td align="center">change type</td>
+</tr>
+</tbody></table>
+<p>Binary Operators: </p>
+<p>算术运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">+</td>
+<td align="left">plus</td>
+</tr>
+<tr>
+<td align="left">-</td>
+<td align="left">minus</td>
+</tr>
+<tr>
+<td align="left">*</td>
+<td align="left">multiply</td>
+</tr>
+<tr>
+<td align="left">%</td>
+<td align="left">mod</td>
+</tr>
+<tr>
+<td align="left">&#x2F;</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<p>关系运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&#x3D;&#x3D;</td>
+<td align="left">equal</td>
+</tr>
+<tr>
+<td align="left">!&#x3D;</td>
+<td align="left">not equal</td>
+</tr>
+<tr>
+<td align="left">&gt;</td>
+<td align="left">greater</td>
+</tr>
+<tr>
+<td align="left">&lt;</td>
+<td align="left">less</td>
+</tr>
+</tbody></table>
+<p>逻辑运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&amp;&amp;</td>
+<td align="left">and</td>
+</tr>
+<tr>
+<td align="left">||</td>
+<td align="left">or</td>
+</tr>
+</tbody></table>
+<p>位运算符：</p>
+<table>
+<thead>
+<tr>
+<th align="left">symbol</th>
+<th align="left">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&amp;</td>
+<td align="left">bit and</td>
+</tr>
+<tr>
+<td align="left">|</td>
+<td align="left">bit or</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">按位异或</td>
+</tr>
+<tr>
+<td align="left">&lt;&lt;</td>
+<td align="left">move left</td>
+</tr>
+<tr>
+<td align="left">&gt;&gt;</td>
+<td align="left">move right</td>
+</tr>
+</tbody></table>
+<p>赋值运算符：略</p>
+<p>三元运算符：</p>
+<p>only this one:</p>
+<blockquote>
+<p>x()y? x:y</p>
+</blockquote>
+<h3 id="文件流："><a href="#文件流：" class="headerlink" title="文件流："></a>文件流：</h3><ul>
+<li>分为字符流和二进制流</li>
+</ul>
+<p>使用：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><code class="hljs C">FILE* fp;<br>fp = fopen(<span class="hljs-string">&quot;cv.txt&quot;</span>, <span class="hljs-string">&quot;r&quot;</span>)<br><span class="hljs-keyword">if</span> (fp = <span class="hljs-literal">NULL</span>)<br>&#123;<br>	<span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;failed&quot;</span>);<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>&#125;<br><br><span class="hljs-comment">// use the file</span><br><br>fclose(fp);<br></code></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="center">mode</th>
+<th align="center">meaning</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">r</td>
+<td align="center">read</td>
+</tr>
+<tr>
+<td align="center">w</td>
+<td align="center">write</td>
+</tr>
+<tr>
+<td align="center">a</td>
+<td align="center">create or continue</td>
+</tr>
+<tr>
+<td align="center">r+</td>
+<td align="center">read and write</td>
+</tr>
+<tr>
+<td align="center">w+</td>
+<td align="center">read and write</td>
+</tr>
+<tr>
+<td align="center">a+</td>
+<td align="center">create or continue, read and wirte</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>note: binary flow needs a “b” after the mode</p>
+</blockquote>
+<p>  eg. “rb”, “a+b”</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>English test</title>
+    <url>/2026/01/18/English-test/</url>
+    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
+<p>Characcteristics of science</p>
+<p>Science, in our common everyday sense of the world,
+is a human activity characterized by three things.</p>
+<p>First, science is practiced by special people with a
+specific view of the world. Scientists try to be objective,
+unsentimental and unemotional. They do not let their feelings
+get in the way of their observation of real things, facts
+, as they call them. They often work in laboratories or
+in other areas where they can carefuly control what they
+are working on.</p>
+<hr>
+<p>Are you a scientist? <strong>Not yet.</strong></p>
+<p>Do you want to be? <strong>YES</strong></p>
+<p>Why?</p>
+<blockquote>
+<blockquote>
+<p>Human intuition doesn’t need explaination!</p>
+</blockquote>
+</blockquote>
+<p>fine, go for it.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calculusReview</title>
+    <url>/2026/01/19/calculusReview/</url>
+    <content><![CDATA[<p>calculate the length of curve
+$ \begin{cases}
+x &#x3D; \int_{0}^{t^2} \sqrt{1+u} \, du \\
+y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
+\end{cases} $</p>
+<p>先求$\frac {dx} {dt}$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+        <tag>tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>力学期末复习</title>
+    <url>/2026/01/19/%E5%8A%9B%E5%AD%A6%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<p>明天考力学和计算物理。上午9点开始考力学，计算物理是下午四点。</p>
+<p>算下来，从七点半到八点半，只有一个小时，不太够，力学大概只有今天晚上能复习大约三个小时（最多）</p>
+<p>计算物理，从中午11点半到下午四点，还有四个多小时，时间足够。今天可以不看</p>
+<p>然后明天晚上继续复习线代和高数，就做一些真题，应该时间足够。</p>
+<hr>
+<h2 id="力学，启动！"><a href="#力学，启动！" class="headerlink" title="力学，启动！"></a>力学，启动！</h2><p>首先，做二十道多选题，发现刚体的角动量定理有一个限制条件不知道，那就再推导一遍：</p>
+<blockquote>
+<p>设有惯性参考点A，则刚体的角动量对时间的导数为
+$ \frac {dL} {dt} &#x3D; M^{ext} - \sum m_i \,\vec {r_i^{‘}} \times \vec{a_A} $</p>
+</blockquote>
+<blockquote>
+<p>推导过程：</p>
+</blockquote>
+<ol>
+<li>列出刚体角动量的表达式（参考点是A点）</li>
+<li>对角动量的表达式求导</li>
+<li>其中一项是零，另一项展开</li>
+<li>展开后用牛二定律，把ma替换为F</li>
+<li>得到力矩的表达式和另一部分（
+  $ \sum m_i r_i^{\prime } \times \vec{a_A} $</li>
+</ol>
+<p>开始做题：</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大一上期末考试－第一、二天</title>
+    <url>/2026/01/19/%E5%A4%A7%E4%B8%80%E4%B8%8A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%8D%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%A4%A9/</url>
+    <content><![CDATA[<h2 id="Exam-1-3-over-now"><a href="#Exam-1-3-over-now" class="headerlink" title="Exam 1&#x2F;3 over now!"></a>Exam 1&#x2F;3 over now!</h2><p>Well, that’s nothing to celebrate, though.
+So keep calm and carry on! The vacation is about to start,
+but not yet. So, you should prepare for the rest of
+the subjucts. And you can use this blog to record what you’ve
+learnd.</p>
+<p>The two subjects were fine, generally. The English test was
+not difficult to me.(Although I’ve heard some negative comments, etiher)</p>
+<p>the reading comprehension consisted of four passages.</p>
+<ol>
+<li>faluire education</li>
+<li>forgotten</li>
+<li>turtles in danger</li>
+<li>Bush’s reform</li>
+</ol>
+<p>今天下午的政治也比较有戏剧性：
+上午对着课本疯狂打字，写了一篇200行长文，结果因为瞎鼓捣，hexo部署不上去 ，只能卑微的用micro看.md源文件。。。（后来发现是时区设置错误, what can I say?）
+It turned out that the test was not so difficult.</p>
+<hr>
+<p>只是希望接下来两天也不要太难就行</p>
+<p>I really hope that I’ve never said things like this.</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>政治复习</title>
+    <url>/2026/01/19/%E6%94%BF%E6%B2%BB%E5%A4%8D%E4%B9%A0/</url>
+    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><ul>
+<li>三观：人生观，世界观，价值观</li>
+<li>人的本质：一切社会关系的总和</li>
+</ul>
+<h4 id="人生目的的作用"><a href="#人生目的的作用" class="headerlink" title="人生目的的作用"></a>人生目的的作用</h4><ul>
+<li>人生目的决定人生道路</li>
+<li>人生目的决定人生态度</li>
+<li>人生目的决定人生价值选择</li>
+</ul>
+<h4 id="人生价值"><a href="#人生价值" class="headerlink" title="人生价值"></a>人生价值</h4><ul>
+<li>包含自我价值和社会价值
+，二者相互区别相互联系（互为过程和保障）</li>
+</ul>
+<h4 id="反对错误人生观"><a href="#反对错误人生观" class="headerlink" title="反对错误人生观"></a>反对错误人生观</h4><ul>
+<li>反对拜金主义：人应当是金钱的主人</li>
+<li>反对享乐主义：享乐不是唯一目的</li>
+<li>反对极端个人主义：个人需求不是全部</li>
+</ul>
+<h4 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h4><p>理想具有：</p>
+<ul>
+<li>超越性</li>
+<li>实践性</li>
+<li>时代性</li>
+</ul>
+<p>信念具有：</p>
+<ul>
+<li>执着性</li>
+<li>支撑性</li>
+<li>多样性</li>
+</ul>
+<h4 id="为什么信仰马克思主义？"><a href="#为什么信仰马克思主义？" class="headerlink" title="为什么信仰马克思主义？"></a>为什么信仰马克思主义？</h4><ul>
+<li>马克思主义是认识世界，改造世界的武器</li>
+<li>马克思主义提供科学的思想方法，帮助我们正确地提出，分析，解决问题</li>
+<li>马克思主义对于时代建设的意义</li>
+<li>马克思主义是：<ul>
+<li>科学的理论</li>
+<li>人民的理论</li>
+<li>实践的理论</li>
+<li>不断发展的开放理论</li>
+</ul>
+</li>
+</ul>
+<h4 id="理想包括："><a href="#理想包括：" class="headerlink" title="理想包括："></a>理想包括：</h4><ul>
+<li>生活理想</li>
+<li>道德理想</li>
+<li>职业理想</li>
+</ul>
+<h4 id="面临的冲击："><a href="#面临的冲击：" class="headerlink" title="面临的冲击："></a>面临的冲击：</h4><ul>
+<li>西方文化思潮</li>
+<li>市场经济</li>
+<li>个人家庭</li>
+<li>同辈人群</li>
+</ul>
+<h4 id="共产主义理想"><a href="#共产主义理想" class="headerlink" title="共产主义理想"></a>共产主义理想</h4><ul>
+<li>共产主义是现实运动和长远目标相统一的过程</li>
+</ul>
+<h4 id="为什么中国特色社会主义是科学社会主义"><a href="#为什么中国特色社会主义是科学社会主义" class="headerlink" title="为什么中国特色社会主义是科学社会主义"></a>为什么中国特色社会主义是科学社会主义</h4><ul>
+<li>政治制度：共产党领导</li>
+<li>国体政体：人民民主专政和人民代表大会制度</li>
+<li>经济制度：公有制主体，各种所有制经济共同发展</li>
+<li>意识形态：马克思主义</li>
+<li>根本立场：以人民为中心</li>
+</ul>
+<h4 id="理想与现实的辩证统一："><a href="#理想与现实的辩证统一：" class="headerlink" title="理想与现实的辩证统一："></a>理想与现实的辩证统一：</h4><ul>
+<li>实现理想的长期性，艰巨性和曲折性</li>
+<li>艰苦奋斗是实现理想的重要条件</li>
+<li>理想不是拿来说，拿来唱的</li>
+</ul>
+<h4 id="个人理想与社会理想的结合"><a href="#个人理想与社会理想的结合" class="headerlink" title="个人理想与社会理想的结合"></a>个人理想与社会理想的结合</h4><ul>
+<li>个人理想：</li>
+</ul>
+<blockquote>
+<p>在一定历史条件和社会关系中的个体对于自己未来的物质生活，精神生活的向往和追求</p>
+</blockquote>
+<ul>
+<li>社会理想：</li>
+</ul>
+<blockquote>
+<p>社会集体乃至社会全体成员的共同理想：全社会占主导地位的共同奋斗目标</p>
+</blockquote>
+<ul>
+<li>个人与社会的关系：<ul>
+<li>相互依存</li>
+<li>相互制约</li>
+<li>共同发展</li>
+</ul>
+</li>
+<li>个人理想与社会理想：<ul>
+<li>相互联系</li>
+<li>相互影响</li>
+<li>相互制约</li>
+</ul>
+</li>
+<li>个人理想以社会理想为指引</li>
+<li>社会理想是个人理想的汇聚和升华</li>
+</ul>
+<h3 id="中国精神"><a href="#中国精神" class="headerlink" title="中国精神"></a>中国精神</h3><p>中国精神的内含：</p>
+<ul>
+<li>伟大创造精神</li>
+<li>伟大奋斗精神</li>
+<li>伟大团结精神</li>
+<li>伟大梦想精神</li>
+</ul>
+<h4 id="伟大建党精神"><a href="#伟大建党精神" class="headerlink" title="伟大建党精神"></a>伟大建党精神</h4><ul>
+<li>坚持真理，坚守理想</li>
+<li>践行初心，担当使命</li>
+<li>不怕牺牲，英勇斗争</li>
+<li>对党忠诚，不负人民</li>
+</ul>
+<h3 id="爱国主义基本内涵"><a href="#爱国主义基本内涵" class="headerlink" title="爱国主义基本内涵"></a>爱国主义基本内涵</h3><ul>
+<li>爱大好河山</li>
+<li>爱骨肉同胞</li>
+<li>爱灿烂文化</li>
+<li>爱国家</li>
+<li>爱党爱国爱社会主义相统一</li>
+</ul>
+<h4 id="反对历史虚无主义"><a href="#反对历史虚无主义" class="headerlink" title="反对历史虚无主义"></a>反对历史虚无主义</h4><h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><h4 id="如何认识社会主义核心价值观"><a href="#如何认识社会主义核心价值观" class="headerlink" title="如何认识社会主义核心价值观"></a>如何认识社会主义核心价值观</h4><ul>
+<li>内容?</li>
+<li>富强：<ul>
+<li><p>促进社会进步、人自由全面发展的基础</p>
+</li>
+<li><p>难以实现</p>
+</li>
+<li><p>内涵：</p>
+<ul>
+<li>人民富裕和国家强盛</li>
+</ul>
+<blockquote>
+<p>社会主义生产力的发展、国家财富的创造，根本目的在于丰富人民的物质、精神生活</p>
+</blockquote>
+<blockquote>
+<p>富强还体现为国家拥有强大的综合国力</p>
+</blockquote>
+<p>二者根本上是统一的</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="社会主义核心价值观的显著特征"><a href="#社会主义核心价值观的显著特征" class="headerlink" title="社会主义核心价值观的显著特征"></a>社会主义核心价值观的显著特征</h4><ul>
+<li>体现社会主义的本质属性</li>
+<li>扎根中华优秀传统文化土壤</li>
+<li>吸纳世界文明有益成果</li>
+<li>尊重人民群众历史主体地位</li>
+<li>体现以人民为中心的价值导向</li>
+<li>社会主义核心价值观是真实可信的</li>
+<li>认清西方“普世价值”的实质</li>
+</ul>
+<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><p>道德的本质：</p>
+<ul>
+<li>道德是反映社会经济关系的特殊意识形态</li>
+<li>道德是社会利益关系的特殊调节方式</li>
+<li>道德是一种实践精神</li>
+</ul>
+<p>道德的功能与作用</p>
+<ul>
+<li>认识功能：<blockquote>
+<p>是指道德反映社会经济关系的功能与效力</p>
+</blockquote>
+</li>
+<li>规范功能:<blockquote>
+<p>规范社会成员的行为，引导人们崇德向善</p>
+</blockquote>
+</li>
+<li>调节功能：<blockquote>
+<p>通过评价等方式指导和纠正人们行为和实践活动，协调社会关系与人际关系</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="革命道德的主要内容"><a href="#革命道德的主要内容" class="headerlink" title="革命道德的主要内容"></a>革命道德的主要内容</h4><ul>
+<li>为实现社会主义和共产主义理想而奋斗</li>
+<li>全心全意为人民服务</li>
+<li>始终把革命利益放在首位</li>
+<li>树立社会新风，建立新型人际关系</li>
+<li>修身自律，保持节操</li>
+</ul>
+<h2 id="家庭家教家风（多选）"><a href="#家庭家教家风（多选）" class="headerlink" title="家庭家教家风（多选）"></a>家庭家教家风（多选）</h2><ul>
+<li>家庭是社会的基本细胞，是人生的第一所学校</li>
+<li>注重家庭。千家万户都好，国家才会好</li>
+<li>注重家教。最重要的是品德教育，如何做人的教育</li>
+<li>注重家风。家风是社会风气的重要组成部分。</li>
+</ul>
+<h2 id="道德的作用："><a href="#道德的作用：" class="headerlink" title="道德的作用："></a>道德的作用：</h2><h2 id="社会公德，职业道德，家庭美德，个人品德的基本要求"><a href="#社会公德，职业道德，家庭美德，个人品德的基本要求" class="headerlink" title="社会公德，职业道德，家庭美德，个人品德的基本要求"></a>社会公德，职业道德，家庭美德，个人品德的基本要求</h2><h3 id="法律的含义"><a href="#法律的含义" class="headerlink" title="法律的含义"></a>法律的含义</h3><ul>
+<li>由国家创制和实施的行为规范</li>
+<li>由一定的社会物质生活条件所决定</li>
+<li>是统治阶级利益的体现</li>
+</ul>
+<h2 id="我国社会主义法律的运行"><a href="#我国社会主义法律的运行" class="headerlink" title="我国社会主义法律的运行"></a>我国社会主义法律的运行</h2><ul>
+<li>创制、实施、实现</li>
+<li>法律制定：是 。。。</li>
+<li>法律执行：<blockquote>
+<p>广义上，是国家机关及其公职人员，在公共事务管理依照法定职权和程序，贯彻实施法律的过程</p>
+</blockquote>
+</li>
+<li>法律适用：<blockquote>
+<p>处理案件</p>
+</blockquote>
+</li>
+<li>法律遵守：<blockquote>
+<p>国家、社会、公民按法律规定行使权力或权利以履行职责或义务。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="习近平十一个坚持"><a href="#习近平十一个坚持" class="headerlink" title="习近平十一个坚持"></a>习近平十一个坚持</h3><ul>
+<li>第一层：国家性质</li>
+<li>第二层：社会主义本质</li>
+<li>第三层：整体运行环节</li>
+</ul>
+<h2 id="习近平法治思想核心要义的理解"><a href="#习近平法治思想核心要义的理解" class="headerlink" title="习近平法治思想核心要义的理解"></a>习近平法治思想核心要义的理解</h2><h2 id="如何依法行使权力履行义务以提升法律素养"><a href="#如何依法行使权力履行义务以提升法律素养" class="headerlink" title="如何依法行使权力履行义务以提升法律素养"></a>如何依法行使权力履行义务以提升法律素养</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>some rules on blogging</title>
+    <url>/2026/01/20/rules/</url>
+    <content><![CDATA[<ul>
+<li>Use English if possible:<blockquote>
+<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
+</blockquote>
+</li>
+<li>Name files simply, with dates to avoid conflict names.</li>
+<li>Try to correct or quote old blogposts and form a “索引机制” for your brain.</li>
+<li>Imagine the audience is not yourself, but others that know nothing about the topic. Try to teach, and express, not to recite.</li>
+</ul>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>guide</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算物理</title>
+    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
+    <content><![CDATA[<p>所以，现在可以输入中文了。
+后天计算物理考试。考前课件：</p>
+<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
+行指针的定义方式：</p>
+<blockquote>
+<p>int (* prt)[2];</p>
+</blockquote>
+<p>然后，可以对行指针赋值：</p>
+<blockquote>
+<p>prt &#x3D; a;</p>
+</blockquote>
+<p>为什么？因为a 就是一个指针，而且是行的指针。
+指针的数组是这样定义的：</p>
+<blockquote>
+<p>int *p[3];</p>
+</blockquote>
+<p>但是不能写：</p>
+<blockquote>
+<p>p &#x3D; a;</p>
+</blockquote>
+<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
+<p>待复习的内容：</p>
+<ul>
+<li>高阶张量的缩并和表示</li>
+<li>基础知识（往年试题举一反三）</li>
+</ul>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+</search>
