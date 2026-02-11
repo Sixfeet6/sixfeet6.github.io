@@ -343,6 +343,78 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
+    <title>Jan-26 微分方程</title>
+    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>notebook-88</p>
+</blockquote>
+<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
+<li>微分方程的定义<ul>
+<li>线性微分方程</li>
+</ul>
+</li>
+<li>微分方程的特解（含N个独立常数）和通解<blockquote>
+<p>确定常数需要初始条件</p>
+</blockquote>
+</li>
+<li>解法<ol>
+<li>分离变量</li>
+<li>齐次化分离变量</li>
+<li>准其次化齐次分离变量</li>
+<li>线性方程利用指数函数</li>
+<li>伯努力函数化成指数函数</li>
+</ol>
+</li>
+</ul>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
+$$ 
+x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
+$$</p>
+<p>2,
+$$
+(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
+$$</p>
+<p>3,
+$$ 
+y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
+$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>特征值和特征向量</title>
+    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
+线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
+<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
+<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
+这是因为行列式的多线性。</p>
+<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
+<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
+$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
+，把线性组合同乘
+$ \lambda_{1} $或
+$ \lambda_2 $
+，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>毛泽东－党内错误思想</title>
     <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
     <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
@@ -380,31 +452,6 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </categories>
       <tags>
         <tag>Critical thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>特征值和特征向量</title>
-    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
-    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
-线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
-<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
-<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
-这是因为行列式的多线性。</p>
-<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
-<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
-$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
-，把线性组合同乘
-$ \lambda_{1} $或
-$ \lambda_2 $
-，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -528,20 +575,6 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
-    <title>实验报告阅读</title>
-    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<blockquote>
-<p>找一篇CUPT报告，读懂。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>research</category>
-      </categories>
-      <tags>
-        <tag>physics</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>力学难题</title>
     <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
     <content><![CDATA[<blockquote>
@@ -557,6 +590,20 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       <tags>
         <tag>Notes</tag>
         <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>实验报告阅读</title>
+    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>找一篇CUPT报告，读懂。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>research</category>
+      </categories>
+      <tags>
+        <tag>physics</tag>
       </tags>
   </entry>
   <entry>
@@ -770,6 +817,151 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
       </tags>
   </entry>
   <entry>
+    <title>浑噩之后</title>
+    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
+    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
+<p>可是，清醒了又有什么用呢？我悲观的想。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>computer</title>
+    <url>/2026/02/05/computer/</url>
+    <content><![CDATA[<p>###准备</p>
+<ol>
+<li>qq mail; 163 mail; gmail</li>
+<li>v2ray</li>
+<li>bitget wallet</li>
+<li>wsl &amp; ssh</li>
+<li>教程</li>
+</ol>
+<p>##oracle</p>
+<ol>
+<li>unblock the card</li>
+<li>apply</li>
+<li>verify</li>
+</ol>
+<p>##aliyun</p>
+<ol>
+<li>login</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+<p>##GCP</p>
+<ol>
+<li>switch to the british node</li>
+<li>pay the bill</li>
+<li>delete the old instance</li>
+<li>create a new instance</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title>new</title>
+    <url>/2026/02/11/new/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>老家日记</title>
+    <url>/2026/02/12/%E8%80%81%E5%AE%B6%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>假期过去一半了，工作做了一点点。
+为什么？我不止一遍问过，每次想，都能想出不同的答案。这次的答案，能不能搞点花样出来？</p>
+<p>其实开始从来都不难，技术上讲。</p>
+<p>我可能会命令我自己：明天早上如何如何，中午如何如何，晚上如何如何，但是今天的话，永远不可能为明天负责。</p>
+<p>难道这仅仅是嘴上说说？</p>
+<ul>
+<li>八点起床</li>
+<li>九点吃完饭，开始学习<ul>
+<li>学电磁学</li>
+<li>学高数</li>
+<li>学热学</li>
+</ul>
+</li>
+<li>十一点半开始课外拓展<ul>
+<li>毛选</li>
+<li>涵涵英语</li>
+</ul>
+</li>
+<li>（音乐）开始做饭</li>
+<li>一点半吃完饭准备午休</li>
+<li>两点开始课外拓展<ul>
+<li>英语</li>
+<li>Python神经网络</li>
+</ul>
+</li>
+<li>（音乐）始锻炼身体<ul>
+<li>上肢：俯卧撑，20*3</li>
+<li>下肢：跳台阶，两腿各五层楼*3</li>
+<li>核心：俄罗斯转体（手握两千克负重），两侧各30*3</li>
+</ul>
+</li>
+<li>四点半开始攻克难点<ul>
+<li>高数的竞赛题</li>
+<li>物理学难题集萃（力学）</li>
+</ul>
+</li>
+<li>（音乐）六点开始做饭</li>
+<li>七点吃完准备学习<ul>
+<li>光学</li>
+</ul>
+</li>
+<li>（音乐）八点开始复盘反思（博客）</li>
+<li>九点半开始娱乐放松<ul>
+<li>看《狂飙》一到两集</li>
+<li>看《生活大爆炸》一到两集</li>
+<li>或：看一部电影（highly recommended）</li>
+</ul>
+</li>
+</ul>
+<p>明天：</p>
+<p>早上，闹钟震响，我脑袋沉重，还不清醒，磨磨蹭蹭起床已经九点了。</p>
+<p>吃完饭，看着窗外美好的阳光，我心想：良辰美景总相衬，放纵一下又何妨？
+我可谓是发扬了阿德勒的活在当下的人生态度，管他的计划，管他的萃英，管他的物理！我只要我的欢愉，不要寰宇。</p>
+<p>这两者可谓是我的两大敌人。高启强说，试着把敌人想象成朋友。他的意思是：别人对我心怀恶意，处处惹事，我却以朋友待之。我早上睡懒觉，白天偷懒玩，戕害了我的前途。
+但是，我不内耗，不纠结，不对抗。
+我劝阻，和解，合作。</p>
+<p>想玩？晚上。
+想睡懒觉？ 睡就睡吧，怪我没有早睡觉，以后早睡早起。</p>
+<p>但是，怕就怕在我直接丧失掉理智，那样，你便是活在本能中了，而不是活在当下。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>English test</title>
+    <url>/2026/01/18/English-test/</url>
+    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
+<p>Characcteristics of science</p>
+<p>Science, in our common everyday sense of the world,
+is a human activity characterized by three things.</p>
+<p>First, science is practiced by special people with a
+specific view of the world. Scientists try to be objective,
+unsentimental and unemotional. They do not let their feelings
+get in the way of their observation of real things, facts
+, as they call them. They often work in laboratories or
+in other areas where they can carefuly control what they
+are working on.</p>
+<hr>
+<p>Are you a scientist? <strong>Not yet.</strong></p>
+<p>Do you want to be? <strong>YES</strong></p>
+<p>Why?</p>
+<blockquote>
+<blockquote>
+<p>Human intuition doesn’t need explaination!</p>
+</blockquote>
+</blockquote>
+<p>fine, go for it.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>A fresh start</title>
     <url>/2026/02/02/A-fresh-start/</url>
     <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>This is bullshit.
@@ -899,94 +1091,6 @@ Just remember these details:</p>
         <tag>New start</tag>
         <tag>Up</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>浑噩之后</title>
-    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
-    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
-<p>可是，清醒了又有什么用呢？我悲观的想。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Jan-26 微分方程</title>
-    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>notebook-88</p>
-</blockquote>
-<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
-<li>微分方程的定义<ul>
-<li>线性微分方程</li>
-</ul>
-</li>
-<li>微分方程的特解（含N个独立常数）和通解<blockquote>
-<p>确定常数需要初始条件</p>
-</blockquote>
-</li>
-<li>解法<ol>
-<li>分离变量</li>
-<li>齐次化分离变量</li>
-<li>准其次化齐次分离变量</li>
-<li>线性方程利用指数函数</li>
-<li>伯努力函数化成指数函数</li>
-</ol>
-</li>
-</ul>
-<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
-$$ 
-x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
-$$</p>
-<p>2,
-$$
-(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
-$$</p>
-<p>3,
-$$ 
-y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
-$$</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>computer</title>
-    <url>/2026/02/05/computer/</url>
-    <content><![CDATA[<p>###准备</p>
-<ol>
-<li>qq mail; 163 mail; gmail</li>
-<li>v2ray</li>
-<li>bitget wallet</li>
-<li>wsl &amp; ssh</li>
-<li>教程</li>
-</ol>
-<p>##oracle</p>
-<ol>
-<li>unblock the card</li>
-<li>apply</li>
-<li>verify</li>
-</ol>
-<p>##aliyun</p>
-<ol>
-<li>login</li>
-<li>start set-up</li>
-<li>test</li>
-</ol>
-<p>##GCP</p>
-<ol>
-<li>switch to the british node</li>
-<li>pay the bill</li>
-<li>delete the old instance</li>
-<li>create a new instance</li>
-<li>start set-up</li>
-<li>test</li>
-</ol>
-]]></content>
   </entry>
   <entry>
     <title>CSreview</title>
@@ -1211,55 +1315,6 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>English test</title>
-    <url>/2026/01/18/English-test/</url>
-    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
-<p>Characcteristics of science</p>
-<p>Science, in our common everyday sense of the world,
-is a human activity characterized by three things.</p>
-<p>First, science is practiced by special people with a
-specific view of the world. Scientists try to be objective,
-unsentimental and unemotional. They do not let their feelings
-get in the way of their observation of real things, facts
-, as they call them. They often work in laboratories or
-in other areas where they can carefuly control what they
-are working on.</p>
-<hr>
-<p>Are you a scientist? <strong>Not yet.</strong></p>
-<p>Do you want to be? <strong>YES</strong></p>
-<p>Why?</p>
-<blockquote>
-<blockquote>
-<p>Human intuition doesn’t need explaination!</p>
-</blockquote>
-</blockquote>
-<p>fine, go for it.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>others</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>秩</title>
-    <url>/2026/01/28/%E7%A7%A9/</url>
-    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>calculusReview</title>
     <url>/2026/01/19/calculusReview/</url>
     <content><![CDATA[<p>calculate the length of curve
@@ -1279,6 +1334,20 @@ y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
         <tag>Notes</tag>
         <tag>P</tag>
         <tag>tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
