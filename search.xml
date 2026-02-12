@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
+        <tag>Lose</tag>
+        <tag>Sad</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>calculusReview</title>
     <url>/2026/01/20/calculusReview/</url>
     <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
@@ -154,55 +203,6 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
-    <title>calculusFinalExam</title>
-    <url>/2026/01/21/calculusFinalExam/</url>
-    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
-<ul>
-<li><strong>I mismanaged the answering area.</strong></li>
-<li><strong>I fell into a fixed mindset.</strong></li>
-</ul>
-<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
-<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
-<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
-<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
-<p>Let</p>
-<p>$$
-f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
-$$</p>
-<p>Calculate:</p>
-<p>$$
-\int_{0}^{1} f(x) \, dx
-$$</p>
-<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
-<ol>
-<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
-<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
-</ol>
-<p>As it turns out, the correct solution was a combination of these two ideas! </p>
-<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
-<blockquote>
-<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
-</blockquote>
-<blockquote>
-<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
-</blockquote>
-<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
-<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
-<hr>
-<p>Bye, my friend.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>reflects</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>Exam</tag>
-        <tag>Lose</tag>
-        <tag>Sad</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Am I the same as my peers?</title>
     <url>/2026/01/24/Encrypted/</url>
     <content><![CDATA[<h2 id="为什么执迷不悟"><a href="#为什么执迷不悟" class="headerlink" title="为什么执迷不悟"></a>为什么执迷不悟</h2><p>对于那些不学无术，游手好闲，甚至有些低级趣味的同龄人，
@@ -239,6 +239,19 @@ $$</p>
       </tags>
   </entry>
   <entry>
+    <title>Python神经网络编程</title>
+    <url>/2026/01/26/Python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="the-understanding-of-the-simplified-neural-network"><a href="#the-understanding-of-the-simplified-neural-network" class="headerlink" title="the understanding of the simplified neural network"></a>the understanding of the simplified neural network</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>AI</category>
+        <category>《Python神经网络编程》</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>winter vacation everyday plans</title>
     <url>/2026/01/26/everydayPlan/</url>
     <content><![CDATA[<h3 id="contents"><a href="#contents" class="headerlink" title="contents:"></a>contents:</h3>
@@ -257,106 +270,6 @@ $$</p>
       </categories>
       <tags>
         <tag>Vacation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python神经网络编程</title>
-    <url>/2026/01/26/Python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="the-understanding-of-the-simplified-neural-network"><a href="#the-understanding-of-the-simplified-neural-network" class="headerlink" title="the understanding of the simplified neural network"></a>the understanding of the simplified neural network</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>AI</category>
-        <category>《Python神经网络编程》</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jan-26 微分方程</title>
-    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>notebook-88</p>
-</blockquote>
-<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
-<li>微分方程的定义<ul>
-<li>线性微分方程</li>
-</ul>
-</li>
-<li>微分方程的特解（含N个独立常数）和通解<blockquote>
-<p>确定常数需要初始条件</p>
-</blockquote>
-</li>
-<li>解法<ol>
-<li>分离变量</li>
-<li>齐次化分离变量</li>
-<li>准其次化齐次分离变量</li>
-<li>线性方程利用指数函数</li>
-<li>伯努力函数化成指数函数</li>
-</ol>
-</li>
-</ul>
-<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
-$$ 
-x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
-$$</p>
-<p>2,
-$$
-(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
-$$</p>
-<p>3,
-$$ 
-y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
-$$</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>毛泽东－党内错误思想</title>
-    <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
-    <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
-<ul>
-<li>党内错误思想的表现</li>
-<li>党内错误思想的来源</li>
-<li>党内错误思想的纠正方法</li>
-</ul>
-<h3 id="单纯军事观点"><a href="#单纯军事观点" class="headerlink" title="单纯军事观点"></a>单纯军事观点</h3><p>军事是实现政治目的的手段，而且在某些情况下，也是前提。
-但是，军事不是革命的全部。如果只会打仗就能搞好革命，那么就回到了军阀混战的时期。
-所以，军事和政治，不是对立的，而是统一的。
-错误思想的表现之一就是认为军事好，政治才会好，甚至认为军事领导政治，这是错误的。
-其二，单纯军事观点似乎认为军事就是为了打仗的。
-红军是一个执行革命政治任务的武装集团，特别是当前时期，军队更承担着宣传的作用。军队是用来打仗的，打仗的目的是赢得革命，赢得革命就需要群众的支持。离了宣传群众，组织群众，武装群众，并帮助群众建立武装政权的目标，军队就没有意义。</p>
-<p>第三，有人提出“司令部对外”的口号。这种思想发展下去，就会形成以军队控制政权的危险，就像国民党走向军阀路线一样。</p>
-<p>第四，一切以四军为本位，不知道武装群众。这是放大了的小团体主义。
-少数同志认为四军是唯一的希望，忽略了其他的武装力量，希望保存实力，避免斗争，这是机会主义。</p>
-<h3 id="这种观点的来源"><a href="#这种观点的来源" class="headerlink" title="这种观点的来源"></a>这种观点的来源</h3><p>第一，政治水平低。政治水平低，所以认识不到军队中政治领导的作用。
-第二，雇佣军队的思想。战俘兵甚多，这就造成了此思想的下层基础。
-第三，由于下层基础的存在和政治水平的低下，导致过分相信军队的力量，而不相信人民的力量。</p>
-<h3 id="纠正的方法"><a href="#纠正的方法" class="headerlink" title="纠正的方法"></a>纠正的方法</h3><p>第一，从教育上提高党的政治水平。
-要让党员认识到红军和白军的区别。肃清机会主义和盲动主义的残余，打破四军本位主义机。</p>
-<p>第二，加紧对官兵尤其是战俘的政治训练。同时从地方吸纳有经验的工农分子，削弱单纯军事的来源。
-第三，发起批评工作，第四，加强党对军事工作的讨论。第五，编制红军法规，明确红军任务和红军与人民的关系。</p>
-<h2 id="分析方法"><a href="#分析方法" class="headerlink" title="分析方法"></a>分析方法</h2><ol>
-<li>定义偏差：找出当前系统中的错误表现</li>
-<li>追根溯源：区分主观原因（认知水平）和客观原因（人员构成和历史背景）</li>
-<li>辩证统一：思考 <strong>手段</strong> （如：技术，效率，执行）与 <strong>目的</strong> （愿景、价值、根本目标）是否脱节。</li>
-<li>系统反馈：建立一种机制（教育、制度、批评），让系统在偏离轨道时能自动报警并拉回。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>reading</category>
-        <category>社科</category>
-      </categories>
-      <tags>
-        <tag>Critical thinking</tag>
       </tags>
   </entry>
   <entry>
@@ -413,6 +326,121 @@ $$</p>
       <tags>
         <tag>Vacation</tag>
         <tag>Diary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三道关于刚体的动力学难题</title>
+    <url>/2026/01/26/%E4%B8%89%E9%81%93%E5%85%B3%E4%BA%8E%E5%88%9A%E4%BD%93%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="例题-与-解法"><a href="#例题-与-解法" class="headerlink" title="例题 与 解法"></a>例题 与 解法</h2><h2 id="theories-behind-them"><a href="#theories-behind-them" class="headerlink" title="theories behind them"></a>theories behind them</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>毛泽东－党内错误思想</title>
+    <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
+    <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
+<ul>
+<li>党内错误思想的表现</li>
+<li>党内错误思想的来源</li>
+<li>党内错误思想的纠正方法</li>
+</ul>
+<h3 id="单纯军事观点"><a href="#单纯军事观点" class="headerlink" title="单纯军事观点"></a>单纯军事观点</h3><p>军事是实现政治目的的手段，而且在某些情况下，也是前提。
+但是，军事不是革命的全部。如果只会打仗就能搞好革命，那么就回到了军阀混战的时期。
+所以，军事和政治，不是对立的，而是统一的。
+错误思想的表现之一就是认为军事好，政治才会好，甚至认为军事领导政治，这是错误的。
+其二，单纯军事观点似乎认为军事就是为了打仗的。
+红军是一个执行革命政治任务的武装集团，特别是当前时期，军队更承担着宣传的作用。军队是用来打仗的，打仗的目的是赢得革命，赢得革命就需要群众的支持。离了宣传群众，组织群众，武装群众，并帮助群众建立武装政权的目标，军队就没有意义。</p>
+<p>第三，有人提出“司令部对外”的口号。这种思想发展下去，就会形成以军队控制政权的危险，就像国民党走向军阀路线一样。</p>
+<p>第四，一切以四军为本位，不知道武装群众。这是放大了的小团体主义。
+少数同志认为四军是唯一的希望，忽略了其他的武装力量，希望保存实力，避免斗争，这是机会主义。</p>
+<h3 id="这种观点的来源"><a href="#这种观点的来源" class="headerlink" title="这种观点的来源"></a>这种观点的来源</h3><p>第一，政治水平低。政治水平低，所以认识不到军队中政治领导的作用。
+第二，雇佣军队的思想。战俘兵甚多，这就造成了此思想的下层基础。
+第三，由于下层基础的存在和政治水平的低下，导致过分相信军队的力量，而不相信人民的力量。</p>
+<h3 id="纠正的方法"><a href="#纠正的方法" class="headerlink" title="纠正的方法"></a>纠正的方法</h3><p>第一，从教育上提高党的政治水平。
+要让党员认识到红军和白军的区别。肃清机会主义和盲动主义的残余，打破四军本位主义机。</p>
+<p>第二，加紧对官兵尤其是战俘的政治训练。同时从地方吸纳有经验的工农分子，削弱单纯军事的来源。
+第三，发起批评工作，第四，加强党对军事工作的讨论。第五，编制红军法规，明确红军任务和红军与人民的关系。</p>
+<h2 id="分析方法"><a href="#分析方法" class="headerlink" title="分析方法"></a>分析方法</h2><ol>
+<li>定义偏差：找出当前系统中的错误表现</li>
+<li>追根溯源：区分主观原因（认知水平）和客观原因（人员构成和历史背景）</li>
+<li>辩证统一：思考 <strong>手段</strong> （如：技术，效率，执行）与 <strong>目的</strong> （愿景、价值、根本目标）是否脱节。</li>
+<li>系统反馈：建立一种机制（教育、制度、批评），让系统在偏离轨道时能自动报警并拉回。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>reading</category>
+        <category>社科</category>
+      </categories>
+      <tags>
+        <tag>Critical thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Jan-26 微分方程</title>
+    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>notebook-88</p>
+</blockquote>
+<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
+<li>微分方程的定义<ul>
+<li>线性微分方程</li>
+</ul>
+</li>
+<li>微分方程的特解（含N个独立常数）和通解<blockquote>
+<p>确定常数需要初始条件</p>
+</blockquote>
+</li>
+<li>解法<ol>
+<li>分离变量</li>
+<li>齐次化分离变量</li>
+<li>准其次化齐次分离变量</li>
+<li>线性方程利用指数函数</li>
+<li>伯努力函数化成指数函数</li>
+</ol>
+</li>
+</ul>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
+$$ 
+x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
+$$</p>
+<p>2,
+$$
+(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
+$$</p>
+<p>3,
+$$ 
+y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
+$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高斯定理－课本讲解和例题</title>
+    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -515,52 +543,6 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
-    <title>力学难题</title>
-    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
-    <content><![CDATA[<blockquote>
-<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>mechanics</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>P</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高斯定理－课本讲解和例题</title>
-    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>electromagnetism</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三道关于刚体的动力学难题</title>
-    <url>/2026/01/26/%E4%B8%89%E9%81%93%E5%85%B3%E4%BA%8E%E5%88%9A%E4%BD%93%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="例题-与-解法"><a href="#例题-与-解法" class="headerlink" title="例题 与 解法"></a>例题 与 解法</h2><h2 id="theories-behind-them"><a href="#theories-behind-them" class="headerlink" title="theories behind them"></a>theories behind them</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>mechanics</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中国红色政权为何能够存在？</title>
     <url>/2026/01/27/%E4%B8%AD%E5%9B%BD%E7%BA%A2%E8%89%B2%E6%94%BF%E6%9D%83%E4%B8%BA%E4%BD%95%E8%83%BD%E5%A4%9F%E5%AD%98%E5%9C%A8%EF%BC%9F/</url>
     <content><![CDATA[<h2 id="信息概括"><a href="#信息概括" class="headerlink" title="信息概括"></a>信息概括</h2><blockquote>
@@ -593,6 +575,24 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
+    <title>力学难题</title>
+    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>实验报告阅读</title>
     <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
     <content><![CDATA[<blockquote>
@@ -604,49 +604,6 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </categories>
       <tags>
         <tag>physics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
-    <url>/2026/01/28/SM/</url>
-    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
-那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
-<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
-<p>这让我更加确信：<strong>不做就不要想</strong>。
-你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
-<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
-<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
-尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
-<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
-<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
-如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
-<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
-<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
-<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
-行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
-<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
-.</p>
-<p>when you tease me, make me shy.
-你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
-你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
-这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
-如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
-<p>when you abuse me, make me fear you.</p>
-<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
-。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
-<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
-让我销魂让我激动的结巴你可以问：舒服吗？
-你更可以重重鞭笞我之后突然温柔的抚摸我。
-温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
-​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
-​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
-]]></content>
-      <categories>
-        <category>life</category>
-        <category>guide</category>
-      </categories>
-      <tags>
-        <tag>Self-discipline</tag>
       </tags>
   </entry>
   <entry>
@@ -723,11 +680,132 @@ $$</p>
       </categories>
   </entry>
   <entry>
-    <title>浑噩之后</title>
-    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
-    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
-<p>可是，清醒了又有什么用呢？我悲观的想。</p>
+    <title>高阶微分方程</title>
+    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
 ]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
+    <url>/2026/01/28/SM/</url>
+    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
+那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
+<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
+<p>这让我更加确信：<strong>不做就不要想</strong>。
+你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
+<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
+<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
+尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
+<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
+<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
+如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
+<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
+<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
+<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
+行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
+<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
+.</p>
+<p>when you tease me, make me shy.
+你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
+你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
+这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
+如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
+<p>when you abuse me, make me fear you.</p>
+<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
+。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
+<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
+让我销魂让我激动的结巴你可以问：舒服吗？
+你更可以重重鞭笞我之后突然温柔的抚摸我。
+温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
+​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
+​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>guide</category>
+      </categories>
+      <tags>
+        <tag>Self-discipline</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语单词</title>
+    <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
+    <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
+<h2 id="my-translation"><a href="#my-translation" class="headerlink" title="my translation"></a>my translation</h2><p>In our career path, we must primarily enconter all kinds of invisible setbacks.
+Sometimes, people might spread goddip out of spite.
+Then we have to learn to restrain our emotions and adapt to new situations quickly.
+A good team should accomodate different opinions,
+and embrace multiple viewpoints. Being able to focus on the target and keep calm under presure, has become a luxury for modern office people.</p>
+<h2 id="correction"><a href="#correction" class="headerlink" title="correction"></a>correction</h2><p>​In our professional careers, we primarily face various unforeseen setbacks. Sometimes, individuals might spread gossip out of spite; in such moments, we must learn to restrain our emotions and quickly adapt to new situations. An excellent team should be able to accommodate different opinions and embrace diverse viewpoints. Remaining calm and focusing on goals under pressure has become a rare luxury for modern professionals.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Translation</tag>
+      </tags>
   </entry>
   <entry>
     <title>You are still too young.</title>
@@ -753,25 +831,11 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>英语单词</title>
-    <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
-    <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
-<h2 id="my-translation"><a href="#my-translation" class="headerlink" title="my translation"></a>my translation</h2><p>In our career path, we must primarily enconter all kinds of invisible setbacks.
-Sometimes, people might spread goddip out of spite.
-Then we have to learn to restrain our emotions and adapt to new situations quickly.
-A good team should accomodate different opinions,
-and embrace multiple viewpoints. Being able to focus on the target and keep calm under presure, has become a luxury for modern office people.</p>
-<h2 id="correction"><a href="#correction" class="headerlink" title="correction"></a>correction</h2><p>​In our professional careers, we primarily face various unforeseen setbacks. Sometimes, individuals might spread gossip out of spite; in such moments, we must learn to restrain our emotions and quickly adapt to new situations. An excellent team should be able to accommodate different opinions and embrace diverse viewpoints. Remaining calm and focusing on goals under pressure has become a rare luxury for modern professionals.</p>
+    <title>浑噩之后</title>
+    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
+    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
+<p>可是，清醒了又有什么用呢？我悲观的想。</p>
 ]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Translation</tag>
-      </tags>
   </entry>
   <entry>
     <title>A fresh start</title>
@@ -905,6 +969,40 @@ Just remember these details:</p>
       </tags>
   </entry>
   <entry>
+    <title>computer</title>
+    <url>/2026/02/05/computer/</url>
+    <content><![CDATA[<p>###准备</p>
+<ol>
+<li>qq mail; 163 mail; gmail</li>
+<li>v2ray</li>
+<li>bitget wallet</li>
+<li>wsl &amp; ssh</li>
+<li>教程</li>
+</ol>
+<p>##oracle</p>
+<ol>
+<li>unblock the card</li>
+<li>apply</li>
+<li>verify</li>
+</ol>
+<p>##aliyun</p>
+<ol>
+<li>login</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+<p>##GCP</p>
+<ol>
+<li>switch to the british node</li>
+<li>pay the bill</li>
+<li>delete the old instance</li>
+<li>create a new instance</li>
+<li>start set-up</li>
+<li>test</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>老家日记</title>
     <url>/2026/02/12/%E8%80%81%E5%AE%B6%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="手机不要拿起来"><a href="#手机不要拿起来" class="headerlink" title="手机不要拿起来"></a>手机不要拿起来</h1><blockquote>
@@ -969,56 +1067,11 @@ Just remember these details:</p>
 <p>想玩？晚上。
 想睡懒觉？ 睡就睡吧，怪我没有早睡觉，以后早睡早起。</p>
 <p>但是，怕就怕在我直接丧失掉理智，那样，你便是活在本能中了，而不是活在当下。</p>
+<h2 id="实际体验"><a href="#实际体验" class="headerlink" title="实际体验"></a>实际体验</h2><p>起床，身体没有知觉，软绵绵的，用胳膊撑着起床，下一秒就倒回床上去了。</p>
+<p>吃完饭，好奇心开始作祟，蛊惑我看《狂飙》。我能抑制住好奇写这一段就实属不易了。</p>
+<p>好奇啥？人物无非好人坏人，高二人毫无魅力可言。好人呢？安同志挺搞笑的倒是。</p>
+<p>Oh, dear, you can’t wait, can you? But if you have to have a look at whatever you are curious about, why not physics?</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>English test</title>
-    <url>/2026/01/18/English-test/</url>
-    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
-<p>Characcteristics of science</p>
-<p>Science, in our common everyday sense of the world,
-is a human activity characterized by three things.</p>
-<p>First, science is practiced by special people with a
-specific view of the world. Scientists try to be objective,
-unsentimental and unemotional. They do not let their feelings
-get in the way of their observation of real things, facts
-, as they call them. They often work in laboratories or
-in other areas where they can carefuly control what they
-are working on.</p>
-<hr>
-<p>Are you a scientist? <strong>Not yet.</strong></p>
-<p>Do you want to be? <strong>YES</strong></p>
-<p>Why?</p>
-<blockquote>
-<blockquote>
-<p>Human intuition doesn’t need explaination!</p>
-</blockquote>
-</blockquote>
-<p>fine, go for it.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>others</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>秩</title>
-    <url>/2026/01/28/%E7%A7%A9/</url>
-    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
   </entry>
   <entry>
     <title>CSreview</title>
@@ -1243,6 +1296,41 @@ are working on.</p>
       </tags>
   </entry>
   <entry>
+    <title>English test</title>
+    <url>/2026/01/18/English-test/</url>
+    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
+<p>Characcteristics of science</p>
+<p>Science, in our common everyday sense of the world,
+is a human activity characterized by three things.</p>
+<p>First, science is practiced by special people with a
+specific view of the world. Scientists try to be objective,
+unsentimental and unemotional. They do not let their feelings
+get in the way of their observation of real things, facts
+, as they call them. They often work in laboratories or
+in other areas where they can carefuly control what they
+are working on.</p>
+<hr>
+<p>Are you a scientist? <strong>Not yet.</strong></p>
+<p>Do you want to be? <strong>YES</strong></p>
+<p>Why?</p>
+<blockquote>
+<blockquote>
+<p>Human intuition doesn’t need explaination!</p>
+</blockquote>
+</blockquote>
+<p>fine, go for it.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>calculusReview</title>
     <url>/2026/01/19/calculusReview/</url>
     <content><![CDATA[<p>calculate the length of curve
@@ -1265,90 +1353,6 @@ y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
       </tags>
   </entry>
   <entry>
-    <title>computer</title>
-    <url>/2026/02/05/computer/</url>
-    <content><![CDATA[<p>###准备</p>
-<ol>
-<li>qq mail; 163 mail; gmail</li>
-<li>v2ray</li>
-<li>bitget wallet</li>
-<li>wsl &amp; ssh</li>
-<li>教程</li>
-</ol>
-<p>##oracle</p>
-<ol>
-<li>unblock the card</li>
-<li>apply</li>
-<li>verify</li>
-</ol>
-<p>##aliyun</p>
-<ol>
-<li>login</li>
-<li>start set-up</li>
-<li>test</li>
-</ol>
-<p>##GCP</p>
-<ol>
-<li>switch to the british node</li>
-<li>pay the bill</li>
-<li>delete the old instance</li>
-<li>create a new instance</li>
-<li>start set-up</li>
-<li>test</li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>高阶微分方程</title>
-    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
-y^{(n)} &#x3D; f(x)
-$$
-解法：一直积分即可</p>
-<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
-y’’ &#x3D; f(x,y’)
-$$
-解法：
-另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
-<p>求出一阶微分方程的解：
-$$
-y’ &#x3D; \phi(x,C)
-$$
-再求积分得y</p>
-<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
-y’’ &#x3D; f(y,y’)
-$$
-解：</p>
-<p>设y’ &#x3D; p
-。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
-. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
-<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
-$$
-y’’ + py’ + qy &#x3D; 0
-$$
-解法：</p>
-<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
-根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
-这么说是有道理的：
-特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
-<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
-带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
-<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
-<p>首先，把两个解相加，得到纯实数解。
-然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>K</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>some rules on blogging</title>
     <url>/2026/01/20/rules/</url>
     <content><![CDATA[<ul>
@@ -1367,38 +1371,6 @@ $$
       </categories>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大一上期末考试－第一、二天</title>
-    <url>/2026/01/19/%E5%A4%A7%E4%B8%80%E4%B8%8A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%8D%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%A4%A9/</url>
-    <content><![CDATA[<h2 id="Exam-1-3-over-now"><a href="#Exam-1-3-over-now" class="headerlink" title="Exam 1&#x2F;3 over now!"></a>Exam 1&#x2F;3 over now!</h2><p>Well, that’s nothing to celebrate, though.
-So keep calm and carry on! The vacation is about to start,
-but not yet. So, you should prepare for the rest of
-the subjucts. And you can use this blog to record what you’ve
-learnd.</p>
-<p>The two subjects were fine, generally. The English test was
-not difficult to me.(Although I’ve heard some negative comments, etiher)</p>
-<p>the reading comprehension consisted of four passages.</p>
-<ol>
-<li>faluire education</li>
-<li>forgotten</li>
-<li>turtles in danger</li>
-<li>Bush’s reform</li>
-</ol>
-<p>今天下午的政治也比较有戏剧性：
-上午对着课本疯狂打字，写了一篇200行长文，结果因为瞎鼓捣，hexo部署不上去 ，只能卑微的用micro看.md源文件。。。（后来发现是时区设置错误, what can I say?）
-It turned out that the test was not so difficult.</p>
-<hr>
-<p>只是希望接下来两天也不要太难就行</p>
-<p>I really hope that I’ve never said things like this.</p>
-]]></content>
-      <categories>
-        <category>life</category>
-        <category>reflects</category>
-      </categories>
-      <tags>
-        <tag>Exam</tag>
       </tags>
   </entry>
   <entry>
@@ -1435,6 +1407,38 @@ $ \frac {dL} {dt} &#x3D; M^{ext} - \sum m_i \,\vec {r_i^{‘}} \times \vec{a_A} 
         <tag>Notes</tag>
         <tag>Tests</tag>
         <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大一上期末考试－第一、二天</title>
+    <url>/2026/01/19/%E5%A4%A7%E4%B8%80%E4%B8%8A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%8D%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%A4%A9/</url>
+    <content><![CDATA[<h2 id="Exam-1-3-over-now"><a href="#Exam-1-3-over-now" class="headerlink" title="Exam 1&#x2F;3 over now!"></a>Exam 1&#x2F;3 over now!</h2><p>Well, that’s nothing to celebrate, though.
+So keep calm and carry on! The vacation is about to start,
+but not yet. So, you should prepare for the rest of
+the subjucts. And you can use this blog to record what you’ve
+learnd.</p>
+<p>The two subjects were fine, generally. The English test was
+not difficult to me.(Although I’ve heard some negative comments, etiher)</p>
+<p>the reading comprehension consisted of four passages.</p>
+<ol>
+<li>faluire education</li>
+<li>forgotten</li>
+<li>turtles in danger</li>
+<li>Bush’s reform</li>
+</ol>
+<p>今天下午的政治也比较有戏剧性：
+上午对着课本疯狂打字，写了一篇200行长文，结果因为瞎鼓捣，hexo部署不上去 ，只能卑微的用micro看.md源文件。。。（后来发现是时区设置错误, what can I say?）
+It turned out that the test was not so difficult.</p>
+<hr>
+<p>只是希望接下来两天也不要太难就行</p>
+<p>I really hope that I’ve never said things like this.</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
       </tags>
   </entry>
   <entry>
