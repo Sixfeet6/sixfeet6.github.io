@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
+        <tag>Lose</tag>
+        <tag>Sad</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>calculusReview</title>
     <url>/2026/01/20/calculusReview/</url>
     <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
@@ -64,55 +113,6 @@ $\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(
         <tag>Notes</tag>
         <tag>PK</tag>
         <tag>Tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>calculusFinalExam</title>
-    <url>/2026/01/21/calculusFinalExam/</url>
-    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
-<ul>
-<li><strong>I mismanaged the answering area.</strong></li>
-<li><strong>I fell into a fixed mindset.</strong></li>
-</ul>
-<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
-<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
-<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
-<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
-<p>Let</p>
-<p>$$
-f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
-$$</p>
-<p>Calculate:</p>
-<p>$$
-\int_{0}^{1} f(x) \, dx
-$$</p>
-<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
-<ol>
-<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
-<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
-</ol>
-<p>As it turns out, the correct solution was a combination of these two ideas! </p>
-<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
-<blockquote>
-<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
-</blockquote>
-<blockquote>
-<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
-</blockquote>
-<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
-<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
-<hr>
-<p>Bye, my friend.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>reflects</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>Exam</tag>
-        <tag>Lose</tag>
-        <tag>Sad</tag>
       </tags>
   </entry>
   <entry>
@@ -252,6 +252,27 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
+    <title>winter vacation everyday plans</title>
+    <url>/2026/01/26/everydayPlan/</url>
+    <content><![CDATA[<h3 id="contents"><a href="#contents" class="headerlink" title="contents:"></a>contents:</h3>
+
+	<div class="row">
+    <embed src="Notebook-85.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+<h3 id="arrangement"><a href="#arrangement" class="headerlink" title="arrangement"></a>arrangement</h3><img src="/2026/01/26/everydayPlan/Notebook-85_2.png" class="" title="时间安排">
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>plan</category>
+      </categories>
+      <tags>
+        <tag>Vacation</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一日反思</title>
     <url>/2026/01/26/reflects/</url>
     <content><![CDATA[<h2 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h2><p>放假后，在火车上（以及在家里），我做了一个翔实的假期计划，但是此计划到现在还没有开始执行。
@@ -303,8 +324,8 @@ Sometimes feelings are not enough, especially when you need to express yourself 
         <category>reflects</category>
       </categories>
       <tags>
-        <tag>Diary</tag>
         <tag>Vacation</tag>
+        <tag>Diary</tag>
       </tags>
   </entry>
   <entry>
@@ -409,24 +430,28 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>winter vacation everyday plans</title>
-    <url>/2026/01/26/everydayPlan/</url>
-    <content><![CDATA[<h3 id="contents"><a href="#contents" class="headerlink" title="contents:"></a>contents:</h3>
-
-	<div class="row">
-    <embed src="Notebook-85.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h3 id="arrangement"><a href="#arrangement" class="headerlink" title="arrangement"></a>arrangement</h3><img src="/2026/01/26/everydayPlan/Notebook-85_2.png" class="" title="时间安排">
+    <title>特征值和特征向量</title>
+    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
+线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
+<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
+<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
+这是因为行列式的多线性。</p>
+<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
+<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
+$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
+，把线性组合同乘
+$ \lambda_{1} $或
+$ \lambda_2 $
+，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
 ]]></content>
       <categories>
-        <category>life</category>
-        <category>plan</category>
+        <category>learning</category>
+        <category>notes</category>
+        <category>linear algebra</category>
       </categories>
       <tags>
-        <tag>Vacation</tag>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -486,6 +511,20 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
+    <title>高斯定理－课本讲解和例题</title>
+    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CMC</title>
     <url>/2026/01/27/CMC/</url>
     <content><![CDATA[<blockquote>
@@ -501,20 +540,6 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       <tags>
         <tag>Notes</tag>
         <tag>P</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高斯定理－课本讲解和例题</title>
-    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>electromagnetism</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -634,31 +659,6 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>特征值和特征向量</title>
-    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
-    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
-线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
-<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
-<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
-这是因为行列式的多线性。</p>
-<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
-<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
-$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
-，把线性组合同乘
-$ \lambda_{1} $或
-$ \lambda_2 $
-，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>训练日志</title>
     <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
@@ -680,46 +680,67 @@ $ \lambda_2 $
       </categories>
   </entry>
   <entry>
-    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
-    <url>/2026/01/28/SM/</url>
-    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
-那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
-<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
-<p>这让我更加确信：<strong>不做就不要想</strong>。
-你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
-<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
-<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
-尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
-<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
-<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
-如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
-<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
-<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
-<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
-行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
-<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
-.</p>
-<p>when you tease me, make me shy.
-你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
-你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
-这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
-如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
-<p>when you abuse me, make me fear you.</p>
-<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
-。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
-<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
-让我销魂让我激动的结巴你可以问：舒服吗？
-你更可以重重鞭笞我之后突然温柔的抚摸我。
-温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
-​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
-​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
+    <title>高阶微分方程</title>
+    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
 ]]></content>
       <categories>
-        <category>life</category>
-        <category>guide</category>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
       </categories>
       <tags>
-        <tag>Self-discipline</tag>
+        <tag>Notes</tag>
+        <tag>K</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -744,6 +765,29 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
       </tags>
   </entry>
   <entry>
+    <title>You are still too young.</title>
+    <url>/2026/01/29/young/</url>
+    <content><![CDATA[<h2 id="你还是没有长大"><a href="#你还是没有长大" class="headerlink" title="你还是没有长大"></a>你还是没有长大</h2><p>昨天，有三件事把我惹毛了。
+一是潘姚一鸣不搭理我，还给我打哑谜。我问他高数成绩，他拐来拐去，阴阳怪气。
+二是创新实验室纳新，我参加了宣讲，但是心情不悦，因为我们班那几个家伙领先一步，我又胆小如鼠，不敢报名。
+三是晚上被父亲训斥，我本来就是因为前两个原因心情低迷，所以躺在床上看手机，恰好被他看见，免不了心生不满。</p>
+<p>今天，又有几件事把我惹毛了。首先还是创新实验室的事，然后就是潘姚一鸣竟然在我昨天追问一晚上的情况下，今天告诉我考了100分，滑天下之大稽，还有就是我忙前忙后看了两天科研训练，宋翼二话没说当了组长，滑天下之大稽。</p>
+<p>孩子。你还是没有走出被害者思维。真正的强者不会抱怨，不会被动。他们争取主动，即使已经被动，也就是及时止损。</p>
+<p>上午遇到的诸多烦心事让我无心学习，下午直接去看了场电影《极限审判》，不得不说，还不错。
+但我想说的是，不能因为一点小事就啥也干不下去，该干啥干啥，仇老师说的没错，要稳当，有耐心。</p>
+<p>还记得吗？“滑天下之大稽”是《侯大利》中杨永福的话。那个家伙自命不凡，心胸狭小，心狠手辣。这句话恰好反映了他自身滑稽的一面。杨帆让他远离自己的生活不要多管闲事，他认为是“滑天下之大稽”，还说“老子喜欢她这么多年，管一管怎么了？”这时病态的贪婪和占有欲。</p>
+<p>所以，我只想说，前面那些“滑稽”的事，是一个警醒！</p>
+]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Upset</tag>
+        <tag>Betrayal</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>浑噩之后</title>
     <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
     <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
@@ -751,17 +795,134 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
 ]]></content>
   </entry>
   <entry>
-    <title>秩</title>
-    <url>/2026/01/28/%E7%A7%A9/</url>
-    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+    <title>A fresh start</title>
+    <url>/2026/02/02/A-fresh-start/</url>
+    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>This is bullshit.
+I’ve spent nearly two days wonderinghow i would be spending by 
+one and only vacation-since it’s gonna determin whether youo can get 
+admitted by the CuiYing academy, but ended up with doing things
+totaly irrelavent things from preparing for the entrance election.</p>
+<p>If we dive deep down to it, you’ll find out that all is about the <strong>habit</strong>.
+You failed, because you didn’t form a habit.(or you did but it didn’t continue.)
+And you can possiblly win, if and only if you form it again.</p>
+<p>So here’s my advice.</p>
+<p>the first thing you’ll do in tomorrow morning is waking up.
+I case that you’d sleep over, this time, I have a back up plan for the occasion
+that you didn’t wake up until 8.</p>
+<ul>
+<li>if you woke up at 7</li>
+</ul>
+<p>get up immediatly. YOu may regret to get up so early,
+but all you need to do is telling yourself that it’s normal in high school, isn’t it?</p>
+<p>Then you got up, go wash your face ‘cause that will fresh you up.
+Then you go cook for yourself. It may take you some time. Be pacient. YOu can listen to music while doing it.</p>
+<p>Anyway, you’ll finish your meal before 8(hopefully).</p>
+<ul>
+<li>if you woke up after 8</li>
+</ul>
+<p>Then there’s two possibilities:</p>
+<ol>
+<li>Dad’s cooked for you</li>
+<li>he has not.</li>
+</ol>
+<p>occasion 1:
+eat and start studying right after the breakfast.</p>
+<p>occasion 2:
+go out to get yourself something to eat and be back.</p>
+<p>In both situations, you should be back before 9, so that we can continue our work.</p>
+<h3 id="part-II-What’s-the-work"><a href="#part-II-What’s-the-work" class="headerlink" title="part II: What’s the work?"></a>part II: What’s the work?</h3><p>before you continue reading, I’d like you to know that this winter vacation is almost the wierdest one I’ve ever spent!</p>
+<p>The reason? you can see, that you dont have any burden, <strong>or dreams</strong>, do you?
+I say this because you’re experiencing a loss of purpose.
+Whether you’d admmit it or not, after being humuliated by classmates from both your college and your high school,
+you are starting to consider yourself stupid.</p>
+<p>But you know what? That may be true. I say so because if i say no,
+the following explaination will definately feel pale and weak.
+But if you and I admmit it, it’s no longer a burden! We don’t need to doubt if we are 
+right or wrong about ourselves, and just face the fact, that we are not as smart as they are.</p>
+<p><strong>FOR NOW!!!</strong></p>
+<p>Yes. I don’t believe in those stupid “inspiration of intelligence” thing of my dad, It’s bullshit.
+But I do believe in <strong>dilligence</strong>.</p>
+<p>These days, I always had a question: have i changed?
+Then it reminds me of the wonder man show I just watched this evening:
+When Trevor said to Simon, that oneself is not their condition, but their experiences. 
+Everything you’ve experienced, together,defines who you really are.
+so have i changed? Of cource I have. I hadn’t only because I havn’t grown up.</p>
+<p>When I was young, I used to have feelings for everything about science.
+But what happens now? I’m drown into something else.
+TV shows, short videos, and bloody hell so much bilibili videos!
+And I dropped reading, I quitted watch films, and I have gone lost!</p>
+<p>There was a time, when I could just listen to music, reading a book for relax, and go to
+study whenever you feel it’s the right time. Why can’t you do it now? Because you’ve lost your freewill!
+You’ve given it to the Licheng No.2 High School, those teachers, and you pathetic phone!
+You can’t go back to junior school when you could spend a day wandering in the campus, and ask why and those
+innocent questions, and have the joy of figuring it out, can you?</p>
+<p>So, I guess here’s the problem. And I can’t defeat it with just poems or these weak words.</p>
+<p>So I need schedules, and I do have one for today.</p>
+<p>It’s basically the plan I made for this vacation.
+Just remember these details:</p>
+<table>
+<thead>
+<tr>
+<th align="center">subjects</th>
+<th align="center">contents</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">calculus</td>
+<td align="center">differencial equasions(problem sets)</td>
+</tr>
+<tr>
+<td align="center">linear algebra</td>
+<td align="center">A lecture(from opencourse 163)</td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">one essay by Mao; one translation</td>
+</tr>
+<tr>
+<td align="center">cook</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">python neural network(from a book or a online course)(gradient decrease)</td>
+</tr>
+<tr>
+<td align="center">extention</td>
+<td align="center">a financial book</td>
+</tr>
+<tr>
+<td align="center">sports</td>
+<td align="center">speed endurance for 2 hours(with break) (just run enough and go)</td>
+</tr>
+<tr>
+<td align="center">difficulties</td>
+<td align="center">three mechanics hard problems</td>
+</tr>
+<tr>
+<td align="center">physics</td>
+<td align="center">electromagnetism and optics <strong>review</strong></td>
+</tr>
+<tr>
+<td align="center">entertainment</td>
+<td align="center">wonder man or the big bang(you only choose one)</td>
+</tr>
+</tbody></table>
+<hr>
+<p>写在最后：</p>
+<p>我打算这个假期不仅把整个物理学的轮廓弄清，还要集中提升分析问题，解决问题的直觉和能力。只有这样，才能为选拔做足准备。
+首先你肯定需要具备普通物理的全部知识，这是你理解题意的基础，然后，剩下的就是多做练习了。
+平时一定不要忘了这两个要素双管齐下。时刻牢记！</p>
+<p>另：费曼物理学可读，能提升思维水平，可放到空闲时间或者拓展时间。</p>
+]]></content>
       <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>linear algebra</category>
+        <category>life</category>
+        <category>reflects</category>
       </categories>
       <tags>
-        <tag>Notes</tag>
+        <tag>Vacation</tag>
+        <tag>New start</tag>
+        <tag>Up</tag>
       </tags>
   </entry>
   <entry>
@@ -799,9 +960,103 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
 ]]></content>
   </entry>
   <entry>
+    <title>老家日记</title>
+    <url>/2026/02/12/%E8%80%81%E5%AE%B6%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="手机不要拿起来"><a href="#手机不要拿起来" class="headerlink" title="手机不要拿起来"></a>手机不要拿起来</h1><blockquote>
+<p>看书时先总览，看看猎物是沿着哪条路发现的，再找猎物然后捕猎</p>
+</blockquote>
+<p>假期过去一半了，工作做了一点点。
+为什么？我不止一遍问过，每次想，都能想出不同的答案。这次的答案，能不能搞点花样出来？</p>
+<p>其实开始从来都不难，技术上讲。</p>
+<p>我可能会命令我自己：明天早上如何如何，中午如何如何，晚上如何如何，但是今天的话，永远不可能为明天负责。</p>
+<p>难道这仅仅是嘴上说说？</p>
+<ul>
+<li>八点起床</li>
+<li>九点吃完饭，开始学习<ul>
+<li>学电磁学</li>
+<li>学高数</li>
+<li>学热学</li>
+</ul>
+</li>
+<li>十一点半开始课外拓展<ul>
+<li>毛选</li>
+<li>涵涵英语</li>
+</ul>
+</li>
+<li>（音乐）开始做饭</li>
+<li>一点半吃完饭准备午休</li>
+<li>两点开始课外拓展<ul>
+<li>英语</li>
+<li>Python神经网络</li>
+</ul>
+</li>
+<li>（音乐）始锻炼身体<ul>
+<li>上肢：俯卧撑，20*3</li>
+<li>下肢：跳台阶，两腿各五层楼*3</li>
+<li>核心：俄罗斯转体（手握两千克负重），两侧各30*3</li>
+</ul>
+</li>
+<li>四点半开始攻克难点<ul>
+<li>高数的竞赛题</li>
+<li>物理学难题集萃（力学）</li>
+</ul>
+</li>
+<li>（音乐）六点开始做饭</li>
+<li>七点吃完准备学习<ul>
+<li>光学</li>
+</ul>
+</li>
+<li>（音乐）八点开始复盘反思（博客）</li>
+<li>九点半开始娱乐放松<ul>
+<li>看《狂飙》一到两集</li>
+<li>看《生活大爆炸》一到两集</li>
+<li>或：看一部电影（highly recommended）</li>
+</ul>
+</li>
+</ul>
+<p>明天：</p>
+<p>早上，闹钟震响，我脑袋沉重，还不清醒，磨磨蹭蹭起床已经九点了。</p>
+<p>吃完饭，看着窗外美好的阳光，我心想：良辰美景总相衬，放纵一下又何妨？
+我可谓是发扬了阿德勒的活在当下的人生态度，管他的计划，管他的萃英，管他的物理！我只要我的欢愉，不要寰宇。</p>
+<p>这两者可谓是我的两大敌人。高启强说，试着把敌人想象成朋友。他的意思是：别人对我心怀恶意，处处惹事，我却以朋友待之。我早上睡懒觉，白天偷懒玩，戕害了我的前途。
+但是，我不内耗，不纠结，不对抗。
+我劝阻，和解，合作。</p>
+<p>想玩？晚上。
+想睡懒觉？ 睡就睡吧，怪我没有早睡觉，以后早睡早起。</p>
+<p>但是，怕就怕在我直接丧失掉理智，那样，你便是活在本能中了，而不是活在当下。</p>
+<h2 id="实际体验"><a href="#实际体验" class="headerlink" title="实际体验"></a>实际体验</h2><p>起床，身体没有知觉，软绵绵的，用胳膊撑着起床，下一秒就倒回床上去了。</p>
+<p>吃完饭，好奇心开始作祟，蛊惑我看《狂飙》。我能抑制住好奇写这一段就实属不易了。</p>
+<p>好奇啥？人物无非好人坏人，高二人毫无魅力可言。好人呢？安同志挺搞笑的倒是。</p>
+<p>Oh, dear, you can’t wait, can you? But if you have to have a look at whatever you are curious about, why not physics?</p>
+<blockquote>
+<p>《狂飙》确实刺激，《生活大爆炸》的生活确实激情，但那终究不是你的生活，甚至，不是真实的生活。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>new</title>
     <url>/2026/02/11/new/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>2026年2月17日</title>
+    <url>/2026/02/18/2026%E5%B9%B42%E6%9C%8817%E6%97%A5/</url>
+    <content><![CDATA[<h2 id="噩梦"><a href="#噩梦" class="headerlink" title="噩梦"></a>噩梦</h2><p>我梦到了一只怪物，浑身长满透着血红色的肉，在它的表面布满密密麻麻的伤口，而且皮肤随时都有一道新的口子被撕扯开，绽出里面毫无血色的肉，伴随着怪物的尖叫声，和它无谓的挣扎。因为，每时每刻，他都遍体鳞伤，而且不知道接下来哪里会再次皮开肉绽。那个没有五官的大肉球始终在扭曲着，挣扎着，永远不会停止，仿佛恶魔的心脏。</p>
+<h2 id="蜕变"><a href="#蜕变" class="headerlink" title="蜕变"></a>蜕变</h2><p>如果说2025年7月22日是我的第一次蜕变，那么今天绝对是我的第二次，为了不让自己忘记今天发生的一切，我在凌晨两点，在经历了可怕的幻想之后，决心起床写博客，希望能够驱散我的心魔。</p>
+<h2 id="羞愧"><a href="#羞愧" class="headerlink" title="羞愧"></a>羞愧</h2><p>我真替他感到羞愧。当初我在成人礼时，给他和妈妈写信，写道，“我会像爸爸一样负责任，像妈妈一样懂感恩”。当时在写时，总觉得用“负责任”概括他并不精确，或者太少了，现在我知道了，是他根本没有这个品质。</p>
+<p>没错，他是带我去看过病，去医院照顾妈妈摔断胳膊，但是那些事情今天都变得如此陌生，以至于我怀疑那是另一个人，不是我的父亲。</p>
+<p>70万。妈妈说“70个”，仿佛能把数字说小，却更加令我心寒。我各种恶棍都联想到了：赌鬼、酒鬼、家暴男，可惜这些终究还是和他对不上号。</p>
+<h2 id="他的角色"><a href="#他的角色" class="headerlink" title="他的角色"></a>他的角色</h2><p>我突然起了疑问：他的角色什么？他最在乎的是什么？</p>
+<p>是自己的价值？他除了炒股什么都不会，这太悲剧了，因为他炒股最终的结局就是：赔钱。这样的人生价值何在？意义何在？</p>
+<p>是我？也许是，我真心希望是。20年，多少个晚上他诉出对我的期望，多少次他因为我的成长露出欣慰的笑容，多少次他因我的荣誉自豪的夸奖我。但是，如果真是这样，他为什么不能在我高三最需要他的时候抽出一个暑假的时间陪我一起学习一起做题，反而是始终没有停下那令他上瘾的、毫无意义的折腾？</p>
+<h2 id="他干了什么？"><a href="#他干了什么？" class="headerlink" title="他干了什么？"></a>他干了什么？</h2><p>二十年赔光了妈妈的七十万？
+一个月赚了六万？
+培养了他的儿子？
+做了几个大工程？</p>
+<h2 id="我心中的他是怎样的？"><a href="#我心中的他是怎样的？" class="headerlink" title="我心中的他是怎样的？"></a>我心中的他是怎样的？</h2><p>这个问题我不敢去想，我怕我想错。</p>
+<p>从小到大，直到现在，我相信是这样的：</p>
+<p>严父-伟父-慈父-病父-孤父-恸父-顽父-败父</p>
+]]></content>
   </entry>
   <entry>
     <title>CSreview</title>
@@ -1026,232 +1281,87 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
       </tags>
   </entry>
   <entry>
-    <title>You are still too young.</title>
-    <url>/2026/01/29/young/</url>
-    <content><![CDATA[<h2 id="你还是没有长大"><a href="#你还是没有长大" class="headerlink" title="你还是没有长大"></a>你还是没有长大</h2><p>昨天，有三件事把我惹毛了。
-一是潘姚一鸣不搭理我，还给我打哑谜。我问他高数成绩，他拐来拐去，阴阳怪气。
-二是创新实验室纳新，我参加了宣讲，但是心情不悦，因为我们班那几个家伙领先一步，我又胆小如鼠，不敢报名。
-三是晚上被父亲训斥，我本来就是因为前两个原因心情低迷，所以躺在床上看手机，恰好被他看见，免不了心生不满。</p>
-<p>今天，又有几件事把我惹毛了。首先还是创新实验室的事，然后就是潘姚一鸣竟然在我昨天追问一晚上的情况下，今天告诉我考了100分，滑天下之大稽，还有就是我忙前忙后看了两天科研训练，宋翼二话没说当了组长，滑天下之大稽。</p>
-<p>孩子。你还是没有走出被害者思维。真正的强者不会抱怨，不会被动。他们争取主动，即使已经被动，也就是及时止损。</p>
-<p>上午遇到的诸多烦心事让我无心学习，下午直接去看了场电影《极限审判》，不得不说，还不错。
-但我想说的是，不能因为一点小事就啥也干不下去，该干啥干啥，仇老师说的没错，要稳当，有耐心。</p>
-<p>还记得吗？“滑天下之大稽”是《侯大利》中杨永福的话。那个家伙自命不凡，心胸狭小，心狠手辣。这句话恰好反映了他自身滑稽的一面。杨帆让他远离自己的生活不要多管闲事，他认为是“滑天下之大稽”，还说“老子喜欢她这么多年，管一管怎么了？”这时病态的贪婪和占有欲。</p>
-<p>所以，我只想说，前面那些“滑稽”的事，是一个警醒！</p>
+    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
+    <url>/2026/01/28/SM/</url>
+    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
+那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
+<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
+<p>这让我更加确信：<strong>不做就不要想</strong>。
+你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
+<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
+<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
+尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
+<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
+<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
+如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
+<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
+<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
+<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
+行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
+<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
+.</p>
+<p>when you tease me, make me shy.
+你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
+你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
+这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
+如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
+<p>when you abuse me, make me fear you.</p>
+<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
+。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
+<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
+让我销魂让我激动的结巴你可以问：舒服吗？
+你更可以重重鞭笞我之后突然温柔的抚摸我。
+温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
+​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
+​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
 ]]></content>
       <categories>
         <category>life</category>
-        <category>reflects</category>
+        <category>guide</category>
       </categories>
       <tags>
-        <tag>Upset</tag>
-        <tag>Betrayal</tag>
+        <tag>Self-discipline</tag>
       </tags>
   </entry>
   <entry>
-    <title>A fresh start</title>
-    <url>/2026/02/02/A-fresh-start/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>This is bullshit.
-I’ve spent nearly two days wonderinghow i would be spending by 
-one and only vacation-since it’s gonna determin whether youo can get 
-admitted by the CuiYing academy, but ended up with doing things
-totaly irrelavent things from preparing for the entrance election.</p>
-<p>If we dive deep down to it, you’ll find out that all is about the <strong>habit</strong>.
-You failed, because you didn’t form a habit.(or you did but it didn’t continue.)
-And you can possiblly win, if and only if you form it again.</p>
-<p>So here’s my advice.</p>
-<p>the first thing you’ll do in tomorrow morning is waking up.
-I case that you’d sleep over, this time, I have a back up plan for the occasion
-that you didn’t wake up until 8.</p>
-<ul>
-<li>if you woke up at 7</li>
-</ul>
-<p>get up immediatly. YOu may regret to get up so early,
-but all you need to do is telling yourself that it’s normal in high school, isn’t it?</p>
-<p>Then you got up, go wash your face ‘cause that will fresh you up.
-Then you go cook for yourself. It may take you some time. Be pacient. YOu can listen to music while doing it.</p>
-<p>Anyway, you’ll finish your meal before 8(hopefully).</p>
-<ul>
-<li>if you woke up after 8</li>
-</ul>
-<p>Then there’s two possibilities:</p>
-<ol>
-<li>Dad’s cooked for you</li>
-<li>he has not.</li>
-</ol>
-<p>occasion 1:
-eat and start studying right after the breakfast.</p>
-<p>occasion 2:
-go out to get yourself something to eat and be back.</p>
-<p>In both situations, you should be back before 9, so that we can continue our work.</p>
-<h3 id="part-II-What’s-the-work"><a href="#part-II-What’s-the-work" class="headerlink" title="part II: What’s the work?"></a>part II: What’s the work?</h3><p>before you continue reading, I’d like you to know that this winter vacation is almost the wierdest one I’ve ever spent!</p>
-<p>The reason? you can see, that you dont have any burden, <strong>or dreams</strong>, do you?
-I say this because you’re experiencing a loss of purpose.
-Whether you’d admmit it or not, after being humuliated by classmates from both your college and your high school,
-you are starting to consider yourself stupid.</p>
-<p>But you know what? That may be true. I say so because if i say no,
-the following explaination will definately feel pale and weak.
-But if you and I admmit it, it’s no longer a burden! We don’t need to doubt if we are 
-right or wrong about ourselves, and just face the fact, that we are not as smart as they are.</p>
-<p><strong>FOR NOW!!!</strong></p>
-<p>Yes. I don’t believe in those stupid “inspiration of intelligence” thing of my dad, It’s bullshit.
-But I do believe in <strong>dilligence</strong>.</p>
-<p>These days, I always had a question: have i changed?
-Then it reminds me of the wonder man show I just watched this evening:
-When Trevor said to Simon, that oneself is not their condition, but their experiences. 
-Everything you’ve experienced, together,defines who you really are.
-so have i changed? Of cource I have. I hadn’t only because I havn’t grown up.</p>
-<p>When I was young, I used to have feelings for everything about science.
-But what happens now? I’m drown into something else.
-TV shows, short videos, and bloody hell so much bilibili videos!
-And I dropped reading, I quitted watch films, and I have gone lost!</p>
-<p>There was a time, when I could just listen to music, reading a book for relax, and go to
-study whenever you feel it’s the right time. Why can’t you do it now? Because you’ve lost your freewill!
-You’ve given it to the Licheng No.2 High School, those teachers, and you pathetic phone!
-You can’t go back to junior school when you could spend a day wandering in the campus, and ask why and those
-innocent questions, and have the joy of figuring it out, can you?</p>
-<p>So, I guess here’s the problem. And I can’t defeat it with just poems or these weak words.</p>
-<p>So I need schedules, and I do have one for today.</p>
-<p>It’s basically the plan I made for this vacation.
-Just remember these details:</p>
-<table>
-<thead>
-<tr>
-<th align="center">subjects</th>
-<th align="center">contents</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">calculus</td>
-<td align="center">differencial equasions(problem sets)</td>
-</tr>
-<tr>
-<td align="center">linear algebra</td>
-<td align="center">A lecture(from opencourse 163)</td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">one essay by Mao; one translation</td>
-</tr>
-<tr>
-<td align="center">cook</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">python neural network(from a book or a online course)(gradient decrease)</td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">a financial book</td>
-</tr>
-<tr>
-<td align="center">sports</td>
-<td align="center">speed endurance for 2 hours(with break) (just run enough and go)</td>
-</tr>
-<tr>
-<td align="center">difficulties</td>
-<td align="center">three mechanics hard problems</td>
-</tr>
-<tr>
-<td align="center">physics</td>
-<td align="center">electromagnetism and optics <strong>review</strong></td>
-</tr>
-<tr>
-<td align="center">entertainment</td>
-<td align="center">wonder man or the big bang(you only choose one)</td>
-</tr>
-</tbody></table>
+    <title>English test</title>
+    <url>/2026/01/18/English-test/</url>
+    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
+<p>Characcteristics of science</p>
+<p>Science, in our common everyday sense of the world,
+is a human activity characterized by three things.</p>
+<p>First, science is practiced by special people with a
+specific view of the world. Scientists try to be objective,
+unsentimental and unemotional. They do not let their feelings
+get in the way of their observation of real things, facts
+, as they call them. They often work in laboratories or
+in other areas where they can carefuly control what they
+are working on.</p>
 <hr>
-<p>写在最后：</p>
-<p>我打算这个假期不仅把整个物理学的轮廓弄清，还要集中提升分析问题，解决问题的直觉和能力。只有这样，才能为选拔做足准备。
-首先你肯定需要具备普通物理的全部知识，这是你理解题意的基础，然后，剩下的就是多做练习了。
-平时一定不要忘了这两个要素双管齐下。时刻牢记！</p>
-<p>另：费曼物理学可读，能提升思维水平，可放到空闲时间或者拓展时间。</p>
+<p>Are you a scientist? <strong>Not yet.</strong></p>
+<p>Do you want to be? <strong>YES</strong></p>
+<p>Why?</p>
+<blockquote>
+<blockquote>
+<p>Human intuition doesn’t need explaination!</p>
+</blockquote>
+</blockquote>
+<p>fine, go for it.</p>
 ]]></content>
       <categories>
-        <category>life</category>
-        <category>reflects</category>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
       </categories>
       <tags>
-        <tag>Vacation</tag>
-        <tag>New start</tag>
-        <tag>Up</tag>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
       </tags>
   </entry>
   <entry>
-    <title>老家日记</title>
-    <url>/2026/02/12/%E8%80%81%E5%AE%B6%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="手机不要拿起来"><a href="#手机不要拿起来" class="headerlink" title="手机不要拿起来"></a>手机不要拿起来</h1><blockquote>
-<p>看书时先总览，看看猎物是沿着哪条路发现的，再找猎物然后捕猎</p>
-</blockquote>
-<p>假期过去一半了，工作做了一点点。
-为什么？我不止一遍问过，每次想，都能想出不同的答案。这次的答案，能不能搞点花样出来？</p>
-<p>其实开始从来都不难，技术上讲。</p>
-<p>我可能会命令我自己：明天早上如何如何，中午如何如何，晚上如何如何，但是今天的话，永远不可能为明天负责。</p>
-<p>难道这仅仅是嘴上说说？</p>
-<ul>
-<li>八点起床</li>
-<li>九点吃完饭，开始学习<ul>
-<li>学电磁学</li>
-<li>学高数</li>
-<li>学热学</li>
-</ul>
-</li>
-<li>十一点半开始课外拓展<ul>
-<li>毛选</li>
-<li>涵涵英语</li>
-</ul>
-</li>
-<li>（音乐）开始做饭</li>
-<li>一点半吃完饭准备午休</li>
-<li>两点开始课外拓展<ul>
-<li>英语</li>
-<li>Python神经网络</li>
-</ul>
-</li>
-<li>（音乐）始锻炼身体<ul>
-<li>上肢：俯卧撑，20*3</li>
-<li>下肢：跳台阶，两腿各五层楼*3</li>
-<li>核心：俄罗斯转体（手握两千克负重），两侧各30*3</li>
-</ul>
-</li>
-<li>四点半开始攻克难点<ul>
-<li>高数的竞赛题</li>
-<li>物理学难题集萃（力学）</li>
-</ul>
-</li>
-<li>（音乐）六点开始做饭</li>
-<li>七点吃完准备学习<ul>
-<li>光学</li>
-</ul>
-</li>
-<li>（音乐）八点开始复盘反思（博客）</li>
-<li>九点半开始娱乐放松<ul>
-<li>看《狂飙》一到两集</li>
-<li>看《生活大爆炸》一到两集</li>
-<li>或：看一部电影（highly recommended）</li>
-</ul>
-</li>
-</ul>
-<p>明天：</p>
-<p>早上，闹钟震响，我脑袋沉重，还不清醒，磨磨蹭蹭起床已经九点了。</p>
-<p>吃完饭，看着窗外美好的阳光，我心想：良辰美景总相衬，放纵一下又何妨？
-我可谓是发扬了阿德勒的活在当下的人生态度，管他的计划，管他的萃英，管他的物理！我只要我的欢愉，不要寰宇。</p>
-<p>这两者可谓是我的两大敌人。高启强说，试着把敌人想象成朋友。他的意思是：别人对我心怀恶意，处处惹事，我却以朋友待之。我早上睡懒觉，白天偷懒玩，戕害了我的前途。
-但是，我不内耗，不纠结，不对抗。
-我劝阻，和解，合作。</p>
-<p>想玩？晚上。
-想睡懒觉？ 睡就睡吧，怪我没有早睡觉，以后早睡早起。</p>
-<p>但是，怕就怕在我直接丧失掉理智，那样，你便是活在本能中了，而不是活在当下。</p>
-<h2 id="实际体验"><a href="#实际体验" class="headerlink" title="实际体验"></a>实际体验</h2><p>起床，身体没有知觉，软绵绵的，用胳膊撑着起床，下一秒就倒回床上去了。</p>
-<p>吃完饭，好奇心开始作祟，蛊惑我看《狂飙》。我能抑制住好奇写这一段就实属不易了。</p>
-<p>好奇啥？人物无非好人坏人，高二人毫无魅力可言。好人呢？安同志挺搞笑的倒是。</p>
-<p>Oh, dear, you can’t wait, can you? But if you have to have a look at whatever you are curious about, why not physics?</p>
-<blockquote>
-<p>《狂飙》确实刺激，《生活大爆炸》的生活确实激情，但那终究不是你的生活，甚至，不是真实的生活。</p>
-</blockquote>
-]]></content>
+    <title>狭义相对论</title>
+    <url>/2026/02/15/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>calculusReview</title>
@@ -1295,6 +1405,22 @@ y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
       <tags>
         <tag>blog</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>狭义相对论-讲义2</title>
+    <url>/2026/02/16/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA-%E8%AE%B2%E4%B9%892/</url>
+    <content><![CDATA[<h1 id="狭义相对论-基本原理"><a href="#狭义相对论-基本原理" class="headerlink" title="狭义相对论 基本原理"></a>狭义相对论 基本原理</h1><h2 id="光速不变性"><a href="#光速不变性" class="headerlink" title="光速不变性"></a>光速不变性</h2><blockquote>
+<p>在任何惯性系中，光速的测量结果是相同的</p>
+</blockquote>
+<ul>
+<li>实验证实：在地球上测量光速</li>
+<li>理论推导：麦克斯韦方程组导出电磁波波速与参考系无关</li>
+</ul>
+<p>分析：</p>
+<p>设初始状态两个坐标系重合，原点发出光信号。随后O’以速度u匀速运动，O保持静止，在两个参考系中的人们看到的光速是相同的，我们分别分析光的传播，得到：</p>
+<p>O中，x &#x3D; ct. O’中，x’ &#x3D; ct’. 
+两个同时成立（这里的同时不是指相同时刻，以为它们的时间不同。这里同时指对应两个参考系的波阵面方程）</p>
+]]></content>
   </entry>
   <entry>
     <title>力学期末复习</title>
@@ -1362,41 +1488,6 @@ It turned out that the test was not so difficult.</p>
       </categories>
       <tags>
         <tag>Exam</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>English test</title>
-    <url>/2026/01/18/English-test/</url>
-    <content><![CDATA[<h3 id="preparing-for-the-test"><a href="#preparing-for-the-test" class="headerlink" title="preparing for the test"></a>preparing for the test</h3><h4 id="translation"><a href="#translation" class="headerlink" title="translation"></a>translation</h4><p>How to translate?</p>
-<p>Characcteristics of science</p>
-<p>Science, in our common everyday sense of the world,
-is a human activity characterized by three things.</p>
-<p>First, science is practiced by special people with a
-specific view of the world. Scientists try to be objective,
-unsentimental and unemotional. They do not let their feelings
-get in the way of their observation of real things, facts
-, as they call them. They often work in laboratories or
-in other areas where they can carefuly control what they
-are working on.</p>
-<hr>
-<p>Are you a scientist? <strong>Not yet.</strong></p>
-<p>Do you want to be? <strong>YES</strong></p>
-<p>Why?</p>
-<blockquote>
-<blockquote>
-<p>Human intuition doesn’t need explaination!</p>
-</blockquote>
-</blockquote>
-<p>fine, go for it.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>others</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Tests</tag>
       </tags>
   </entry>
   <entry>
@@ -1659,56 +1750,6 @@ are working on.</p>
       <tags>
         <tag>Notes</tag>
         <tag>Tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高阶微分方程</title>
-    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
-y^{(n)} &#x3D; f(x)
-$$
-解法：一直积分即可</p>
-<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
-y’’ &#x3D; f(x,y’)
-$$
-解法：
-另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
-<p>求出一阶微分方程的解：
-$$
-y’ &#x3D; \phi(x,C)
-$$
-再求积分得y</p>
-<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
-y’’ &#x3D; f(y,y’)
-$$
-解：</p>
-<p>设y’ &#x3D; p
-。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
-. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
-<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
-$$
-y’’ + py’ + qy &#x3D; 0
-$$
-解法：</p>
-<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
-根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
-这么说是有道理的：
-特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
-<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
-带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
-<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
-<p>首先，把两个解相加，得到纯实数解。
-然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>K</tag>
       </tags>
   </entry>
 </search>
