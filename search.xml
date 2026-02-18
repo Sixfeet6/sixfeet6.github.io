@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>calculusFinalExam</title>
-    <url>/2026/01/21/calculusFinalExam/</url>
-    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
-<ul>
-<li><strong>I mismanaged the answering area.</strong></li>
-<li><strong>I fell into a fixed mindset.</strong></li>
-</ul>
-<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
-<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
-<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
-<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
-<p>Let</p>
-<p>$$
-f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
-$$</p>
-<p>Calculate:</p>
-<p>$$
-\int_{0}^{1} f(x) \, dx
-$$</p>
-<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
-<ol>
-<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
-<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
-</ol>
-<p>As it turns out, the correct solution was a combination of these two ideas! </p>
-<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
-<blockquote>
-<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
-</blockquote>
-<blockquote>
-<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
-</blockquote>
-<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
-<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
-<hr>
-<p>Bye, my friend.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>reflects</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>Exam</tag>
-        <tag>Lose</tag>
-        <tag>Sad</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>calculusReview</title>
     <url>/2026/01/20/calculusReview/</url>
     <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
@@ -113,6 +64,55 @@ $\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(
         <tag>Notes</tag>
         <tag>PK</tag>
         <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
+      </categories>
+      <tags>
+        <tag>Exam</tag>
+        <tag>Lose</tag>
+        <tag>Sad</tag>
       </tags>
   </entry>
   <entry>
@@ -203,42 +203,6 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
-    <title>Am I the same as my peers?</title>
-    <url>/2026/01/24/Encrypted/</url>
-    <content><![CDATA[<h2 id="为什么执迷不悟"><a href="#为什么执迷不悟" class="headerlink" title="为什么执迷不悟"></a>为什么执迷不悟</h2><p>对于那些不学无术，游手好闲，甚至有些低级趣味的同龄人，
-我一直有这样一种看法：即他们完全不可理喻，以至于把人生的全部限制在一台充斥着低级趣味的手机里。
-第一，我并不能理解他们的兴趣取向：我本人感兴趣的事物都是“积极主动”的”人类最伟大梦想”。
-他们则沉浸在无聊的电子游戏，和鬼畜视频中。(我虽然有时也会刷短视频停不下来，但是沉迷程度远不及他们。)</p>
-<p>但是，我忽视了任何人，包括他们和我，都必然有其认知局限，认知局限决定了不同的行为惯性。换句话说，兴趣都是培养出来的。
-这么简单的道理，似乎真的很简单。但是细细思考，它其实能够导出一个惊人的结论：</p>
-<blockquote>
-<p>我认为，个体试图（甚至是仅有改变的意愿）改变自己认知习惯的行动，是非常困难的。因为这背后是认知的铁壁和习惯的壁垒。前者造就了”知难行易“，后者则导致了”知易行难“。</p>
-</blockquote>
-<p>当你对别人的执迷不悟充满疑惑时，你也在做着同样的事。
-这不光牵扯到个体对于“目的”，“意义”的不同理解，更牵扯到了“自制力”，“计划能力”，“交流方式”等行为习惯。</p>
-<p>当你遇到难题，是迎难而上还是畏缩不前；当你工作被干扰，是保持专注还是注意力涣散；当你压轴题卡壳，是继续死磕还是另谋他路；当你在周五晚上，是畅快玩一夜还是继续学习；当你周围人取得好成绩，是羡慕嫉妒还是退而结网？</p>
-<p>也许动机始于敬畏，而习惯不是。但是，也许二者存在一些共同点。
-以我为例，我在很小时，就亲自领略到自然科学的神奇，从而产生了很强的敬畏和向往。
-有一些人，从小没有体验过任何敬畏，于是浑浑噩噩，除非人生遭遇变故，赋予相关事物独特的含义，比如球闪的主人公。
-习惯呢？习惯不是源于敬畏，它源于自豪。</p>
-<p>想象一下：如果一个小孩通过自己的一系列行为获得了一个令人愉快的独特体验，那么，他大概会在很长一段时期甚至整个人生中持续这种行为习惯，以期获得更多自豪感，这种强化也就强化了习惯本身。
-比如我当时学习玩魔方，就塑造了我钻研的习惯。</p>
-<p>自律？我没有自律的习惯，大多数人也没有。也许原因就是没有过相关的自豪感。</p>
-<p>在加缪的理论中，习惯和动机是驱动人们做或不做的两种因素。动机是一种本质的、基础的因素；而习惯则是一种惯性而已，在决定人生目的上的影响十分微弱，但是在推动其日常行为上（如刷手机，上班）有着很强的支配力。</p>
-<h3 id="我该怎么做？"><a href="#我该怎么做？" class="headerlink" title="我该怎么做？"></a>我该怎么做？</h3><p>首先，能不能培养习惯？大概很难。因为，习惯和动机似乎在儿童时代就基本确定了。但是，毕竟有21天养成一个好习惯的“事实”，这也不是不可能。</p>
-<p>但是，别忘了动机可以非常强烈，以至于推翻甚至重塑了习惯。
-也许你只需要塑造一个信念：你并不与众不同，他们并不是自取灭亡，从某种意义上说，你们是同一种人：受限于自己的成长经历，在不想、不敢、不能改变中不断堕落。
-这个信念，或许可以让你对于人生本身产生一种敬畏，这种敬畏，或许能够让你摆脱一些消极的习惯。</p>
-]]></content>
-      <categories>
-        <category>thoughts</category>
-      </categories>
-      <tags>
-        <tag>People</tag>
-        <tag>Me</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Python神经网络编程</title>
     <url>/2026/01/26/Python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="the-understanding-of-the-simplified-neural-network"><a href="#the-understanding-of-the-simplified-neural-network" class="headerlink" title="the understanding of the simplified neural network"></a>the understanding of the simplified neural network</h2>]]></content>
@@ -252,141 +216,49 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
+    <title>Am I the same as my peers?</title>
+    <url>/2026/01/24/Encrypted/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a8f2ff2b30fe5c030b08ddfe8df80925d4f63f81d76da6bc706e661232acb0f1">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8efd4cea3ad035fb239c37223f1d7dda371431c24d8a31115e548902780e1a6fd757e3bf3f08367700ed634dda3f6a6e125d4530ce245c5fcf0c10429a8931254ce98f91a852ddf81d0acd5cdc6ea3542de642799fbd9175b4ea2e19fcb948cb276f5526633a3dd3876900389100cd487008ce293ebc43fcc147620fcc80348b807d49eac8c5bb2c2a629167bc8aff125dda6494e80b91af0230e77adfecb970c7893fb71d775a5d580fb742894fcbb6c09e05f658586b470905f59198618e00f5df97732850e1803d4f9b2e5e49de985fe0884208f4e54859ebda6f6cd9d48bcffd7a0b3d4e58a40e9b0d30b8e1db65c6d4be2815295f65a922662fb1462f80d27beb649a2a26593cd447a6c33708dec4a28da46132f251bf98eb21fb68012cb513221bd46461a2ea2a150ea796f788f01101628de83811763a3af2cf65dfc292c3e885bb240adecde74164325d7c0088f3f2deda843078b6ab0d2850f690bd12c0844f3580218be6ef06e3a4aea3697ff53a4c6e96489beb250c635d57210b31b17b690cd95ec05375fd2f68426e8a53212ebaeb5efead4edbdccf43a24571d257d9fe0718d568cde9e548f6b9f5360b5b9f473729e0417847d4cea77e08609f7c3099ac3eb753ba8b9d165ab72525300ddf63d7ab5cbf06e515d2838a3f1124530f98a7db2e3493e6e281ab8001356d76ed565195988709179944ca11facce47124ce64012a799fabaef8bad942028599b58bd93fe34ac3437d2e2c3612df412cae7016e1aa12fabeceb61e1090942213388f9fa412d9a6cce5cf505b803ea84b8e07da229f4aa857d3407a22ac580742a4e0f72f8f520372143cfbd8c8c365725b4074741e934e835c8c61c54a188f075323e523d320b7546c2eaf708cab77dfff98138ce12a94e68ec588149ef3ecee36970ac4edd33fde07731ca93549978f103ed77bd490257d0263c1f9066ea90b9b8ae3f84a87395f25aa1a3014261029f4beb5e3acda110b4abacd3d868e91dd3dbcb193dac2d0bd53924b3dc9e3c484f15a8b86cd7a99f11572eb1a8a29f14fadaff2ed96139f28a1b79925bdc26b306987772398754f1a8e940ffdd30147bd4f5040758aa206330617cae2eea00bd6c85f51d213e676d7ae84bc89c898321c3f34d47288cb26acada9af53b8019571909174b6c45c22696b2b72672218c00a135798acae8a0f7a8da45eb48755d042578c2fd490567c393ff363f4118686d83580b6c9a197ff3d51526edd3af57ead75cb5fbba229750e727320a10e2ff771ea1591e234d3e7b616c3fc10bedc33019a692282482b6afc4b8bb9c26bd802f2d0aba068ecd0e2994ca2ff690eb42654da8c560050ff4f2ff11d2cec5c3ebf395924c41557d13dcde8d12e3eaacccc799f3825bc1389c7ef444afdcde05c0a6a639b8ba550a7479d9befce6624d61c9bba6663808f216aed56f2b914eefbf4f1a180cb8b812d0d8ad3f03ab818250154c91183670124e18337c41ad74be90dabb74cddc7163294d683dea275b47d1177fbea85568bbfbd18c3b6df83594e7d821cdac57d2ae2147008f78a97f00afff208f3c5244ddc02df350a0d97e34e76c39183b6b07540ee7dd0503e8f3b3fb05370a26b43453a8559ca3da0eb31a3cb32886bb7dd36d9743b8c67b8ef4fa07c847d761d93e67bb247cb9ce2791dbad56b3bfc55e8eb21792f40b4faceabf3b5096124ea61325ae1225f6f21df1f6c28f9980b7aefcbef7257463376c8bfe8e98a82cbb7ba526b23022bdffe387b0678f9a078393904e67fe22d5a8b439fadf57642f4f7fe4dfdf90f02be72117d1c530e202254085f17c7b4ddce091b813abf0e4791fb9489da0254c597f1f9f0146e6128aacb64d8cc96313216c3ce0a3ccfd2401a79241ba21c1ae89a0da6882b36518f5bd3998236337843c187775f04c577988df0e26ab901c8acd1d881e28f76a4da025aecd2ed3141be1c4923434de2dda94e5cd1a86c723452c5fa82d4b903685f6dc94c3a6e0f4eb27aab861e7c0e6d1f730150df1aee394f0d74d2c9420bb106077fc9834d2e4e389de6561d51606b1141a0c81450d761b6dc131ecbd7d03d59a568e07458e8417e94e080e3d208a54b156edf8094f17d15ac0cfb7fd6ac6a0b0521720c0d53262da58ba2a58e05c23ea44994ccc0564cb1d235070e513c70a695c56aac827c5f79cbe13718e18ce62a54b0e5a542aa50489c8727700803a64ae2efdc8a7c74f0a695ae731c1d7830f037f2619af6ccedf7bb3da49a5f6a01aaa734e2c128503bffed01b3240fe4b0811b2a85bae272a25127b4edfb008ac4948de303031520751b6b6fddecc9af71d856380e55f6d64d17727e9370287eec854401615772a406ec82486673e9eef5adc3dbc278fc2043dc550b66b8f31d4a174c6c716d2db135f12a4f929b6cf5b9c6761e268fe54060ab0701f53c3eb89d3b3de9d074a0ea2c83ed0fdff277a91b2b2e2c933b4b480b84438085b76b762712e598691417500e884ce79702ad533a1993028418bbd37e141662becd1d90c1f7788e7bd56f6f01bf5eee53829a55fb75a33c49520c51a98598f929fad25536b8bc3b37dca9b428d3a929da5d23ebb42f16d2655d5a5265823fd477664d9d5f58567779d239cc7b7667fa1f6b0a5254f4552f3552e950c53c5d268ebe7c734b7c49f20d2533a8b053524d7887e267e0fb8a1e768018480a10a3b2dd0e2bd608b390b073e564d5292f4ddb5ca92a200a51e0c6ae04305613ba4c0d1d2aaabc5c2c9b7133557738ba7ad995894a79c9a66f32209097c2dd3491c7efee72300619cf27b44701c67009353b4485e0c64201cd3484a8acebe6df685bc92bb7eee5b93d62000dd6d1ae6870efaadcba2c4ade3441fa72567cf3b65380863fdf97af8f58f047de1d06d351fd6fe26ea74b5ccf2daf4c5fd6ed11eeda63c6c2c2b1fdc7ea6e125a4503236a2dea652f1f1be05b1a1c6ac78180774486b6b1b5304c02b2f67635ca62fb791e071be704218db75bc40904f3797281f81ce6a43287385ed10a887973f9235e4a32304c336e968a7bcb3e08e55cf0c52b6bd5c40fdeddf74e20abba5165e58ce4883ebf74e8f0a98aa08ac3d553cfbd5a8192a11ac2ae7af4f1bed122483a56895ea47f53ada713cbed372062a7f14b88b26beda17c847f773fa71de07fd482296fe17da75456205d128d973ea5ce791f8f3ad6f8e5adb82d41658b4140373d0164093c9db80e5510c620133afd2a24d49b099b364d6e7f81a4310ea2d304cd76de8e12504924b47bae006c72a9730dacb4b4d6e09546050daed0bb07e7dab94a1d4ae80b82f16fada5c5c232950a2b96f4757c0d1e61738039f8ae6b661e7621793f9521fcf3ddc13d5cdc88222ad7e3b94ae1e3a28a4397ebab6dd579708ec1a84dc7a55015188dbccddf634597a01b48612fde2b5c6fb402fc5fcdade4bd9e0097dcd1396e6ee1214e2339249d89bb87a9345468fd8e0e1c46b7f1122b7e596d602ef34e64e9113ed573a37a70881b556a775e615295583006fd6032d736d58dba5bf3b204c268225a986aba69a07f0c147ae0e1e4f33329bc7c6a4a404d8697584aaf481409a0f013bffba41a829c50a50ea61b561da8a20b0c12abad5bd4bb0bd5c4ddeabc16fae13e5e233ac31915fc745e83db8523d64ab82ecf03381074d40c836de325a3fe6b548122049b7cab025aa449c96d20920ba4d5e4cffbc45c13ecc1c4c46317ead7b092488b812eb5ac8af2c5846f8c23e7533b0c5c209c1bffa036ea4a7e43d6eb0d93878a96d7356987f77976ed7faaa0094b633c91423acc468c1d6ac26c6001102257f89247f7c07c999e55df05f9a25df780fcee5d52206d93c57d722826921b54ec3a00a3edf368e9c249e6a446a48d811f9a182b837402437b5e9da0781e062c98a8a94192526bab0cc4e8ce44bbd0c5c3bd4615a461f0bbf563e5f3ba68c36afa86ed1c8fc0b56f536f4d0eb04bbed6051f121d29a79079b6a79bac431605c6cb37553ec48b955807ec71aebd9a4489cd89c13b1d074a2b982da49c4c053bd7e76bb53edf9ce14b4bfaf119a37fdca3362de5eb5691682f38d924c028ffdf69e1f5677aa2504cd2d95453f69a14f6dec4be478adf8b341483b7d66e6dd27ef294e1b9b5f0d139943ec77ade420f4b8bb2ab5b5739de2ced7a7f111d833a571e48f28a792784ed2e23467615a172e3f88c0f4f2e0eb0255fb2cbcc989f9ca27dfe664c1f563a6582089ea749cfbf503ca232d41a23aa17dad92b15bbf676320ef956706fd26b40b20d7e33c77c5e73af067b294dd9899d4c14f44732cc720886c52fdf11cb31f3f45b2d7fb70246be50d2fd4e1fdc80b76f53f634f6e9607292e2d1fbc76c9d147c5acb05a6da95dc2a482680c43e1ae7fb98d946200b6b2ca0bca8528757ea1325915f67fdb9297f5361599fcfeab6513e7799f15292e76a1d6d2b25dba96ea7cdbc8c34ce6e5e093fb3e6c5c54796d5a14f2bce2c909120eb0d2301b32ac84e212fe4b0079682aa69cb9d553f38dce161ab10912997cf509a2a23326b7ae2ad36c00022146134016d32026a59d4c01fa86a06749db58aa2fa0de948ae356e3bd3ffa1ac6085f40349b8f0cc78fb74b036277b2528079df3b1032cf29dfe24848cf72dc6cbf85d72ee3c23a3852848a433c36ed904ef3f105ba1c019fc7e544bc93ebc1bf40faef1966828a5c2ee25a1e9dff73b459439de27f8f7864c7cae7e8a276085b0332e8d49faf980c986d750301abe65bdd3fce156309d08f70ceb7e49b40515310d48a841bc3ec868b9c113a959eee4314e4beb2151cd0f06d1ce8eadef4a1a23d48395d00a8423e3ca0023a8bdc53c8fcc67cc91d8ae6c437ffc5547f86f000289e40122021856cedc40a1169393be763b931488677f25955deca0641be9a67110e81e23c532e5577ec34857d05bbcddb6ccc1d8a1a43f12722e106df24339c2902bea9fb6756fafafb2e9fa2bfddc972de502e04876a820e5758cedea8a73b1ed223805f044791499bea3d807dbb80832344bc54a33f68e2c31db0a39b3113bcf215f8e36b72f8427eaf783b9c22abd8a2c8adc8df0b6d93da2730a2172f6db33200567949ad786e16a7565e4ec54096e38ae5dab4e413a67fedd3d35f609fd851983ce2e3d0cc2df363bc6034cecc43c3af4054a205a3d5c1f02a61a5b2d54bfc3f79c5efc227a4cc46a7c8acfd0b226297793d2926c4efd1fa644a1691d88e97950435b46772944486f9cca91294b3cc7c0105b24eab889017a353647235051c9406729ece4801e108ed33fc96dadb441fa002a2fae5827b4fc84deafa58b2402471756e040dad82d20d6e5119</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>thoughts</category>
+      </categories>
+      <tags>
+        <tag>People</tag>
+        <tag>Me</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>winter vacation everyday plans</title>
     <url>/2026/01/26/everydayPlan/</url>
-    <content><![CDATA[<h3 id="contents"><a href="#contents" class="headerlink" title="contents:"></a>contents:</h3>
-
-	<div class="row">
-    <embed src="Notebook-85.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-<h3 id="arrangement"><a href="#arrangement" class="headerlink" title="arrangement"></a>arrangement</h3><img src="/2026/01/26/everydayPlan/Notebook-85_2.png" class="" title="时间安排">
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f1b4b1b3ae9f3b721a5eaec6ad1c848fa60ede0bc77cf9e2b8fa93b4fc329a9a">d337c39ab4bb2cef3d3c89269811231506110684db1c7607368549474bdf282c4c1d6d0a497eb33e5fdf40425ef5fd53c620cccaf1991daca53e1e89a033ecaa468bc30172e6616e3c3c02f85c46c7ccd7316ce63762c7080d170e0d4a3e3c46b88535e46730bb55f577d5f35ff8ba5c2f75d4a38bc18c1021ffb2710b6f0e4f8b9e55b51be3090c7b58bd6a262ad1fb8ca2cc555ce1bfe8dc77140135690f8f0cd020ca463b31958187f91c58ea6877e7f2e39bf498fe592cc29b34697809d21d510b9c4eb7ca08d61ba4aa965e9551c3e86a74bb50fec6d3801cf93ae29df6e2095efd9800f774855f645ac3937cb4046d39b887b25c44753624425af373c7e9424a3c4be2bb09229324c7574690e082c64f7f549a7143f89cc0959094fc46ebf85667a3c0fef13711a23108311696477acb47876d6bf239c39577607ccf8c66a35f500a76edcf6e3a552fb8a3d51c978d81c758a9abf2078184e6307b6a47d1f4cb57ce7e404ad5d200f01586749ebe0759324ad24fb14d45a3b32d630344ae39aea66ca67651fd0436f341fc6fe07539e023732d8bc26505e2acf65fd03b4a8336d6da351a316226b8f78a28c559</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>life</category>
         <category>plan</category>
       </categories>
       <tags>
         <tag>Vacation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一日反思</title>
-    <url>/2026/01/26/reflects/</url>
-    <content><![CDATA[<h2 id="preface"><a href="#preface" class="headerlink" title="preface"></a>preface</h2><p>放假后，在火车上（以及在家里），我做了一个翔实的假期计划，但是此计划到现在还没有开始执行。
-本来，我并不打算写这篇文章，而是告诉我“明天去学”就可以了。但是，考虑到之前很多次先例，我决定以写作的方式剖析原因，并记录白日所思。
-也许我成长了。</p>
-<h2 id="为什么不开始？"><a href="#为什么不开始？" class="headerlink" title="为什么不开始？"></a>为什么不开始？</h2><p>我白天想过一个问题：是不能开始还是不能结束？</p>
-<p>通常情况下，一天无所事事会被视为不能开始，但是不能开始总是伴随着不能结束，因为时间是连续的。不能开始意味着你把时间用在别的事情上，所以才不能投身于新的事情。
-回首一天的日程，上午我先是看了会儿电纸书，关于神经网络，随后开始做计划，昨晚计划就准备执行，就在这时，吃饭了。</p>
-<p>于是我就去吃饭，吃完饭之后呢？倒叙一遍：我在3：30左右外出，4：50左右回到家。外出前，我正准备进行计划中的课外拓展，也就是Python神经网络编程。但是，这个活动刚开始就被爸爸打断了。
-在那之前，我和同学QQ聊天，关于各种学校的事情，比如，寒假社会实践、期末高数，英语考试，等等。
-哦，在吃完饭的12：50之后，我先是聊天，然后睡觉，13：50左右起床，洗澡，结束时间大概在14：30
-但是14：30－15：30的这段时间仍然丢失了
-。</p>
-<blockquote>
-<p>反思一：要记录时间。如果你按照了计划执行了，这则很简单，你只需要保存笔记，基本不会忘。如果你没有按计划执行，则尤为重要。</p>
-</blockquote>
-<p>回来之后，我就看到了计算物理的成绩（好像是这样的），也就是说，我又浪费了一个小时在成绩上面。</p>
-<blockquote>
-<p>反思二：不要管成绩、学校事务等一切看似相关实则无关紧要的事情。即使需要，也必须集中处理。</p>
-</blockquote>
-<p>然后就是晚上。吃完饭大概在7点之前，然后爸爸问我要不要散步，我想，“白天够累（实际上不累），去吧，回来就可以玩电脑了”。</p>
-<p>这是第二个错误：如果你在娱乐之前就想着去娱乐，那等于你一直在娱乐，也就是说，你的划分的时间是没有意义的。</p>
-<blockquote>
-<p>反思三：不到娱乐的时间，只需要提醒自己：晚上会爽玩，但是与现在无关。现在一切丰富的行为是晚上获得快乐的基础。</p>
-</blockquote>
-<p>然后我们散步，回家，喝酸奶，你还是看看成绩，大概到八点左右，你就开始看《生活大爆炸》，这比预定时间提前了一个半小时，也就造成了“预娱乐”的后果：一直看到了10：10。
-现在看来，我经历的是一种“随心所欲”的状态。我的举动基本取决于神经元不加约束的放电和大学生本能。结论：这也许能获得快乐，但无法给你幸福。</p>
-<blockquote>
-<p>反思四：不要随心所欲，要按计划来，不然你不会幸福的。</p>
-</blockquote>
-<p>最后一点关于学习本身：首先，我发现现在不想学习，并且察觉到这是因为我发现自己不知道学什么。也就是没有清晰的学习计划，或者说，具体一点，是不知道从哪开始，不知如何开始，也就不想结束。这是一种行为惯性。这就产生了一个idea：</p>
-<blockquote>
-<p>反思五：尝试在前一天学习结束时给第二天要学习的相同学科划定一个起点。可以以博客的形式（创建几个新的分类）</p>
-</blockquote>
-<p>另外，刚才会想起以前的诸多假期，往往以理想很丰满，现实很骨感告终。我只想说：不要贪图宏大，把自己的本分做好：保守一点。
-尤其是在学习效率这点上：之前你总是觉得听人讲课不如自己看书，这也许是真的；但前提是：
-<strong>你真的看书了</strong>
-。</p>
-<p>书本是精要的，给你自由空间的，但你有探索的自由同时也有了放弃的自由，再加上书本往往更难理解，你就更有理由放弃了。
-所以，不如放弃一部分自由，让别人替你安排一些，就像把控制权交给她一样。
-毕竟，就算你自己啥也不折腾，整个寒假就跟着一个系列的网课学习、做题，完全按照他们老师的进度，你也能成果颇丰，甚至超越自己看书，而且肯定超越一点也不看书
-<strong>（这很有可能发生，如果你继续好高骛远）</strong>。</p>
-<blockquote>
-<p>反思六：不要好高骛远，学不下去就看网课，也比自己 <strong>“挣扎无果－放飞自我”</strong> 要强。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>life</category>
-        <category>reflects</category>
-      </categories>
-      <tags>
-        <tag>Vacation</tag>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三道关于刚体的动力学难题</title>
-    <url>/2026/01/26/%E4%B8%89%E9%81%93%E5%85%B3%E4%BA%8E%E5%88%9A%E4%BD%93%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="例题-与-解法"><a href="#例题-与-解法" class="headerlink" title="例题 与 解法"></a>例题 与 解法</h2><h2 id="theories-behind-them"><a href="#theories-behind-them" class="headerlink" title="theories behind them"></a>theories behind them</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>mechanics</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Jan-26 微分方程</title>
-    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<blockquote>
-<p>notebook-88</p>
-</blockquote>
-<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
-<li>微分方程的定义<ul>
-<li>线性微分方程</li>
-</ul>
-</li>
-<li>微分方程的特解（含N个独立常数）和通解<blockquote>
-<p>确定常数需要初始条件</p>
-</blockquote>
-</li>
-<li>解法<ol>
-<li>分离变量</li>
-<li>齐次化分离变量</li>
-<li>准其次化齐次分离变量</li>
-<li>线性方程利用指数函数</li>
-<li>伯努力函数化成指数函数</li>
-</ol>
-</li>
-</ul>
-<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
-$$ 
-x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
-$$</p>
-<p>2,
-$$
-(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
-$$</p>
-<p>3,
-$$ 
-y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
-$$</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -430,28 +302,27 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>特征值和特征向量</title>
-    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
-    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
-线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
-<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
-<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
-这是因为行列式的多线性。</p>
-<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
-<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
-$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
-，把线性组合同乘
-$ \lambda_{1} $或
-$ \lambda_2 $
-，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
-]]></content>
+    <title>一日反思</title>
+    <url>/2026/01/26/reflects/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="63637f6c977a615721ee549b763e8b09c1a2effcfc14c70eabd19a26853411d5">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8cdde0bc2b0901b3490bdafa6fc3326a252c3f5875b8645642c056e5746e6de123726d39039d061b160105011a2e0960e7a19312b32f904e429809fea534f71383213401a5e95153dc6d1eff4f71c35fd9a5c90bbad106a6fecee0b1f11f0d9222a371535ba2e3021c0f3af76db5b632c0c30baeb4726132be64e57c85874eebff399fa1a83386a4ba1731e14703a6764eab99c9b999d4e47ff8eb8e083ca58d034f92c3cad5bcdf01fbe0eef93d297ebea4a195f468dd04ac111f63633d083cfb1d136087dee88c6502891441bac83d3d3c64dbfddcf1935a37074a430a4e106a3270b521da4587905c38ba37a06d5d504315cda0cc06fba70a2f317ef02b3aab4c0bbd15b20ab193b57cad0e19b28b65bf27c9133167b3b0565867ed1a6f387c4f545f71cb2cc207178615f086679cc532ca3896d4aa69c4cfa9b63503938ded300e753be14a1ed9148453ec1f51d951f573b808f35b701e0227337bb43b744677e02b9718e0e555c81baaeff53ef5f7d90ac558f7e3c348156485913d49f819c8a43ca8179245e65c90584cda49d971af6a783a29b0611180caa53767c12c4091aa437929f702193559917b52b32f2531238c477dec5ee0b5e9db9a0f19a6f38a05450aef12ed2a4c5f69f373982a614bb26d1e45dd64bb0f77a5fd324abb0c28512ff52834df5b03a487cf43e5ca926fb912bfdf8fc0af3706108e3bfc6aa8b38584023e0dac439a8c8c88232af978858e72eac6c3cda5a282184c621452c8c046405ff2899d604c72aa0fc83f2706c3b6a96ce6d940c923f1722ba77d70f664fabdbaefd7dee3de9fbb76ea0f7bd95f32a459517371f67d34009810600244f0da25c28b753e20eb8f41c0173ea4dcc8087962e04e9c701480a13b449a95bbb1bf4c9b0e9919ab5511956c481f92de0a2141bd9bbead20a9529b224edf443247f0cee2f173acab9a7dd49df52a8030a2b67d2c2a4a412df1dea986bcacc47ca44ff9e939f560368f2d7c6053b321c85f1984214087cc2c3147575eee87d8fe661a5baa0c86bac9f35f7c8b0d0142451703669576c87c2b9e105daf1207eb65f2278b34ac9acbbd8c0b04733651cd3f2c2d6d7e8fd65a16bf685ccff59c869e55168060f0ff8bf6757e1c4622aec82e79709efba306b0a02f8d6e3063a53d32b4ec1c34853125e4b220ab7d32ac11826f25b1a33cccdec296638fb7729f8f4cdf54a466912ccd2b7e8f31e36577af2aa9a101adcbe2521b6cb1908ad3f87ecc02ca9dd281b19c8871fbd4db91ca58031397f76e7792e2972cedf68e281694275e34824f315e078f05f9ed547226ce7b85fe589ad70c18540afd38d458133ad4e8a97be13514ecf186863453d634f6b851d90fad91dcd7e8a6c50f5b2bd1b5fc4179bf4fce4ec2874bf14099f6197865255b2caf7f4589ca4f907031e1e93ed53d1a39e5ac025501279a7562b45043c9aed6fcdd693ecaa21fbaee185010a533a26a6d2c27753931a815a87f67ae0c5b8a65533b6d2c5700fa60425199c417b9b6ce0d65d34ffa3473336c2fe63b7c004e5abcda1d516e0960ca70168e7c54adbed1e9ab6d9479d41960895b2e3cb5ebe70d62b88caf2f6d05c82dc4ed4e1583055d2c627843df709d5a832686e6f4e36c019fcb9044101e4a6862719ab949efa20635022acc59a217a3276194a70b197f87a1359cbb60a7b2798db0eaf0b79d01c3a4bfcd750cbc1eae24a992f54cf95b3decbdbe16da31caf8f870087af04e5496162a3e8e71a053cbadbcbe86dcd43de03a1d8403d029d29ee32ee2b312eb0852d08326ce6f754fe199a9508dbb5321b1cdf6678000530668c33f60b84735b2e1a9332d3a693a94c0aa954e0450ca18b81a36ce2fbc3b2c3be49d46dcbd035cd92148e6ee317e0d1fa996c626526c26eacaabd0b3fb31aef92dfb56e8d7514ca5ed39aa8adb0f8c07a3063c852bd3a0837711c5d38c69c6a44130e2e9a1f211966c1b9c6f96636bbfe4fdeef2aff87da874ccfb270024a94a45ef338792c8900e3a5e274ccf453e88ee935b93e5795acf5cc63c66d0f42fe1c3fdbd5598c3af0bb475fb2059c6f98f62ca6fe8215867269a77bcf578010bde80d8ecc569c6d1392117d964146b34b5ad332bebd50c6e8452fae1d37be603cbac1fb28f0a0f216b43256a2d068cb31748c2caabc2cde98b16d073f3a47f1a7c3f1dfd4934154b34451b9ebac93d082dfaab66df3dcc293c75441c30dd8228c384c9833c8e965380cf4c91ed73fce648631f1f1c92e00b41f1d1ac606e70d9d94c24eba63232eb3fdd2c99c4413b8313fcd53f356dd0db33c8550ca60d5ed4fef7eba47082dacb80bee46566632167eb93674e57a31d82cfccfa23a7de4d3165bce5808e0647585f283936c36fad9ac0fe7454fe7b73bbd92f70aed9f27e1bdd401b0ae3bb2a16940ca8b8bcb01b4182fde072b14606ebb2a43dea7555e4a8ba9493812941acd13ea35e9619c5bcc08b0a74ceb6a476375e4519d24c76a2b246de6d235ea5742976424dbee8a2d1b5d784ca2ca6472cb660305921c9782500a60a75c2a0d10d722c1bb58ca8be57077ec3f6e474d8c0c1ce6998185d3de5b1d9d5d22470f7740132f66e2942e15a5238cbba589955ede584ebf2c91539a1abe1ece171f9015237a6ae7fb19699ebb3f058bf87462f8aeda182343ad248e35ad7ff6881dd77870bc066f38b53621c3c1b1796d627d220e2a53f428dfb3939f63361ff1ac2c3dbfa1b2bb398223301ee7c0f7f56e02f12f019ee9081bfd397270970c904d1a1c6cc6a2bd65164559020bfdf04a4ce98ccfb451155fb842034f3ba1449ddf174cfbcaa3b1a5e99db027861c0ac72807ce2ff8319d643b206c867c819d95b445ca34ef5000ba05c095883e84ed91eba63ce733c7ff466dd495218a542b68590aa8d8cbafd5e603a155f35bfe910063a54bf1f3ea89b1036219ffe80a02ec927518f4106c1fecf8a3dca2a3b1ddfbec6311b3e5ffeea3c97dc9787f223165b00161eb7a477bc6918e4a44c67d42c7bec3cf6da7c64ab226f6364ae22048e224be1cf3476311def536ffed2b6daa36ad85356bbb9546989d52fc523d8bd99bbb980d1169ce20f1ef09c4dc712ec7d52612c9e90dd3dd7ea9cdb1f37147084516087a056d6500125b619a6f4aa0183894440e302125d2f000fc2dcfc9ba28626a7f5ca572046ff82d277ea641fccbe680caf655429268159ad4a7141002f62c9056b1aacbc909e75c81a422e3f3ec247fef44ba918336501c7a773fd1b7a45e3d3e19d9d708a614d1d31455bc603ff55e8806a3fbc1d6ced2e333e98967a4ba8c76a4e51e0fef96fba0a909034f9b721baca8d6960f2aadbbee3e99dbea42e3836bb2495bdcd0931afe8edeaa0668247d808f0a57a8bb0f3925be2a56b30cdbbc540d526644885628944e57a5bb6ee40be91cca81d11ca26fa18f2f701464907c356a1fa20674d6231ee4fa0501fe2c9c137415a2e4c48a4be75214e2d3a5ee8a683e11beec04d0c0c2a62fb83226acb6ea30e844a1288ec73d0bf899f1d87090f25bf99195947c5dd328ef1e889b53fac1a0e7689bcef3e293a5ce79681b8091b7b3bcd78ae6e3e16a29b914bc0601d6345ca98bb01e47d2e2f5a1d89f0817f9afc08352bf35d86f04ab26b6108a964b144b3888ef14c1de9f4f3b5e7a3526683dcda13da35288b0928beb762646147664f5956bfa66d8c99ee7dfa5ef7c34211d8a928b44ad12a691aaec4b865d1377b6fd18d3f83b73700421069d9abef928909453304720b9e388f86a595c45d44258970cb4556bc5da9e19daf64a72975596d9e6872e7c48341608a69f6ce9ee6610ed17d84edf64f2c1d63166361f3b915e51eb6fcaa9945fe57e09e8f997c29b0fe24a8b76fc44d428182b9255faa91cc4537e7b9d70a0197c22c8eb294cb3ec3758c1bca081d6d0f3b159a130c26cf40c3c67b8ccf6c1e1b7d8587a72fff952b7072352eea87a913c070b9cca433f23d38ed4689f78e1bb29725b29d5caaa296a5278240e6f73fed72e529f3d4b67937d9540bdff3da6b72de04d676c9699c5a4f2cb81fdb43899729009fc8cc4542ed089756f7e97277821afccf7c9a12fdb9470e331ce4ce58cf193f534112b0478c1e1e6fe46b00da551f4c072057856c3f21bd5bd80ef7e4a7f5b0c00bd651693602fce8eda096410800c9a204eeb104cf7e296bdde69245e069ba373f85c041f1f7937ea72b0a989f4c8617b8662c0f84a617976a9623a520b5a91cb5844c85a20ec0994d89b98c75ea8153864df99b94b3b63b1928a4b28bc6e634d3cdea971de7a4ff0ee4f6740f109c921472481b8c1a4752c97622ee39a6249393842fd78d76f38f90007718d0981d3158b31155656615785cc770794ddfde79938cd61a7a8f6e412f43b1937ac43799f49cd6774aad2163e214d62f9a5d8b583f39c56cf7cd8eba7e4b16a28c5d2b0422bbf55d99665ce073f5feb254b91a6597c72c1e1d0eb7781f841a32f391f63d4aecc230eacb75c01a6ef2125e0d289d7f7cc2c9870a38de51e6494238680f54e6d33e68f5d7bac097ed9de50e21d7c3bb79c90550caddf900fbb1ef6a543fd1e97e315002a453da17e43384ca238314d43b69549b37544c45ac454e34fc81e473ec34375c9fb163976b20b3c8d658581dc3e6fdfed310bce7e34c152f5cea29c3760f5cfffcebe011e13e36986bcc264761a59ba3137b1ff1fa25394167cd78c123b42f1d697356acab3f1211db65349aa084dd7b137c01fc6397070bbdd6cd8cae5ba60ca2bc588515848d3e7dac87dd0be7df57aed0891bfd4ec1833b133d63dc5ab018c481bbba4851d438a51d9ef4d5b9339687f46389724228e15bf508fada011a84e3e1ef2fb086f6c72e6afabb4be2a8c88bb65e5fa8399ca71e487747f33a2f49eacbe412c6fde68a101961f4ef048dcd6edf81507fe87a4420e61eb6c1cb59868da3b58818a6ec6439a44e1321b863c173e7b90c6f3613c85320a8344f2fff476f30a83731c1ff0d05dc9c95bf459cae55081960cbf2d1bd9dfb18d44b53f238878697e93f8731aa03760fbb5621569b7958f64cdf1b5f2776404b77376c6220f964f732af62c43dc748c82a3d14f9d3926a9ee527d27be6f112f433901fdeeb4b298c7f41fc8b63df02c3be48b6ff23cc26e10d42092dffc124e069c4e2f3d515068f034331972457eeac24850215000ecfbca13d699c1e9ce7f0993b4921dfd362e48d6ced80e55b259bdbee88c6cb3170405c9697b5868f4efd3fba12c12cff3f9e11e2361a8d62fb15be142ce92aff0e52f921b9e650e6d6192f2817b9a6b8ce93e0a39619b848361cb8d2301714174004d054510e2146aaed4460a05b08f4afd088b806e92776d3ad8b7306a73d990dcdd5ab4a558bd15cd92052aff9d67ec2059020507788bd5f246421e9e67b767bfd250a9a21af84fa2c03d95617dfe11d17766652af04e7fb4d676feda6ecdc09a7bc27dfc755d797b46dc64ec4ce9718bad9a78264cb7559c7fc83ef877781446312aef176e6ea64d50446b26f2f774033914f10435c7425806a2410a2084d2cbc10db92b644f4fbf92f03940257e4cc4ab17619ab405d4434a107c287ef586e485e652ebf60cc4b9bde522b0a461539d7fe6b95011e42b8b173cd24e900edcdf4e65f0b163980cc5bc71cccefdea18e212c4acb86e2c7a44f74b75e3374d324d3f67695f68335c05e236bf77da65a1837f9d1a8581a35dd5040ed895d364e0d1e67a7311d0ab2b2694060b6012fba9e40c0b0fdb8bbc0738bc7d1ef31b339dfef242b039afd7f675f59892d1900a84182cf4d5b26ad0ed73e519287737e8535ceca1e0469e6fdfaf9f3f64f9291a2951559bd40871969b5892d4d63bee3d1b4f33702b9cd855b47b352a50e523d62b803cad8e85fc9bb0f82234e06d376d362a3740555c576282214eeafdc6a58b777950e9dde83deaf0fcb539433b34e85836fdf41e7f86ba296f991b2da9cbf90bf785350dd3daaadb22d334db6c126ad5685d0af38bbe655e5d2c67a121d18523c0b617980532ad1461ccffcce275156de2358ef0498bc68cd8c0e2be34d705cc466ef9e97854a646373cbfc69cb8ed3df236ed3af97f88270ca0280b7b4d7892fb2a033003dbf6fd70cb94fe65d941c860c9618292756db5c90fd5a7ab03534325d9ca193abe50b5b75f6e80ee97aeb0f8d079e6db4168ff3a79c1c9c188994624ed67c573a0116b33eff208b210e0d5394d24c8d716478a259d203e1f210ae6a9da7c542afccd29dbbf05b797424b2ba9984bfe73572d0b1574a1af49205e718f0553a845abee665af41fd98358a28b8d1701515b8d160c32bebf42ac8eb65caf7facd856d4afb2edff61c4b522bac78df619ab15e366feabcd2bfcaa0740a9ac1b1bb95eb8eb53f3446adafb153367738d99fc6702385bef16b0f0c3a9a5c577ce4b35a3274992e4a8fd40425244290135f00420584740d394069decddfc6ce166009c0ef76c9a25a42973a8e78cd98d52b0a38378b0318062a27c8e50a15f1fd9c0493b1ab0290164d83bd4b28e0e53a98383b801265e83f0115a3a41a68d9a8a3c7ebd3aa36e8f4ba4e11ab3b1a063f94303170a0baa4eca1ed13e466f5836bd2c16f71eddde3a5c0d46c2eec9719ad7dc263d978143ebe3afb9cec7d6822671403876718b23efa96ea9d42e654ba3cb50b344adc4cb210249dbc97dd7524b5c1f980036f4a17af0347e7bda033e5ba081efecdbe0391de3738d66065eca7de9560176487fc3f76e7bbc5e4327cc58965782e11ae56d51339be3d283f17bd46add1a08975f3486de693e506dea61e2c5d52febd949fd493eb12a3aea090db16289f6414cbb6f1e4fd3296a4dbc464e56ac4e35b5094728cee71f258a1dceff3bd82dc07daa0b46b162bc85ce6bd2e18e23b1c599faf66de6739a77483f87</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>linear algebra</category>
+        <category>life</category>
+        <category>reflects</category>
       </categories>
       <tags>
-        <tag>Notes</tag>
+        <tag>Vacation</tag>
+        <tag>Diary</tag>
       </tags>
   </entry>
   <entry>
@@ -511,35 +382,42 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
-    <title>高斯定理－课本讲解和例题</title>
-    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+    <title>特征值和特征向量</title>
+    <url>/2026/01/26/%E7%89%B9%E5%BE%81%E5%80%BC%E5%92%8C%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/</url>
+    <content><![CDATA[<h2 id="第五章-5、6节-知识梳理"><a href="#第五章-5、6节-知识梳理" class="headerlink" title="第五章 5、6节 知识梳理"></a>第五章 5、6节 知识梳理</h2><p>判断一个矩阵是否能对角化就是判断他有没有n个线性无关的特征向量。
+线性无关是因为：如果线性相关，则P没有逆矩阵，无法对角化。</p>
+<p>求特征值和特征向量：构造特征多项式，然后解特征矩阵的零空间。</p>
+<p>特征多项式包含这样两项： $ λ^{n} $ and $ (-1)^{n} \det (A) $.
+这是因为行列式的多线性。</p>
+<p>如何保证n个特征向量线性无关呢？结论：不同特征值对应的无关的特征向量的集合仍然线性无关。</p>
+<p>证明：列出用特征向量族A、B线性组合出零向量的公式（A系数为k，B系数为l）。利用特征向量的性质：
+$ A \mathbf{x} &#x3D; \lambda \mathbf{x} $
+，把线性组合同乘
+$ \lambda_{1} $或
+$ \lambda_2 $
+，与线性组合作用以A（或B）相减，得到所有系数为零。</p>
+]]></content>
       <categories>
         <category>learning</category>
         <category>notes</category>
-        <category>physics</category>
-        <category>electromagnetism</category>
+        <category>linear algebra</category>
       </categories>
       <tags>
         <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
-    <title>CMC</title>
-    <url>/2026/01/27/CMC/</url>
-    <content><![CDATA[<blockquote>
-<p>量化：一套题全会做</p>
-</blockquote>
-]]></content>
+    <title>三道关于刚体的动力学难题</title>
+    <url>/2026/01/26/%E4%B8%89%E9%81%93%E5%85%B3%E4%BA%8E%E5%88%9A%E4%BD%93%E7%9A%84%E5%8A%A8%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="例题-与-解法"><a href="#例题-与-解法" class="headerlink" title="例题 与 解法"></a>例题 与 解法</h2><h2 id="theories-behind-them"><a href="#theories-behind-them" class="headerlink" title="theories behind them"></a>theories behind them</h2>]]></content>
       <categories>
         <category>learning</category>
         <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
+        <category>physics</category>
+        <category>mechanics</category>
       </categories>
       <tags>
         <tag>Notes</tag>
-        <tag>P</tag>
       </tags>
   </entry>
   <entry>
@@ -572,6 +450,38 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       <tags>
         <tag>Notes</tag>
         <tag>Critical thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CMC</title>
+    <url>/2026/01/27/CMC/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：一套题全会做</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高斯定理－课本讲解和例题</title>
+    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -659,6 +569,53 @@ $$</p>
       </tags>
   </entry>
   <entry>
+    <title>Jan-26 微分方程</title>
+    <url>/2026/01/26/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<blockquote>
+<p>notebook-88</p>
+</blockquote>
+<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><ul>
+<li>微分方程的定义<ul>
+<li>线性微分方程</li>
+</ul>
+</li>
+<li>微分方程的特解（含N个独立常数）和通解<blockquote>
+<p>确定常数需要初始条件</p>
+</blockquote>
+</li>
+<li>解法<ol>
+<li>分离变量</li>
+<li>齐次化分离变量</li>
+<li>准其次化齐次分离变量</li>
+<li>线性方程利用指数函数</li>
+<li>伯努力函数化成指数函数</li>
+</ol>
+</li>
+</ul>
+<h2 id="习题"><a href="#习题" class="headerlink" title="习题"></a>习题</h2><p>1,
+$$ 
+x \frac{dy}{dx} + 2 \sqrt{xy} &#x3D; y
+$$</p>
+<p>2,
+$$
+(x^{2}+1)(y^{2}-1)dx + xy \, dy &#x3D; 0
+$$</p>
+<p>3,
+$$ 
+y’ &#x3D; \frac{x+2y+1}{2x+4y-1}
+$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>训练日志</title>
     <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
     <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
@@ -678,6 +635,29 @@ $$</p>
       <categories>
         <category>training</category>
       </categories>
+  </entry>
+  <entry>
+    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
+    <url>/2026/01/28/SM/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4853b8c440cb3af843b8ebe2ba71fe87e089e04e686e936cd7d32047a26e1326">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f872e233cc8df55ce1bf6e0a452a2aeafcc70af95c24f1a4e6f0aa5ad3894197036fa45d306eb42c41f5dbf6202e645a1bf1aee9630dde56c5e84d0cc0d486b14689a11a7560c237aa97ceb16b08e8d311b414ab471a044bb406ad344a0b622cb50be5576631172518571a708da7a16dad1c31760d8af1588de8ba8d913734183f84f25f262e54765c133d532ab3e852d41d47ddad853e5ba576353d9a40cdb3877ff3ac4358014c24ad21bdef7ca79eac0cdcc263356a32fb07dab587521b932e760d77615550092f3e3c5a77befd8e2b53c29c5692a70e8931df8da0ce41e5fd4e54fa51732825bb586b803371051556d359aa3a4f3f82228223a3569e8276a0f6c44a30f5799af70d3f8016ebee697be31fa9c36f6a57b21bfd14755cc10de8c88cb2358596e924e6aacbdfe1252a38c9ed929db5799691dbc673288eda41df109686039d83dacaa115e7b170d8676ca4deca95a1672905df80ac3412f95d3355db45bbb65996b186693546802c785256dd86906a1cb78cf5ddbd34716290b761b1176cc89cf8f094838aecd8a4997e15ab5e74d06bc89e1acdefa76363234be3beb9407070a84fa140900cb1772b0a004b02967348f3e66b0033f7cc67cd60bdbc9990d373001b360d03c1d3c42dc26df051576701bef4dbe5443bd97cc0ad1e915d6f216013f84e18fd8b1461429b280a3bdfbb8127797c6d4a9caefaf744f5ad4e9167d3e7fffb0251209a892bb88d2d792a120045923ae6c9cdb543e04b94c9e7386d037ef3e085fcc03b5982950ed12840681796551a17e7543fe889a72b7423d5e9d9ffa7143ec2d356e7413879d868b6ebc1bfd5fc38c85e01adec58f99994606e3869e517311b4cf0c3fc6d47654dfc75f7180b0f069f074e02c04c1442a5f6f679e3cdcc78bb187be8e4e0a002f2793e1d56ad3acb306527c3594cda0d213e0a543e7d7b839084ceff0d46862d398c8e2869291ff17724740198e3725fe59b7cf2485859b9ca3f5eebed18480fd0ee08646c53a677c249c44530403496607a0cdd37e46498effb400f4177c7728fca3f0972dc4a3ebce4a10a919022315944e3be7765fa04b4a5d39f8f3da6ed07ac8a0aca6bc03ad87d643f628851c974ad000d2aca4fa60983369849706b334d1ddd1bdaa9b50940cee735a700aa314e694f1a903cacc88028149ecb09f28a8bb92f4c15d4a58d37d32b8b28e9eb6e1ed39c6ea55f37bcf1ea36cb35324bbcd62b286ca112db5c5aaddf623ff2000d4da9788b6b1f1d1f841e74bada07c7e32b11fc4b7b4c9e6b8900fbfba9e481767ef7af1ce4e51259387b0807f3867d8bf44cd2338764b30c68e6e88c8526843fe7134383a67b19ec5fee7103a169261e56ba89292d709879b06492b7ee307d36de859ebbd887db4c1b6f1cca32efbe781ac6b9282c4b51f5c321a2c7ffae29425c04ba7746d1d14ba57c02518e2c474053886613e636ba7cf6057d97470bdc798bf4b456810244983033c8b8e7f0e64484102001012e8beabdd54f974aead62e16f32543e9b64403421bf7afaf7574dfaa745c8178ffe3dd3539ec8b00368bbd9651c6f8ff8536bbc94adf774bcfd36ef558930e7ae591bc0f095434c656fd82dce528bff45aee2ef8caf2530f86115f1573774ca99343c4e1884ce8a24589adc5db344762f13c4324cadcd921082ce7554d6c0d56970415b2ac2b12dfb462b26e2990abb8cd70ad7955bbcbf78b0e640d58df3882cdd4b622d091360c8821d903dfaca23b87628ebd3b8a25abedd30d2e1e59f63e81b47c1c52a62cef938dc5d8dc883140ba5e8d4a4eb26fd540f50ecc811a2f4c0fe9f60ce491a95d65e85f687c6dfaa87a9bbaf941c55ff0a421bc5ac7b8ba6479c925e5fe55393bcac13ff8125a16f591ad1594e8781622ea2eb81f8e3153df07e072d77bf992a9945cc3613fff6e482715aa8e0f8f8963bda7e176ac994f311088a9428816656ea333eecdde54713ac1c8ac8a54b1d73fd00603239328bc00b470a7da83d8cfbf262966e11d2baf43edd4263293cd1f22362ab4bab98266e8bb6cba4688539a848b5da02afaa36d45c3a98d5930824c7daed3eaf245bec253066409251bd426befbbebf4a6e47a1cc5e1d499f5e6d0c49e382925aa595f90a84e6d1e9e7c97a5c2d49d197885c9aaabe39533de5915ab38fc0f2e75ac6d623854c460c00a03d67d70c63f1f1ffb46075703ee6121424ea7c0f0bcdeb604afa1307155258493f432864c52fe6b41ec323ffea01935a38219ec6daea4d73633382d7a02beb7a3f0f9944590850231d8eb78a0195c6feb6a56540c4c0f036b2af5f3b61f1697e0361fb8da2842ecfacab7094bcbeb235d032b55a382df04c0b4677a2fef568270ee121a0760ea151e77635962fbacb3ce30816bead6470d2513bbd6fd88745aafd65acbe420678c2ba2abee7062963c3fee196646743f18fb370efa39be3e4d8ae17729871e7d3a82664d855df9609e393ada850f96f92fa44128b7f4f10edc7f9aa2da450ccb4e96ecb839a10992aa187fc2093c32e3850c135069241b5f3df7ecef53ff1396f5557e27763008e80c2fa4028a568cffec65265d586691b67d682f216d0865f4daaea870810ac0a216139c21fcebef6ced48169d0db289b3264477060b10a55103647e85ab481deed97bab86292f453fe56c9f056db3fcb0062f265cf904cfd38c578bf7ab32ba44a88f4d3cb0efaf49b25d38260241ac76f9107fb89eb32d06ca1201b442d05d973ba8c0408737043c97a419529fc3bd3f960af23c076c3fb575044c0b465a871719815ee782f3394f889aa6b369c2e03053a30faff76794cb926ba07e71ec8b323b7cc0045a83efc6779d56adebcc81d09f508817e93d66d6b7a1ae164adf86e43f9bd7bb19fb3e30e67a8f54b8630a30d37f2f45b82eb1ac5364e941dd07ff43dca66b446af70f989f4b64578b7733176acfcb53d6b3bf45cd1caa38e1b70e1a3b3ffe16b3ba009c51c160f2035250a9d35a9838b35d520866159529add213292d31103b9c5beaf74cb7390cf7d79d348d7ed34c577debbb7fef3ca0be026c41cf74985d1b0b08cc922f9551cff7d40c6a277d1b707ccead3ed03bbb675b011419cb1a2dfba8d2a367f37ca7dbd4b000e65f00ff93c3b39215a95e152151dacdd98ed863f96bbda1d27945b7748c6155ca3b1b8f6aa79afb6328d7e946493e409ba70ef3fb7eb22d64fe31f32b7e53367aade08bf34b46b636a717a734448d18f723043106b5dc9153c2f91db0f16f85399b264f28ba02f44beddf584d1c981570390e4645867b6f6f0b76bf329d180ed7645611acabf2624c08cc1ed9ce7369e6a0968ab26359bb9fde01a9a01f9279f14db116597fc17ebd40e72db5f6e3ac0c5552a790cd2c9233c2249456a34acecaab9f7e44b6e1793b502ed4141387538c68da9277d6649a7df6f942decae2918d59e2eb06f90b06ab601811a0fbbd57af45a953d6693cdf67c2291fa23e8b774775e8ccb1bcdd9d3d73ba5be964e83047aa538031f1a651a156cbc1aa8a664658b2923499fb03db99773320899d195d53131f305caf0a80222ed92950211109d151a31ca811d847548fb6c87336d534128a2d35f411b31140a2aae181053fb8af22ce2466a690cbedfb421dffdcde8cac16a3da7f29a09ccfc0f6338537a7473e1b5f37a36ad18b08429cd772a548aa8c610f616a6637621c946e50ef829ca122d1706e47be935b7aaa65a98ae888d939f77e0120150db17804d74ce032fd70767877e77a12e986142cfba926db6838d4a630dbf16f342c36317617ab2feab4f29d28c69b82dfdb0d25d0408b733d4844556cd53f6a72702a5936bbbe325b472bf5f0bcf49980d6a43690bc3dd94b5e430ada0e466d0a29a03da026fdffb414edfec5ef5498f670b5002a3a9d83c4756da825153bcb3f2be4d408c255203998c6b2feb99773da7cd2b16e7b0181f86fa9d6765fb5bfe30ddc1f8b38214fd31dff25cdfbfd22ba8a57950d01abe746756cc55f54a713b6aa0a5b0d6a70d2f03df5f808f916912022e1c5da129da2059569d50e9a16a435928e667c8e0a4643a8ae262509f8f13e39e7999dbb9214ec57d2799016b2bfb348974ed0887415bb368b22d0681f831cdf7c59c382325c6fc20046bdf14239e88025f14673368b33872e3ad7ef3a36a566bd27656008759db6270228e9a18b4e0d35a20b711481125bfbb858122f0fd372f6f35ee327495cd4771ef802619475a7a0529af42910e088c0824759e59a8539917a802080fbbdcf15d85543d931fb276195df66b35691fecc5c15af355a3ef568e6230092cd49aaac8ffdc9ef2ced0917fd52026620bf69c75cfff6172e115cb46346a5e928eb0361ae0e45e7c5a2e1b723a114c6ce91b77c4f526c1ddfba03c1ff7fdb7470498246e5b442e3731994cbb686bd9bb4b09ca7d5268f44dbb57cc96443532617dc949faec7ad268d07b0fd20c454758a84e3449b30043bbf3d11b35bd135aaf95fe22b000c925594fb383616fd6432ea9657300426187ca057f65fa86d32d4bebfdbf7e70ac1a3edc31d566fcdddb7841cd7f87f485b53f4246eb407065c0dfe47cd08c2ca4947c68609c761f48e97718f6bd3a36605a6fac295e550ab69bdc5a49eafb72b178e1b92a06763051d1445155959256718e509a2c69443bca7da6d265fd469f10f3f178348c0669ec266c8b69e68b63993502943d1d8dfaae90317743273a0649815347b95f83436ff23f5ed3b350598fc45aea95678bf6242e02dfe577131b6c1cdb4d44e40a31480d1fbe5f478bba47fe4902fc020abd4495bc4e40b49d58ebf5eb8f53492e7a0a4ad0ae84c1abbee63da320c07357d7e0811f80f4a8622f1e54467f6b83c8cbd7ea334aa4ae2c9849b35d288cff860c86301c30ce2fbdcdffa1062a534b2e0f1c85f6e5a9ec7e2abd3aa80476964768f0f5df341de2dc4565cc0c765b12b31bff8b10af6858bb27db51ed933b774c8406d9707782bc0e049b1a807ca9da15d6827c23bd77b943aff76cd70f5a072a515a2503396893ea46a60b70677ae9e31045467cadc7b4731c6b6257e6278ef2eed33775be32168f852872feb9c34108ae96224eeced4728bdf2e0a29f9b82b4f7bdb2d7fa4c0d7d8c9f62f3736770ded85ab307fb2e5560bfcf94ed3cfe6d85066f8727091272667f146ee8c391e4824e5c4a4cead0399880102e9214c8c49c7fb9603674d40e68ddf0e5ff5738bcfc1bcecc648f59792b8a51a991c5a80e15f50264a4114ee60580341f361e4ac7af93d1a6207a9adf38d255118a2b31ddecd2c554dcf9f9a0a0752efa83f804ccca3bbab2865db8c268a9903ad96c5f906a2df517c6ebf933e9c4959dde00b738f93117890999ecaeffe3a60ccfabafbb9322551ffe0d80a2b586b67a1a770389249f9cbe3f3e3ae6bb2ec75d953140c0dcbec69c82d1be0df120ed0b7cdb0d837a0f52da1960dd7e1001f8475bb816e4c570a059b717ad311f72a1f1864c49a8f22b0002e1a4d75e14e59d5dec3928eca4af99974b3442f4543abed733daec6737009a7c46ae2655afe9b27c127a8ef66d80aa7c05fff58603f66eb063228cf5a6004600f8e7d9539d92751385e47de7a7ff0de0170c74062c7f0c36bc63ac85223809607d4db5e6e2368d0bfa1f7864c992406a39685780af01bc49c02fe85becee46a1926734bbc0d4ea4a2c3189f79a10d4cd149b19945c4a6cb880b38f641b0a231e0c455e0fc82e82cd5ce8fc42b081995cce588c733cdcba8ea5225c08d6476af6e5865e2fdf0939847528ebac50534e7c813fce7b3f885e055109a50f0fe9af6fc20cea579bf4fff03a95146ce5be8ab288b4b8559d66f20e78a6ce22c8c9cecb384dce1a7cb845265080722edd1b541dccbdc676f65b8dafcd596d0f3438741ef0d025522a6cac7d670984c1af04f653a0aa8d1c2f946b865c40c205910c3b7d35c1353e2438324cc3675f6eaff5489159968d508157a13d5e0e9daf75be6df522f1ae9f7e4dcaa9dcc355c091771d21febfa24d839bd8954edc92d8573e9057b2228d03b9b1e96956d3381439ef394c180dc488b553aea74dee1b67d0c0c2cf0237588e763ae5a363f2e7c8ae83f2b5e3fbdd15da8546e70cbec107667ee8911461b0cad8b0007a7593bde679a2a5293d4c3f2abbed7c24ba89617e270260925cad8e3002520f2633fbcdcdf77ecd15df4c2b888db5bc703911d6a5067ab4c54c29b3168d5860031ffa477dcec614765d40f5c48e3b33ee299c77c77111efaa77763e839ed55d4051f2a344b67b13a2216a181f3c28101a898546d9816a7c10a379d3162bf0933e814b86acc0cfe8862f7cce874da075ebb79b7150600333431236593382d2c752dca6cde4365bd52bd385dfb8f48619fc4112671b0dc954c2c1b6e5d16e03fff6a646218badef0742ec499bc1c5a74fc6d57d5d1edb9e9163c3567823c27442dfb37f3835914a5a17d424731d5197cb67b41845883dc52b98a013aab6ee1819c6333542b6f5bee6676b7b2a799d4da9ae950a1938fb7634d787b06b57155ec9e6cae3b0e17a18ddaa2b823139401fc513d465b76a6f98bcab2a712ed68b1598ad90a65ba6c5488b1b07bf98e279e4ff213c23c84440b9fd6c5520cbcec078219dcef049b0ac19140247111f14c72983a78f9601ac63dc24a40fbcf5b9f7c72567199e7302059b8fade09dea67a591056d116c3cccf08ce2a4873607dc88369fe435c6593ed79fff42ea598f3e9a0cf59090cbbd804cbccaedc2630d97b16460dd7c4b72f0f510d02acc404c94c7be71b2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>life</category>
+        <category>guide</category>
+      </categories>
+      <tags>
+        <tag>Self-discipline</tag>
+      </tags>
   </entry>
   <entry>
     <title>高阶微分方程</title>
@@ -730,20 +710,6 @@ $$
       </tags>
   </entry>
   <entry>
-    <title>秩</title>
-    <url>/2026/01/28/%E7%A7%A9/</url>
-    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>英语单词</title>
     <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
     <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
@@ -765,19 +731,27 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
       </tags>
   </entry>
   <entry>
+    <title>浑噩之后</title>
+    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
+    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
+<p>可是，清醒了又有什么用呢？我悲观的想。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>You are still too young.</title>
     <url>/2026/01/29/young/</url>
-    <content><![CDATA[<h2 id="你还是没有长大"><a href="#你还是没有长大" class="headerlink" title="你还是没有长大"></a>你还是没有长大</h2><p>昨天，有三件事把我惹毛了。
-一是潘姚一鸣不搭理我，还给我打哑谜。我问他高数成绩，他拐来拐去，阴阳怪气。
-二是创新实验室纳新，我参加了宣讲，但是心情不悦，因为我们班那几个家伙领先一步，我又胆小如鼠，不敢报名。
-三是晚上被父亲训斥，我本来就是因为前两个原因心情低迷，所以躺在床上看手机，恰好被他看见，免不了心生不满。</p>
-<p>今天，又有几件事把我惹毛了。首先还是创新实验室的事，然后就是潘姚一鸣竟然在我昨天追问一晚上的情况下，今天告诉我考了100分，滑天下之大稽，还有就是我忙前忙后看了两天科研训练，宋翼二话没说当了组长，滑天下之大稽。</p>
-<p>孩子。你还是没有走出被害者思维。真正的强者不会抱怨，不会被动。他们争取主动，即使已经被动，也就是及时止损。</p>
-<p>上午遇到的诸多烦心事让我无心学习，下午直接去看了场电影《极限审判》，不得不说，还不错。
-但我想说的是，不能因为一点小事就啥也干不下去，该干啥干啥，仇老师说的没错，要稳当，有耐心。</p>
-<p>还记得吗？“滑天下之大稽”是《侯大利》中杨永福的话。那个家伙自命不凡，心胸狭小，心狠手辣。这句话恰好反映了他自身滑稽的一面。杨帆让他远离自己的生活不要多管闲事，他认为是“滑天下之大稽”，还说“老子喜欢她这么多年，管一管怎么了？”这时病态的贪婪和占有欲。</p>
-<p>所以，我只想说，前面那些“滑稽”的事，是一个警醒！</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="0fccfc243a53ac2d8509afc33a74e1ad9c4eb030ca2c62d1ecd4dbfc032ee674">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f892599d710e02f1020d804dcdeb4df48de100c3bf944474071da11196b1fb1393809aba4de141ed59f1f206aa81f33df8ddec50a1feea408295032da22ac9271ad40e4cc4a4da65d20901afa464b185f9a6c8879ee98528a0e5668d3945e7f0f57853ed5e92ab5bf08c42acc653c3fef33f9855d1833edf794b88412fc8c7644221ea3e9965b460a9ca399d135d221651930b5f0e4c7ccf4ed41684d8d2a485c7660e54b367495465b3e909e6b46e6966859f3c87fe642be491d7169da8e896033e393a9e1fe2d21491192008b0abaad8eb77457355e5b264378455e502466dc1146d8fef67f4963576755bfbac3deeb476a25f644fc13b43add9098d44cec568d5ca5b1424807a1c9819ef880698fa56bda5e9053f1e2a9854479a3ceb1d85d4e507eef6ef7d62751dae531e9af966e4994928a873e6ccee825ced6d6d8523d21e071057aefcec3c0e18154acf631f1c026a5e0e5fcc38805c61f85d249f8341bf5268a232ed3566680be87b2e079d701f79192156cb0dbf94b3771ed0b01b6b216028cc624f73d4ffe52a7c6c34df2e73df4b22a39c4c423df48fc9c43562a517f2502e4c832a9d0c7ebbbaebf0b4d828a7e878600a7732d4b366b02a07c0069524cac9e2c2c64809d5bf5da98cde58176ba3107c3690afddc1c0ff654883ceabc5271b669a5212caff70a2d6ed3f0551e6e174fec3470446964ea7d2a5eefc1f5be8ba8667c3bdc54616a2a41872204b39ef94b825ee39f9b4e681ea496b44c6aa201b4ab2480d8a556e5fc52c4e1d8c8822277dfdc583314af9c195331ec67e489b2647604d8da49746629e497a22115acd5b608447c98a773319d1b6c29d40194a1b9aac80f9568d61a5177e3c0452f64de09f1f02258ca174e8b912030f0d43dae135f8c49d5561421b0b46a833019e24b1e5ce8c50fd392b5c153ff9f041e04051a359c525c24f231c1e0577bb2bf6f916e4b18b6df39f5a4b60bbff2a51582b63e701e80c93527041341930c636dcc78ae42e4afc589df05771547ecb8130e4544ae34dd2a62817430822c5dd4383a4f2b8acb98331ab6c3b702185dd97887da0757b94330c7e1e2ac359db8cf0c37b997531611d4acea679c74fbd700a5f2e09823adf193c7e784a74e3ef953f63a1004cba2d25cee07ee739fd3cb11f22b5d0960c535a9c2cfdfcc956e47ac921907b5749a373b330413c83ac713d984e4c5abfe4e82f97f5257820cf9ff17e83c4de88fa43b834ef37901e15a78d333628e6aed1827581e4c735db8f4b9654dc51291fe375371711296227c685d7a0f356a13f39b5bd8a128d7aaf66551025ce4ba2d67d756c34952da6ce22887c4fb0148284d8569e2db0d365727eed7ee5fa6bcd9edf538afecb4b1e59e86c1820325c5dd036c28296e12213157ca48551c992c0888bd9812709df80feb2ae468e1a011042c62edcc7b97f9ac6ab1187d937477b235f523684a383b4478010443123f85a6cab7ed60da12897afbbd8a4eeea0874def3d99aa4bf1eebdbd191abef6c72a6bca7b65d59c41bd14d5e9ed0620f43994122e28f1970c3eabf1034774bcfdbc993a38abe86d9e0fdbc6398392242a2eb789a04516458b0f240869514eae9f3ab56b2f0a4c76417bc9e29b2b1766403718c5a5d29aeb484668da92d4644578153e9253d555093b511ee3fc96dec959941881bced1690953b61cb44c5602d693ecd7f418568451ce61c132e04b4044711c9df2772ced8876e0b6815f418c156b698b842bfec44779b8858af6db116c05be1fbadfd3375f8cbbc9a3a175ae9a4f7c3108a6c23075a926d8ec1f1a33d59802fe813a03ced64c9f8967f5c75ce80f0de81f0cd1576dd0586ab3444b8c243e89b9858c1d87568458adaa0eabc5853d57bef3950b8b59b33168d865bc4359be728e996b30b8f2f2d7ee4b968bde3b3185ed7dcd8f78fab2aa52038e4eef3c7aca287c9b9f1f56c7fbc5117eb8e9e624a2d62f75bb70845168e1bc00ab1beb115b85f2cd5234e24178a0926dba9bea77e8a627a0632f3def069d0de6c6c983e8043c0dab89c721fb4f54b2417adbf42769c6ea666f1e6b1114b8937cc29278ebc93e8ad210b2940b53986d16c74bb5ea36ae7185ac9696a5ebb2a3354e45db97f0d43da9a50eecb2f1bd9607cea4d7a27173ae72753ecfe970f256172cbc83a6bde6533e40ec11469c4f7536ef5d4635b1a636bc0e17cf248ddee3c8a7299a0e2117329cf788ca87dcffec324f12b607acbc73c3de742f433a6fab0acfd7b821f5c68cee8e71833b144887acd2ac271a1e9500cd3edb885d1b9a4455f7ea09a515ef34f1a27972ea16d1442f55b7f95742fe33ad9afbc6cfefc5cb8be7928926a8fe8d12be61bc46e617bbc175a4f47b8a0f4cad5e338e42d1a471e87c5b340f7237d883596d704b5bec1103559236f09236b76502d0ab1e373eebd44f1324526017208ae2f2459e880608254d3925b272baa2b8526e91c4fa0e9455adc135a039a62ddd7748811f29a4783deb67f94f833dda37abfe74a93caf7949b5a9546a39eea11c0839bdd5015e13f38b074b080fbfda04a0b183168309401b51</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>life</category>
         <category>reflects</category>
@@ -788,133 +762,20 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
       </tags>
   </entry>
   <entry>
-    <title>浑噩之后</title>
-    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
-    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
-<p>可是，清醒了又有什么用呢？我悲观的想。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>A fresh start</title>
     <url>/2026/02/02/A-fresh-start/</url>
-    <content><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>This is bullshit.
-I’ve spent nearly two days wonderinghow i would be spending by 
-one and only vacation-since it’s gonna determin whether youo can get 
-admitted by the CuiYing academy, but ended up with doing things
-totaly irrelavent things from preparing for the entrance election.</p>
-<p>If we dive deep down to it, you’ll find out that all is about the <strong>habit</strong>.
-You failed, because you didn’t form a habit.(or you did but it didn’t continue.)
-And you can possiblly win, if and only if you form it again.</p>
-<p>So here’s my advice.</p>
-<p>the first thing you’ll do in tomorrow morning is waking up.
-I case that you’d sleep over, this time, I have a back up plan for the occasion
-that you didn’t wake up until 8.</p>
-<ul>
-<li>if you woke up at 7</li>
-</ul>
-<p>get up immediatly. YOu may regret to get up so early,
-but all you need to do is telling yourself that it’s normal in high school, isn’t it?</p>
-<p>Then you got up, go wash your face ‘cause that will fresh you up.
-Then you go cook for yourself. It may take you some time. Be pacient. YOu can listen to music while doing it.</p>
-<p>Anyway, you’ll finish your meal before 8(hopefully).</p>
-<ul>
-<li>if you woke up after 8</li>
-</ul>
-<p>Then there’s two possibilities:</p>
-<ol>
-<li>Dad’s cooked for you</li>
-<li>he has not.</li>
-</ol>
-<p>occasion 1:
-eat and start studying right after the breakfast.</p>
-<p>occasion 2:
-go out to get yourself something to eat and be back.</p>
-<p>In both situations, you should be back before 9, so that we can continue our work.</p>
-<h3 id="part-II-What’s-the-work"><a href="#part-II-What’s-the-work" class="headerlink" title="part II: What’s the work?"></a>part II: What’s the work?</h3><p>before you continue reading, I’d like you to know that this winter vacation is almost the wierdest one I’ve ever spent!</p>
-<p>The reason? you can see, that you dont have any burden, <strong>or dreams</strong>, do you?
-I say this because you’re experiencing a loss of purpose.
-Whether you’d admmit it or not, after being humuliated by classmates from both your college and your high school,
-you are starting to consider yourself stupid.</p>
-<p>But you know what? That may be true. I say so because if i say no,
-the following explaination will definately feel pale and weak.
-But if you and I admmit it, it’s no longer a burden! We don’t need to doubt if we are 
-right or wrong about ourselves, and just face the fact, that we are not as smart as they are.</p>
-<p><strong>FOR NOW!!!</strong></p>
-<p>Yes. I don’t believe in those stupid “inspiration of intelligence” thing of my dad, It’s bullshit.
-But I do believe in <strong>dilligence</strong>.</p>
-<p>These days, I always had a question: have i changed?
-Then it reminds me of the wonder man show I just watched this evening:
-When Trevor said to Simon, that oneself is not their condition, but their experiences. 
-Everything you’ve experienced, together,defines who you really are.
-so have i changed? Of cource I have. I hadn’t only because I havn’t grown up.</p>
-<p>When I was young, I used to have feelings for everything about science.
-But what happens now? I’m drown into something else.
-TV shows, short videos, and bloody hell so much bilibili videos!
-And I dropped reading, I quitted watch films, and I have gone lost!</p>
-<p>There was a time, when I could just listen to music, reading a book for relax, and go to
-study whenever you feel it’s the right time. Why can’t you do it now? Because you’ve lost your freewill!
-You’ve given it to the Licheng No.2 High School, those teachers, and you pathetic phone!
-You can’t go back to junior school when you could spend a day wandering in the campus, and ask why and those
-innocent questions, and have the joy of figuring it out, can you?</p>
-<p>So, I guess here’s the problem. And I can’t defeat it with just poems or these weak words.</p>
-<p>So I need schedules, and I do have one for today.</p>
-<p>It’s basically the plan I made for this vacation.
-Just remember these details:</p>
-<table>
-<thead>
-<tr>
-<th align="center">subjects</th>
-<th align="center">contents</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">calculus</td>
-<td align="center">differencial equasions(problem sets)</td>
-</tr>
-<tr>
-<td align="center">linear algebra</td>
-<td align="center">A lecture(from opencourse 163)</td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">one essay by Mao; one translation</td>
-</tr>
-<tr>
-<td align="center">cook</td>
-<td align="center"></td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">python neural network(from a book or a online course)(gradient decrease)</td>
-</tr>
-<tr>
-<td align="center">extention</td>
-<td align="center">a financial book</td>
-</tr>
-<tr>
-<td align="center">sports</td>
-<td align="center">speed endurance for 2 hours(with break) (just run enough and go)</td>
-</tr>
-<tr>
-<td align="center">difficulties</td>
-<td align="center">three mechanics hard problems</td>
-</tr>
-<tr>
-<td align="center">physics</td>
-<td align="center">electromagnetism and optics <strong>review</strong></td>
-</tr>
-<tr>
-<td align="center">entertainment</td>
-<td align="center">wonder man or the big bang(you only choose one)</td>
-</tr>
-</tbody></table>
-<hr>
-<p>写在最后：</p>
-<p>我打算这个假期不仅把整个物理学的轮廓弄清，还要集中提升分析问题，解决问题的直觉和能力。只有这样，才能为选拔做足准备。
-首先你肯定需要具备普通物理的全部知识，这是你理解题意的基础，然后，剩下的就是多做练习了。
-平时一定不要忘了这两个要素双管齐下。时刻牢记！</p>
-<p>另：费曼物理学可读，能提升思维水平，可放到空闲时间或者拓展时间。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f56292dffd3fc3830f928620a6a039ee2d30fc09e4d6d9798f378c52714db859">9690b1a5c4f92ab657be69536c074ead166c07d5acea67948f3adc2f8acb27196a05d94eb34dd1dc1f01d9c08d089b60c32c44c3a589cc50ae1fba0ff3d2afdc760983dec74236d2b137df1bc04042d77d1d32ef5ff0286f469a927a2429930a3e0264d26025f564f5507921a571da063cde70a24a2d399884602d06f0c65565ca2e90a699b085c0db16abbf7522efb92b0025bc9896f66cbe3cc8167867dab7ac525cf0afd7021aaedb86a9573ef99289420da625d8da108b2adcce6b3121c11096a474b41ad9fef5d8f478cebbb0a4e9ace6ea3269ecc25141de7894b8556dcef6f829974eafdea858ef5cc7e167f0d86ab32df7d7da64a643486d484fa97afd6284f5264b3a8547006c8e37b5eaa248acc68009c78fcea9a936210bb55f92a47367b677072ef5036679d74c8eb4aad8434d3d15113c41c5910270076cc4bb7012fb83da8ef92de8bc5868cb35bcc12700ec7ee594665ceb8752c1bf4f60511d53e860700c2c80bf4aa4220415725ae2a7ddddd7a06dec8d1433b92114b7e4330a859339fef4b46740ce308d518b0fc4536ee2de9acd02895024067f1e29bfe23f2fb664a7a4d33578e81c129f5f1a121e4a752262d4efc27341b02e63a77369b460d66cb364df55a322a9a6fd767a84f0c2eb06a38fb34d55a8bb00b62351f3ad32227efc60e57afebdb4237bd398e8fa14fe3424611b72e37ad00d961feffe9e73cd2daa221c58b3722e6558d299942bbf9f18a95ce984f3d2b3ced309b58217fc920288d80ef2ccb484f42fbdd062e86bfbaa98c87ba49c8cfb66c83c2dbb8ab355f9a2591dd2d85b9cddc87a01b7b04198750dc3d73225a8bb2e1b7d73dfcf01af5c9a44a309cf285da043766338e2c0f890b58b13ea0c079f78cebd8a4e599a9a0033c81af0b0d2032a96c7fbad9bf463d41f09107aea63929ecef93c29e8e38d4d9f83762b681b71f1a2119323cdf8db19fcb368c97e48fe383025beab871e04081b4d051345bd96fbb2d2c948b0e0fcfb8099922e3e47bff0ff47eb9bb0f66ea2a10f9ef663fd37ff44cf5360561be0a0b4cbceb6df90fd3f67417ba1d3402f8272afa4e6ea400a6a6ca22b772a9c855477c2340a063c91f3a4e1640ec68e1a0090b1b2ddf9942378a19d8716e49de817b51c890bc5d553592a861afd7a0259da59b5db640a12dc4ea73eb5cb44e5c791c68ebe18ffef7ce5ef450e4537396475bb0ba4cc0cc95d2108249a8382aeff1ede57d224bae5bb1d10d18a6da2ef9bceeffd491525d2b6c33e7121dda8a926536b14d6b2237e4d60d0a3dc05f13100e3bc1d9cabca0b16d46d757ae69405d49a1aea30c450d80a6055de1bc0389ef147e67962a0440b789c43371743e891e9094ede7adde4771436a504718835c8741eada29cc2cfe1b64b196e115e418a60393770ffe46142a11ecedae9a37bc32c9d8ac9b3f7e40cdbb3342818b88a3d907cd44a78f344446ca9ba0bad878e4c1711df98e58aba4f0186342ab7c9c659b533574796c6d09eda3ca86f74a4aaeb4ed48f5b46c064e793ce3e48227439f76c5dd5b6a40343e5b415e1f987f66f9f8071aa5f9dfe2254afcc7731cf49665376de0b3e324f97006628568cf578e1fa81601fffbab9fa5be1981d24a873bd40320a71d734c51b69d229f56eb0940f2ea0d60ae37518e460a619ec7e8d14a60af6681d20f86037431dbf5ef13d3d92fafc34a674bdf8c57c398091ccbebe563970ebb6a56b502610adf042ae4281611b241a0b124d5093a0465c54ef96c42d03edd81608aaf98cf33d48a87b12021f860b5cfc8f46de21120c12bef242aa4bbeca64b66646e2cd9dc359ea369f16dcda82848a000ae832d6d1757e6b52e0a39803ec17ec3ea485a285f88baedf97dfb007666ca732a4483581172158a4a729860089b4f2104f67f8e1382a7ac335d3765675c2c87352058ba2e8a919a9d85ca7f9c26485748509d6bed92250e045a289aa87777f1bcd4f09f498613802efe63e41e5e7fc7bbcab14f09d96511fd3d37234bd255bfd80d4c261132f033f5302bfda3e431d6017f39b8bb6f1b01eadeab4a0604f375fc418eea9dfbe460fe13853393afd1b45f1417b1095c6770e7824c64d09ea2b4453f50ac107c14a5a4049f878495966525f45c6f9f64993f0da730c908775ab3ca428178859957ed619072209b330bf28068f251048efddfe9eb5f8accbac8649e369ff9718366aa07f1f972c3d40f245bd12a0c86fb237456dde0e0fa6509b96092c9084a99c07125ac505284295d1079a0798f60d4347666035baf75e81f861e88be121af3648247ce165e0609d1899d54df9ba28703e52d7037a1a2b7aaa090fe0e66e78cef951c1c5d6173063463102d06de73aa11597c4999ad85a871decffe49f7399298cc2104fee608f7de761404eb891f06459a765919f724344b9f0c0326eb2fe239048d9ae7c2768839c8450b69fb9a1ff886b5f6a0fb5c31f4faa54a13664bd85beed06c7fab62dd9fb57253633f2c0c5bc4263336d3b1432873849eb6a6d12355d6e4890437a9cf3f6677d8200eff173dc61d3d1f9d2fb1a131c620f49bb76ef262bae317e572c2f96c5eebd03e5e90e023f04a7c742646a168dd123a99076177766fb315b1f267fbd402ac86aee39c7fd11c1aa91b5ea19cb54f14f7637838a48f55dbc1b1ff12d5e2a5d738f32dcfdbbe5fed50998a5c3460a608a4d343b3193eb2c8108c1a02a5abc3a9d4736c543b43cc44214ccbd9b54242cfc427dcd868399ee62c3fa02883c188341ceea622f224480eb2641e101b75bf2a68f4f9b673c7ae5264f279d98b2b3f519226a0f1726ac587fbab55c72907bff2289936f79f6459feef8db2b522afe9651a3ad0046affb910c094b0e0aa67efb49707179e8637cad9be32308242cc7e44c12ba929e81dc03ec8930df88d0797f1104456ec6066419688c79b413d2fb1f35c5ec3d03b00d4c79f175f093ef27dce53cdc42da6bb2650ee6697cfa6441cd39eb086b898ae9764b2ad3e6ae78e634f1c22b792045e7273d3a2a1da56667541a92ffcb76b8a58037bd7fab487721f258a2886649ed0515e5b3c7be23671e98a4d6fc1c8f177a59349f1736a82313dcedcd499ccdd001785dc9d52fe929fd3ee503df9ac109a4dc112678afae29bd40995fbb8cae2de1d3ae7ef8f91a19b8c40afeaf372c57100cfd384f28874a37ad8ccdbd906853e7e0102f17d4d9e9ed5e49c94ef77b6c38e36d4dffd3c8f6b3f41adf37d5f5ed84c460a09278fdd0fea7fba4756a196f9c12a2f7c01a486cba1aa4cd3a5ac043ef6d019f686f777627130cbe3400af05b16f1c54444523e11df83b8672c61a787866121c591b7af1f87dcf670252a59e7b23edaa06e823d14200cb9d99108e092724ed2ef34d042f2f791150dafd8c0c636d8b3281ed8c6e3d287337965ef248454b2cdd29586c7d1eb9634dd0db3da114ef542708d797ce624371246e0529baacf8d2bf2243a1d17c3fec95ba5d09ba0bc13acebc85a4e3ed9969a4ea88c93961ee7e4ae032e3c6ec685b5329532a3abe5277f2837cfc22c2734b0076e50de5a6d9b8727edf1444b87211f1fcf7f3618cedfb5d7782c59f5d65ed44f5fc3fb05860ef99ca6ceb2fafcdf988361262ec36f4203056999bcf97e2b88ca4b68e0f8dbcf8d4da109d99c9e5c6fe01b5fe1f01e09e61961e0427b65e9beeacf77cd69eb8a4e250d2ba639949c284e775feb6eb5542a9e8d678a146fc39ef3611577af6312610a4e486822c2dd6050631dcc3db4e9e019853639eed118a69631ffb8b898736b0a4a380d19184834dd70fbc564751b3d0fcc115e4c2f80136a38fcf443f5802a211f1460936af2f7fab29d4e8b4d3e3aa2d14020d90d5993b3c6bd984204b4af7808c8fbfdb7d6ef4c27a88279e13836766d2e96feda555797ecd5a85fb5e538208ff1a126c784c45459662fb231e6cc2fef00c78ea66ee55ae38bbe7d34ce29a5f52221bd5ac93886146b06bab156ff45387b4d584093393e029a86e75d94ae93909460c730758b7c539f611eb9b00d0e7223617eeec38c5cb2c7b2124325065ffe898a61056508daab95383f4a2d7e1878cce09e857ad6a78194c8387b96a3bbb62a6f89e4d8326c30a7ce2478a37e574ea12bc81b4ea04d3ca307fbac5b016bf592b66b7a50027f6f430a464ab2bf7c27b565d307bcb05cb83a6d05afc041841de8f91fad7ca3e9192d1cedcc766df1dabeeaafee98992a98cc9eeb0325e37249500cdc02cc902ccca8a0bb6a3c7bb77189685d4b4e9b1cf610eed0d20dcfe40485ef64ab8b36bff6306c32a0e8785c00207132e1a8507c5a74283c77065321095e44539d0aede2dba74e2c13e4fd5dcd463c8f701142b377d4b6223062438ede34a386cdf9c6d69fb4aa88e3ea7a117af4f440fd315a233927d8b7774495a83ae1290c28dbe231f6fac4bbdb0ec31ca60c3229fb2ea92c50d38af03b8cb508fb5405090a7847431e1338886344b8cc638b385788e62bf154bdedf784e03e6f699d13129c0831a7fdd8a6c3bdadd14ab6921c186be5019e973096b56f1c23b805df19636796cd80e74971a2fa7c26ac8f68564fd79a8139c53d001426a20977e67ee929089e6eddf222b57ae58716888c38553e9ce7b84f9f0047bfc6539604c9f83d26443ad41e7b0dbe0f9bbb06cbb1c305275a54f70d992ec0a238fb53cc29f03bd2f6f8e10953214fef920573184a105f401701366fe0b07bfa7daa588dd3456e0b7af08fb6ed210434ca4585302232d8d810f6f1e4cc77d05006a35a3c585e98f209059c6b6546cd802161a84c3508ad77df1b6b76283489df74c8771e8ee91df681d9a08135ede45ad61363fc78773682743b87db9f5b88bf2cd868e7ace002d2d88ac5644ace5132f305aaf2320c079ed4f831232edb6ce9b47606449d54ee10d17abb9b2bedbd843f622b049bcaaccecd24335212d6ec7c73f25d42e3eedc65e72510b84940ea4269353b81fbdc6d3d03cb8c2a24cd95c7b2bff6502c51e9845e4ae62225b77f90e257a44145d67b985c8771f4efb2486be0c7c6849a15115e6d8ad6445e28fbbcca1e4fa18d9cbea477a1c08c2b775b8e1124cf7d709b623bfc25d3aec69c4d051200874eeb3541bbdb93f48231d2a16a861847c47c80cd5ffc4191f838fd5d2707fc91fa2861f9da16b448110da625ace25d549625e09e6983d6478f29f7e193674f319dbaabd4ec8bbb603d4b1a6a06c44acd138ba4df49794300decb635c1ff04b6a0733c28f93247d1f3d53abbd5f41aa8c63476232af209c40449f6ad1d3df04448797b0be331a9251675c4d066c3aa9f91b307f73bfa6de390934cae31479ba82cf1c7bd87aa8e36d9a8ceede3df03fe86c92a2e292ba25122f6a69bb3bc7dca84cc7d9d543191e09f6a0fb82ffb70ce790720acef2fc2e62002b7383e32253d06ca093ae7b83d37dd16cf822044dc3125fe993d25736774f8623107861ccd1a51241d60069968d379f00ead630c4c5c7f842f1c43be4d277a5ebba25a879fc6ceea8f5fea9c9c1ad6055bad80a9f8f604871200ce1e0cf37b9fa6c5745d89a04a06dbc9e63256207e596451b637b29919877d425511f528d1106d9477db343b1e50eb2058016149a407a4b1c2c9eb197db4333d476f1887cc994476f6ed4003a940100128b43ae85d6cdc78f903da7c82e325670d674096d75fdb6746290e70843baf07bd071281bd27f902cf4d0c2cdd01c4cb880ff2b61634f597739c9c61460a0ac085be538aa5d0b1241c3b88701625a1dc2e4661b0af2b23b5f019a926a5b86893f6e92eaa54060486ebc00d8c628936a3e34b075d66a241e97684875b5c91ae7e7fd499188e6a09497217ec48a5414fc5da6e7237d4c09b57516ca6b5bd5cf558c88e5cf3d3b6f2608e8821b2036ed444d1da5ce9332c490595822bf06f000913cd4ed335062a54678c59a70e9852875f79e787f420bc773398d1320adc3de784837f0147400b1e90586d81e3ace9d900748f756a788d0febaf44e457cb20f8e7fcf38063b77ea02fa6f8e004901c2ffe0a2cdb0663dd1dd2d7e6a5a124ee55b3f0d08f6f9f4dfd9f71e4f455979ccc5d8c8647d4a79e4676ef51b2af8824b8b98072990fd3a9336389f98694d2db31c18643d1eb2082f4d03b9ae35ad4b5e602a50e3d307a3734111e1213c1d59fdf96639d691d622bb9b0eb1d2fcad5928b6e937cf4964a9c59374e176d802bec20a5c149cf8ce7e699a1c7fec517636287c7e5add35a8a2f6e90abd22364111a74e2715cbbf20c22ceaeae13f93c8d7a1a04b19c5d668e536fd7928f32f160cd5fa3bb9b77407e8983d7cd3a9543d7521d7160533546528b9e548e93672a42872f1ddeb9715dd257cf2d40ae4104c4b91177463ff05d5ef80b9a11095e09eefcf656bde5a5cd4924c1be3c6268efd6df5b15489e581250416749b67b882a2518e00ff5f9984caead64666dfb2f8c5e005e890adbac30fe1aef2f434d2584c8ff3a94e6afb7f18ab5905a051b878d90ef83adc2fa33fb8383736de2129388c32516fabf07a8711da36dd66d457bf20fcaf7bac61c5959c9ae503777554a617e7eade7fa1f4a8f5bce23c0e708802d67e5092b347af9450a8474bc0f8adcc46e4359e1218544294694e0a5e7f5fd621e3f5d73788783b9656cca4d5c3aa21ddb4ebe1bba62c4da25f589c3765148533315e77eeba407c0f112113f21cfea93fe6bfea322e9b255328afabe9015348a470b2a613a1ef2fe58aff45aadf25ef38beeffa06e778892041cf7c624b03b99c1d6b7906d9fb2b565e21699a182653c01d47195c1374dd7aa16e08a25b0badde1cc38c9c9a392bc925f70f2418da1b9822b9291ef974f3d68630b365a53e411c5646370bdb48a79249c4190b5b761568c4876e83ca282b9cfe757e03aec08f2de58ee2410c53b1beb29198aef27d6a58f0a7042efa143458308a36f09fd6a6e722a103f8ad9bdd7daa07e7f6563b102cd77f97c7807aeca9da43efe7232afb67a995070afdbfc3cdd545b94d610896ad2165c59528dc9576cd90dae88306c8d47f07c0de7fc82919933857b4838c722a05abc0bd680b84715a7373e8b9659700869c69720e7e17e8751941accb9ea5d52c96a2170eedb5d954dcefddad31437666988efd859302dab7b37dc8c75bce9d4d66879b3651564da6d334022d4fad7e35a37d8ee7d028ce489d1eb3e212cc555b8daf0d618f852d848ac485aa0816e484eacb9e8bc546fd086b02667f59b7cf6a3fa534f9d20ec7a9d2df9ad2c8b268f6a08ddfa52bd57874fc6b81972100e5e7b8b31e15ff94840472de2c0f91d6637c1b2aa62b9efa424bcaca21372e6a1d768a5ce79d8ec6b3575c1e36831761be351e07b8d1aa618017c52c2dd9fa58a0387f6fa9f1ed456f3f861e7fc71366b17d6d08086447c1f550501059229bab5c3ae3123caff6e9df04d1809e150dc302324c436a7216b17813107453bf72b477eab58233204dfaf52edab75e58b91f6aca8fb9432a984fd7cf4ddaef30ce9ae97f33ada2528dc5bbdd12c62e43bab20bafac18ab77c512bb52e7a82f43489c85db5b9a39232fa7ff3a1fb38f0586a0cf12414ecb4a266b6e84ccaf119b3b17fcd815142b3c34cb01951314af2e2292c74488ba6bc81f9771e8165ae3dbed82ec52824ca783deb554f08491e9d9b0820e61827930bb93ade0005a1188697538348113f4a005054f391ca2d1b3565d01040ce73a66d0d9ee957032a5ebbe4ade6fe420dd60a21529cf18990b90051d9700ee767c5285e73faac0d19e37848951241a6ee2ea5df937cc5c2be75e2b6620b1bf96d77d2c845d3e0015b31409e44e7a825c42c5c3311667814fff94ec4e8fbaee7ca7879fc3f4525b5f9821199bf483d51899fe508e654f0b633a8abcdff2d7d3a65c7f10091cef6a351ff00dc1509ad47333b6db17b022c3e7ffbde92e5d44c44f4dc5b791abc72904d98bc8e2fe9a635187f595d030f46afca3a8c5a4234f45fb087e370b501754a2cb1bd07ebb302f8efae1985762c0d8ae2b575a3dc0883912125ec088c7dd47d177c221cec8d9e30eae2fcb8f3d61d2ae5b7d0a2ad6c916bf1277a444322cb19ada8dc539a5f3a575e93bfb900dc2c2a0dc82152ec549d0a61fa0b86f4bc62725fe25cce2f72d2bd8ffa9056f693f47a4f0cc63e2216f5841d65f9aef659ba5d5f314b0ef4bae1f98f2d90581b59ed58d12af83b4f1534b852d226a0ce95d17c288c665b4607caffded7889851aed5b9b0d72f06</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>life</category>
         <category>reflects</category>
@@ -1034,9 +895,25 @@ Just remember these details:</p>
 ]]></content>
   </entry>
   <entry>
-    <title>new</title>
-    <url>/2026/02/11/new/</url>
+    <title>狭义相对论</title>
+    <url>/2026/02/15/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>狭义相对论-讲义2</title>
+    <url>/2026/02/16/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA-%E8%AE%B2%E4%B9%892/</url>
+    <content><![CDATA[<h1 id="狭义相对论-基本原理"><a href="#狭义相对论-基本原理" class="headerlink" title="狭义相对论 基本原理"></a>狭义相对论 基本原理</h1><h2 id="光速不变性"><a href="#光速不变性" class="headerlink" title="光速不变性"></a>光速不变性</h2><blockquote>
+<p>在任何惯性系中，光速的测量结果是相同的</p>
+</blockquote>
+<ul>
+<li>实验证实：在地球上测量光速</li>
+<li>理论推导：麦克斯韦方程组导出电磁波波速与参考系无关</li>
+</ul>
+<p>分析：</p>
+<p>设初始状态两个坐标系重合，原点发出光信号。随后O’以速度u匀速运动，O保持静止，在两个参考系中的人们看到的光速是相同的，我们分别分析光的传播，得到：</p>
+<p>O中，x &#x3D; ct. O’中，x’ &#x3D; ct’. 
+两个同时成立（这里的同时不是指相同时刻，以为它们的时间不同。这里同时指对应两个参考系的波阵面方程）</p>
+]]></content>
   </entry>
   <entry>
     <title>2026年2月17日</title>
@@ -1281,47 +1158,23 @@ Just remember these details:</p>
       </tags>
   </entry>
   <entry>
-    <title>If you can&#39;t do it, don&#39;t think about it either.</title>
-    <url>/2026/01/28/SM/</url>
-    <content><![CDATA[<h2 id="关于SM"><a href="#关于SM" class="headerlink" title="关于SM"></a>关于SM</h2><p>首先，你的人格塑造已经定型，因此不存在“摆脱SM”之类的可能。
-那么，如何带着这份gift，活得更好，而不是更累，就是你需要考虑的问题。</p>
-<p>今天我忍不住先是上Gemini让他给我建议调教项目，然后回家之后就一发不可收拾，开始从网上找“清风女王”，上玩物直播，看回放，然后就看小说，完全失控。</p>
-<p>这让我更加确信：<strong>不做就不要想</strong>。
-你的人生路还长，没必要每时每刻都想着这些低级趣味，也不应该。</p>
-<p>以后，你要去德国感受被维纳斯囚禁的绝望，也会收获一份甜蜜的爱情，如果那时不能把握住边界，则会非常危险。</p>
-<p>当然，那些都是以后的事情，现在要做的，就是坚决贯彻落实“不做就不想”原则。
-尤其当你不感到明显的压抑时，尽量克制自己内心的欲望。短暂的煎熬过后，你会换来更持久的平静。</p>
-<p>如果生活受挫，万念俱灰，或许臣服能够遣散心中的阴霾，这是可以的；或者阶段性任务已经达成，也许也能放纵一下，还能缓解浮躁的情绪。</p>
-<p>当然，频率的控制也是一个要考虑的因素。如果你上周刚去过，尽量克制一下，平时自我解决的次数也应该限制在最低水平，甚至完全停止。
-如多长时间未释放，身体自然会给你信号。这时，如果你在周末，那就立刻约调，别管别的。如果你在上学，那就立刻设好周六早上的闹钟提醒，然后强迫自己投入学习忘了这件事。这样，当周六早上你看到提醒，身体还会诚实的有反应。但如果你立刻约调，就会有两种可能：一是你直接没忍住，而是你忍住了，连续几天心神不宁。这两种情况，当周六来临，你也不会泛起任何波澜了。如果担心自己忘不掉，干脆把时间调整到两周之后，这样有更长的时间去遗忘，到时候突然唤起内心压抑了两周的欲望，也能获得不错的效果。</p>
-<p>最后，关于准备是否充分的问题：你只需要找到足够专业的女王（在兰州和济南都已经找到了，实在不行就在玩物上找），然后简单说明你想什么时候玩，需要什么器具就行，具体怎么玩到时候再说。</p>
-<p>具体怎么玩呢？最简单的方法是：你直接写好剧本，让她对着来，贵点就贵点。或者真正让她理解你需要什么。关于这点你可以从两个方面告诉她：一是语言，二是行为。</p>
-<p>行为一定要有侵略性，侵略性的行为需要配有冷酷无情的语言。
-行为也可以有挑逗性，挑逗性的行为一定要配有<strong>表情</strong>。</p>
-<p>when you use me, make me fear you.and make me ignored当然，我必须是痛苦着被忽视，而不是快乐着被忽视。也许是脸麻了还要被踩，也许是舌头破了还要舔，因为我害怕。
-.</p>
-<p>when you tease me, make me shy.
-你可以当着我的面一起看我没调教的录像，或用真实生活中的我刺激我。
-你可以喊我的名字，但不要说我贱，你可以用我的手机给我拍照，可以让我对着镜子看自己的丑态，可以用脚不经意的喂我食物。。。
-这个尤其可以在调教之后，当我们一起看之前的视频，看我的贱态。然后，你笑问我，刚结束就又立起来了？然后我在你面前自我解决。
-如果在游戏中，你可以用脚感知我的心跳，或者玩一些“闻袜识人”“罩眼听声、闻味寻脚”等羞辱游戏</p>
-<p>when you abuse me, make me fear you.</p>
-<p>when I worship you, 必须是我偷偷疯狂闻你的鞋袜，而不是你的脚，是偷偷的，而不是光明正大的，当然，我被你发现了
-。或者以后我已经是你的奴了，你也不能让我崇拜你的身体，必须是衣物或者指甲之类的，你可以站（坐）在我面前看我崇拜，但是不能让我得到你。</p>
-<p>when i enjoy you, 轻轻的抚摸我，就像是一个少妇满足少年的幻想一样贴心。
-让我销魂让我激动的结巴你可以问：舒服吗？
-你更可以重重鞭笞我之后突然温柔的抚摸我。
-温度切换： 在她用冰冷的脚踩完你后，立刻用温暖的手掌包裹你的脸颊，指腹轻轻摩挲你的唇瓣。
-​气息交换： 她贴在你的耳边，轻声呢喃你的真名，语气里带着一点点怜悯和宠溺，这种温柔的杀伤力比鞭打更大。
-​言语肯定： 当你服侍完鞋袜，她轻轻拍打你的头，温柔地说：“[你的名字]，你刚才做得真棒，我很满意。” 这种瞬间的“被认可感”会让你直接陷入销魂状态。</p>
-]]></content>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
       <categories>
-        <category>life</category>
-        <category>guide</category>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
       </categories>
       <tags>
-        <tag>Self-discipline</tag>
+        <tag>Notes</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>new</title>
+    <url>/2026/02/11/new/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>English test</title>
@@ -1359,11 +1212,6 @@ are working on.</p>
       </tags>
   </entry>
   <entry>
-    <title>狭义相对论</title>
-    <url>/2026/02/15/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>calculusReview</title>
     <url>/2026/01/19/calculusReview/</url>
     <content><![CDATA[<p>calculate the length of curve
@@ -1384,43 +1232,6 @@ y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
         <tag>P</tag>
         <tag>tests</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>some rules on blogging</title>
-    <url>/2026/01/20/rules/</url>
-    <content><![CDATA[<ul>
-<li>Use English if possible:<blockquote>
-<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
-</blockquote>
-</li>
-<li>Name files simply, with dates to avoid conflict names.</li>
-<li>Try to correct or quote old blogposts and form a “索引机制” for your brain.</li>
-<li>Imagine the audience is not yourself, but others that know nothing about the topic. Try to teach, and express, not to recite.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>life</category>
-        <category>guide</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>狭义相对论-讲义2</title>
-    <url>/2026/02/16/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA-%E8%AE%B2%E4%B9%892/</url>
-    <content><![CDATA[<h1 id="狭义相对论-基本原理"><a href="#狭义相对论-基本原理" class="headerlink" title="狭义相对论 基本原理"></a>狭义相对论 基本原理</h1><h2 id="光速不变性"><a href="#光速不变性" class="headerlink" title="光速不变性"></a>光速不变性</h2><blockquote>
-<p>在任何惯性系中，光速的测量结果是相同的</p>
-</blockquote>
-<ul>
-<li>实验证实：在地球上测量光速</li>
-<li>理论推导：麦克斯韦方程组导出电磁波波速与参考系无关</li>
-</ul>
-<p>分析：</p>
-<p>设初始状态两个坐标系重合，原点发出光信号。随后O’以速度u匀速运动，O保持静止，在两个参考系中的人们看到的光速是相同的，我们分别分析光的传播，得到：</p>
-<p>O中，x &#x3D; ct. O’中，x’ &#x3D; ct’. 
-两个同时成立（这里的同时不是指相同时刻，以为它们的时间不同。这里同时指对应两个参考系的波阵面方程）</p>
-]]></content>
   </entry>
   <entry>
     <title>力学期末复习</title>
@@ -1488,6 +1299,46 @@ It turned out that the test was not so difficult.</p>
       </categories>
       <tags>
         <tag>Exam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算物理</title>
+    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
+    <content><![CDATA[<p>所以，现在可以输入中文了。
+后天计算物理考试。考前课件：</p>
+<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
+行指针的定义方式：</p>
+<blockquote>
+<p>int (* prt)[2];</p>
+</blockquote>
+<p>然后，可以对行指针赋值：</p>
+<blockquote>
+<p>prt &#x3D; a;</p>
+</blockquote>
+<p>为什么？因为a 就是一个指针，而且是行的指针。
+指针的数组是这样定义的：</p>
+<blockquote>
+<p>int *p[3];</p>
+</blockquote>
+<p>但是不能写：</p>
+<blockquote>
+<p>p &#x3D; a;</p>
+</blockquote>
+<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
+<p>待复习的内容：</p>
+<ul>
+<li>高阶张量的缩并和表示</li>
+<li>基础知识（往年试题举一反三）</li>
+</ul>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
       </tags>
   </entry>
   <entry>
@@ -1713,43 +1564,24 @@ It turned out that the test was not so difficult.</p>
       </tags>
   </entry>
   <entry>
-    <title>计算物理</title>
-    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
-    <content><![CDATA[<p>所以，现在可以输入中文了。
-后天计算物理考试。考前课件：</p>
-<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
-行指针的定义方式：</p>
-<blockquote>
-<p>int (* prt)[2];</p>
+    <title>some rules on blogging</title>
+    <url>/2026/01/20/rules/</url>
+    <content><![CDATA[<ul>
+<li>Use English if possible:<blockquote>
+<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
 </blockquote>
-<p>然后，可以对行指针赋值：</p>
-<blockquote>
-<p>prt &#x3D; a;</p>
-</blockquote>
-<p>为什么？因为a 就是一个指针，而且是行的指针。
-指针的数组是这样定义的：</p>
-<blockquote>
-<p>int *p[3];</p>
-</blockquote>
-<p>但是不能写：</p>
-<blockquote>
-<p>p &#x3D; a;</p>
-</blockquote>
-<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
-<p>待复习的内容：</p>
-<ul>
-<li>高阶张量的缩并和表示</li>
-<li>基础知识（往年试题举一反三）</li>
+</li>
+<li>Name files simply, with dates to avoid conflict names.</li>
+<li>Try to correct or quote old blogposts and form a “索引机制” for your brain.</li>
+<li>Imagine the audience is not yourself, but others that know nothing about the topic. Try to teach, and express, not to recite.</li>
 </ul>
 ]]></content>
       <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>others</category>
+        <category>life</category>
+        <category>guide</category>
       </categories>
       <tags>
-        <tag>Notes</tag>
-        <tag>Tests</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
 </search>
