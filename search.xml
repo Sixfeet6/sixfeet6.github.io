@@ -1,121 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>calculusReview</title>
-    <url>/2026/01/20/calculusReview/</url>
-    <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
-<p> $ arcsin(x) &#x3D; x + \frac{1}{2} \frac{x^{3}}{3} + $</p>
-<p> $ arctan(x) &#x3D; x- \frac{x^{3}}{3} + (-1)^{n} \frac {x^{2n-1}}{2n-1} $</p>
-<p> $ ln(x) &#x3D; x- \frac{1}{2} x^2 + \frac{1}{3} x^3 $</p>
-<h3 id="第一部分：连续函数零点证明"><a href="#第一部分：连续函数零点证明" class="headerlink" title="第一部分：连续函数零点证明"></a>第一部分：连续函数零点证明</h3><p>$\lim_{x \to \infty} \frac{f(x)}{x} &#x3D; 0$，证：$\exists c \in \mathbb{R}, f(c) &#x3D; -c$</p>
-<p><strong>1. 构造辅助函数</strong></p>
-<blockquote>
-<p><strong>观察</strong>
-$f(x) + x &#x3D; 0$
-$x$ 无法利用
-<strong>Hint:</strong> $\lim_{x \to \infty} \frac{f(x)}{x} \dots$</p>
-</blockquote>
-<p>$\hookrightarrow F(x) &#x3D; f(x) + x$</p>
-<p>$$\lim_{x \to \infty} \frac{F(x)}{x} &#x3D; 1$$</p>
-<p>$\therefore F(+\infty) &#x3D; +\infty, \quad F(-\infty) &#x3D; -\infty$</p>
-<p>$F(x)$ 连续</p>
-<p>$\therefore \exists \xi, F(\xi) &#x3D; 0$</p>
-<p><strong>得证.</strong></p>
-<hr>
-<h3 id="第二部分：微分中值定理证明"><a href="#第二部分：微分中值定理证明" class="headerlink" title="第二部分：微分中值定理证明"></a>第二部分：微分中值定理证明</h3><p>$f(a) &#x3D; f(b) &#x3D; 0$，证 $\exists \xi \in (a, b)$ 使 $f’’(\xi) &#x3D; \frac{2f’(\xi)}{b-\xi}$</p>
-<p><strong>1. 构造辅助函数</strong></p>
-<p>$$f’’(x) &#x3D; \frac{2f’(x)}{b-x}$$</p>
-<blockquote>
-<p><strong>观察</strong>
-$\hookrightarrow (b-x)f’’(x) - 2f’(x) &#x3D; 0$</p>
-<p><strong>观察！</strong>
-$(b-x)^2 f’’(x) - 2(b-x)f’(x) &#x3D; 0$
-即 $[(b-x)^2 f’(x)]’ &#x3D; 0$
-令 $F(x) &#x3D; (b-x)^2 f’(x)$</p>
-</blockquote>
-<p><strong>2. 找端点</strong></p>
-<p>① $F(b) &#x3D; (b-b)^2 \cdot f’(b) &#x3D; 0$</p>
-<p>② $F(a) \neq 0!$</p>
-<blockquote>
-<p><strong>思考</strong>
-$\hookrightarrow$ 说明 $a, b$ 之间有个点的 $f’(x)$ 等于零
-$\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(x_0) &#x3D; 0$</p>
-</blockquote>
-<p>$\therefore F(x_0) &#x3D; (b-x_0)^2 f’(x_0) &#x3D; 0$</p>
-<p>在 $[x_0, b]$ 上对 $F(x)$ 使用罗尔定理，即得证。</p>
-<hr>
-<h3 id="第三部分：数列极限计算"><a href="#第三部分：数列极限计算" class="headerlink" title="第三部分：数列极限计算"></a>第三部分：数列极限计算</h3><p>$$\lim_{n \to \infty} \frac{n}{\ln n} (\sqrt[n]{n} - 1)$$</p>
-<p>Look at $\sqrt[n]{n} &#x3D; n^{\frac{1}{n}}$</p>
-<p>$$&#x3D; e^{\frac{1}{n} \ln n}$$</p>
-<p><em>(注：此处利用 $e^x - 1 \sim x$)</em></p>
-<p>$$&#x3D; \lim_{n \to \infty} \frac{n}{\ln n} \cdot \frac{\ln n}{n} &#x3D; 1$$</p>
-<hr>
-<h3 id="第四部分：复杂根式极限"><a href="#第四部分：复杂根式极限" class="headerlink" title="第四部分：复杂根式极限"></a>第四部分：复杂根式极限</h3><p>$$\lim_{x \to \infty} \frac{\ln(1 + \sqrt[3]{x} + \sqrt[4]{x})}{\ln(1 + \sqrt{x} + \sqrt[3]{x})}$$</p>
-<p>$$&#x3D; \frac{\ln(\sqrt[3]{x} (\frac{1}{\sqrt[3]{x}} + 1 + x^{-\frac{1}{12}}))}{\ln(\sqrt{x} (\frac{1}{\sqrt{x}} + 1 + x^{-\frac{1}{6}}))}$$</p>
-<p>$$&#x3D; \frac{\frac{1}{3} \ln x}{\frac{1}{2} \ln x} &#x3D; \frac{2}{3}$$</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>PK</tag>
-        <tag>Tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>calculusFinalExam</title>
-    <url>/2026/01/21/calculusFinalExam/</url>
-    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
-<ul>
-<li><strong>I mismanaged the answering area.</strong></li>
-<li><strong>I fell into a fixed mindset.</strong></li>
-</ul>
-<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
-<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
-<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
-<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
-<p>Let</p>
-<p>$$
-f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
-$$</p>
-<p>Calculate:</p>
-<p>$$
-\int_{0}^{1} f(x) \, dx
-$$</p>
-<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
-<ol>
-<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
-<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
-</ol>
-<p>As it turns out, the correct solution was a combination of these two ideas! </p>
-<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
-<blockquote>
-<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
-</blockquote>
-<blockquote>
-<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
-</blockquote>
-<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
-<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
-<hr>
-<p>Bye, my friend.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>reflects</category>
-        <category>math</category>
-      </categories>
-      <tags>
-        <tag>Exam</tag>
-        <tag>Lose</tag>
-        <tag>Sad</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>On the train</title>
     <url>/2026/01/23/On-the-train/</url>
     <content><![CDATA[<h2 id="On-the-train-home"><a href="#On-the-train-home" class="headerlink" title="On the train home"></a>On the train home</h2><p>Well, I’ve been away from home for a long time. But I am not as homesick as I was in high school.
@@ -203,6 +88,95 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
+    <title>calculusReview</title>
+    <url>/2026/01/20/calculusReview/</url>
+    <content><![CDATA[<h2 id="常用泰勒展开："><a href="#常用泰勒展开：" class="headerlink" title="常用泰勒展开："></a>常用泰勒展开：</h2><p> $ \tan {x} &#x3D; x+ \frac{1}{3} x^{3} + \frac{2}{15} x^{5} $</p>
+<p> $ arcsin(x) &#x3D; x + \frac{1}{2} \frac{x^{3}}{3} + $</p>
+<p> $ arctan(x) &#x3D; x- \frac{x^{3}}{3} + (-1)^{n} \frac {x^{2n-1}}{2n-1} $</p>
+<p> $ ln(x) &#x3D; x- \frac{1}{2} x^2 + \frac{1}{3} x^3 $</p>
+<h3 id="第一部分：连续函数零点证明"><a href="#第一部分：连续函数零点证明" class="headerlink" title="第一部分：连续函数零点证明"></a>第一部分：连续函数零点证明</h3><p>$\lim_{x \to \infty} \frac{f(x)}{x} &#x3D; 0$，证：$\exists c \in \mathbb{R}, f(c) &#x3D; -c$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<blockquote>
+<p><strong>观察</strong>
+$f(x) + x &#x3D; 0$
+$x$ 无法利用
+<strong>Hint:</strong> $\lim_{x \to \infty} \frac{f(x)}{x} \dots$</p>
+</blockquote>
+<p>$\hookrightarrow F(x) &#x3D; f(x) + x$</p>
+<p>$$\lim_{x \to \infty} \frac{F(x)}{x} &#x3D; 1$$</p>
+<p>$\therefore F(+\infty) &#x3D; +\infty, \quad F(-\infty) &#x3D; -\infty$</p>
+<p>$F(x)$ 连续</p>
+<p>$\therefore \exists \xi, F(\xi) &#x3D; 0$</p>
+<p><strong>得证.</strong></p>
+<hr>
+<h3 id="第二部分：微分中值定理证明"><a href="#第二部分：微分中值定理证明" class="headerlink" title="第二部分：微分中值定理证明"></a>第二部分：微分中值定理证明</h3><p>$f(a) &#x3D; f(b) &#x3D; 0$，证 $\exists \xi \in (a, b)$ 使 $f’’(\xi) &#x3D; \frac{2f’(\xi)}{b-\xi}$</p>
+<p><strong>1. 构造辅助函数</strong></p>
+<p>$$f’’(x) &#x3D; \frac{2f’(x)}{b-x}$$</p>
+<blockquote>
+<p><strong>观察</strong>
+$\hookrightarrow (b-x)f’’(x) - 2f’(x) &#x3D; 0$</p>
+<p><strong>观察！</strong>
+$(b-x)^2 f’’(x) - 2(b-x)f’(x) &#x3D; 0$
+即 $[(b-x)^2 f’(x)]’ &#x3D; 0$
+令 $F(x) &#x3D; (b-x)^2 f’(x)$</p>
+</blockquote>
+<p><strong>2. 找端点</strong></p>
+<p>① $F(b) &#x3D; (b-b)^2 \cdot f’(b) &#x3D; 0$</p>
+<p>② $F(a) \neq 0!$</p>
+<blockquote>
+<p><strong>思考</strong>
+$\hookrightarrow$ 说明 $a, b$ 之间有个点的 $f’(x)$ 等于零
+$\hookrightarrow$ <strong>罗尔定理</strong>，$\exists x_0 \in (a, b), f’(x_0) &#x3D; 0$</p>
+</blockquote>
+<p>$\therefore F(x_0) &#x3D; (b-x_0)^2 f’(x_0) &#x3D; 0$</p>
+<p>在 $[x_0, b]$ 上对 $F(x)$ 使用罗尔定理，即得证。</p>
+<hr>
+<h3 id="第三部分：数列极限计算"><a href="#第三部分：数列极限计算" class="headerlink" title="第三部分：数列极限计算"></a>第三部分：数列极限计算</h3><p>$$\lim_{n \to \infty} \frac{n}{\ln n} (\sqrt[n]{n} - 1)$$</p>
+<p>Look at $\sqrt[n]{n} &#x3D; n^{\frac{1}{n}}$</p>
+<p>$$&#x3D; e^{\frac{1}{n} \ln n}$$</p>
+<p><em>(注：此处利用 $e^x - 1 \sim x$)</em></p>
+<p>$$&#x3D; \lim_{n \to \infty} \frac{n}{\ln n} \cdot \frac{\ln n}{n} &#x3D; 1$$</p>
+<hr>
+<h3 id="第四部分：复杂根式极限"><a href="#第四部分：复杂根式极限" class="headerlink" title="第四部分：复杂根式极限"></a>第四部分：复杂根式极限</h3><p>$$\lim_{x \to \infty} \frac{\ln(1 + \sqrt[3]{x} + \sqrt[4]{x})}{\ln(1 + \sqrt{x} + \sqrt[3]{x})}$$</p>
+<p>$$&#x3D; \frac{\ln(\sqrt[3]{x} (\frac{1}{\sqrt[3]{x}} + 1 + x^{-\frac{1}{12}}))}{\ln(\sqrt{x} (\frac{1}{\sqrt{x}} + 1 + x^{-\frac{1}{6}}))}$$</p>
+<p>$$&#x3D; \frac{\frac{1}{3} \ln x}{\frac{1}{2} \ln x} &#x3D; \frac{2}{3}$$</p>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>PK</tag>
+        <tag>Tests</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Am I the same as my peers?</title>
+    <url>/2026/01/24/Encrypted/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="a8f2ff2b30fe5c030b08ddfe8df80925d4f63f81d76da6bc706e661232acb0f1">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8efd4cea3ad035fb239c37223f1d7dda371431c24d8a31115e548902780e1a6fd757e3bf3f08367700ed634dda3f6a6e125d4530ce245c5fcf0c10429a8931254ce98f91a852ddf81d0acd5cdc6ea3542de642799fbd9175b4ea2e19fcb948cb276f5526633a3dd3876900389100cd487008ce293ebc43fcc147620fcc80348b807d49eac8c5bb2c2a629167bc8aff125dda6494e80b91af0230e77adfecb970c7893fb71d775a5d580fb742894fcbb6c09e05f658586b470905f59198618e00f5df97732850e1803d4f9b2e5e49de985fe0884208f4e54859ebda6f6cd9d48bcffd7a0b3d4e58a40e9b0d30b8e1db65c6d4be2815295f65a922662fb1462f80d27beb649a2a26593cd447a6c33708dec4a28da46132f251bf98eb21fb68012cb513221bd46461a2ea2a150ea796f788f01101628de83811763a3af2cf65dfc292c3e885bb240adecde74164325d7c0088f3f2deda843078b6ab0d2850f690bd12c0844f3580218be6ef06e3a4aea3697ff53a4c6e96489beb250c635d57210b31b17b690cd95ec05375fd2f68426e8a53212ebaeb5efead4edbdccf43a24571d257d9fe0718d568cde9e548f6b9f5360b5b9f473729e0417847d4cea77e08609f7c3099ac3eb753ba8b9d165ab72525300ddf63d7ab5cbf06e515d2838a3f1124530f98a7db2e3493e6e281ab8001356d76ed565195988709179944ca11facce47124ce64012a799fabaef8bad942028599b58bd93fe34ac3437d2e2c3612df412cae7016e1aa12fabeceb61e1090942213388f9fa412d9a6cce5cf505b803ea84b8e07da229f4aa857d3407a22ac580742a4e0f72f8f520372143cfbd8c8c365725b4074741e934e835c8c61c54a188f075323e523d320b7546c2eaf708cab77dfff98138ce12a94e68ec588149ef3ecee36970ac4edd33fde07731ca93549978f103ed77bd490257d0263c1f9066ea90b9b8ae3f84a87395f25aa1a3014261029f4beb5e3acda110b4abacd3d868e91dd3dbcb193dac2d0bd53924b3dc9e3c484f15a8b86cd7a99f11572eb1a8a29f14fadaff2ed96139f28a1b79925bdc26b306987772398754f1a8e940ffdd30147bd4f5040758aa206330617cae2eea00bd6c85f51d213e676d7ae84bc89c898321c3f34d47288cb26acada9af53b8019571909174b6c45c22696b2b72672218c00a135798acae8a0f7a8da45eb48755d042578c2fd490567c393ff363f4118686d83580b6c9a197ff3d51526edd3af57ead75cb5fbba229750e727320a10e2ff771ea1591e234d3e7b616c3fc10bedc33019a692282482b6afc4b8bb9c26bd802f2d0aba068ecd0e2994ca2ff690eb42654da8c560050ff4f2ff11d2cec5c3ebf395924c41557d13dcde8d12e3eaacccc799f3825bc1389c7ef444afdcde05c0a6a639b8ba550a7479d9befce6624d61c9bba6663808f216aed56f2b914eefbf4f1a180cb8b812d0d8ad3f03ab818250154c91183670124e18337c41ad74be90dabb74cddc7163294d683dea275b47d1177fbea85568bbfbd18c3b6df83594e7d821cdac57d2ae2147008f78a97f00afff208f3c5244ddc02df350a0d97e34e76c39183b6b07540ee7dd0503e8f3b3fb05370a26b43453a8559ca3da0eb31a3cb32886bb7dd36d9743b8c67b8ef4fa07c847d761d93e67bb247cb9ce2791dbad56b3bfc55e8eb21792f40b4faceabf3b5096124ea61325ae1225f6f21df1f6c28f9980b7aefcbef7257463376c8bfe8e98a82cbb7ba526b23022bdffe387b0678f9a078393904e67fe22d5a8b439fadf57642f4f7fe4dfdf90f02be72117d1c530e202254085f17c7b4ddce091b813abf0e4791fb9489da0254c597f1f9f0146e6128aacb64d8cc96313216c3ce0a3ccfd2401a79241ba21c1ae89a0da6882b36518f5bd3998236337843c187775f04c577988df0e26ab901c8acd1d881e28f76a4da025aecd2ed3141be1c4923434de2dda94e5cd1a86c723452c5fa82d4b903685f6dc94c3a6e0f4eb27aab861e7c0e6d1f730150df1aee394f0d74d2c9420bb106077fc9834d2e4e389de6561d51606b1141a0c81450d761b6dc131ecbd7d03d59a568e07458e8417e94e080e3d208a54b156edf8094f17d15ac0cfb7fd6ac6a0b0521720c0d53262da58ba2a58e05c23ea44994ccc0564cb1d235070e513c70a695c56aac827c5f79cbe13718e18ce62a54b0e5a542aa50489c8727700803a64ae2efdc8a7c74f0a695ae731c1d7830f037f2619af6ccedf7bb3da49a5f6a01aaa734e2c128503bffed01b3240fe4b0811b2a85bae272a25127b4edfb008ac4948de303031520751b6b6fddecc9af71d856380e55f6d64d17727e9370287eec854401615772a406ec82486673e9eef5adc3dbc278fc2043dc550b66b8f31d4a174c6c716d2db135f12a4f929b6cf5b9c6761e268fe54060ab0701f53c3eb89d3b3de9d074a0ea2c83ed0fdff277a91b2b2e2c933b4b480b84438085b76b762712e598691417500e884ce79702ad533a1993028418bbd37e141662becd1d90c1f7788e7bd56f6f01bf5eee53829a55fb75a33c49520c51a98598f929fad25536b8bc3b37dca9b428d3a929da5d23ebb42f16d2655d5a5265823fd477664d9d5f58567779d239cc7b7667fa1f6b0a5254f4552f3552e950c53c5d268ebe7c734b7c49f20d2533a8b053524d7887e267e0fb8a1e768018480a10a3b2dd0e2bd608b390b073e564d5292f4ddb5ca92a200a51e0c6ae04305613ba4c0d1d2aaabc5c2c9b7133557738ba7ad995894a79c9a66f32209097c2dd3491c7efee72300619cf27b44701c67009353b4485e0c64201cd3484a8acebe6df685bc92bb7eee5b93d62000dd6d1ae6870efaadcba2c4ade3441fa72567cf3b65380863fdf97af8f58f047de1d06d351fd6fe26ea74b5ccf2daf4c5fd6ed11eeda63c6c2c2b1fdc7ea6e125a4503236a2dea652f1f1be05b1a1c6ac78180774486b6b1b5304c02b2f67635ca62fb791e071be704218db75bc40904f3797281f81ce6a43287385ed10a887973f9235e4a32304c336e968a7bcb3e08e55cf0c52b6bd5c40fdeddf74e20abba5165e58ce4883ebf74e8f0a98aa08ac3d553cfbd5a8192a11ac2ae7af4f1bed122483a56895ea47f53ada713cbed372062a7f14b88b26beda17c847f773fa71de07fd482296fe17da75456205d128d973ea5ce791f8f3ad6f8e5adb82d41658b4140373d0164093c9db80e5510c620133afd2a24d49b099b364d6e7f81a4310ea2d304cd76de8e12504924b47bae006c72a9730dacb4b4d6e09546050daed0bb07e7dab94a1d4ae80b82f16fada5c5c232950a2b96f4757c0d1e61738039f8ae6b661e7621793f9521fcf3ddc13d5cdc88222ad7e3b94ae1e3a28a4397ebab6dd579708ec1a84dc7a55015188dbccddf634597a01b48612fde2b5c6fb402fc5fcdade4bd9e0097dcd1396e6ee1214e2339249d89bb87a9345468fd8e0e1c46b7f1122b7e596d602ef34e64e9113ed573a37a70881b556a775e615295583006fd6032d736d58dba5bf3b204c268225a986aba69a07f0c147ae0e1e4f33329bc7c6a4a404d8697584aaf481409a0f013bffba41a829c50a50ea61b561da8a20b0c12abad5bd4bb0bd5c4ddeabc16fae13e5e233ac31915fc745e83db8523d64ab82ecf03381074d40c836de325a3fe6b548122049b7cab025aa449c96d20920ba4d5e4cffbc45c13ecc1c4c46317ead7b092488b812eb5ac8af2c5846f8c23e7533b0c5c209c1bffa036ea4a7e43d6eb0d93878a96d7356987f77976ed7faaa0094b633c91423acc468c1d6ac26c6001102257f89247f7c07c999e55df05f9a25df780fcee5d52206d93c57d722826921b54ec3a00a3edf368e9c249e6a446a48d811f9a182b837402437b5e9da0781e062c98a8a94192526bab0cc4e8ce44bbd0c5c3bd4615a461f0bbf563e5f3ba68c36afa86ed1c8fc0b56f536f4d0eb04bbed6051f121d29a79079b6a79bac431605c6cb37553ec48b955807ec71aebd9a4489cd89c13b1d074a2b982da49c4c053bd7e76bb53edf9ce14b4bfaf119a37fdca3362de5eb5691682f38d924c028ffdf69e1f5677aa2504cd2d95453f69a14f6dec4be478adf8b341483b7d66e6dd27ef294e1b9b5f0d139943ec77ade420f4b8bb2ab5b5739de2ced7a7f111d833a571e48f28a792784ed2e23467615a172e3f88c0f4f2e0eb0255fb2cbcc989f9ca27dfe664c1f563a6582089ea749cfbf503ca232d41a23aa17dad92b15bbf676320ef956706fd26b40b20d7e33c77c5e73af067b294dd9899d4c14f44732cc720886c52fdf11cb31f3f45b2d7fb70246be50d2fd4e1fdc80b76f53f634f6e9607292e2d1fbc76c9d147c5acb05a6da95dc2a482680c43e1ae7fb98d946200b6b2ca0bca8528757ea1325915f67fdb9297f5361599fcfeab6513e7799f15292e76a1d6d2b25dba96ea7cdbc8c34ce6e5e093fb3e6c5c54796d5a14f2bce2c909120eb0d2301b32ac84e212fe4b0079682aa69cb9d553f38dce161ab10912997cf509a2a23326b7ae2ad36c00022146134016d32026a59d4c01fa86a06749db58aa2fa0de948ae356e3bd3ffa1ac6085f40349b8f0cc78fb74b036277b2528079df3b1032cf29dfe24848cf72dc6cbf85d72ee3c23a3852848a433c36ed904ef3f105ba1c019fc7e544bc93ebc1bf40faef1966828a5c2ee25a1e9dff73b459439de27f8f7864c7cae7e8a276085b0332e8d49faf980c986d750301abe65bdd3fce156309d08f70ceb7e49b40515310d48a841bc3ec868b9c113a959eee4314e4beb2151cd0f06d1ce8eadef4a1a23d48395d00a8423e3ca0023a8bdc53c8fcc67cc91d8ae6c437ffc5547f86f000289e40122021856cedc40a1169393be763b931488677f25955deca0641be9a67110e81e23c532e5577ec34857d05bbcddb6ccc1d8a1a43f12722e106df24339c2902bea9fb6756fafafb2e9fa2bfddc972de502e04876a820e5758cedea8a73b1ed223805f044791499bea3d807dbb80832344bc54a33f68e2c31db0a39b3113bcf215f8e36b72f8427eaf783b9c22abd8a2c8adc8df0b6d93da2730a2172f6db33200567949ad786e16a7565e4ec54096e38ae5dab4e413a67fedd3d35f609fd851983ce2e3d0cc2df363bc6034cecc43c3af4054a205a3d5c1f02a61a5b2d54bfc3f79c5efc227a4cc46a7c8acfd0b226297793d2926c4efd1fa644a1691d88e97950435b46772944486f9cca91294b3cc7c0105b24eab889017a353647235051c9406729ece4801e108ed33fc96dadb441fa002a2fae5827b4fc84deafa58b2402471756e040dad82d20d6e5119</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>thoughts</category>
+      </categories>
+      <tags>
+        <tag>People</tag>
+        <tag>Me</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python神经网络编程</title>
     <url>/2026/01/26/Python%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/</url>
     <content><![CDATA[<h2 id="the-understanding-of-the-simplified-neural-network"><a href="#the-understanding-of-the-simplified-neural-network" class="headerlink" title="the understanding of the simplified neural network"></a>the understanding of the simplified neural network</h2>]]></content>
@@ -239,26 +213,52 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </tags>
   </entry>
   <entry>
-    <title>Am I the same as my peers?</title>
-    <url>/2026/01/24/Encrypted/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="a8f2ff2b30fe5c030b08ddfe8df80925d4f63f81d76da6bc706e661232acb0f1">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8efd4cea3ad035fb239c37223f1d7dda371431c24d8a31115e548902780e1a6fd757e3bf3f08367700ed634dda3f6a6e125d4530ce245c5fcf0c10429a8931254ce98f91a852ddf81d0acd5cdc6ea3542de642799fbd9175b4ea2e19fcb948cb276f5526633a3dd3876900389100cd487008ce293ebc43fcc147620fcc80348b807d49eac8c5bb2c2a629167bc8aff125dda6494e80b91af0230e77adfecb970c7893fb71d775a5d580fb742894fcbb6c09e05f658586b470905f59198618e00f5df97732850e1803d4f9b2e5e49de985fe0884208f4e54859ebda6f6cd9d48bcffd7a0b3d4e58a40e9b0d30b8e1db65c6d4be2815295f65a922662fb1462f80d27beb649a2a26593cd447a6c33708dec4a28da46132f251bf98eb21fb68012cb513221bd46461a2ea2a150ea796f788f01101628de83811763a3af2cf65dfc292c3e885bb240adecde74164325d7c0088f3f2deda843078b6ab0d2850f690bd12c0844f3580218be6ef06e3a4aea3697ff53a4c6e96489beb250c635d57210b31b17b690cd95ec05375fd2f68426e8a53212ebaeb5efead4edbdccf43a24571d257d9fe0718d568cde9e548f6b9f5360b5b9f473729e0417847d4cea77e08609f7c3099ac3eb753ba8b9d165ab72525300ddf63d7ab5cbf06e515d2838a3f1124530f98a7db2e3493e6e281ab8001356d76ed565195988709179944ca11facce47124ce64012a799fabaef8bad942028599b58bd93fe34ac3437d2e2c3612df412cae7016e1aa12fabeceb61e1090942213388f9fa412d9a6cce5cf505b803ea84b8e07da229f4aa857d3407a22ac580742a4e0f72f8f520372143cfbd8c8c365725b4074741e934e835c8c61c54a188f075323e523d320b7546c2eaf708cab77dfff98138ce12a94e68ec588149ef3ecee36970ac4edd33fde07731ca93549978f103ed77bd490257d0263c1f9066ea90b9b8ae3f84a87395f25aa1a3014261029f4beb5e3acda110b4abacd3d868e91dd3dbcb193dac2d0bd53924b3dc9e3c484f15a8b86cd7a99f11572eb1a8a29f14fadaff2ed96139f28a1b79925bdc26b306987772398754f1a8e940ffdd30147bd4f5040758aa206330617cae2eea00bd6c85f51d213e676d7ae84bc89c898321c3f34d47288cb26acada9af53b8019571909174b6c45c22696b2b72672218c00a135798acae8a0f7a8da45eb48755d042578c2fd490567c393ff363f4118686d83580b6c9a197ff3d51526edd3af57ead75cb5fbba229750e727320a10e2ff771ea1591e234d3e7b616c3fc10bedc33019a692282482b6afc4b8bb9c26bd802f2d0aba068ecd0e2994ca2ff690eb42654da8c560050ff4f2ff11d2cec5c3ebf395924c41557d13dcde8d12e3eaacccc799f3825bc1389c7ef444afdcde05c0a6a639b8ba550a7479d9befce6624d61c9bba6663808f216aed56f2b914eefbf4f1a180cb8b812d0d8ad3f03ab818250154c91183670124e18337c41ad74be90dabb74cddc7163294d683dea275b47d1177fbea85568bbfbd18c3b6df83594e7d821cdac57d2ae2147008f78a97f00afff208f3c5244ddc02df350a0d97e34e76c39183b6b07540ee7dd0503e8f3b3fb05370a26b43453a8559ca3da0eb31a3cb32886bb7dd36d9743b8c67b8ef4fa07c847d761d93e67bb247cb9ce2791dbad56b3bfc55e8eb21792f40b4faceabf3b5096124ea61325ae1225f6f21df1f6c28f9980b7aefcbef7257463376c8bfe8e98a82cbb7ba526b23022bdffe387b0678f9a078393904e67fe22d5a8b439fadf57642f4f7fe4dfdf90f02be72117d1c530e202254085f17c7b4ddce091b813abf0e4791fb9489da0254c597f1f9f0146e6128aacb64d8cc96313216c3ce0a3ccfd2401a79241ba21c1ae89a0da6882b36518f5bd3998236337843c187775f04c577988df0e26ab901c8acd1d881e28f76a4da025aecd2ed3141be1c4923434de2dda94e5cd1a86c723452c5fa82d4b903685f6dc94c3a6e0f4eb27aab861e7c0e6d1f730150df1aee394f0d74d2c9420bb106077fc9834d2e4e389de6561d51606b1141a0c81450d761b6dc131ecbd7d03d59a568e07458e8417e94e080e3d208a54b156edf8094f17d15ac0cfb7fd6ac6a0b0521720c0d53262da58ba2a58e05c23ea44994ccc0564cb1d235070e513c70a695c56aac827c5f79cbe13718e18ce62a54b0e5a542aa50489c8727700803a64ae2efdc8a7c74f0a695ae731c1d7830f037f2619af6ccedf7bb3da49a5f6a01aaa734e2c128503bffed01b3240fe4b0811b2a85bae272a25127b4edfb008ac4948de303031520751b6b6fddecc9af71d856380e55f6d64d17727e9370287eec854401615772a406ec82486673e9eef5adc3dbc278fc2043dc550b66b8f31d4a174c6c716d2db135f12a4f929b6cf5b9c6761e268fe54060ab0701f53c3eb89d3b3de9d074a0ea2c83ed0fdff277a91b2b2e2c933b4b480b84438085b76b762712e598691417500e884ce79702ad533a1993028418bbd37e141662becd1d90c1f7788e7bd56f6f01bf5eee53829a55fb75a33c49520c51a98598f929fad25536b8bc3b37dca9b428d3a929da5d23ebb42f16d2655d5a5265823fd477664d9d5f58567779d239cc7b7667fa1f6b0a5254f4552f3552e950c53c5d268ebe7c734b7c49f20d2533a8b053524d7887e267e0fb8a1e768018480a10a3b2dd0e2bd608b390b073e564d5292f4ddb5ca92a200a51e0c6ae04305613ba4c0d1d2aaabc5c2c9b7133557738ba7ad995894a79c9a66f32209097c2dd3491c7efee72300619cf27b44701c67009353b4485e0c64201cd3484a8acebe6df685bc92bb7eee5b93d62000dd6d1ae6870efaadcba2c4ade3441fa72567cf3b65380863fdf97af8f58f047de1d06d351fd6fe26ea74b5ccf2daf4c5fd6ed11eeda63c6c2c2b1fdc7ea6e125a4503236a2dea652f1f1be05b1a1c6ac78180774486b6b1b5304c02b2f67635ca62fb791e071be704218db75bc40904f3797281f81ce6a43287385ed10a887973f9235e4a32304c336e968a7bcb3e08e55cf0c52b6bd5c40fdeddf74e20abba5165e58ce4883ebf74e8f0a98aa08ac3d553cfbd5a8192a11ac2ae7af4f1bed122483a56895ea47f53ada713cbed372062a7f14b88b26beda17c847f773fa71de07fd482296fe17da75456205d128d973ea5ce791f8f3ad6f8e5adb82d41658b4140373d0164093c9db80e5510c620133afd2a24d49b099b364d6e7f81a4310ea2d304cd76de8e12504924b47bae006c72a9730dacb4b4d6e09546050daed0bb07e7dab94a1d4ae80b82f16fada5c5c232950a2b96f4757c0d1e61738039f8ae6b661e7621793f9521fcf3ddc13d5cdc88222ad7e3b94ae1e3a28a4397ebab6dd579708ec1a84dc7a55015188dbccddf634597a01b48612fde2b5c6fb402fc5fcdade4bd9e0097dcd1396e6ee1214e2339249d89bb87a9345468fd8e0e1c46b7f1122b7e596d602ef34e64e9113ed573a37a70881b556a775e615295583006fd6032d736d58dba5bf3b204c268225a986aba69a07f0c147ae0e1e4f33329bc7c6a4a404d8697584aaf481409a0f013bffba41a829c50a50ea61b561da8a20b0c12abad5bd4bb0bd5c4ddeabc16fae13e5e233ac31915fc745e83db8523d64ab82ecf03381074d40c836de325a3fe6b548122049b7cab025aa449c96d20920ba4d5e4cffbc45c13ecc1c4c46317ead7b092488b812eb5ac8af2c5846f8c23e7533b0c5c209c1bffa036ea4a7e43d6eb0d93878a96d7356987f77976ed7faaa0094b633c91423acc468c1d6ac26c6001102257f89247f7c07c999e55df05f9a25df780fcee5d52206d93c57d722826921b54ec3a00a3edf368e9c249e6a446a48d811f9a182b837402437b5e9da0781e062c98a8a94192526bab0cc4e8ce44bbd0c5c3bd4615a461f0bbf563e5f3ba68c36afa86ed1c8fc0b56f536f4d0eb04bbed6051f121d29a79079b6a79bac431605c6cb37553ec48b955807ec71aebd9a4489cd89c13b1d074a2b982da49c4c053bd7e76bb53edf9ce14b4bfaf119a37fdca3362de5eb5691682f38d924c028ffdf69e1f5677aa2504cd2d95453f69a14f6dec4be478adf8b341483b7d66e6dd27ef294e1b9b5f0d139943ec77ade420f4b8bb2ab5b5739de2ced7a7f111d833a571e48f28a792784ed2e23467615a172e3f88c0f4f2e0eb0255fb2cbcc989f9ca27dfe664c1f563a6582089ea749cfbf503ca232d41a23aa17dad92b15bbf676320ef956706fd26b40b20d7e33c77c5e73af067b294dd9899d4c14f44732cc720886c52fdf11cb31f3f45b2d7fb70246be50d2fd4e1fdc80b76f53f634f6e9607292e2d1fbc76c9d147c5acb05a6da95dc2a482680c43e1ae7fb98d946200b6b2ca0bca8528757ea1325915f67fdb9297f5361599fcfeab6513e7799f15292e76a1d6d2b25dba96ea7cdbc8c34ce6e5e093fb3e6c5c54796d5a14f2bce2c909120eb0d2301b32ac84e212fe4b0079682aa69cb9d553f38dce161ab10912997cf509a2a23326b7ae2ad36c00022146134016d32026a59d4c01fa86a06749db58aa2fa0de948ae356e3bd3ffa1ac6085f40349b8f0cc78fb74b036277b2528079df3b1032cf29dfe24848cf72dc6cbf85d72ee3c23a3852848a433c36ed904ef3f105ba1c019fc7e544bc93ebc1bf40faef1966828a5c2ee25a1e9dff73b459439de27f8f7864c7cae7e8a276085b0332e8d49faf980c986d750301abe65bdd3fce156309d08f70ceb7e49b40515310d48a841bc3ec868b9c113a959eee4314e4beb2151cd0f06d1ce8eadef4a1a23d48395d00a8423e3ca0023a8bdc53c8fcc67cc91d8ae6c437ffc5547f86f000289e40122021856cedc40a1169393be763b931488677f25955deca0641be9a67110e81e23c532e5577ec34857d05bbcddb6ccc1d8a1a43f12722e106df24339c2902bea9fb6756fafafb2e9fa2bfddc972de502e04876a820e5758cedea8a73b1ed223805f044791499bea3d807dbb80832344bc54a33f68e2c31db0a39b3113bcf215f8e36b72f8427eaf783b9c22abd8a2c8adc8df0b6d93da2730a2172f6db33200567949ad786e16a7565e4ec54096e38ae5dab4e413a67fedd3d35f609fd851983ce2e3d0cc2df363bc6034cecc43c3af4054a205a3d5c1f02a61a5b2d54bfc3f79c5efc227a4cc46a7c8acfd0b226297793d2926c4efd1fa644a1691d88e97950435b46772944486f9cca91294b3cc7c0105b24eab889017a353647235051c9406729ece4801e108ed33fc96dadb441fa002a2fae5827b4fc84deafa58b2402471756e040dad82d20d6e5119</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>calculusFinalExam</title>
+    <url>/2026/01/21/calculusFinalExam/</url>
+    <content><![CDATA[<h2 id="An-Inevitable-Accident"><a href="#An-Inevitable-Accident" class="headerlink" title="An Inevitable Accident"></a>An Inevitable Accident</h2><p>I call it an accident, primarily for two reasons:</p>
+<ul>
+<li><strong>I mismanaged the answering area.</strong></li>
+<li><strong>I fell into a fixed mindset.</strong></li>
+</ul>
+<h3 id="The-Answering-Area"><a href="#The-Answering-Area" class="headerlink" title="The Answering Area"></a>The Answering Area</h3><p>Right before the exam, Ms. Wang reminded us to pay attention to the answer sheet, emphasizing that the test would be digitally graded. In my subconscious, I thought: <em>I’ve taken so many exams in high school, how hard can it be?</em> But the truth is, I didn’t always manage those well either.</p>
+<p>However, I don’t think pride or ignorance was the main cause of this accident; rather, it was the panic of being unable to solve a problem. </p>
+<p>I felt a surge of anxiety when I saw complex integrals I hadn’t encountered during my preparation. But that is completely normal! One cannot expect to have seen every possible variation on an exam—or even in scientific research. While I should have prepared more thoroughly, that isn’t an excuse for the panic. Looking back, the problems weren’t impossible; they were just complex.</p>
+<h3 id="The-Fixed-Mindset"><a href="#The-Fixed-Mindset" class="headerlink" title="The Fixed Mindset"></a>The Fixed Mindset</h3><p>The final problem was as follows:</p>
+<p>Let</p>
+<p>$$
+f(x) &#x3D; \int_{1}^{x} e^{-t^{2}} \, dt
+$$</p>
+<p>Calculate:</p>
+<p>$$
+\int_{0}^{1} f(x) \, dx
+$$</p>
+<p>When I started solving this, I had about 20 minutes left. These were my initial ideas:</p>
+<ol>
+<li><strong>Try to find a central symmetry function</strong> so the integral would evaluate to 0. (Failed)</li>
+<li><strong>Try to use integration by parts on $f(x)$</strong>, hoping one of the resulting parts would be 0. (Failed)</li>
+</ol>
+<p>As it turns out, the correct solution was a combination of these two ideas! </p>
+<p>When you have an idea that fails, you should ask yourself: <em>Which part of this idea is useful, and which part is unnecessary and can be dropped?</em> Just because an initial approach fails doesn’t mean it has nothing to contribute to the right answer.</p>
+<blockquote>
+<p>When the first idea failed, I should have kept the “make one part zero” concept and kept going.</p>
+</blockquote>
+<blockquote>
+<p>When the second idea failed, I should have considered using integration by parts on the integral of $f(x)$ itself, not just $f(x)$!</p>
+</blockquote>
+<p>Sometimes, science is a “feeling.” One way to progress is to gather those feelings and piece them together, one by one, until you find the solution.</p>
+<p>So be it. Now, it’s time to move on and review my Linear Algebra.</p>
+<hr>
+<p>Bye, my friend.</p>
+]]></content>
       <categories>
-        <category>thoughts</category>
+        <category>learning</category>
+        <category>reflects</category>
+        <category>math</category>
       </categories>
       <tags>
-        <tag>People</tag>
-        <tag>Me</tag>
+        <tag>Exam</tag>
+        <tag>Lose</tag>
+        <tag>Sad</tag>
       </tags>
   </entry>
   <entry>
@@ -273,6 +273,30 @@ Sometimes feelings are not enough, especially when you need to express yourself 
       </categories>
       <tags>
         <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一日反思</title>
+    <url>/2026/01/26/reflects/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="63637f6c977a615721ee549b763e8b09c1a2effcfc14c70eabd19a26853411d5">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8cdde0bc2b0901b3490bdafa6fc3326a252c3f5875b8645642c056e5746e6de123726d39039d061b160105011a2e0960e7a19312b32f904e429809fea534f71383213401a5e95153dc6d1eff4f71c35fd9a5c90bbad106a6fecee0b1f11f0d9222a371535ba2e3021c0f3af76db5b632c0c30baeb4726132be64e57c85874eebff399fa1a83386a4ba1731e14703a6764eab99c9b999d4e47ff8eb8e083ca58d034f92c3cad5bcdf01fbe0eef93d297ebea4a195f468dd04ac111f63633d083cfb1d136087dee88c6502891441bac83d3d3c64dbfddcf1935a37074a430a4e106a3270b521da4587905c38ba37a06d5d504315cda0cc06fba70a2f317ef02b3aab4c0bbd15b20ab193b57cad0e19b28b65bf27c9133167b3b0565867ed1a6f387c4f545f71cb2cc207178615f086679cc532ca3896d4aa69c4cfa9b63503938ded300e753be14a1ed9148453ec1f51d951f573b808f35b701e0227337bb43b744677e02b9718e0e555c81baaeff53ef5f7d90ac558f7e3c348156485913d49f819c8a43ca8179245e65c90584cda49d971af6a783a29b0611180caa53767c12c4091aa437929f702193559917b52b32f2531238c477dec5ee0b5e9db9a0f19a6f38a05450aef12ed2a4c5f69f373982a614bb26d1e45dd64bb0f77a5fd324abb0c28512ff52834df5b03a487cf43e5ca926fb912bfdf8fc0af3706108e3bfc6aa8b38584023e0dac439a8c8c88232af978858e72eac6c3cda5a282184c621452c8c046405ff2899d604c72aa0fc83f2706c3b6a96ce6d940c923f1722ba77d70f664fabdbaefd7dee3de9fbb76ea0f7bd95f32a459517371f67d34009810600244f0da25c28b753e20eb8f41c0173ea4dcc8087962e04e9c701480a13b449a95bbb1bf4c9b0e9919ab5511956c481f92de0a2141bd9bbead20a9529b224edf443247f0cee2f173acab9a7dd49df52a8030a2b67d2c2a4a412df1dea986bcacc47ca44ff9e939f560368f2d7c6053b321c85f1984214087cc2c3147575eee87d8fe661a5baa0c86bac9f35f7c8b0d0142451703669576c87c2b9e105daf1207eb65f2278b34ac9acbbd8c0b04733651cd3f2c2d6d7e8fd65a16bf685ccff59c869e55168060f0ff8bf6757e1c4622aec82e79709efba306b0a02f8d6e3063a53d32b4ec1c34853125e4b220ab7d32ac11826f25b1a33cccdec296638fb7729f8f4cdf54a466912ccd2b7e8f31e36577af2aa9a101adcbe2521b6cb1908ad3f87ecc02ca9dd281b19c8871fbd4db91ca58031397f76e7792e2972cedf68e281694275e34824f315e078f05f9ed547226ce7b85fe589ad70c18540afd38d458133ad4e8a97be13514ecf186863453d634f6b851d90fad91dcd7e8a6c50f5b2bd1b5fc4179bf4fce4ec2874bf14099f6197865255b2caf7f4589ca4f907031e1e93ed53d1a39e5ac025501279a7562b45043c9aed6fcdd693ecaa21fbaee185010a533a26a6d2c27753931a815a87f67ae0c5b8a65533b6d2c5700fa60425199c417b9b6ce0d65d34ffa3473336c2fe63b7c004e5abcda1d516e0960ca70168e7c54adbed1e9ab6d9479d41960895b2e3cb5ebe70d62b88caf2f6d05c82dc4ed4e1583055d2c627843df709d5a832686e6f4e36c019fcb9044101e4a6862719ab949efa20635022acc59a217a3276194a70b197f87a1359cbb60a7b2798db0eaf0b79d01c3a4bfcd750cbc1eae24a992f54cf95b3decbdbe16da31caf8f870087af04e5496162a3e8e71a053cbadbcbe86dcd43de03a1d8403d029d29ee32ee2b312eb0852d08326ce6f754fe199a9508dbb5321b1cdf6678000530668c33f60b84735b2e1a9332d3a693a94c0aa954e0450ca18b81a36ce2fbc3b2c3be49d46dcbd035cd92148e6ee317e0d1fa996c626526c26eacaabd0b3fb31aef92dfb56e8d7514ca5ed39aa8adb0f8c07a3063c852bd3a0837711c5d38c69c6a44130e2e9a1f211966c1b9c6f96636bbfe4fdeef2aff87da874ccfb270024a94a45ef338792c8900e3a5e274ccf453e88ee935b93e5795acf5cc63c66d0f42fe1c3fdbd5598c3af0bb475fb2059c6f98f62ca6fe8215867269a77bcf578010bde80d8ecc569c6d1392117d964146b34b5ad332bebd50c6e8452fae1d37be603cbac1fb28f0a0f216b43256a2d068cb31748c2caabc2cde98b16d073f3a47f1a7c3f1dfd4934154b34451b9ebac93d082dfaab66df3dcc293c75441c30dd8228c384c9833c8e965380cf4c91ed73fce648631f1f1c92e00b41f1d1ac606e70d9d94c24eba63232eb3fdd2c99c4413b8313fcd53f356dd0db33c8550ca60d5ed4fef7eba47082dacb80bee46566632167eb93674e57a31d82cfccfa23a7de4d3165bce5808e0647585f283936c36fad9ac0fe7454fe7b73bbd92f70aed9f27e1bdd401b0ae3bb2a16940ca8b8bcb01b4182fde072b14606ebb2a43dea7555e4a8ba9493812941acd13ea35e9619c5bcc08b0a74ceb6a476375e4519d24c76a2b246de6d235ea5742976424dbee8a2d1b5d784ca2ca6472cb660305921c9782500a60a75c2a0d10d722c1bb58ca8be57077ec3f6e474d8c0c1ce6998185d3de5b1d9d5d22470f7740132f66e2942e15a5238cbba589955ede584ebf2c91539a1abe1ece171f9015237a6ae7fb19699ebb3f058bf87462f8aeda182343ad248e35ad7ff6881dd77870bc066f38b53621c3c1b1796d627d220e2a53f428dfb3939f63361ff1ac2c3dbfa1b2bb398223301ee7c0f7f56e02f12f019ee9081bfd397270970c904d1a1c6cc6a2bd65164559020bfdf04a4ce98ccfb451155fb842034f3ba1449ddf174cfbcaa3b1a5e99db027861c0ac72807ce2ff8319d643b206c867c819d95b445ca34ef5000ba05c095883e84ed91eba63ce733c7ff466dd495218a542b68590aa8d8cbafd5e603a155f35bfe910063a54bf1f3ea89b1036219ffe80a02ec927518f4106c1fecf8a3dca2a3b1ddfbec6311b3e5ffeea3c97dc9787f223165b00161eb7a477bc6918e4a44c67d42c7bec3cf6da7c64ab226f6364ae22048e224be1cf3476311def536ffed2b6daa36ad85356bbb9546989d52fc523d8bd99bbb980d1169ce20f1ef09c4dc712ec7d52612c9e90dd3dd7ea9cdb1f37147084516087a056d6500125b619a6f4aa0183894440e302125d2f000fc2dcfc9ba28626a7f5ca572046ff82d277ea641fccbe680caf655429268159ad4a7141002f62c9056b1aacbc909e75c81a422e3f3ec247fef44ba918336501c7a773fd1b7a45e3d3e19d9d708a614d1d31455bc603ff55e8806a3fbc1d6ced2e333e98967a4ba8c76a4e51e0fef96fba0a909034f9b721baca8d6960f2aadbbee3e99dbea42e3836bb2495bdcd0931afe8edeaa0668247d808f0a57a8bb0f3925be2a56b30cdbbc540d526644885628944e57a5bb6ee40be91cca81d11ca26fa18f2f701464907c356a1fa20674d6231ee4fa0501fe2c9c137415a2e4c48a4be75214e2d3a5ee8a683e11beec04d0c0c2a62fb83226acb6ea30e844a1288ec73d0bf899f1d87090f25bf99195947c5dd328ef1e889b53fac1a0e7689bcef3e293a5ce79681b8091b7b3bcd78ae6e3e16a29b914bc0601d6345ca98bb01e47d2e2f5a1d89f0817f9afc08352bf35d86f04ab26b6108a964b144b3888ef14c1de9f4f3b5e7a3526683dcda13da35288b0928beb762646147664f5956bfa66d8c99ee7dfa5ef7c34211d8a928b44ad12a691aaec4b865d1377b6fd18d3f83b73700421069d9abef928909453304720b9e388f86a595c45d44258970cb4556bc5da9e19daf64a72975596d9e6872e7c48341608a69f6ce9ee6610ed17d84edf64f2c1d63166361f3b915e51eb6fcaa9945fe57e09e8f997c29b0fe24a8b76fc44d428182b9255faa91cc4537e7b9d70a0197c22c8eb294cb3ec3758c1bca081d6d0f3b159a130c26cf40c3c67b8ccf6c1e1b7d8587a72fff952b7072352eea87a913c070b9cca433f23d38ed4689f78e1bb29725b29d5caaa296a5278240e6f73fed72e529f3d4b67937d9540bdff3da6b72de04d676c9699c5a4f2cb81fdb43899729009fc8cc4542ed089756f7e97277821afccf7c9a12fdb9470e331ce4ce58cf193f534112b0478c1e1e6fe46b00da551f4c072057856c3f21bd5bd80ef7e4a7f5b0c00bd651693602fce8eda096410800c9a204eeb104cf7e296bdde69245e069ba373f85c041f1f7937ea72b0a989f4c8617b8662c0f84a617976a9623a520b5a91cb5844c85a20ec0994d89b98c75ea8153864df99b94b3b63b1928a4b28bc6e634d3cdea971de7a4ff0ee4f6740f109c921472481b8c1a4752c97622ee39a6249393842fd78d76f38f90007718d0981d3158b31155656615785cc770794ddfde79938cd61a7a8f6e412f43b1937ac43799f49cd6774aad2163e214d62f9a5d8b583f39c56cf7cd8eba7e4b16a28c5d2b0422bbf55d99665ce073f5feb254b91a6597c72c1e1d0eb7781f841a32f391f63d4aecc230eacb75c01a6ef2125e0d289d7f7cc2c9870a38de51e6494238680f54e6d33e68f5d7bac097ed9de50e21d7c3bb79c90550caddf900fbb1ef6a543fd1e97e315002a453da17e43384ca238314d43b69549b37544c45ac454e34fc81e473ec34375c9fb163976b20b3c8d658581dc3e6fdfed310bce7e34c152f5cea29c3760f5cfffcebe011e13e36986bcc264761a59ba3137b1ff1fa25394167cd78c123b42f1d697356acab3f1211db65349aa084dd7b137c01fc6397070bbdd6cd8cae5ba60ca2bc588515848d3e7dac87dd0be7df57aed0891bfd4ec1833b133d63dc5ab018c481bbba4851d438a51d9ef4d5b9339687f46389724228e15bf508fada011a84e3e1ef2fb086f6c72e6afabb4be2a8c88bb65e5fa8399ca71e487747f33a2f49eacbe412c6fde68a101961f4ef048dcd6edf81507fe87a4420e61eb6c1cb59868da3b58818a6ec6439a44e1321b863c173e7b90c6f3613c85320a8344f2fff476f30a83731c1ff0d05dc9c95bf459cae55081960cbf2d1bd9dfb18d44b53f238878697e93f8731aa03760fbb5621569b7958f64cdf1b5f2776404b77376c6220f964f732af62c43dc748c82a3d14f9d3926a9ee527d27be6f112f433901fdeeb4b298c7f41fc8b63df02c3be48b6ff23cc26e10d42092dffc124e069c4e2f3d515068f034331972457eeac24850215000ecfbca13d699c1e9ce7f0993b4921dfd362e48d6ced80e55b259bdbee88c6cb3170405c9697b5868f4efd3fba12c12cff3f9e11e2361a8d62fb15be142ce92aff0e52f921b9e650e6d6192f2817b9a6b8ce93e0a39619b848361cb8d2301714174004d054510e2146aaed4460a05b08f4afd088b806e92776d3ad8b7306a73d990dcdd5ab4a558bd15cd92052aff9d67ec2059020507788bd5f246421e9e67b767bfd250a9a21af84fa2c03d95617dfe11d17766652af04e7fb4d676feda6ecdc09a7bc27dfc755d797b46dc64ec4ce9718bad9a78264cb7559c7fc83ef877781446312aef176e6ea64d50446b26f2f774033914f10435c7425806a2410a2084d2cbc10db92b644f4fbf92f03940257e4cc4ab17619ab405d4434a107c287ef586e485e652ebf60cc4b9bde522b0a461539d7fe6b95011e42b8b173cd24e900edcdf4e65f0b163980cc5bc71cccefdea18e212c4acb86e2c7a44f74b75e3374d324d3f67695f68335c05e236bf77da65a1837f9d1a8581a35dd5040ed895d364e0d1e67a7311d0ab2b2694060b6012fba9e40c0b0fdb8bbc0738bc7d1ef31b339dfef242b039afd7f675f59892d1900a84182cf4d5b26ad0ed73e519287737e8535ceca1e0469e6fdfaf9f3f64f9291a2951559bd40871969b5892d4d63bee3d1b4f33702b9cd855b47b352a50e523d62b803cad8e85fc9bb0f82234e06d376d362a3740555c576282214eeafdc6a58b777950e9dde83deaf0fcb539433b34e85836fdf41e7f86ba296f991b2da9cbf90bf785350dd3daaadb22d334db6c126ad5685d0af38bbe655e5d2c67a121d18523c0b617980532ad1461ccffcce275156de2358ef0498bc68cd8c0e2be34d705cc466ef9e97854a646373cbfc69cb8ed3df236ed3af97f88270ca0280b7b4d7892fb2a033003dbf6fd70cb94fe65d941c860c9618292756db5c90fd5a7ab03534325d9ca193abe50b5b75f6e80ee97aeb0f8d079e6db4168ff3a79c1c9c188994624ed67c573a0116b33eff208b210e0d5394d24c8d716478a259d203e1f210ae6a9da7c542afccd29dbbf05b797424b2ba9984bfe73572d0b1574a1af49205e718f0553a845abee665af41fd98358a28b8d1701515b8d160c32bebf42ac8eb65caf7facd856d4afb2edff61c4b522bac78df619ab15e366feabcd2bfcaa0740a9ac1b1bb95eb8eb53f3446adafb153367738d99fc6702385bef16b0f0c3a9a5c577ce4b35a3274992e4a8fd40425244290135f00420584740d394069decddfc6ce166009c0ef76c9a25a42973a8e78cd98d52b0a38378b0318062a27c8e50a15f1fd9c0493b1ab0290164d83bd4b28e0e53a98383b801265e83f0115a3a41a68d9a8a3c7ebd3aa36e8f4ba4e11ab3b1a063f94303170a0baa4eca1ed13e466f5836bd2c16f71eddde3a5c0d46c2eec9719ad7dc263d978143ebe3afb9cec7d6822671403876718b23efa96ea9d42e654ba3cb50b344adc4cb210249dbc97dd7524b5c1f980036f4a17af0347e7bda033e5ba081efecdbe0391de3738d66065eca7de9560176487fc3f76e7bbc5e4327cc58965782e11ae56d51339be3d283f17bd46add1a08975f3486de693e506dea61e2c5d52febd949fd493eb12a3aea090db16289f6414cbb6f1e4fd3296a4dbc464e56ac4e35b5094728cee71f258a1dceff3bd82dc07daa0b46b162bc85ce6bd2e18e23b1c599faf66de6739a77483f87</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>life</category>
+        <category>reflects</category>
+      </categories>
+      <tags>
+        <tag>Vacation</tag>
+        <tag>Diary</tag>
       </tags>
   </entry>
   <entry>
@@ -320,6 +344,96 @@ $$</p>
       </categories>
       <tags>
         <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>毛泽东－党内错误思想</title>
+    <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
+    <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
+<ul>
+<li>党内错误思想的表现</li>
+<li>党内错误思想的来源</li>
+<li>党内错误思想的纠正方法</li>
+</ul>
+<h3 id="单纯军事观点"><a href="#单纯军事观点" class="headerlink" title="单纯军事观点"></a>单纯军事观点</h3><p>军事是实现政治目的的手段，而且在某些情况下，也是前提。
+但是，军事不是革命的全部。如果只会打仗就能搞好革命，那么就回到了军阀混战的时期。
+所以，军事和政治，不是对立的，而是统一的。
+错误思想的表现之一就是认为军事好，政治才会好，甚至认为军事领导政治，这是错误的。
+其二，单纯军事观点似乎认为军事就是为了打仗的。
+红军是一个执行革命政治任务的武装集团，特别是当前时期，军队更承担着宣传的作用。军队是用来打仗的，打仗的目的是赢得革命，赢得革命就需要群众的支持。离了宣传群众，组织群众，武装群众，并帮助群众建立武装政权的目标，军队就没有意义。</p>
+<p>第三，有人提出“司令部对外”的口号。这种思想发展下去，就会形成以军队控制政权的危险，就像国民党走向军阀路线一样。</p>
+<p>第四，一切以四军为本位，不知道武装群众。这是放大了的小团体主义。
+少数同志认为四军是唯一的希望，忽略了其他的武装力量，希望保存实力，避免斗争，这是机会主义。</p>
+<h3 id="这种观点的来源"><a href="#这种观点的来源" class="headerlink" title="这种观点的来源"></a>这种观点的来源</h3><p>第一，政治水平低。政治水平低，所以认识不到军队中政治领导的作用。
+第二，雇佣军队的思想。战俘兵甚多，这就造成了此思想的下层基础。
+第三，由于下层基础的存在和政治水平的低下，导致过分相信军队的力量，而不相信人民的力量。</p>
+<h3 id="纠正的方法"><a href="#纠正的方法" class="headerlink" title="纠正的方法"></a>纠正的方法</h3><p>第一，从教育上提高党的政治水平。
+要让党员认识到红军和白军的区别。肃清机会主义和盲动主义的残余，打破四军本位主义机。</p>
+<p>第二，加紧对官兵尤其是战俘的政治训练。同时从地方吸纳有经验的工农分子，削弱单纯军事的来源。
+第三，发起批评工作，第四，加强党对军事工作的讨论。第五，编制红军法规，明确红军任务和红军与人民的关系。</p>
+<h2 id="分析方法"><a href="#分析方法" class="headerlink" title="分析方法"></a>分析方法</h2><ol>
+<li>定义偏差：找出当前系统中的错误表现</li>
+<li>追根溯源：区分主观原因（认知水平）和客观原因（人员构成和历史背景）</li>
+<li>辩证统一：思考 <strong>手段</strong> （如：技术，效率，执行）与 <strong>目的</strong> （愿景、价值、根本目标）是否脱节。</li>
+<li>系统反馈：建立一种机制（教育、制度、批评），让系统在偏离轨道时能自动报警并拉回。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>reading</category>
+        <category>社科</category>
+      </categories>
+      <tags>
+        <tag>Critical thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CMC</title>
+    <url>/2026/01/27/CMC/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：一套题全会做</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高斯定理－课本讲解和例题</title>
+    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>electromagnetism</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>力学难题</title>
+    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
+    <content><![CDATA[<blockquote>
+<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>physics</category>
+        <category>mechanics</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
       </tags>
   </entry>
   <entry>
@@ -379,67 +493,53 @@ When you ponder the biography of a <strong>great figure</strong>, you will find 
       </tags>
   </entry>
   <entry>
-    <title>毛泽东－党内错误思想</title>
-    <url>/2026/01/26/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E5%88%86%E6%9E%90%E5%8E%9F%E5%9B%A0/</url>
-    <content><![CDATA[<h2 id="download-and-find-relavant-essays"><a href="#download-and-find-relavant-essays" class="headerlink" title="download and find relavant essays"></a>download and find relavant essays</h2><h2 id="关于党内的一些错误思想"><a href="#关于党内的一些错误思想" class="headerlink" title="关于党内的一些错误思想"></a>关于党内的一些错误思想</h2><p>分析主要包含了：</p>
-<ul>
-<li>党内错误思想的表现</li>
-<li>党内错误思想的来源</li>
-<li>党内错误思想的纠正方法</li>
-</ul>
-<h3 id="单纯军事观点"><a href="#单纯军事观点" class="headerlink" title="单纯军事观点"></a>单纯军事观点</h3><p>军事是实现政治目的的手段，而且在某些情况下，也是前提。
-但是，军事不是革命的全部。如果只会打仗就能搞好革命，那么就回到了军阀混战的时期。
-所以，军事和政治，不是对立的，而是统一的。
-错误思想的表现之一就是认为军事好，政治才会好，甚至认为军事领导政治，这是错误的。
-其二，单纯军事观点似乎认为军事就是为了打仗的。
-红军是一个执行革命政治任务的武装集团，特别是当前时期，军队更承担着宣传的作用。军队是用来打仗的，打仗的目的是赢得革命，赢得革命就需要群众的支持。离了宣传群众，组织群众，武装群众，并帮助群众建立武装政权的目标，军队就没有意义。</p>
-<p>第三，有人提出“司令部对外”的口号。这种思想发展下去，就会形成以军队控制政权的危险，就像国民党走向军阀路线一样。</p>
-<p>第四，一切以四军为本位，不知道武装群众。这是放大了的小团体主义。
-少数同志认为四军是唯一的希望，忽略了其他的武装力量，希望保存实力，避免斗争，这是机会主义。</p>
-<h3 id="这种观点的来源"><a href="#这种观点的来源" class="headerlink" title="这种观点的来源"></a>这种观点的来源</h3><p>第一，政治水平低。政治水平低，所以认识不到军队中政治领导的作用。
-第二，雇佣军队的思想。战俘兵甚多，这就造成了此思想的下层基础。
-第三，由于下层基础的存在和政治水平的低下，导致过分相信军队的力量，而不相信人民的力量。</p>
-<h3 id="纠正的方法"><a href="#纠正的方法" class="headerlink" title="纠正的方法"></a>纠正的方法</h3><p>第一，从教育上提高党的政治水平。
-要让党员认识到红军和白军的区别。肃清机会主义和盲动主义的残余，打破四军本位主义机。</p>
-<p>第二，加紧对官兵尤其是战俘的政治训练。同时从地方吸纳有经验的工农分子，削弱单纯军事的来源。
-第三，发起批评工作，第四，加强党对军事工作的讨论。第五，编制红军法规，明确红军任务和红军与人民的关系。</p>
-<h2 id="分析方法"><a href="#分析方法" class="headerlink" title="分析方法"></a>分析方法</h2><ol>
-<li>定义偏差：找出当前系统中的错误表现</li>
-<li>追根溯源：区分主观原因（认知水平）和客观原因（人员构成和历史背景）</li>
-<li>辩证统一：思考 <strong>手段</strong> （如：技术，效率，执行）与 <strong>目的</strong> （愿景、价值、根本目标）是否脱节。</li>
-<li>系统反馈：建立一种机制（教育、制度、批评），让系统在偏离轨道时能自动报警并拉回。</li>
-</ol>
+    <title>高阶微分方程</title>
+    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
+y^{(n)} &#x3D; f(x)
+$$
+解法：一直积分即可</p>
+<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
+y’’ &#x3D; f(x,y’)
+$$
+解法：
+另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
+<p>求出一阶微分方程的解：
+$$
+y’ &#x3D; \phi(x,C)
+$$
+再求积分得y</p>
+<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
+y’’ &#x3D; f(y,y’)
+$$
+解：</p>
+<p>设y’ &#x3D; p
+。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
+. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
+<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
+$$
+y’’ + py’ + qy &#x3D; 0
+$$
+解法：</p>
+<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
+根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
+这么说是有道理的：
+特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
+<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
+带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
+<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
+<p>首先，把两个解相加，得到纯实数解。
+然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
 ]]></content>
       <categories>
-        <category>reading</category>
-        <category>社科</category>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
       </categories>
       <tags>
-        <tag>Critical thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一日反思</title>
-    <url>/2026/01/26/reflects/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="63637f6c977a615721ee549b763e8b09c1a2effcfc14c70eabd19a26853411d5">d337c39ab4bb2cef3d3c89269811231540c87fb52f89f80426fd0b14a90e26f8cdde0bc2b0901b3490bdafa6fc3326a252c3f5875b8645642c056e5746e6de123726d39039d061b160105011a2e0960e7a19312b32f904e429809fea534f71383213401a5e95153dc6d1eff4f71c35fd9a5c90bbad106a6fecee0b1f11f0d9222a371535ba2e3021c0f3af76db5b632c0c30baeb4726132be64e57c85874eebff399fa1a83386a4ba1731e14703a6764eab99c9b999d4e47ff8eb8e083ca58d034f92c3cad5bcdf01fbe0eef93d297ebea4a195f468dd04ac111f63633d083cfb1d136087dee88c6502891441bac83d3d3c64dbfddcf1935a37074a430a4e106a3270b521da4587905c38ba37a06d5d504315cda0cc06fba70a2f317ef02b3aab4c0bbd15b20ab193b57cad0e19b28b65bf27c9133167b3b0565867ed1a6f387c4f545f71cb2cc207178615f086679cc532ca3896d4aa69c4cfa9b63503938ded300e753be14a1ed9148453ec1f51d951f573b808f35b701e0227337bb43b744677e02b9718e0e555c81baaeff53ef5f7d90ac558f7e3c348156485913d49f819c8a43ca8179245e65c90584cda49d971af6a783a29b0611180caa53767c12c4091aa437929f702193559917b52b32f2531238c477dec5ee0b5e9db9a0f19a6f38a05450aef12ed2a4c5f69f373982a614bb26d1e45dd64bb0f77a5fd324abb0c28512ff52834df5b03a487cf43e5ca926fb912bfdf8fc0af3706108e3bfc6aa8b38584023e0dac439a8c8c88232af978858e72eac6c3cda5a282184c621452c8c046405ff2899d604c72aa0fc83f2706c3b6a96ce6d940c923f1722ba77d70f664fabdbaefd7dee3de9fbb76ea0f7bd95f32a459517371f67d34009810600244f0da25c28b753e20eb8f41c0173ea4dcc8087962e04e9c701480a13b449a95bbb1bf4c9b0e9919ab5511956c481f92de0a2141bd9bbead20a9529b224edf443247f0cee2f173acab9a7dd49df52a8030a2b67d2c2a4a412df1dea986bcacc47ca44ff9e939f560368f2d7c6053b321c85f1984214087cc2c3147575eee87d8fe661a5baa0c86bac9f35f7c8b0d0142451703669576c87c2b9e105daf1207eb65f2278b34ac9acbbd8c0b04733651cd3f2c2d6d7e8fd65a16bf685ccff59c869e55168060f0ff8bf6757e1c4622aec82e79709efba306b0a02f8d6e3063a53d32b4ec1c34853125e4b220ab7d32ac11826f25b1a33cccdec296638fb7729f8f4cdf54a466912ccd2b7e8f31e36577af2aa9a101adcbe2521b6cb1908ad3f87ecc02ca9dd281b19c8871fbd4db91ca58031397f76e7792e2972cedf68e281694275e34824f315e078f05f9ed547226ce7b85fe589ad70c18540afd38d458133ad4e8a97be13514ecf186863453d634f6b851d90fad91dcd7e8a6c50f5b2bd1b5fc4179bf4fce4ec2874bf14099f6197865255b2caf7f4589ca4f907031e1e93ed53d1a39e5ac025501279a7562b45043c9aed6fcdd693ecaa21fbaee185010a533a26a6d2c27753931a815a87f67ae0c5b8a65533b6d2c5700fa60425199c417b9b6ce0d65d34ffa3473336c2fe63b7c004e5abcda1d516e0960ca70168e7c54adbed1e9ab6d9479d41960895b2e3cb5ebe70d62b88caf2f6d05c82dc4ed4e1583055d2c627843df709d5a832686e6f4e36c019fcb9044101e4a6862719ab949efa20635022acc59a217a3276194a70b197f87a1359cbb60a7b2798db0eaf0b79d01c3a4bfcd750cbc1eae24a992f54cf95b3decbdbe16da31caf8f870087af04e5496162a3e8e71a053cbadbcbe86dcd43de03a1d8403d029d29ee32ee2b312eb0852d08326ce6f754fe199a9508dbb5321b1cdf6678000530668c33f60b84735b2e1a9332d3a693a94c0aa954e0450ca18b81a36ce2fbc3b2c3be49d46dcbd035cd92148e6ee317e0d1fa996c626526c26eacaabd0b3fb31aef92dfb56e8d7514ca5ed39aa8adb0f8c07a3063c852bd3a0837711c5d38c69c6a44130e2e9a1f211966c1b9c6f96636bbfe4fdeef2aff87da874ccfb270024a94a45ef338792c8900e3a5e274ccf453e88ee935b93e5795acf5cc63c66d0f42fe1c3fdbd5598c3af0bb475fb2059c6f98f62ca6fe8215867269a77bcf578010bde80d8ecc569c6d1392117d964146b34b5ad332bebd50c6e8452fae1d37be603cbac1fb28f0a0f216b43256a2d068cb31748c2caabc2cde98b16d073f3a47f1a7c3f1dfd4934154b34451b9ebac93d082dfaab66df3dcc293c75441c30dd8228c384c9833c8e965380cf4c91ed73fce648631f1f1c92e00b41f1d1ac606e70d9d94c24eba63232eb3fdd2c99c4413b8313fcd53f356dd0db33c8550ca60d5ed4fef7eba47082dacb80bee46566632167eb93674e57a31d82cfccfa23a7de4d3165bce5808e0647585f283936c36fad9ac0fe7454fe7b73bbd92f70aed9f27e1bdd401b0ae3bb2a16940ca8b8bcb01b4182fde072b14606ebb2a43dea7555e4a8ba9493812941acd13ea35e9619c5bcc08b0a74ceb6a476375e4519d24c76a2b246de6d235ea5742976424dbee8a2d1b5d784ca2ca6472cb660305921c9782500a60a75c2a0d10d722c1bb58ca8be57077ec3f6e474d8c0c1ce6998185d3de5b1d9d5d22470f7740132f66e2942e15a5238cbba589955ede584ebf2c91539a1abe1ece171f9015237a6ae7fb19699ebb3f058bf87462f8aeda182343ad248e35ad7ff6881dd77870bc066f38b53621c3c1b1796d627d220e2a53f428dfb3939f63361ff1ac2c3dbfa1b2bb398223301ee7c0f7f56e02f12f019ee9081bfd397270970c904d1a1c6cc6a2bd65164559020bfdf04a4ce98ccfb451155fb842034f3ba1449ddf174cfbcaa3b1a5e99db027861c0ac72807ce2ff8319d643b206c867c819d95b445ca34ef5000ba05c095883e84ed91eba63ce733c7ff466dd495218a542b68590aa8d8cbafd5e603a155f35bfe910063a54bf1f3ea89b1036219ffe80a02ec927518f4106c1fecf8a3dca2a3b1ddfbec6311b3e5ffeea3c97dc9787f223165b00161eb7a477bc6918e4a44c67d42c7bec3cf6da7c64ab226f6364ae22048e224be1cf3476311def536ffed2b6daa36ad85356bbb9546989d52fc523d8bd99bbb980d1169ce20f1ef09c4dc712ec7d52612c9e90dd3dd7ea9cdb1f37147084516087a056d6500125b619a6f4aa0183894440e302125d2f000fc2dcfc9ba28626a7f5ca572046ff82d277ea641fccbe680caf655429268159ad4a7141002f62c9056b1aacbc909e75c81a422e3f3ec247fef44ba918336501c7a773fd1b7a45e3d3e19d9d708a614d1d31455bc603ff55e8806a3fbc1d6ced2e333e98967a4ba8c76a4e51e0fef96fba0a909034f9b721baca8d6960f2aadbbee3e99dbea42e3836bb2495bdcd0931afe8edeaa0668247d808f0a57a8bb0f3925be2a56b30cdbbc540d526644885628944e57a5bb6ee40be91cca81d11ca26fa18f2f701464907c356a1fa20674d6231ee4fa0501fe2c9c137415a2e4c48a4be75214e2d3a5ee8a683e11beec04d0c0c2a62fb83226acb6ea30e844a1288ec73d0bf899f1d87090f25bf99195947c5dd328ef1e889b53fac1a0e7689bcef3e293a5ce79681b8091b7b3bcd78ae6e3e16a29b914bc0601d6345ca98bb01e47d2e2f5a1d89f0817f9afc08352bf35d86f04ab26b6108a964b144b3888ef14c1de9f4f3b5e7a3526683dcda13da35288b0928beb762646147664f5956bfa66d8c99ee7dfa5ef7c34211d8a928b44ad12a691aaec4b865d1377b6fd18d3f83b73700421069d9abef928909453304720b9e388f86a595c45d44258970cb4556bc5da9e19daf64a72975596d9e6872e7c48341608a69f6ce9ee6610ed17d84edf64f2c1d63166361f3b915e51eb6fcaa9945fe57e09e8f997c29b0fe24a8b76fc44d428182b9255faa91cc4537e7b9d70a0197c22c8eb294cb3ec3758c1bca081d6d0f3b159a130c26cf40c3c67b8ccf6c1e1b7d8587a72fff952b7072352eea87a913c070b9cca433f23d38ed4689f78e1bb29725b29d5caaa296a5278240e6f73fed72e529f3d4b67937d9540bdff3da6b72de04d676c9699c5a4f2cb81fdb43899729009fc8cc4542ed089756f7e97277821afccf7c9a12fdb9470e331ce4ce58cf193f534112b0478c1e1e6fe46b00da551f4c072057856c3f21bd5bd80ef7e4a7f5b0c00bd651693602fce8eda096410800c9a204eeb104cf7e296bdde69245e069ba373f85c041f1f7937ea72b0a989f4c8617b8662c0f84a617976a9623a520b5a91cb5844c85a20ec0994d89b98c75ea8153864df99b94b3b63b1928a4b28bc6e634d3cdea971de7a4ff0ee4f6740f109c921472481b8c1a4752c97622ee39a6249393842fd78d76f38f90007718d0981d3158b31155656615785cc770794ddfde79938cd61a7a8f6e412f43b1937ac43799f49cd6774aad2163e214d62f9a5d8b583f39c56cf7cd8eba7e4b16a28c5d2b0422bbf55d99665ce073f5feb254b91a6597c72c1e1d0eb7781f841a32f391f63d4aecc230eacb75c01a6ef2125e0d289d7f7cc2c9870a38de51e6494238680f54e6d33e68f5d7bac097ed9de50e21d7c3bb79c90550caddf900fbb1ef6a543fd1e97e315002a453da17e43384ca238314d43b69549b37544c45ac454e34fc81e473ec34375c9fb163976b20b3c8d658581dc3e6fdfed310bce7e34c152f5cea29c3760f5cfffcebe011e13e36986bcc264761a59ba3137b1ff1fa25394167cd78c123b42f1d697356acab3f1211db65349aa084dd7b137c01fc6397070bbdd6cd8cae5ba60ca2bc588515848d3e7dac87dd0be7df57aed0891bfd4ec1833b133d63dc5ab018c481bbba4851d438a51d9ef4d5b9339687f46389724228e15bf508fada011a84e3e1ef2fb086f6c72e6afabb4be2a8c88bb65e5fa8399ca71e487747f33a2f49eacbe412c6fde68a101961f4ef048dcd6edf81507fe87a4420e61eb6c1cb59868da3b58818a6ec6439a44e1321b863c173e7b90c6f3613c85320a8344f2fff476f30a83731c1ff0d05dc9c95bf459cae55081960cbf2d1bd9dfb18d44b53f238878697e93f8731aa03760fbb5621569b7958f64cdf1b5f2776404b77376c6220f964f732af62c43dc748c82a3d14f9d3926a9ee527d27be6f112f433901fdeeb4b298c7f41fc8b63df02c3be48b6ff23cc26e10d42092dffc124e069c4e2f3d515068f034331972457eeac24850215000ecfbca13d699c1e9ce7f0993b4921dfd362e48d6ced80e55b259bdbee88c6cb3170405c9697b5868f4efd3fba12c12cff3f9e11e2361a8d62fb15be142ce92aff0e52f921b9e650e6d6192f2817b9a6b8ce93e0a39619b848361cb8d2301714174004d054510e2146aaed4460a05b08f4afd088b806e92776d3ad8b7306a73d990dcdd5ab4a558bd15cd92052aff9d67ec2059020507788bd5f246421e9e67b767bfd250a9a21af84fa2c03d95617dfe11d17766652af04e7fb4d676feda6ecdc09a7bc27dfc755d797b46dc64ec4ce9718bad9a78264cb7559c7fc83ef877781446312aef176e6ea64d50446b26f2f774033914f10435c7425806a2410a2084d2cbc10db92b644f4fbf92f03940257e4cc4ab17619ab405d4434a107c287ef586e485e652ebf60cc4b9bde522b0a461539d7fe6b95011e42b8b173cd24e900edcdf4e65f0b163980cc5bc71cccefdea18e212c4acb86e2c7a44f74b75e3374d324d3f67695f68335c05e236bf77da65a1837f9d1a8581a35dd5040ed895d364e0d1e67a7311d0ab2b2694060b6012fba9e40c0b0fdb8bbc0738bc7d1ef31b339dfef242b039afd7f675f59892d1900a84182cf4d5b26ad0ed73e519287737e8535ceca1e0469e6fdfaf9f3f64f9291a2951559bd40871969b5892d4d63bee3d1b4f33702b9cd855b47b352a50e523d62b803cad8e85fc9bb0f82234e06d376d362a3740555c576282214eeafdc6a58b777950e9dde83deaf0fcb539433b34e85836fdf41e7f86ba296f991b2da9cbf90bf785350dd3daaadb22d334db6c126ad5685d0af38bbe655e5d2c67a121d18523c0b617980532ad1461ccffcce275156de2358ef0498bc68cd8c0e2be34d705cc466ef9e97854a646373cbfc69cb8ed3df236ed3af97f88270ca0280b7b4d7892fb2a033003dbf6fd70cb94fe65d941c860c9618292756db5c90fd5a7ab03534325d9ca193abe50b5b75f6e80ee97aeb0f8d079e6db4168ff3a79c1c9c188994624ed67c573a0116b33eff208b210e0d5394d24c8d716478a259d203e1f210ae6a9da7c542afccd29dbbf05b797424b2ba9984bfe73572d0b1574a1af49205e718f0553a845abee665af41fd98358a28b8d1701515b8d160c32bebf42ac8eb65caf7facd856d4afb2edff61c4b522bac78df619ab15e366feabcd2bfcaa0740a9ac1b1bb95eb8eb53f3446adafb153367738d99fc6702385bef16b0f0c3a9a5c577ce4b35a3274992e4a8fd40425244290135f00420584740d394069decddfc6ce166009c0ef76c9a25a42973a8e78cd98d52b0a38378b0318062a27c8e50a15f1fd9c0493b1ab0290164d83bd4b28e0e53a98383b801265e83f0115a3a41a68d9a8a3c7ebd3aa36e8f4ba4e11ab3b1a063f94303170a0baa4eca1ed13e466f5836bd2c16f71eddde3a5c0d46c2eec9719ad7dc263d978143ebe3afb9cec7d6822671403876718b23efa96ea9d42e654ba3cb50b344adc4cb210249dbc97dd7524b5c1f980036f4a17af0347e7bda033e5ba081efecdbe0391de3738d66065eca7de9560176487fc3f76e7bbc5e4327cc58965782e11ae56d51339be3d283f17bd46add1a08975f3486de693e506dea61e2c5d52febd949fd493eb12a3aea090db16289f6414cbb6f1e4fd3296a4dbc464e56ac4e35b5094728cee71f258a1dceff3bd82dc07daa0b46b162bc85ce6bd2e18e23b1c599faf66de6739a77483f87</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>life</category>
-        <category>reflects</category>
-      </categories>
-      <tags>
-        <tag>Vacation</tag>
-        <tag>Diary</tag>
+        <tag>Notes</tag>
+        <tag>K</tag>
       </tags>
   </entry>
   <entry>
@@ -468,18 +568,25 @@ $ \lambda_2 $
       </tags>
   </entry>
   <entry>
-    <title>实验报告阅读</title>
-    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<blockquote>
-<p>找一篇CUPT报告，读懂。</p>
-</blockquote>
+    <title>训练日志</title>
+    <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
+<li>跳台阶</li>
+<li>操场<ul>
+<li>百米（掐表）</li>
+<li>跨步跳50米*5</li>
+<li>单足跳30米*3（每个腿）</li>
+</ul>
+</li>
+<li>回家<ul>
+<li>俯卧撑20*4（间隔休息）</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>research</category>
+        <category>training</category>
       </categories>
-      <tags>
-        <tag>physics</tag>
-      </tags>
   </entry>
   <entry>
     <title>中国红色政权为何能够存在？</title>
@@ -511,24 +618,6 @@ $ \lambda_2 $
       <tags>
         <tag>Notes</tag>
         <tag>Critical thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>力学难题</title>
-    <url>/2026/01/27/%E5%8A%9B%E5%AD%A6%E9%9A%BE%E9%A2%98/</url>
-    <content><![CDATA[<blockquote>
-<p>量化：《难题集萃》选三道完全不同的有难度的典型题，会做。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>mechanics</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>P</tag>
       </tags>
   </entry>
   <entry>
@@ -584,21 +673,38 @@ $$</p>
       </tags>
   </entry>
   <entry>
-    <title>CMC</title>
-    <url>/2026/01/27/CMC/</url>
-    <content><![CDATA[<blockquote>
-<p>量化：一套题全会做</p>
-</blockquote>
+    <title>英语单词</title>
+    <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
+    <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
+<h2 id="my-translation"><a href="#my-translation" class="headerlink" title="my translation"></a>my translation</h2><p>In our career path, we must primarily enconter all kinds of invisible setbacks.
+Sometimes, people might spread goddip out of spite.
+Then we have to learn to restrain our emotions and adapt to new situations quickly.
+A good team should accomodate different opinions,
+and embrace multiple viewpoints. Being able to focus on the target and keep calm under presure, has become a luxury for modern office people.</p>
+<h2 id="correction"><a href="#correction" class="headerlink" title="correction"></a>correction</h2><p>​In our professional careers, we primarily face various unforeseen setbacks. Sometimes, individuals might spread gossip out of spite; in such moments, we must learn to restrain our emotions and quickly adapt to new situations. An excellent team should be able to accommodate different opinions and embrace diverse viewpoints. Remaining calm and focusing on goals under pressure has become a rare luxury for modern professionals.</p>
 ]]></content>
       <categories>
         <category>learning</category>
         <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
+        <category>English</category>
       </categories>
       <tags>
         <tag>Notes</tag>
-        <tag>P</tag>
+        <tag>Translation</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>秩</title>
+    <url>/2026/01/28/%E7%A7%A9/</url>
+    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>linear algebra</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -622,98 +728,6 @@ $$</p>
       </categories>
       <tags>
         <tag>Self-discipline</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高阶微分方程</title>
-    <url>/2026/01/27/%E9%AB%98%E9%98%B6%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="高阶微分方程及解法"><a href="#高阶微分方程及解法" class="headerlink" title="高阶微分方程及解法"></a>高阶微分方程及解法</h2><h3 id="1-纯导型方程"><a href="#1-纯导型方程" class="headerlink" title="1.纯导型方程"></a>1.纯导型方程</h3><p>$$
-y^{(n)} &#x3D; f(x)
-$$
-解法：一直积分即可</p>
-<h3 id="2-缺y型方程"><a href="#2-缺y型方程" class="headerlink" title="2.缺y型方程"></a>2.缺y型方程</h3><p>$$
-y’’ &#x3D; f(x,y’)
-$$
-解法：
-另y’ &#x3D; p，则左边是p’，右边是f(x,p)，变成了一阶微分方程。</p>
-<p>求出一阶微分方程的解：
-$$
-y’ &#x3D; \phi(x,C)
-$$
-再求积分得y</p>
-<h3 id="缺x型方程"><a href="#缺x型方程" class="headerlink" title="缺x型方程"></a>缺x型方程</h3><p>$$
-y’’ &#x3D; f(y,y’)
-$$
-解：</p>
-<p>设y’ &#x3D; p
-。则 $ y’’ &#x3D; \frac{dp}{dx} &#x3D; \frac{dp}{dy} \, \frac{dy}{dx} &#x3D; p \, \frac{dp}{dy} $
-. 这是一个一阶微分方程，可以求得 $ y’ &#x3D; \phi(y,C) $. 求积分得原方程的解.</p>
-<h2 id="二阶齐次方程的解"><a href="#二阶齐次方程的解" class="headerlink" title="二阶齐次方程的解"></a>二阶齐次方程的解</h2><p>这里，齐次方程的定义和线代中相似：都是另等式右边等于零。研究这类方程的好处就是：如果你把齐次方程的解加到分齐次方程的一个特解上，所得的解仍然是非齐次方程的解。
-$$
-y’’ + py’ + qy &#x3D; 0
-$$
-解法：</p>
-<p>首先，猜想解的形式是 $ y &#x3D; e^{rx} $. 然后带入微分方程，把$ e^{x} $提出来，得到特征方程。
-根据它是一个二阶微分方程，包含两个独立常数，可以得知：最终的解可能是两个线性无关的特解的线性组合。
-这么说是有道理的：
-特征方程是二次的，完全可以产生两个形式相似的解，那么到底选取哪个呢？齐次方程的性质告诉我们，两个都要，取他们的线性组合。</p>
-<p>当特征方程只有一个二重实根，由于另一个解与它线性无关，可设$ y_2 &#x3D; e^{r_1 x} u(x) $.
-带入微分方程，得到$ u(x) &#x3D; x $. 通解就是这两个解的线性组合。</p>
-<p>如果特征根是负数，同样取两个解的线性组合。只不过，需要在实数范围内进行筛选。</p>
-<p>首先，把两个解相加，得到纯实数解。
-然后，相减得到纯虚数解，把它除以$ 2i $就可以得到另一个实数解，取线性组合即得通解。</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>K</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>训练日志</title>
-    <url>/2026/01/27/%E8%AE%AD%E7%BB%83%E6%97%A5%E5%BF%97/</url>
-    <content><![CDATA[<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><ul>
-<li>跳台阶</li>
-<li>操场<ul>
-<li>百米（掐表）</li>
-<li>跨步跳50米*5</li>
-<li>单足跳30米*3（每个腿）</li>
-</ul>
-</li>
-<li>回家<ul>
-<li>俯卧撑20*4（间隔休息）</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>training</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>浑噩之后</title>
-    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
-    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
-<p>可是，清醒了又有什么用呢？我悲观的想。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>秩</title>
-    <url>/2026/01/28/%E7%A7%A9/</url>
-    <content><![CDATA[<h2 id="秩与转置"><a href="#秩与转置" class="headerlink" title="秩与转置"></a>秩与转置</h2><h2 id="西尔维斯特不等式"><a href="#西尔维斯特不等式" class="headerlink" title="西尔维斯特不等式"></a>西尔维斯特不等式</h2><h2 id="另外两道例题"><a href="#另外两道例题" class="headerlink" title="另外两道例题"></a>另外两道例题</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>linear algebra</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
       </tags>
   </entry>
   <entry>
@@ -741,6 +755,13 @@ $$
       </tags>
   </entry>
   <entry>
+    <title>浑噩之后</title>
+    <url>/2026/02/01/%E6%B5%91%E5%99%A9%E4%B9%8B%E5%90%8E/</url>
+    <content><![CDATA[<p>浑噩是我这几天的常态。当我下午醒来时，已经四点了。“是时候清醒过来了”，我想。</p>
+<p>可是，清醒了又有什么用呢？我悲观的想。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>A fresh start</title>
     <url>/2026/02/02/A-fresh-start/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -764,27 +785,6 @@ $$
         <tag>New start</tag>
         <tag>Up</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>狭义相对论-讲义2</title>
-    <url>/2026/02/16/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA-%E8%AE%B2%E4%B9%892/</url>
-    <content><![CDATA[<h1 id="狭义相对论-基本原理"><a href="#狭义相对论-基本原理" class="headerlink" title="狭义相对论 基本原理"></a>狭义相对论 基本原理</h1><h2 id="光速不变性"><a href="#光速不变性" class="headerlink" title="光速不变性"></a>光速不变性</h2><blockquote>
-<p>在任何惯性系中，光速的测量结果是相同的</p>
-</blockquote>
-<ul>
-<li>实验证实：在地球上测量光速</li>
-<li>理论推导：麦克斯韦方程组导出电磁波波速与参考系无关</li>
-</ul>
-<p>分析：</p>
-<p>设初始状态两个坐标系重合，原点发出光信号。随后O’以速度u匀速运动，O保持静止，在两个参考系中的人们看到的光速是相同的，我们分别分析光的传播，得到：</p>
-<p>O中，x &#x3D; ct. O’中，x’ &#x3D; ct’. 
-两个同时成立（这里的同时不是指相同时刻，以为它们的时间不同。这里同时指对应两个参考系的波阵面方程）</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>new</title>
-    <url>/2026/02/11/new/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>computer</title>
@@ -819,6 +819,16 @@ $$
 <li>test</li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>new</title>
+    <url>/2026/02/11/new/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>狭义相对论</title>
+    <url>/2026/02/15/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA/</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>老家日记</title>
@@ -895,41 +905,6 @@ $$
 ]]></content>
   </entry>
   <entry>
-    <title>英语单词</title>
-    <url>/2026/01/28/%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</url>
-    <content><![CDATA[<h2 id="original"><a href="#original" class="headerlink" title="original"></a>original</h2><p>在职业生涯中，我们首先（primarily）要面对的是各种不可预见的挫折（setback）。有时，一些人可能会出于恶意（spite）传播流言蜚语（gossip），这时我们必须学会抑制（restrain）自己的情绪，并迅速适应（adapt）新的情况。一个优秀的团队应当能够容纳（accommodate）不同的意见，并包含（embrace）多样化的观点。能够在压力下保持冷静并专注于目标，对于现代职场人来说，已经成为一种难得的奢侈（luxury）。</p>
-<h2 id="my-translation"><a href="#my-translation" class="headerlink" title="my translation"></a>my translation</h2><p>In our career path, we must primarily enconter all kinds of invisible setbacks.
-Sometimes, people might spread goddip out of spite.
-Then we have to learn to restrain our emotions and adapt to new situations quickly.
-A good team should accomodate different opinions,
-and embrace multiple viewpoints. Being able to focus on the target and keep calm under presure, has become a luxury for modern office people.</p>
-<h2 id="correction"><a href="#correction" class="headerlink" title="correction"></a>correction</h2><p>​In our professional careers, we primarily face various unforeseen setbacks. Sometimes, individuals might spread gossip out of spite; in such moments, we must learn to restrain our emotions and quickly adapt to new situations. An excellent team should be able to accommodate different opinions and embrace diverse viewpoints. Remaining calm and focusing on goals under pressure has become a rare luxury for modern professionals.</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>Translation</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>高斯定理－课本讲解和例题</title>
-    <url>/2026/01/26/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86%EF%BC%8D%E8%AF%BE%E6%9C%AC%E8%AE%B2%E8%A7%A3%E5%92%8C%E4%BE%8B%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="高斯定理的证明"><a href="#高斯定理的证明" class="headerlink" title="高斯定理的证明"></a>高斯定理的证明</h2><h2 id="高斯定理的应用（习题）和解题方法"><a href="#高斯定理的应用（习题）和解题方法" class="headerlink" title="高斯定理的应用（习题）和解题方法"></a>高斯定理的应用（习题）和解题方法</h2>]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>physics</category>
-        <category>electromagnetism</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>physics learning</title>
     <url>/2026/02/21/physics-learning/</url>
     <content><![CDATA[<h2 id="电磁学"><a href="#电磁学" class="headerlink" title="电磁学"></a>电磁学</h2><p>电磁学研究电和磁，一个统一理论是麦克斯韦方程组。</p>
@@ -944,11 +919,6 @@ and embrace multiple viewpoints. Being able to focus on the target and keep calm
 <p>重点学习：麦克斯韦方程组、交流电路、电磁场与相对论、磁学与磁介质。</p>
 <p>四个章节，32小时学完</p>
 <h2 id="热学"><a href="#热学" class="headerlink" title="热学"></a>热学</h2>]]></content>
-  </entry>
-  <entry>
-    <title>狭义相对论</title>
-    <url>/2026/02/15/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA/</url>
-    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>2026年2月17日</title>
@@ -1056,6 +1026,115 @@ $$</p>
 <p>感生电动势等于回路内磁感线条数的变化率</p>
 </blockquote>
 <p>至此，经典电磁理论完结</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>实验报告阅读</title>
+    <url>/2026/01/27/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<blockquote>
+<p>找一篇CUPT报告，读懂。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>research</category>
+      </categories>
+      <tags>
+        <tag>physics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学期计划</title>
+    <url>/2026/02/23/%E5%AD%A6%E6%9C%9F%E8%AE%A1%E5%88%92/</url>
+    <content><![CDATA[<table>
+<thead>
+<tr>
+<th align="center">时间</th>
+<th align="center">事件</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">7:00 A.M.</td>
+<td align="center">get up</td>
+</tr>
+<tr>
+<td align="center">7:00-8:00</td>
+<td align="center">get prepared, eat breakfast, go to the classroom</td>
+</tr>
+<tr>
+<td align="center">8:00-10:10</td>
+<td align="center">study session-1</td>
+</tr>
+<tr>
+<td align="center">10:10-12:10</td>
+<td align="center">study session-2</td>
+</tr>
+<tr>
+<td align="center">12:10-12:50</td>
+<td align="center">summerize and review</td>
+</tr>
+<tr>
+<td align="center">12:50-13:30</td>
+<td align="center">have lunch</td>
+</tr>
+<tr>
+<td align="center">13:30-14:00</td>
+<td align="center">have a rest</td>
+</tr>
+<tr>
+<td align="center">14:00-16:10</td>
+<td align="center">study session-3</td>
+</tr>
+<tr>
+<td align="center">16:10-18:20</td>
+<td align="center">study session-4</td>
+</tr>
+<tr>
+<td align="center">18:20-19:00</td>
+<td align="center">have dinner</td>
+</tr>
+<tr>
+<td align="center">19:00-20:40</td>
+<td align="center">study session-5</td>
+</tr>
+<tr>
+<td align="center">20:40-21:20</td>
+<td align="center">summerize and review</td>
+</tr>
+<tr>
+<td align="center">21:20-22:10</td>
+<td align="center">sports</td>
+</tr>
+<tr>
+<td align="center">22:10-22:30</td>
+<td align="center">life management</td>
+</tr>
+<tr>
+<td align="center">22:30-23:00</td>
+<td align="center">relax</td>
+</tr>
+<tr>
+<td align="center">23:00-23:30</td>
+<td align="center">reading</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>每天从study sessions 中抽出45分钟课外拓展（包括英语）</p>
+</blockquote>
+<blockquote>
+<p>周二没有体育锻炼</p>
+</blockquote>
+<blockquote>
+<p>sports可以去打球</p>
+</blockquote>
+<blockquote>
+<p>周四周六周天要训练</p>
+</blockquote>
+<blockquote>
+<p>周六周天两小时休息（GTA, films or play balls）</p>
+</blockquote>
+<blockquote>
+<p>total hours of studying: 2.1+2+2.1+2.1+1.4&#x3D;10 h, 10 min-2h(accidents) &#x3D; 8h</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
@@ -1167,11 +1246,6 @@ c_{1} &amp; c_{2} &amp; c_{3}
 <h3 id="散度"><a href="#散度" class="headerlink" title="散度"></a>散度</h3>]]></content>
   </entry>
   <entry>
-    <title>distractions and tasks</title>
-    <url>/2026/02/23/distractions-and-tasks/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>talkatone</title>
     <url>/2026/03/03/talkatone/</url>
     <content><![CDATA[]]></content>
@@ -1180,6 +1254,125 @@ c_{1} &amp; c_{2} &amp; c_{3}
     <title>换机理由</title>
     <url>/2026/02/27/%E6%8D%A2%E6%9C%BA%E7%90%86%E7%94%B1/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>distractions and tasks</title>
+    <url>/2026/02/23/distractions-and-tasks/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>狭义相对论-讲义2</title>
+    <url>/2026/02/16/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA-%E8%AE%B2%E4%B9%892/</url>
+    <content><![CDATA[<h1 id="狭义相对论-基本原理"><a href="#狭义相对论-基本原理" class="headerlink" title="狭义相对论 基本原理"></a>狭义相对论 基本原理</h1><h2 id="光速不变性"><a href="#光速不变性" class="headerlink" title="光速不变性"></a>光速不变性</h2><blockquote>
+<p>在任何惯性系中，光速的测量结果是相同的</p>
+</blockquote>
+<ul>
+<li>实验证实：在地球上测量光速</li>
+<li>理论推导：麦克斯韦方程组导出电磁波波速与参考系无关</li>
+</ul>
+<p>分析：</p>
+<p>设初始状态两个坐标系重合，原点发出光信号。随后O’以速度u匀速运动，O保持静止，在两个参考系中的人们看到的光速是相同的，我们分别分析光的传播，得到：</p>
+<p>O中，x &#x3D; ct. O’中，x’ &#x3D; ct’. 
+两个同时成立（这里的同时不是指相同时刻，以为它们的时间不同。这里同时指对应两个参考系的波阵面方程）</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>矢量和场</title>
+    <url>/2026/03/03/%E7%9F%A2%E9%87%8F%E5%92%8C%E5%9C%BA/</url>
+    <content><![CDATA[<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><h4 id="三个度的定义和公式"><a href="#三个度的定义和公式" class="headerlink" title="三个度的定义和公式"></a>三个度的定义和公式</h4><ul>
+<li>梯度</li>
+</ul>
+<p>矢量，沿着高度增加最快的方向，大小是在该方向上的偏导数</p>
+<p>计算：$\nabla,U$</p>
+<ul>
+<li>散度</li>
+</ul>
+<p>标量，单位体积内的通量</p>
+<p>通量正为出，负为入</p>
+<p>计算：$\nabla \cdot vec{A}$</p>
+<ul>
+<li>高斯定理</li>
+</ul>
+<p>散度的体积分等于闭合面的通量</p>
+<ul>
+<li>旋度</li>
+</ul>
+<p>矢量，指向旋转方向，大小为环量对面积的导数</p>
+<p>计算：$\nabla \times vec{A}$</p>
+<p>非闭合场也有。</p>
+<ul>
+<li>斯托克定理</li>
+</ul>
+<p>旋度的通量等于环量</p>
+<blockquote>
+<p>感觉直接从纸上写也可以（附上笔记编号即可（或者附上笔记图片？））</p>
+</blockquote>
+<h2 id="难点"><a href="#难点" class="headerlink" title="难点"></a>难点</h2><p>旋度和路径形状无关</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>ritual</title>
+    <url>/2026/03/06/ritual/</url>
+    <content><![CDATA[<h2 id="现在你已经坐在了图书馆里"><a href="#现在你已经坐在了图书馆里" class="headerlink" title="现在你已经坐在了图书馆里"></a>现在你已经坐在了图书馆里</h2><ol>
+<li>环境初始化 (5分钟)
+物理清空： 将桌面清理干净，只留下当前要处理的一门课（如《电动力学》或《量子力学》）的教材、笔记本、计算草稿纸和一支笔。</li>
+</ol>
+<p>特定触觉信号： 戴上降噪耳机或换上一件特定的“学习外套”。这个动作的意义在于给身体一个明确的物理反馈，切换到工作模式。</p>
+<p>断网隔离： 既然你已经使用了 Cold Turkey Blocker，请确认你的物理手机已放入视线之外的抽屉。</p>
+<ol>
+<li><p>如果你能开始学习,就可以同时听一首纯音乐</p>
+</li>
+<li><p>建立低阈值任务
+物理问题的推导往往令人生畏。启动仪式要求你严禁直接思考难题，而是从以下机械动作开始：</p>
+</li>
+</ol>
+<p>步骤,动作描述,目的
+抄录,在草稿纸上抄写今天要推导的起始公式，例如 ∇⋅E&#x3D;ϵ0​ρ​。,将抽象思维转化为肌肉记忆。
+回顾,翻看上一节课的笔记结论，不做任何计算，只看结论。,建立知识的逻辑连接点。
+定义目标,在纸上写下：“我接下来的 25 分钟只推导这一个方程。”,限制任务范围，防止因任务过大产生的焦虑。</p>
+<ol start="2">
+<li><p>一首音乐持续时间是5分钟左右,这五分钟里,你不能浪费\亵渎这么美好的音乐(你得好好学习)</p>
+</li>
+<li><p>使用“五分钟倒计时”法
+按下计时器，设定 5 分钟。</p>
+</li>
+</ol>
+<p>唯一指令： 在这 5 分钟内，你不需要理解深层物理意义，只需要动笔计算或阅读第一段话。</p>
+<p>终止权： 5 分钟结束后，如果你依然极度痛苦，你可以合法地停止。通常情况下，一旦克服了静摩擦力（启动阻力），你就能进入动摩擦状态（持续学习）。</p>
+<ol start="3">
+<li>如果你觉得这五分钟干得不错,就奖励自己把音乐继续放下去吧!</li>
+<li>实施“任务总量对齐”与“时间切片”
+考试效率高是因为你很清楚：在限定的 120 分钟内，你必须完成固定数量的题目。</li>
+</ol>
+<p>操作方法： 不要设定“我下午要学量子力学”这样模糊的目标。你应该根据考卷的强度，将学习内容切分为等量的模块。</p>
+<p>具体量化： 设定一个 45 分钟的倒计时。要求自己在该时间内必须推导出某个特定方程，或者完成 3 道课后习题。一旦时间截止，立刻停止当前动作，强制进入 5 分钟休息。</p>
+<ol start="5">
+<li>建立“首轮不纠结”原则（逻辑止损）
+你在平时容易将简单概念复杂化，是因为大脑认为时间是无限的。考试时你不会这样做，因为你必须先拿到基本分。</li>
+</ol>
+<p>操作方法： 在第一轮推导或阅读中，如果遇到某个概念的底层逻辑让你产生“想深入挖掘”的冲动，严禁原地停留。</p>
+<p>记录与推迟： 在草稿纸边缘标记一个序号，写下你疑惑的点，然后强迫自己继续向下执行。只有当预设的 45 分钟任务全部完成后，你才被允许利用额外的“自由时间”去钻研这些标记过的疑难点。</p>
+<ol start="6">
+<li>环境与感官的“考试化”模拟
+物理环境的反馈会直接影响大脑的状态。</li>
+</ol>
+<p>清除干扰： 保持桌面除了教材、必要的参考书、计算纸和计时器外没有任何杂物。</p>
+<p>物理计时器： 使用一个放在视线范围内的物理数字计时器（而非手机应用），跳动的数字能提供持续的视觉压力反馈。</p>
+<p>单向输出： 模仿考试状态，在任务时间内严禁翻看答案。即使卡住了，也要像在考场上一样尝试从已知条件出发进行逻辑拼凑，直到计时器归零。</p>
+<ol start="7">
+<li>设定“最小可行性”推导路径
+物理学的严谨性有时会诱发强迫症。为了防止你在基础概念上耗费过多精力，请采用以下步骤：</li>
+</ol>
+<p>步骤一： 直接写下问题的起始点（已知量&#x2F;基本定律）和终点（待求量）。</p>
+<p>步骤二： 用最快速度连通中间的逻辑链条，忽略细节上的“美感”或“深度”。</p>
+<p>步骤三： 得到结果后，再回头审视逻辑。</p>
+<ol start="8">
+<li>引入外部负反馈
+如果自我约束不够，可以利用外部工具制造压力：</li>
+</ol>
+<p>Deadline 倒计时： 在醒目的位置（如电脑壁纸或书桌前的白板）写下距离最近一次作业上交或考试的具体小时数。</p>
+<p>结果导向检查： 给自己设定奖励&#x2F;惩罚机制。例如，如果在 1 小时内没有写满三页推导过程，则延长 Cold Turkey 的锁定时间。</p>
+]]></content>
   </entry>
   <entry>
     <title>CSreview</title>
@@ -1404,99 +1597,26 @@ c_{1} &amp; c_{2} &amp; c_{3}
       </tags>
   </entry>
   <entry>
-    <title>学期计划</title>
-    <url>/2026/02/23/%E5%AD%A6%E6%9C%9F%E8%AE%A1%E5%88%92/</url>
-    <content><![CDATA[<table>
-<thead>
-<tr>
-<th align="center">时间</th>
-<th align="center">事件</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">7:00 A.M.</td>
-<td align="center">get up</td>
-</tr>
-<tr>
-<td align="center">7:00-8:00</td>
-<td align="center">get prepared, eat breakfast, go to the classroom</td>
-</tr>
-<tr>
-<td align="center">8:00-10:10</td>
-<td align="center">study session-1</td>
-</tr>
-<tr>
-<td align="center">10:10-12:10</td>
-<td align="center">study session-2</td>
-</tr>
-<tr>
-<td align="center">12:10-12:50</td>
-<td align="center">summerize and review</td>
-</tr>
-<tr>
-<td align="center">12:50-13:30</td>
-<td align="center">have lunch</td>
-</tr>
-<tr>
-<td align="center">13:30-14:00</td>
-<td align="center">have a rest</td>
-</tr>
-<tr>
-<td align="center">14:00-16:10</td>
-<td align="center">study session-3</td>
-</tr>
-<tr>
-<td align="center">16:10-18:20</td>
-<td align="center">study session-4</td>
-</tr>
-<tr>
-<td align="center">18:20-19:00</td>
-<td align="center">have dinner</td>
-</tr>
-<tr>
-<td align="center">19:00-20:40</td>
-<td align="center">study session-5</td>
-</tr>
-<tr>
-<td align="center">20:40-21:20</td>
-<td align="center">summerize and review</td>
-</tr>
-<tr>
-<td align="center">21:20-22:10</td>
-<td align="center">sports</td>
-</tr>
-<tr>
-<td align="center">22:10-22:30</td>
-<td align="center">life management</td>
-</tr>
-<tr>
-<td align="center">22:30-23:00</td>
-<td align="center">relax</td>
-</tr>
-<tr>
-<td align="center">23:00-23:30</td>
-<td align="center">reading</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>每天从study sessions 中抽出45分钟课外拓展（包括英语）</p>
-</blockquote>
-<blockquote>
-<p>周二没有体育锻炼</p>
-</blockquote>
-<blockquote>
-<p>sports可以去打球</p>
-</blockquote>
-<blockquote>
-<p>周四周六周天要训练</p>
-</blockquote>
-<blockquote>
-<p>周六周天两小时休息（GTA, films or play balls）</p>
-</blockquote>
-<blockquote>
-<p>total hours of studying: 2.1+2+2.1+2.1+1.4&#x3D;10 h, 10 min-2h(accidents) &#x3D; 8h</p>
-</blockquote>
+    <title>calculusReview</title>
+    <url>/2026/01/19/calculusReview/</url>
+    <content><![CDATA[<p>calculate the length of curve
+$ \begin{cases}
+x &#x3D; \int_{0}^{t^2} \sqrt{1+u} \, du \\
+y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
+\end{cases} $</p>
+<p>先求$\frac {dx} {dt}$</p>
 ]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>math</category>
+        <category>calculus</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>P</tag>
+        <tag>tests</tag>
+      </tags>
   </entry>
   <entry>
     <title>English test</title>
@@ -1532,101 +1652,6 @@ are working on.</p>
         <tag>Notes</tag>
         <tag>Tests</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>calculusReview</title>
-    <url>/2026/01/19/calculusReview/</url>
-    <content><![CDATA[<p>calculate the length of curve
-$ \begin{cases}
-x &#x3D; \int_{0}^{t^2} \sqrt{1+u} \, du \\
-y &#x3D; \int_{0}^{t^2} \sqrt{1-u} \, du
-\end{cases} $</p>
-<p>先求$\frac {dx} {dt}$</p>
-]]></content>
-      <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>math</category>
-        <category>calculus</category>
-      </categories>
-      <tags>
-        <tag>Notes</tag>
-        <tag>P</tag>
-        <tag>tests</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>some rules on blogging</title>
-    <url>/2026/01/20/rules/</url>
-    <content><![CDATA[<ul>
-<li>Use English if possible:<blockquote>
-<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
-</blockquote>
-</li>
-<li>Name files simply, with dates to avoid conflict names.</li>
-<li>Try to correct or quote old blogposts and form a “索引机制” for your brain.</li>
-<li>Imagine the audience is not yourself, but others that know nothing about the topic. Try to teach, and express, not to recite.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>life</category>
-        <category>guide</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>矢量和场</title>
-    <url>/2026/03/03/%E7%9F%A2%E9%87%8F%E5%92%8C%E5%9C%BA/</url>
-    <content><![CDATA[<h2 id="知识"><a href="#知识" class="headerlink" title="知识"></a>知识</h2><h4 id="三个度的定义和公式"><a href="#三个度的定义和公式" class="headerlink" title="三个度的定义和公式"></a>三个度的定义和公式</h4><ul>
-<li>梯度</li>
-</ul>
-<p>矢量，沿着高度增加最快的方向，大小是在该方向上的偏导数</p>
-<p>计算：$\nabla,U$</p>
-<ul>
-<li>散度</li>
-</ul>
-<p>标量，单位体积内的通量</p>
-<p>通量正为出，负为入</p>
-<p>计算：$\nabla \cdot vec{A}$</p>
-<ul>
-<li>高斯定理</li>
-</ul>
-<p>散度的体积分等于闭合面的通量</p>
-<ul>
-<li>旋度</li>
-</ul>
-<p>矢量，指向旋转方向，大小为环量对面积的导数</p>
-<p>计算：$\nabla \times vec{A}$</p>
-<p>非闭合场也有。</p>
-<ul>
-<li>斯托克定理</li>
-</ul>
-<p>旋度的通量等于环量</p>
-<blockquote>
-<p>感觉直接从纸上写也可以（附上笔记编号即可（或者附上笔记图片？））</p>
-</blockquote>
-<h2 id="难点"><a href="#难点" class="headerlink" title="难点"></a>难点</h2><p>旋度和路径形状无关</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>thoughts in recent days</title>
-    <url>/2026/03/01/thoughts-in-recent-days/</url>
-    <content><![CDATA[<h2 id="昼夜循环的成因：时间盈余"><a href="#昼夜循环的成因：时间盈余" class="headerlink" title="昼夜循环的成因：时间盈余"></a>昼夜循环的成因：时间盈余</h2><p>时间盈余是那些剩余的，可自由支配的时间。在白天，尤其是早晨，你会觉得：眼下还有一天的时间自由支配，现在放松一会儿又怎么了？就不能一个小时之后学习吗？于是，你就开始娱乐放松，享受多巴胺带来的快感。</p>
-<p>但是，事情开始失控。当一个小时真的过去了，你会浑然不觉的忘掉先前做出的决定，使那个约定形同虚设。就这样，你就在浑浑噩噩的状态中度过了一天的时间。</p>
-<p>到了晚上，你久久不能入睡，因为脑中全是白天没有好好学习的懊悔和目标难以实现的焦虑。为什么在同一天里，心态的差距却如此之大呢？原因就是时间盈余。在床上，你什么都做不了，无论对于白天发生的事情，还是明天将要发生的，都无能为力。白天那个还在玩得忘乎所以的人，变得如此陌生。你感到被生活背叛，又对过去的自己恨之入骨，于是产生了一种失控的焦虑感。</p>
-<p>要想打破这个循环，就要切断其中的某个环节。首先，我们可以消除早上“时间盈余”的想法，制造一种紧迫感。</p>
-<p>另外一个摆脱焦虑的方式很有意思，出于电影《降临》。在这部电影中，“<strong>时间</strong>”这个概念对于外星人来说，是一个非线性的东西。这就意味着你的生活不是沿着一条单向的一维轨迹，而是从这条线的不同位置，“同时”经历每个位置的时间片段。这样一来，所谓的时间盈余便根本不存在了。</p>
-<h2 id="紧迫感"><a href="#紧迫感" class="headerlink" title="紧迫感"></a>紧迫感</h2><p>不要让自己太舒服。在考试中，你必须在有限的时间里，运用<em><strong>你的</strong></em>知识去解决<em><strong>别人</strong></em>的问题，而且问题的答案由他人掌握，这就使你处在一种被动的地位，但又不得不顺从。平时学习，就是一种随心所欲的活动，既然没有时间限制，也没有需要解决的问题，一切都变成了以好奇为主导，或者以学习本身为主导，这样很难产生紧迫感和紧张感。但是，人的很多能力就是在这两种心理下被激发的，缺乏紧迫感，会降低学习效率。</p>
-<p>缺乏紧迫感的另一个后果就是：拖延。如上所述，当你觉得“时间很长，现在无所谓”的时候，你又有什么动力去踏踏实实学习呢？</p>
-<h4 id="爱与责任（love-and-duty）"><a href="#爱与责任（love-and-duty）" class="headerlink" title="爱与责任（love and duty）"></a>爱与责任（love and duty）</h4><p>你如何面对这两个词呢？</p>
-<p>四年之后，别的同学的家长都通过一辈子的奋斗为子女积攒下了很多财富，我的家庭却什么也没留下，我该何去何从？又该如何承担自己人生的责任？</p>
-<p>半年之后，她问我有没有去复读，高考成绩如何，我该如何面对这突如其来的关怀，又是否会再一次的恨自己？</p>
-<p>你有责任活得丰富多彩，也渴望一份纯真的爱。但是，它们能否成为你的，取决于你每一个时刻的选择。</p>
-<p>依照非线性时间的观点，人生本来就没有紧迫和不紧迫的概念，因为人生是一群碎片，不是一条河流。每一个时刻都是重要的，它们相互勾连，但是你永远不可能摸清这些碎片的顺序。没有顺序，谈何紧迫？</p>
-<h2 id="记忆碎片"><a href="#记忆碎片" class="headerlink" title="记忆碎片"></a>记忆碎片</h2><h4 id="半年后"><a href="#半年后" class="headerlink" title="半年后"></a>半年后</h4><h4 id="四年后"><a href="#四年后" class="headerlink" title="四年后"></a>四年后</h4><h4 id="两年后"><a href="#两年后" class="headerlink" title="两年后"></a>两年后</h4><h4 id="现在"><a href="#现在" class="headerlink" title="现在"></a>现在</h4><p>当我打开YouTube观看seven的外卡申请流程，我没有感到快乐。反而，我感受到了一种时间之外传来的痛觉。</p>
-]]></content>
   </entry>
   <entry>
     <title>力学期末复习</title>
@@ -1665,43 +1690,24 @@ $ \frac {dL} {dt} &#x3D; M^{ext} - \sum m_i \,\vec {r_i^{‘}} \times \vec{a_A} 
       </tags>
   </entry>
   <entry>
-    <title>计算物理</title>
-    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
-    <content><![CDATA[<p>所以，现在可以输入中文了。
-后天计算物理考试。考前课件：</p>
-<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
-行指针的定义方式：</p>
-<blockquote>
-<p>int (* prt)[2];</p>
+    <title>some rules on blogging</title>
+    <url>/2026/01/20/rules/</url>
+    <content><![CDATA[<ul>
+<li>Use English if possible:<blockquote>
+<p>So that the searching function works better, and you won’t need to switch between different input methods.</p>
 </blockquote>
-<p>然后，可以对行指针赋值：</p>
-<blockquote>
-<p>prt &#x3D; a;</p>
-</blockquote>
-<p>为什么？因为a 就是一个指针，而且是行的指针。
-指针的数组是这样定义的：</p>
-<blockquote>
-<p>int *p[3];</p>
-</blockquote>
-<p>但是不能写：</p>
-<blockquote>
-<p>p &#x3D; a;</p>
-</blockquote>
-<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
-<p>待复习的内容：</p>
-<ul>
-<li>高阶张量的缩并和表示</li>
-<li>基础知识（往年试题举一反三）</li>
+</li>
+<li>Name files simply, with dates to avoid conflict names.</li>
+<li>Try to correct or quote old blogposts and form a “索引机制” for your brain.</li>
+<li>Imagine the audience is not yourself, but others that know nothing about the topic. Try to teach, and express, not to recite.</li>
 </ul>
 ]]></content>
       <categories>
-        <category>learning</category>
-        <category>notes</category>
-        <category>others</category>
+        <category>life</category>
+        <category>guide</category>
       </categories>
       <tags>
-        <tag>Notes</tag>
-        <tag>Tests</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -1927,6 +1933,24 @@ $ \frac {dL} {dt} &#x3D; M^{ext} - \sum m_i \,\vec {r_i^{‘}} \times \vec{a_A} 
       </tags>
   </entry>
   <entry>
+    <title>thoughts in recent days</title>
+    <url>/2026/03/01/thoughts-in-recent-days/</url>
+    <content><![CDATA[<h2 id="昼夜循环的成因：时间盈余"><a href="#昼夜循环的成因：时间盈余" class="headerlink" title="昼夜循环的成因：时间盈余"></a>昼夜循环的成因：时间盈余</h2><p>时间盈余是那些剩余的，可自由支配的时间。在白天，尤其是早晨，你会觉得：眼下还有一天的时间自由支配，现在放松一会儿又怎么了？就不能一个小时之后学习吗？于是，你就开始娱乐放松，享受多巴胺带来的快感。</p>
+<p>但是，事情开始失控。当一个小时真的过去了，你会浑然不觉的忘掉先前做出的决定，使那个约定形同虚设。就这样，你就在浑浑噩噩的状态中度过了一天的时间。</p>
+<p>到了晚上，你久久不能入睡，因为脑中全是白天没有好好学习的懊悔和目标难以实现的焦虑。为什么在同一天里，心态的差距却如此之大呢？原因就是时间盈余。在床上，你什么都做不了，无论对于白天发生的事情，还是明天将要发生的，都无能为力。白天那个还在玩得忘乎所以的人，变得如此陌生。你感到被生活背叛，又对过去的自己恨之入骨，于是产生了一种失控的焦虑感。</p>
+<p>要想打破这个循环，就要切断其中的某个环节。首先，我们可以消除早上“时间盈余”的想法，制造一种紧迫感。</p>
+<p>另外一个摆脱焦虑的方式很有意思，出于电影《降临》。在这部电影中，“<strong>时间</strong>”这个概念对于外星人来说，是一个非线性的东西。这就意味着你的生活不是沿着一条单向的一维轨迹，而是从这条线的不同位置，“同时”经历每个位置的时间片段。这样一来，所谓的时间盈余便根本不存在了。</p>
+<h2 id="紧迫感"><a href="#紧迫感" class="headerlink" title="紧迫感"></a>紧迫感</h2><p>不要让自己太舒服。在考试中，你必须在有限的时间里，运用<em><strong>你的</strong></em>知识去解决<em><strong>别人</strong></em>的问题，而且问题的答案由他人掌握，这就使你处在一种被动的地位，但又不得不顺从。平时学习，就是一种随心所欲的活动，既然没有时间限制，也没有需要解决的问题，一切都变成了以好奇为主导，或者以学习本身为主导，这样很难产生紧迫感和紧张感。但是，人的很多能力就是在这两种心理下被激发的，缺乏紧迫感，会降低学习效率。</p>
+<p>缺乏紧迫感的另一个后果就是：拖延。如上所述，当你觉得“时间很长，现在无所谓”的时候，你又有什么动力去踏踏实实学习呢？</p>
+<h4 id="爱与责任（love-and-duty）"><a href="#爱与责任（love-and-duty）" class="headerlink" title="爱与责任（love and duty）"></a>爱与责任（love and duty）</h4><p>你如何面对这两个词呢？</p>
+<p>四年之后，别的同学的家长都通过一辈子的奋斗为子女积攒下了很多财富，我的家庭却什么也没留下，我该何去何从？又该如何承担自己人生的责任？</p>
+<p>半年之后，她问我有没有去复读，高考成绩如何，我该如何面对这突如其来的关怀，又是否会再一次的恨自己？</p>
+<p>你有责任活得丰富多彩，也渴望一份纯真的爱。但是，它们能否成为你的，取决于你每一个时刻的选择。</p>
+<p>依照非线性时间的观点，人生本来就没有紧迫和不紧迫的概念，因为人生是一群碎片，不是一条河流。每一个时刻都是重要的，它们相互勾连，但是你永远不可能摸清这些碎片的顺序。没有顺序，谈何紧迫？</p>
+<h2 id="记忆碎片"><a href="#记忆碎片" class="headerlink" title="记忆碎片"></a>记忆碎片</h2><h4 id="半年后"><a href="#半年后" class="headerlink" title="半年后"></a>半年后</h4><h4 id="四年后"><a href="#四年后" class="headerlink" title="四年后"></a>四年后</h4><h4 id="两年后"><a href="#两年后" class="headerlink" title="两年后"></a>两年后</h4><h4 id="现在"><a href="#现在" class="headerlink" title="现在"></a>现在</h4><p>当我打开YouTube观看seven的外卡申请流程，我没有感到快乐。反而，我感受到了一种时间之外传来的痛觉。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>大一上期末考试－第一、二天</title>
     <url>/2026/01/19/%E5%A4%A7%E4%B8%80%E4%B8%8A%E6%9C%9F%E6%9C%AB%E8%80%83%E8%AF%95%EF%BC%8D%E7%AC%AC%E4%B8%80%E3%80%81%E4%BA%8C%E5%A4%A9/</url>
     <content><![CDATA[<h2 id="Exam-1-3-over-now"><a href="#Exam-1-3-over-now" class="headerlink" title="Exam 1&#x2F;3 over now!"></a>Exam 1&#x2F;3 over now!</h2><p>Well, that’s nothing to celebrate, though.
@@ -1956,6 +1980,46 @@ It turned out that the test was not so difficult.</p>
       </categories>
       <tags>
         <tag>Exam</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算物理</title>
+    <url>/2026/01/18/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86/</url>
+    <content><![CDATA[<p>所以，现在可以输入中文了。
+后天计算物理考试。考前课件：</p>
+<p>指针数组和行指针是有区别的。行指针是行的指针，但是指针数组是指针的数组，是数组不是指针。
+行指针的定义方式：</p>
+<blockquote>
+<p>int (* prt)[2];</p>
+</blockquote>
+<p>然后，可以对行指针赋值：</p>
+<blockquote>
+<p>prt &#x3D; a;</p>
+</blockquote>
+<p>为什么？因为a 就是一个指针，而且是行的指针。
+指针的数组是这样定义的：</p>
+<blockquote>
+<p>int *p[3];</p>
+</blockquote>
+<p>但是不能写：</p>
+<blockquote>
+<p>p &#x3D; a;</p>
+</blockquote>
+<p>因为a 是一个指针，而p是一个数组，而且基变量是int而不是一整行，所以计算机不知道一次前进多少位内存。此外，数组和指针是不同类型，不同类型无法相互赋值。</p>
+<p>待复习的内容：</p>
+<ul>
+<li>高阶张量的缩并和表示</li>
+<li>基础知识（往年试题举一反三）</li>
+</ul>
+]]></content>
+      <categories>
+        <category>learning</category>
+        <category>notes</category>
+        <category>others</category>
+      </categories>
+      <tags>
+        <tag>Notes</tag>
+        <tag>Tests</tag>
       </tags>
   </entry>
   <entry>
