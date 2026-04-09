@@ -4,6 +4,58 @@
   
   
   <entry>
+    <title>electromagnetism review</title>
+    <link href="/2026/04/09/electromagnetism-review/"/>
+    <url>/2026/04/09/electromagnetism-review/</url>
+    
+    <content type="html"><![CDATA[<h2 id="电磁学"><a href="#电磁学" class="headerlink" title="电磁学"></a>电磁学</h2><p>电场能与电场能密度</p><ul><li>点电荷系的自能和互能</li><li>带电体的静电能</li><li>平行班电容器电场能的公式</li><li>电场能密度的公式</li></ul><p>恒定电流</p><ul><li>电流密度的定义</li><li>电流的连续性方程（电荷守恒）（微分与积分形式）</li><li>恒定电流的连续性方程</li></ul><p>欧姆定律</p><ul><li>欧姆定律的微分形式</li><li>电阻的计算（积分）</li><li>焦耳定律的微分形式（焦耳热密度）</li><li>金属导电的微观机制（模型）解释欧姆定律的微分形式</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>thermaldynamics review</title>
+    <link href="/2026/04/09/thermaldynamics-review/"/>
+    <url>/2026/04/09/thermaldynamics-review/</url>
+    
+    <content type="html"><![CDATA[<h2 id="热学"><a href="#热学" class="headerlink" title="热学"></a>热学</h2><p>麦克斯韦速度分布律</p><ul><li>公式</li><li>最概然速率、平均速率与方均根速率</li><li>由速度公式推导速率分布</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>review</title>
+    <link href="/2026/04/09/review/"/>
+    <url>/2026/04/09/review/</url>
+    
+    <content type="html"><![CDATA[<h2 id="理论测试题"><a href="#理论测试题" class="headerlink" title="理论测试题"></a>理论测试题</h2><hr><h3 id="光学"><a href="#光学" class="headerlink" title="光学"></a>光学</h3><p>1.牛顿的模型ray-light model 能否应用于高清视频传输？简述光波通过光纤传播的机理。 2.1687 年惠更斯提出光的波动模型，你有何证据证明是正确的，杨氏双缝干涉实验如何测光的波长 3.蓝蝶的翅脊有如图一的结构（三明治结构（就像平行版电容器），上下折射率为1.5，厚度64nm，中间是空气，厚127nm），请画图 4.（材料是一段英文，好像是爱因斯坦的回忆？说什么不懂什么）光子是如何产生的？如何用光子实现Doppler cooling? 5.假设人眼的孔径为3mm，对于远处7km相距15m的车灯，请用瑞利判据判断人眼能否分清远处的车灯？</p><hr><h3 id="热学"><a href="#热学" class="headerlink" title="热学"></a>热学</h3><p>6.请用最简示意图画出普通的热机循环，解释为什么不存在只有单一热源的热机. 7.请问光子的希尔伯特空间能否为拓扑开拓一个研究方向，并解释为什么？ 8.请分别画出P-V图，T-S图的卡诺循环，并用T-S图计算卡诺循环的效率 9.请说明下述表达式,∮（dU）&#x3D;0 , ∮（TdS-pdV）&#x3D;0是否正确,解释卡诺循环熵的变化。 10.2023 年科学家实现了光的负温度稳定热力学过程，观测到等熵压缩、碰撞，Joule expansion。请思考热机在负的热力学温度下有什么新的效应？ 11.用光子气体做循环气体的热机，光子内能为U&#x3D;aVT^4,(a是常数，V是体积，T是温度)，请对比理想气体的卡诺循环，有什么不同？请计算卡诺循环的效率？ 12.请你依据otto(奥托)热机设计一个otto量子热机？</p><hr><h3 id="力学"><a href="#力学" class="headerlink" title="力学"></a>力学</h3><p>13.科学家发现水波经两个谐振腔后被“吞噬”（还说通道宽6厘米），简述原因(来源：<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.204002">https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.204002</a> )</p><hr><h2 id="刚体-结论"><a href="#刚体-结论" class="headerlink" title="刚体 结论"></a>刚体 结论</h2><p>旋转矩阵</p><ul><li>旋转矩阵是正交阵</li><li>旋转矩阵的特征值是1</li><li>定点转动（任意）可以通过一次定轴转动完成（本征值问题）</li><li>根据旋转操作写出旋转矩阵</li></ul><p>无限小转动</p><ul><li>定轴转动不满足交换律</li><li>无穷小转动满足交换律</li><li>无穷小矩阵的表示（无穷小+转动）</li><li>转轴转角与无穷小转动矩阵的关系</li></ul><p>角动量</p><ul><li>角动量用三重叉积展开</li><li>角动量与角速度方向相同的条件与一般情况</li></ul><p>欧拉角</p><ul><li>欧拉角的三次转动</li><li></li></ul><p>分析力学</p><ul><li>约束的种类</li><li>可解约束和不可解约束</li><li>几何约束和微分约束</li><li>完整约束和非完整约束</li><li>广义坐标和自由度</li></ul><p>虚功原理</p><ul><li>牛顿力学形式</li><li>广义坐标形式</li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>speech script</title>
+    <link href="/2026/04/03/speech-script/"/>
+    <url>/2026/04/03/speech-script/</url>
+    
+    <content type="html"><![CDATA[<p>good morning. today I want to show you my presentation about the comparison between chinese and western education concepts. I will not only show you the differences, but i will also dive deeper into the fundamentalreason of these differences, from the aspect of history and culture. and in the end, we will see, that intoday’s world, these two education concepts are actually blending together, forming a more effective one.</p><p>so first, let’s look at the differences. here on the screen, are two photos of homework lists. one from china,and one from amarica. you can see that, the american student has lots of reports and presentations, while the chinese student, has a bunch of testpapers. and back in high school, that’s what we were all doing, right?</p><p>so …..</p><p>but it’s pretty interesting that, if we look back into 2000 years earlier, the time of confucius and socratese, it’s inccidental that both of them have addapted (启发式教学). and that…..</p><p>so what changed in china? it’s probably the examination. china, is the first country that invented examinations.at first to select official workers and ….. and this …… and even today, in many international competitions,especially the paper tests, chinese do much better than westerners.</p><p>and that’s the reason that today, these two education concepts are ….. on one hand, china….. on the otherhand, western countries…..</p><p>…….</p><p>thank you all for listenning!</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>sentences-for-words-5</title>
     <link href="/2026/03/31/words-5-with-sentances/"/>
     <url>/2026/03/31/words-5-with-sentances/</url>
@@ -53,7 +105,7 @@
     <link href="/2026/03/30/travel-places/"/>
     <url>/2026/03/30/travel-places/</url>
     
-    <content type="html"><![CDATA[<p>Zugspitze reflected in the Eibsee, Bavaria, Germany</p>]]></content>
+    <content type="html"><![CDATA[<p>Zugspitze reflected in the Eibsee, Bavaria, GermanyGásadalur, Faroe Islands</p>]]></content>
     
     
     
