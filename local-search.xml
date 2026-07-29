@@ -4,6 +4,103 @@
   
   
   <entry>
+    <title>plan</title>
+    <link href="/2026/07/27/plan/"/>
+    <url>/2026/07/27/plan/</url>
+    
+    <content type="html"><![CDATA[<h1 id="暑假-26年8月"><a href="#暑假-26年8月" class="headerlink" title="暑假(26年8月)"></a>暑假(26年8月)</h1><h2 id="专业课"><a href="#专业课" class="headerlink" title="专业课"></a>专业课</h2><ol><li>下学期课</li><li>热统和高阶量子(线代), 计算(数理方法?)</li></ol><h2 id="拓展课"><a href="#拓展课" class="headerlink" title="拓展课"></a>拓展课</h2><ol><li>数学</li><li>AI</li><li>计算原理</li></ol><h2 id="科研"><a href="#科研" class="headerlink" title="科研"></a>科研</h2><p>(未知)</p><h2 id="业余"><a href="#业余" class="headerlink" title="业余"></a>业余</h2><ol><li>口译</li><li>德语</li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>AI</title>
+    <link href="/2026/07/27/AI/"/>
+    <url>/2026/07/27/AI/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>maths</title>
+    <link href="/2026/07/27/maths/"/>
+    <url>/2026/07/27/maths/</url>
+    
+    <content type="html"><![CDATA[<h1 id="CMC"><a href="#CMC" class="headerlink" title="CMC"></a>CMC</h1><p>我想要参加下一届CMC并冲击国奖的想法从高数下的期末考试之后就有了, 这个目标我是认真的.</p><h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><p>7.27</p><p>看了看网上的备赛教程, 制定计划.</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="7-27"><a href="#7-27" class="headerlink" title="7.27"></a>7.27</h3><p>网上的经验分享 都大同小异, 基本 就是刷书. 刷什么呢??我觉得吉米多维奇不错, 一是权威, 二是经典. 如果怕和试题脱节, 可以结合着看, 找找交集. 但我觉得关键在于能力,而能力和题出自哪里关系不大.</p><p>另外就是考试内容, 决赛包括高数和线代, 线代不属于数学分析. 需要补充(假期正好需要复习线代和C语言, 一起复习就行).</p><p>时间安排:</p><ol><li>第一阶段: 线代知识巩固和吉米多维奇习题集</li><li>第二阶段: 线代习题集和吉米多维奇</li><li>第三阶段: 真题和方法&#x2F;思想总结</li></ol><p>第一阶段选书:背景: 学过一遍线代(用的是线性代数及其应用(Steven ray的, 从线性方程组切入的一本教材)), 做题不多, 考得不错(最基础的概念还是能够从底层理解, 二级结论很多忘了, 高深背景不大了解)需求: 用于CMC备赛和计算物理&#x2F;量子力学学习</p><p>AI’s response:</p><p>CMC 需要熟练掌握矩阵不等式、秩的性质、迹（Trace）的代数技巧以及若尔当标准型变形。  </p><p>量子力学 依赖内积空间上的算子理论（自伴算子、酉算子、谱定理、对偶空间与 Bra-Ket 对应）。  </p><p>计算物理 依赖矩阵分解（SVD、QR）、数值稳定性、条件数与特征值求解算法。</p><p>书目:</p><p>主干: 《高等代数（第三版）》&#x2F;《高等代数学习指南》（谢启鸿，复旦大学出版社）</p><p>物理背景: 《Linear Algebra Done Right》（线性代数应该这样学，Sheldon Axler）</p><p>计算物理: 下学期的资料.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>notebook</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>pattern</title>
+    <link href="/2026/07/27/pattern/"/>
+    <url>/2026/07/27/pattern/</url>
+    
+    <content type="html"><![CDATA[<p>this is a big topic, so I just make a begining, the rest comes in the future.</p><p>这个东西需要写的太多了, 现在也想不全, 先放一放, 日后补充.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>7-27</title>
+    <link href="/2026/07/27/7-27/"/>
+    <url>/2026/07/27/7-27/</url>
+    
+    <content type="html"><![CDATA[<p>终于决定要开始干正事了.</p><p>首要的 就是写下来十几篇blog, 记录, 引导若干个需要做的事情.</p><ol><li>pattern 行为习惯, 计划, 等等</li><li>cube -done</li><li>maths -done</li><li>AI</li><li></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>cube</title>
+    <link href="/2026/07/26/cube/"/>
+    <url>/2026/07/26/cube/</url>
+    
+    <content type="html"><![CDATA[<p>target:  sub-20</p><p>time arrangement:</p><ol><li>C for 3 secs</li><li>F for 10 secs</li><li>O for 6 secs</li><li>P for 5 secs</li></ol><p>the keys:</p><ol><li>regulations</li><li>手法</li><li>observation (by practicing)</li></ol><h2 id="关键资源-别人的复原案例-慢动作观看"><a href="#关键资源-别人的复原案例-慢动作观看" class="headerlink" title="关键资源: 别人的复原案例, 慢动作观看"></a>关键资源: 别人的复原案例, 慢动作观看</h2><h1 id="regulations"><a href="#regulations" class="headerlink" title="regulations"></a>regulations</h1><ol><li>O: 七个十字的情况完全掌握(27日)</li><li></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>waking up</title>
+    <link href="/2026/07/20/waking-up/"/>
+    <url>/2026/07/20/waking-up/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>what&#39;s wrong</title>
     <link href="/2026/07/13/what-s-wrong/"/>
     <url>/2026/07/13/what-s-wrong/</url>
